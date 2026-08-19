@@ -44,8 +44,12 @@ This page holds one table and one list, and nothing else: every shape we reused,
 | [onvoyage-ai/gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills), `audit-content/SKILL.md` | "Don't rewrite the article — your job is to audit and report, not to edit," which is the librarian-not-writer line the content seat holds → `skills/run-content/SKILL.md` |
 | [alelaguard/agentguards-plugins](https://github.com/alelaguard/agentguards-plugins), `claude/skills/guardrails/SKILL.md` | Run the check *before* the action rather than after, and answer in one fixed shape when it blocks — kept, but rewritten as a sentence a person says out loud instead of a tool call → `skills/check-locks/SKILL.md` |
 | [arthursilas-ai/agent-preflight](https://github.com/arthursilas-ai/agent-preflight), `README.md` | The blocked verdict that names what to resolve, and "every finding carries a fix, not just a complaint" — so a refusal names where the ask goes next → `skills/check-locks/SKILL.md` |
+| [qa-aman/claude-skills](https://github.com/qa-aman/claude-skills), `skills/by-role/marketing/customer-persona/SKILL.md` | One file owns the field list and its order, and everything else is "Read only. Never edit, reorder, or delete"; a slot with no real quote behind it is marked as needing input instead of filled "from the desk," because a later writer reads invented language as observed speech and puts it into public copy. Its rival-alternatives step was left behind → `skills/competitive-writing-guide/SKILL.md` |
+| [Unabyss/unabyss-skills](https://github.com/Unabyss/unabyss-skills), `brand-voice/SKILL.md` | A fixed field list describing how one reader wants to be written to, where "every observation grounded in an actual sample — no invented characterizations," and thin sourcing is named as thin rather than filled in → `skills/competitive-writing-guide/SKILL.md` |
 
 Searched and deliberately **not** adapted, so they get no row above: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), [kostja94/marketing-skills](https://github.com/kostja94/marketing-skills), and [guilhermemarketing/esc-skills](https://github.com/guilhermemarketing/esc-skills). All three generate ICPs, personas, ad creative, and landing-page copy from templates; the CMO seat needs the opposite of that, so nothing was taken. `skills/run-cmo/SKILL.md` names them for the same reason this note does — so the next person doesn't re-run the same search.
+
+`skills/competitive-writing-guide/SKILL.md` no longer cites [slgoodrich/agents](https://github.com/slgoodrich/agents), `plugins/ai-pm-copilot/skills/competitive-analysis-templates/SKILL.md`. A competitive-analysis kit is the wrong shape for that job: the guide is about one buying style, not a rival company, and the kit's shape pulls a reader toward a teardown. Searched and not adapted there. The row above stays because `skills/run-clients/SKILL.md` and `skills/run-demand/SKILL.md` still use its never-fabricate line.
 
 ## Named missing
 
@@ -67,7 +71,7 @@ Searched and deliberately **not** adapted, so they get no row above: [coreyhaine
 - A retreat date, guest list, or venue for any specific Book Retreat.
 - The guest intake draft's dietary, rooming, arrival, AV, and incident fields.
 - Five unnamed fields on the campaign lead scoring draft, and no scoring model in the corpus.
-- The Competitive Writing Guide's Competitive column, filled only from a sourced extract.
+- The Competitive Writing Guide's Competitive buying-style answers for the same fields its Methodical list names, filled only from a sourced extract.
 - June and July 2026 are not closed.
 - No Bench savings total, and no Bench connector.
 - Who the next PA is, and the current PA's tenure end date.
