@@ -19,16 +19,18 @@ A Grok Bot seat runs this cycle around the clock. Jhana, Bob, and Anthony do not
 
 When the seat running a pass is the COO seat, [run-coo](../run-coo/SKILL.md) is the router for it — that skill runs the COO seat through one pass of this same cycle. This page is the cycle itself, shared by every bot seat; it doesn't replace a seat's own router. Find the router for any seat in [handbook/seat-job-map.md](../../handbook/seat-job-map.md).
 
-## One report at a time
+## One report at a time — picked up, not handed down
 
-The PA assigns **one report at a time.** This skill does not fan a report out to multiple seats or multiple jobs at once — one assignment, run through [handbook/cheap-loop.md](../../handbook/cheap-loop.md) start to finish, then the next.
+**One report at a time.** This skill does not fan a report out to multiple seats or multiple jobs at once — one unit of work, run through [handbook/cheap-loop.md](../../handbook/cheap-loop.md) start to finish, then the next.
+
+The seat takes that unit itself. Every employee bot runs its own job on this computer without waiting to be handed one: the seat's row in [handbook/seat-job-map.md](../../handbook/seat-job-map.md) is the standing assignment, and the router in that row says what the next pass is. The PA points a seat at its router and keeps the work communicated, connected, reviewed, and optimized around it — the PA does not run a seat's pass for it. A seat sitting still because the PA hasn't spoken is idle, which [handbook/cheap-loop.md](../../handbook/cheap-loop.md) already calls a failure. See [run-pa](../run-pa/SKILL.md).
 
 ## Steps
 
 1. Open [handbook/cheap-loop.md](../../handbook/cheap-loop.md) — that page is the actual token-cheap discipline this cycle runs on; this skill does not restate it.
 2. Find the seat's job in [handbook/seat-job-map.md](../../handbook/seat-job-map.md) and open the matching skill.
 3. Run whichever cycle step the job is in — Planning, Meetings ([run-meetings](../run-meetings/SKILL.md)), Execution, Optimizing, or sourcing the next slice — against that job skill's own steps. This skill is the pointer between the cycle and the job skill, not a replacement for either.
-4. **Do not invent work.** If the PA hasn't assigned a report, or the named job's queue is empty, follow [handbook/cheap-loop.md](../../handbook/cheap-loop.md)'s "empty queue is a failure" rule — learn or improve the named job from a named corpus gap, don't source a new one.
+4. **Do not invent work.** If the named job's queue is empty, follow [handbook/cheap-loop.md](../../handbook/cheap-loop.md)'s "empty queue is a failure" rule — learn or improve the named job from a named corpus gap, don't source a new one. An empty queue is not a reason to stop and wait for the PA either.
 5. **Do not fan out.** One report, one seat, one job at a time — not a batch, not "while I'm here."
 6. Run [last-gate-then-stop](../last-gate-then-stop/SKILL.md) before anything from this cycle ships, then stop.
 
@@ -36,5 +38,6 @@ The PA assigns **one report at a time.** This skill does not fan a report out to
 
 - Never redesign the cycle — planning, meetings, execution, optimizing, next sourced slice, in that order, is Michael's call to change, not this skill's.
 - Never assign, or let a bot seat pick up, more than one report at a time.
+- Never park a seat's next pass waiting on the PA to hand it work — the seat's own row and router are the assignment.
 - Never invent a new job when a queue is empty — see [handbook/cheap-loop.md](../../handbook/cheap-loop.md).
 - Never send anything from this cycle without Michael. No program GitHub. See [handbook/locks.md](../../handbook/locks.md).
