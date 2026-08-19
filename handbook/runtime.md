@@ -11,7 +11,7 @@ This is a build map. It is not a seat router — [seat-job-map.md](seat-job-map.
 3. **Wiring / electrical** — seats talk to each other without the PA in the middle.
 4. **Guts** — the seat does the next named job.
 
-Build one, two, three, four. Nothing later on the list gets built first because it sounds easier.
+Build one, two, three, four. Nothing later on the list gets built first because it sounds easier. Each of the four has its own page — the four links are at the bottom of this map.
 
 **Later, and not on this page:** business plans, marketing plans, R&D plans, timelines, sprints. Those come after these four are built. Do not write them here, and do not let a missing plan become the reason a piece above stays unbuilt.
 
@@ -82,9 +82,18 @@ The PA steers and last-gates. Claude / Other Models writes the heavy pages. Grok
 
 ---
 
-## The four sister pages, in flight
+## The four sister pages
 
-Each piece above gets its own page: `handbook/runtime-brain.md`, `handbook/runtime-body.md`, `handbook/runtime-wiring.md`, `handbook/runtime-guts.md`. **None of them exist yet** — they are in flight, on other slices. Do not write their contents here, do not describe what they will say, and do not treat a page that isn't written as permission to guess. When one lands, this page points at it.
+Each piece above has its own page, and **all four are written** — each one is in QC on its own sister PR, so it is not on this branch yet. Go read the page for the piece you are building:
+
+- [runtime-brain.md](runtime-brain.md) — the brain: a local model, a local hand on this Mac.
+- [runtime-body.md](runtime-body.md) — the hands: the tools already on this Mac.
+- [runtime-wiring.md](runtime-wiring.md) — the wiring: seats talk to each other without the PA in the middle.
+- [runtime-guts.md](runtime-guts.md) — the guts: the seat does the next named job.
+
+Those four links resolve once the sister PRs land. Until then the page is in QC, not missing — ask for the open PR rather than assuming there is nothing to read.
+
+Each of those pages owns its own detail. This map gives you the one line above and nothing more: it does not restate them, does not describe them in advance, and does not guess at what they say.
 
 ## Seats this page does not build
 

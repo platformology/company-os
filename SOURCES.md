@@ -87,4 +87,4 @@ Searched and deliberately **not** adapted, so they get no row above: [coreyhaine
 - Which of the five connected tools on this computer — Notion, Gmail, Calendar, Slack, Google Drive — each seat touches for its named job, and whether it drafts, files, or only reads. No sixth tool is added to close that gap.
 - The seat-to-seat handoff path: which connected tool carries a handoff, where it lands, and how the receiving seat knows it arrived.
 - The named leftovers sitting behind most seats' jobs — this repo lists the router, not the queue.
-- The four runtime sister pages — `handbook/runtime-brain.md`, `handbook/runtime-body.md`, `handbook/runtime-wiring.md`, `handbook/runtime-guts.md` — in flight on other slices, not written, and not summarized in advance.
+- The four runtime sister pages — `handbook/runtime-brain.md`, `handbook/runtime-body.md`, `handbook/runtime-wiring.md`, `handbook/runtime-guts.md` — are written, each in QC on its own open PR, and not merged yet. Until they land, the links to them from `handbook/runtime.md` do not resolve, and nobody summarizes what they say in the meantime.
