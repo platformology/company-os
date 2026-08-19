@@ -8,6 +8,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 - The [Campaign Coordinator do-this page](https://app.notion.com/p/3c125e30d68b8181aaece1c83104102d) (Notion) — the "A campaign is running" step of the [weekday loop](../weekday-loop.md).
 - Reporting into [VP Campaigns](vp-campaigns.md), who owns [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (Notion) — this repo does not restate the SOP.
 
+**Reports to:** [CCO](cco.md) and [VP Campaigns](vp-campaigns.md).
+
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
 **Run this:** [run-campaign-coordinator](../../skills/run-campaign-coordinator/SKILL.md) — the router for this seat — then [run-campaign](../../skills/run-campaign/SKILL.md) for the live campaign itself and [run-sales-menu](../../skills/run-sales-menu/SKILL.md) if a menu line comes up. Every skill in the repo: [skills/README.md](../../skills/README.md).
