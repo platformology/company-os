@@ -71,7 +71,7 @@ Searched and deliberately **not** adapted, so they get no row above: [coreyhaine
 - A retreat date, guest list, or venue for any specific Book Retreat.
 - The guest intake draft's dietary, rooming, arrival, AV, and incident fields.
 - Five unnamed fields on the campaign lead scoring draft, and no scoring model in the corpus.
-- The Competitive Writing Guide's Competitive column, filled only from a sourced extract.
+- The Competitive Writing Guide's Competitive buying-style answers for the same fields its Methodical list names, filled only from a sourced extract.
 - June and July 2026 are not closed.
 - No Bench savings total, and no Bench connector.
 - Who the next PA is, and the current PA's tenure end date.
