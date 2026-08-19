@@ -26,9 +26,11 @@ The report runs the job. The C-suite seat owns the function the job sits inside.
 | [Controller](seats/controller.md) | [CFO](seats/cfo.md) | The monthly close inside how money moves |
 | [Bookkeeper](seats/bookkeeper.md) | [CFO](seats/cfo.md) | Bills and the general ledger |
 | [People Ops](seats/people-ops.md) | [CHRO](seats/chro.md) | Who's on the roster and how they're classified |
-| [Campaign Coordinator](seats/campaign-coordinator.md) | [VP Campaigns](seats/vp-campaigns.md) | The Campaign SOP the coordinator ran |
+| [Campaign Coordinator](seats/campaign-coordinator.md) | [CCO](seats/cco.md) **and** [VP Campaigns](seats/vp-campaigns.md) | CCO: campaign QA on the live campaign. VP Campaigns: the Campaign SOP the coordinator ran |
 | [Retreat Producer](seats/retreat-producer.md) | [VP Retreats](seats/vp-retreats.md) | The Retreat and PIAB SOPs |
 | Any seat, when the finished thing is a Company OS / docs change | [COO](seats/coo.md), then [PA](seats/pa.md) | First QC on the docs, then the last gate |
+
+**The [Campaign Coordinator](seats/campaign-coordinator.md) has two owners, and both are named on purpose.** The seat reports into CCO and VP Campaigns. Two owners is not two stamps: each one checks the function it actually owns — campaign QA is the [CCO](seats/cco.md)'s, the Campaign SOP is [VP Campaigns](seats/vp-campaigns.md)' — and neither signs off on the other's half. Don't collapse the Coordinator into VP Campaigns to make the row shorter, and don't hand the CCO's half to the [CMO](seats/cmo.md), who does not own campaign day-to-day at all. Both lines live on the seat pages; the CCO line is being recorded there now, so a seat page still showing only VP Campaigns is that page catching up, not a narrower wire.
 
 Three groups are not on this table, and no wire is run to them:
 
@@ -41,7 +43,7 @@ Three groups are not on this table, and no wire is run to them:
 Michael's word, 19 Aug 2026:
 
 1. **The employee seat QCs the skill it ran.** Its own row in [seat-job-map.md](seat-job-map.md), its own output.
-2. **The C-suite seat QCs the function it owns.** The column above, and nothing wider.
+2. **The C-suite seat QCs the function it owns** — the column above, and nothing wider. Where the table names two owners, each one runs this layer on its own half.
 3. **The [COO](seats/coo.md) is first QC on the Company OS and on docs PRs** — first, not only. See [run-coo](../skills/run-coo/SKILL.md).
 4. **The [PA](seats/pa.md) last-gates, then merges** a docs PR — after the gate passed and the COO's first QC happened. See [run-pa](../skills/run-pa/SKILL.md) and [last-gate-then-stop](../skills/last-gate-then-stop/SKILL.md).
 
@@ -68,7 +70,7 @@ And it is not:
 
 ## When a seat is blocked
 
-Name it and stop. In the message to the owner seat, the blocked seat writes one of two things:
+Name it and stop. In the message to the owner seat — both owners, where its row names two — the blocked seat writes one of two things:
 
 - **The lock** that stops it, quoted from [locks.md](locks.md) — no send without Michael, no program GitHub, no VMs, no GKE, no local LLM, M5 parked, Blue Sky off the LLC books.
 - **The named-missing hole**, quoted from the list in [SOURCES.md](../SOURCES.md), in the words that list already uses.
@@ -89,8 +91,8 @@ A new hire can follow this without the PA writing a word of it:
 
 1. A report opens its row in [seat-job-map.md](seat-job-map.md), runs the skill through [cheap-loop.md](cheap-loop.md), and finishes the page.
 2. It QCs the skill it just ran — layer one.
-3. It messages its owner's chat from the table above and stops.
-4. The owner QCs the function it owns — layer two — and says pass or names the miss.
+3. It messages its owner's chat from the table above — both owners' chats, if its row names two — and stops.
+4. Each owner QCs the function it owns — layer two — and says pass or names the miss.
 5. It's a docs change, so the [COO](seats/coo.md) first-QCs it. No ping to Michael either way.
 6. The [PA](seats/pa.md) runs the last gate, then merges. If the gate fails, the PA names the unchecked line and does not soften it.
 
@@ -104,6 +106,7 @@ The seats, the reporting lines, and the routers are already recorded in [seats/]
 
 - Never put the PA in the middle of a report-to-owner handoff, and never let the PA write the work it is going to gate.
 - Never sign off on a function your seat does not own, and never add a second stamp to something already QC'd.
+- Never drop one of a seat's two owners to make a row shorter — the Campaign Coordinator answers to both the CCO and VP Campaigns.
 - Never hand live work to Demand, Sales, or SDR, and never start code from the parked engineering seats.
 - Never install a bus, a board, or a dashboard to make this wiring work — the seats' own chats are the wire.
 - Never ping Michael to report a routine QC pass, and never ping him instead of naming the lock or the hole.
