@@ -10,7 +10,7 @@ The living operational detail — Sales Menu line items, client records, SOP ste
 
 ## Who this is for
 
-- **The next PA** — read [handbook/README.md](handbook/README.md) start to finish before touching a client message or a Sales Menu number.
+- **The next PA** — read [handbook/README.md](handbook/README.md) start to finish before touching a client message or a Sales Menu number. Your start does not wait on a machine: you begin on the M1, which is the office, and not after a reinstall on the M5. See [handbook/locks.md](handbook/locks.md).
 - **A new hire** — this is your day-one packet. If you can't answer "who are we, who can I talk to, what does this cost, what am I never allowed to do" after reading `handbook/`, the packet failed — see [reviews/last-gate-checklist.md](reviews/last-gate-checklist.md).
 - **A buyer or diligence reader** — this repo, plus the [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855) Notion page, is the legible surface of the business. Nothing here is dressed up; named gaps stay named in [SOURCES.md](SOURCES.md).
 
@@ -62,4 +62,4 @@ This repo is the git-native front door. The working pages already exist in Notio
 
 ## Locks (read before you do anything)
 
-No send without Michael. No program GitHub. No VMs. No GKE. No local LLM. M5 stays parked until the machine is in hand. Blue Sky stays off the LLC books. Full list: [handbook/locks.md](handbook/locks.md).
+No send without Michael. No program GitHub. No VMs. No GKE. No local LLM. The M1 is the office and stays the office; the M5 is the shop only, and it stays parked until Michael says go. Blue Sky stays off the LLC books. Full list: [handbook/locks.md](handbook/locks.md).
