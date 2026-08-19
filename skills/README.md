@@ -18,6 +18,9 @@ Each folder is one `SKILL.md`: a short, human page for one job, adapted from a p
 | [run-money-moves](run-money-moves/SKILL.md) | Point to How money moves and the five money jobs — never restate either | An invoice, payment, or payout needs to run |
 | [pa-handoff](pa-handoff/SKILL.md) | Point to the PA handoff page — never invent a next PA or tenure end date | A PA's tenure is ending or a shift change is happening |
 | [run-do-this](run-do-this/SKILL.md) | Point to the Do this page — never invent daily work | Start of a work session, or "what do I do today" |
+| [run-meetings](run-meetings/SKILL.md) | Point to the locked cadence (:08/:38, :13/:43, :23/:53, daily PA+COO triage) and the Company OS home — never invent a meeting or an attendee | Running, joining, or checking on a Platformology meeting |
+| [run-kpis](run-kpis/SKILL.md) | Point to the KPIs page and the 18 Aug 2026 client extract — KPI Current stays empty | Checking, reporting, or updating a KPI |
+| [run-always-on](run-always-on/SKILL.md) | Run the locked COO cycle — planning → meetings → execution → optimizing → next sourced slice — one report at a time, never fanned out | A Grok Bot seat is picking up its next unit of work |
 | [reuse-what-github-has](reuse-what-github-has/SKILL.md) | Search public GitHub first, adapt, name the gaps | Writing any new SOP, handbook page, or skill |
 
 Start with `last-gate-then-stop` — it's the step every other job on this page ends on, and the reason the rest of these skills are safe to run without Michael in the room for every keystroke.
