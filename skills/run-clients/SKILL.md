@@ -30,7 +30,7 @@ This repo does not record a link to the Notion Clients database. Find it in Noti
 
 1. Open [handbook/clients.md](../../handbook/clients.md) before answering anything. Every count you give carries its extract date: 18 Aug 2026.
 2. If the ask is about a specific record — history, notes, contact details — that lives in Notion Clients, not here. Go there rather than reconstructing it.
-3. **Current is 0 and stays 0** until Michael sources a change. If a report, dashboard, or bot wants a Current number, 0 is the honest one. See [run-kpis](../run-kpis/SKILL.md).
+3. **The Current client count is 0 and stays 0** until Michael sources a change. Asked how many current clients there are, 0 with the 18 Aug 2026 extract date is the honest answer. The KPI "Current" is a different field, and it stays empty — do not fill it with the client count, or with anything else. See [run-kpis](../run-kpis/SKILL.md).
 4. **Hoffman is a question, not a Current client.** Leave it a question. Do not count Hoffman toward Current, Past, or Prospect.
 5. **There are no 2021–2026 current clients to be found without Michael's files.** If asked to reconstruct recent client history, say the files aren't here rather than assembling a list from folders, past clients, or memory.
 6. Adding or reactivating a client, or moving anyone to Current or Prospect, stops at Michael — [handbook/locks.md](../../handbook/locks.md).
