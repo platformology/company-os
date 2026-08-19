@@ -45,10 +45,17 @@ Same seat-page shape already established and re-verified against public GitHub f
 - [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution), `Holacracy-Constitution.md`
 - [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI), `docs/spec/teamapi-extended-v1.md`
 
-### Added for handbook/seats/head-of-engineering.md, developer.md (this slice)
+### Added for handbook/seats/head-of-engineering.md, developer.md (previous slice)
 Same seat-page shape already established and re-verified against public GitHub for this slice — no new source needed, per the same repos:
 - [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution), `Holacracy-Constitution.md`
 - [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI), `docs/spec/teamapi-extended-v1.md`
+
+### Added for skills/blank-guest-intake, competitive-writing-guide, campaign-lead-scoring (this slice)
+Searched: "SKILL.md github intake form fill fields draft do not invent blank fields template," "SKILL.md github lead scoring model no model exists do not invent weights criteria thresholds," "SKILL.md github competitive analysis template fill from sourced data only do not fabricate."
+- [neurawork-git/n8n-autopilot](https://github.com/neurawork-git/n8n-autopilot), `skills/stack-intake/SKILL.md` — "never invent requirements they didn't state — mark genuine gaps as `OPEN:`"
+- [lavidrori0702/tableau-dashboard-creator-skill](https://github.com/lavidrori0702/tableau-dashboard-creator-skill), `skills/tableau-intake/SKILL.md` — required-vs-optional field table; don't complicate a form with sections nobody asked for
+- [slgoodrich/agents](https://github.com/slgoodrich/agents), `plugins/ai-pm-copilot/skills/competitive-analysis-templates/SKILL.md` — "never fabricate competitor information... when data is unavailable, explicitly note it rather than inventing data"
+- [seb1n/awesome-ai-agent-skills](https://github.com/seb1n/awesome-ai-agent-skills), `sales/lead-scoring/SKILL.md`, and [sales-skills/sales](https://github.com/sales-skills/sales), `skills/sales-lead-score/SKILL.md` — both describe how a fit/engagement scoring model is normally built; `campaign-lead-scoring/SKILL.md` inverts this guidance into a refusal, since Platformology's corpus has no such model
 
 ## What we adapted, file by file
 
@@ -71,6 +78,9 @@ Same seat-page shape already established and re-verified against public GitHub f
 | `handbook/seats/README.md` and all twenty `handbook/seats/*.md` pages (including `vp-campaigns.md`, `vp-retreats.md`, `head-of-content.md`, `head-of-author-success.md`, `client-success.md`, `people-ops.md`, `controller.md`, `bookkeeper.md`, `head-of-engineering.md`, `developer.md`) | Role shape (Purpose / Domains / Accountabilities) — `Holacracy-Constitution.md` ([holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution)); seat-independent-of-holder model — `docs/spec/teamapi-extended-v1.md` ([JGalego/TeamAPI](https://github.com/JGalego/TeamAPI)) |
 | `handbook/how-money-moves.md` | Loop shape — `departments/_canvas-template.md` ([dswh/company-os](https://github.com/dswh/company-os)); "name the obligation at the point money moves" framing for Deliver — `docs/org-map.md`'s `money-flow` concept ([geraldmaron/construct](https://github.com/geraldmaron/construct)) |
 | `skills/support-call-prep/SKILL.md` | Pre-call brief shape — `customer-engineering/meeting-prep/SKILL.md` ([quivly/skills](https://github.com/quivly/skills)); "never invent deal context" framing — `partner-built/common-room/skills/call-prep/SKILL.md` ([anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)) |
+| `skills/blank-guest-intake/SKILL.md` | "mark genuine gaps, never invent requirements" — `skills/stack-intake/SKILL.md` ([neurawork-git/n8n-autopilot](https://github.com/neurawork-git/n8n-autopilot)); required-vs-optional field table — `skills/tableau-intake/SKILL.md` ([lavidrori0702/tableau-dashboard-creator-skill](https://github.com/lavidrori0702/tableau-dashboard-creator-skill)) |
+| `skills/competitive-writing-guide/SKILL.md` | "never fabricate, note when data is unavailable" — `plugins/ai-pm-copilot/skills/competitive-analysis-templates/SKILL.md` ([slgoodrich/agents](https://github.com/slgoodrich/agents)) |
+| `skills/campaign-lead-scoring/SKILL.md` | Fit/engagement scoring shape, inverted into a refusal — `sales/lead-scoring/SKILL.md` ([seb1n/awesome-ai-agent-skills](https://github.com/seb1n/awesome-ai-agent-skills)) and `skills/sales-lead-score/SKILL.md` ([sales-skills/sales](https://github.com/sales-skills/sales)) |
 
 Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only the shape of the files and the phrasing patterns were reused — every fact inside them is a sourced fact from Michael, or a named gap.
 
@@ -98,6 +108,11 @@ Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only th
 - Whatever the [Competitive Writing Guide draft](https://app.notion.com/p/3c125e30d68b81239c5fc767bddc0823) (Notion) contains — it's a draft, not a live campaign asset, and this repo does not quote or invent copy from it.
 - The closed status of June and July 2026 beyond "not closed" (Controller) — not written down here.
 - Any savings total tied to Bench (Bookkeeper) — not sourced, not invented. No Bench connector exists in this repo or its skills; do not invent a live pull from Bench.
+
+## Named-missing holes added by skills/ this slice
+- The blank guest intake draft's dietary, rooming, arrival, AV, and incident fields — not filled in here; open the [Notion draft](https://app.notion.com/p/3c125e30d68b812486c8eac90777658c) directly (see `skills/blank-guest-intake/SKILL.md`).
+- Five fields on the [campaign lead scoring draft](https://app.notion.com/p/3c125e30d68b81f89125cfbbe398c770) — not named beyond "five," since naming them here would invent structure the Notion page owns (see `skills/campaign-lead-scoring/SKILL.md`). There is no scoring model in the corpus; no criteria, weights, or thresholds exist to invent.
+- Whatever the Competitive column of the [Competitive Writing Guide draft](https://app.notion.com/p/3c125e30d68b81239c5fc767bddc0823) doesn't yet have a sourced extract for — left blank, not fabricated (see `skills/competitive-writing-guide/SKILL.md`).
 
 ### Corrected after PA/COO QC
 - **CSO** is sourced as Chief Sales Officer (pipeline, offer fit, close) — not a Chief Sales/Strategy Officer fork. The earlier "which CSO" ambiguity is resolved; only who fills the seat, plus Head of Sales and SDR, stay named missing.
