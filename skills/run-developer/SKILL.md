@@ -17,7 +17,7 @@ The seat is **parked**, under the same locks as [Head of Engineering](../../hand
 ## What's blocked
 Every one of these is a hard stop:
 
-- **M5** stays parked until the machine is physically in hand.
+- **M5** stays parked until Michael says go.
 - **No local LLM.**
 - **No VMs.**
 - **No GKE.**
