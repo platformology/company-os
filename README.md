@@ -21,8 +21,9 @@ There is nothing to install or execute. "Running" this repo means reading it in 
 1. Clone the repo.
 2. Read [handbook/README.md](handbook/README.md) — it maps every other file.
 3. Read [handbook/locks.md](handbook/locks.md) before you draft, send, or repo anything.
-4. Before anything goes to a client or gets sent externally, run it through [reviews/last-gate-checklist.md](reviews/last-gate-checklist.md).
-5. Follow the Notion links inline — those pages are the live SOP; this repo does not re-host them.
+4. For a specific job, open [skills/README.md](skills/README.md) and run the matching `SKILL.md` — quoting a price, drafting a client reply, running the last gate, or writing a new doc.
+5. Before anything goes to a client or gets sent externally, run it through [reviews/last-gate-checklist.md](reviews/last-gate-checklist.md).
+6. Follow the Notion links inline — those pages are the live SOP; this repo does not re-host them.
 
 ## What we reused
 
@@ -32,9 +33,12 @@ We searched public GitHub before writing any of this. Full attribution — every
 |---|---|
 | [dswh/company-os](https://github.com/dswh/company-os) (public fork: [kamleshvyasindia/company-os](https://github.com/kamleshvyasindia/company-os)) | `brain/` one-page-per-entity pattern → `handbook/company-facts.md`, `people.md`, `clients.md`, `offers.md`; `rules.md` → `handbook/locks.md`; `departments/_canvas-template.md` loop shape → `handbook/weekday-loop.md`; `reviews/` gate pattern → `reviews/` |
 | [Workflowsio/company-os-starter-kit](https://github.com/Workflowsio/company-os-starter-kit) | `blueprint/INDEX.md` content-catalog table → `handbook/README.md` |
-| [andreaswasita/copilot-cowork-dojo](https://github.com/andreaswasita/copilot-cowork-dojo), `skills/shipping-the-deliverable/SKILL.md` | the "last gate before it ships" checklist shape → `reviews/last-gate-checklist.md` |
+| [andreaswasita/copilot-cowork-dojo](https://github.com/andreaswasita/copilot-cowork-dojo), `skills/shipping-the-deliverable/SKILL.md` | the "last gate before it ships" checklist shape → `reviews/last-gate-checklist.md`, `skills/last-gate-then-stop/SKILL.md` |
+| [river-labs-inc/agents](https://github.com/river-labs-inc/agents), `customer-support-agent/system-prompt.md` | the FAQ-as-gate, draft-never-send model → `skills/author-support-reply/SKILL.md` |
+| [0xranx/golembot](https://github.com/0xranx/golembot), `templates/customer-support/skills/faq-support/SKILL.md` | log-what's-not-covered pattern → `skills/author-support-reply/SKILL.md` |
+| [ItamarZand88/awesome-agent-conventions](https://github.com/ItamarZand88/awesome-agent-conventions/tree/main/conventions/skill-md), [llodev/skills](https://github.com/llodev/skills) `docs/publishing-guide.md` | the `SKILL.md` frontmatter + attribution convention → every file in `skills/` |
 
-We did not copy anyone's invented C-suite, prices, clients, or KPIs. Every fact in `handbook/` is a fact Michael gave us, or a gap we're naming as missing.
+We did not copy anyone's invented C-suite, prices, clients, or KPIs. Every fact in `handbook/` is a fact Michael gave us, or a gap we're naming as missing. Full attribution for every file: [SOURCES.md](SOURCES.md).
 
 ## Existing Company OS (Notion — the source of truth)
 

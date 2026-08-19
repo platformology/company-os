@@ -8,6 +8,13 @@
 Also searched: "company operating system markdown handbook," "offer ladder SOP," "last-gate QC," "token-cheap agent loop," "sales menu," "retreat SOP." One additional file surfaced from that search and was adapted for the last-gate checklist:
 - [andreaswasita/copilot-cowork-dojo](https://github.com/andreaswasita/copilot-cowork-dojo), `skills/shipping-the-deliverable/SKILL.md`
 
+### Added for skills/ (this slice)
+Searched: "SKILL.md github pricing lookup skill quote both price conflict agent," "SKILL.md github FAQ gate customer support reply skill never send draft," "SKILL.md github search public GitHub first reuse skill adapt named missing."
+- [ItamarZand88/awesome-agent-conventions](https://github.com/ItamarZand88/awesome-agent-conventions/tree/main/conventions/skill-md) — the open Agent Skills `SKILL.md` convention (frontmatter + procedural body)
+- [llodev/skills](https://github.com/llodev/skills), `docs/publishing-guide.md`
+- [river-labs-inc/agents](https://github.com/river-labs-inc/agents), `customer-support-agent/system-prompt.md`
+- [0xranx/golembot](https://github.com/0xranx/golembot), `templates/customer-support/skills/faq-support/SKILL.md`
+
 ## What we adapted, file by file
 
 | Our file | Adapted from |
@@ -21,6 +28,11 @@ Also searched: "company operating system markdown handbook," "offer ladder SOP,"
 | `handbook/weekday-loop.md` | `departments/_canvas-template.md` and `departments/README.md` — [dswh/company-os](https://github.com/dswh/company-os) (sensor → policy → tools → gate → learning loop shape) |
 | `reviews/README.md`, `reviews/last-gate-checklist.md` | `reviews/README.md` and `reviews/comms-checklist.md` — [dswh/company-os](https://github.com/dswh/company-os); checklist framing also drew on `skills/shipping-the-deliverable/SKILL.md` (the "SHIP" checklist) — [andreaswasita/copilot-cowork-dojo](https://github.com/andreaswasita/copilot-cowork-dojo) |
 | `README.md` | `README.md` — [dswh/company-os](https://github.com/dswh/company-os) (what's-inside table, "who this is for" framing) |
+| `skills/README.md` | table-of-skills shape carried over from `handbook/README.md`'s own source, `blueprint/INDEX.md` — [Workflowsio/company-os-starter-kit](https://github.com/Workflowsio/company-os-starter-kit) |
+| `skills/place-on-offer-ladder/SKILL.md` | `brain/offers.md` rule — [dswh/company-os](https://github.com/dswh/company-os); `SKILL.md` frontmatter convention — [ItamarZand88/awesome-agent-conventions](https://github.com/ItamarZand88/awesome-agent-conventions/tree/main/conventions/skill-md) |
+| `skills/last-gate-then-stop/SKILL.md` | `reviews/README.md` + `reviews/comms-checklist.md` — [dswh/company-os](https://github.com/dswh/company-os); "last gate before it ships" framing — `skills/shipping-the-deliverable/SKILL.md` ([andreaswasita/copilot-cowork-dojo](https://github.com/andreaswasita/copilot-cowork-dojo)) |
+| `skills/author-support-reply/SKILL.md` | FAQ-as-gate / READY TO SEND vs. DRAFT model — `customer-support-agent/system-prompt.md` ([river-labs-inc/agents](https://github.com/river-labs-inc/agents)); log-what's-not-covered pattern — `templates/customer-support/skills/faq-support/SKILL.md` ([0xranx/golembot](https://github.com/0xranx/golembot)) |
+| `skills/reuse-what-github-has/SKILL.md` | `SKILL.md` convention — [ItamarZand88/awesome-agent-conventions](https://github.com/ItamarZand88/awesome-agent-conventions/tree/main/conventions/skill-md); attribution-first packaging — `docs/publishing-guide.md` ([llodev/skills](https://github.com/llodev/skills)) |
 
 Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only the shape of the files and the phrasing patterns were reused — every fact inside them is a sourced fact from Michael, or a named gap.
 
