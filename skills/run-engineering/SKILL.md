@@ -17,7 +17,7 @@ The seat is **parked**. Parked is not "slow" or "unstaffed" — it means enginee
 ## What the seat owns, and what's blocked
 The seat owns sites and whatever production stack exists. Both sit behind the parked locks, and every one of these is a hard stop:
 
-- **M5** stays parked until the machine is physically in hand.
+- **M5** stays parked until Michael says go.
 - **No local LLM.**
 - **No VMs.**
 - **No GKE.**
@@ -37,7 +37,7 @@ Dave / Lehi Drew is a **vendor** for tech, not the seat holder — see [handbook
    - **A request to do engineering work** — the seat is parked. Say so, name the specific lock that blocks it, and stop.
 3. If the ask needs the production stack, say it's named missing. Don't fill the gap.
 4. If the ask needs a seat holder, say it's not recorded. Don't fill that gap either.
-5. Anything that actually needs deciding goes up: [CTO](../../handbook/seats/cto.md), and then Michael. **Unparking is not this skill's call** — M5 stays parked until the machine is physically in hand, and changing a lock is Michael's decision. See [handbook/locks.md](../../handbook/locks.md).
+5. Anything that actually needs deciding goes up: [CTO](../../handbook/seats/cto.md), and then Michael. **Unparking is not this skill's call** — M5 stays parked until Michael says go, and changing a lock is his decision. See [handbook/locks.md](../../handbook/locks.md).
 6. Before anything drawn from this seat goes anywhere external, run it through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
 
 ## Never
