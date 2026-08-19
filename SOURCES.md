@@ -20,6 +20,11 @@ Searched: "github markdown seat role page template what this seat owns DRI handb
 - [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution), `Holacracy-Constitution.md` — the official Holacracy Constitution repo; Article 1.1 defines a Role as Purpose + Domains + Accountabilities, filled (or not) by a "Role Lead"
 - [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI), `docs/spec/teamapi-extended-v1.md` — the role-vs-member split: "a role can be vacant... independent of whoever currently fills each seat"
 
+### Added for handbook/how-money-moves.md (this slice)
+Searched: "github markdown attract diagnose place deliver expand customer loop offer funnel SOP," "github markdown money flow OR money moves loop SOP who computes it who remits it finance page."
+- [geraldmaron/construct](https://github.com/geraldmaron/construct), `docs/org-map.md` — the `money-flow` concept for the Finance/billing seat: "each point money moves: the obligation that attaches there, who computes it, who remits it, and what evidences it afterward"
+- Loop shape reused again from `departments/_canvas-template.md` — [dswh/company-os](https://github.com/dswh/company-os) (same source already cited for `handbook/weekday-loop.md`)
+
 ## What we adapted, file by file
 
 | Our file | Adapted from |
@@ -39,6 +44,7 @@ Searched: "github markdown seat role page template what this seat owns DRI handb
 | `skills/author-support-reply/SKILL.md` | FAQ-as-gate / READY TO SEND vs. DRAFT model — `customer-support-agent/system-prompt.md` ([river-labs-inc/agents](https://github.com/river-labs-inc/agents)); log-what's-not-covered pattern — `templates/customer-support/skills/faq-support/SKILL.md` ([0xranx/golembot](https://github.com/0xranx/golembot)) |
 | `skills/reuse-what-github-has/SKILL.md` | `SKILL.md` convention — [ItamarZand88/awesome-agent-conventions](https://github.com/ItamarZand88/awesome-agent-conventions/tree/main/conventions/skill-md); attribution-first packaging — `docs/publishing-guide.md` ([llodev/skills](https://github.com/llodev/skills)) |
 | `handbook/seats/README.md` and all ten `handbook/seats/*.md` pages | Role shape (Purpose / Domains / Accountabilities) — `Holacracy-Constitution.md` ([holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution)); seat-independent-of-holder model — `docs/spec/teamapi-extended-v1.md` ([JGalego/TeamAPI](https://github.com/JGalego/TeamAPI)) |
+| `handbook/how-money-moves.md` | Loop shape — `departments/_canvas-template.md` ([dswh/company-os](https://github.com/dswh/company-os)); "name the obligation at the point money moves" framing for Deliver — `docs/org-map.md`'s `money-flow` concept ([geraldmaron/construct](https://github.com/geraldmaron/construct)) |
 
 Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only the shape of the files and the phrasing patterns were reused — every fact inside them is a sourced fact from Michael, or a named gap.
 
@@ -60,7 +66,11 @@ Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only th
 
 ## Named-missing holes added by handbook/seats/ (this slice)
 - Who currently fills each of the ten seats (PA, CMO, CSO, CFO, CTO, CCO, CHRO, Campaign Coordinator, Retreat Producer) — none is recorded except COO (Anthony C. Garcia, public title). Do not assign Jhana or Bob to any of them; their Role isn't recorded either (see [handbook/people.md](handbook/people.md)).
-- Which expansion "CSO" refers to (Chief Sales Officer vs. Chief Strategy Officer) — not recorded.
-- Which expansion "CCO" refers to (Chief Content, Compliance, or Creative Officer) — not recorded.
+- Head of Demand, Head of Sales, and SDR — all unassigned (Head of Sales and SDR report into CSO; Head of Demand surfaces at the Attract/Place jobs in [handbook/how-money-moves.md](handbook/how-money-moves.md)).
+
+### Corrected after PA/COO QC
+- **CSO** is sourced as Chief Sales Officer (pipeline, offer fit, close) — not a Chief Sales/Strategy Officer fork. The earlier "which CSO" ambiguity is resolved; only who fills the seat, plus Head of Sales and SDR, stay named missing.
+- **CCO** is sourced as Chief Customer Officer (author success, campaign QA, retreat experience) — not a Content/Compliance/Creative fork. The earlier "which CCO" ambiguity is resolved; only who fills the seat stays named missing.
+- **CMO** does not own campaigns running day-to-day — that's VP Campaigns / Campaign Coordinator. `handbook/seats/cmo.md` and `handbook/seats/campaign-coordinator.md` were corrected to reflect this.
 
 If you find the answer to any gap above, update the relevant `handbook/` file and remove the line here — do not leave a stale gap once it's resolved, and do not resolve it without a source.
