@@ -24,7 +24,7 @@ Folder names are not clients. A folder existing for a name is not evidence that 
 
 ## KPI: Current
 
-Two facts sit next to each other here and get mistaken for one. Keep them apart. The split follows the "Empty vs zero" rule written up in [xl3-lang/xl3](https://github.com/xl3-lang/xl3), `docs/guides/12-empty-values.md` — empty means no value was recorded, and the number `0` is a value, so it is not empty.
+Two facts sit next to each other here and get mistaken for one. Keep them apart. Empty means no value was recorded. 0 is a value, so 0 is not empty.
 
 **The client count is 0 Current and 0 Prospect.** That comes off the 18 Aug 2026 extract at the top of this page, and it stays. Asked how many current clients Platformology has, that is the answer, and it goes out with the extract date attached — the count is true as of 18 Aug 2026, not forever.
 
