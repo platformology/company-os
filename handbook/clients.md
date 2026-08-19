@@ -23,7 +23,20 @@ Folder names are not clients. A folder existing for a name is not evidence that 
 - Do not invent an offer or a revenue figure for this account.
 
 ## KPI: Current
-**Stays empty.** Do not invent a Current number to fill this in. If a dashboard, report, or bot asks for "Current clients," the honest answer is 0, sourced to the 18 Aug 2026 extract above — not a guess.
+
+Two facts sit next to each other here and get mistaken for one. Keep them apart. Empty means no value was recorded. 0 is a value, so 0 is not empty.
+
+**The client count is 0 Current and 0 Prospect.** That comes off the 18 Aug 2026 extract at the top of this page, and it stays. Asked how many current clients Platformology has, that is the answer, and it goes out with the extract date attached — the count is true as of 18 Aug 2026, not forever.
+
+**The KPI field named "Current" stays empty.** Nothing goes in it. Not a guess, not a target, and not the 0 borrowed from the client count. A figure in that field reads as a measurement somebody took, and nobody took one. Empty is the state of that field, not a blank waiting for a bigger number.
+
+Both stay as they are until Michael sources a change — see [locks.md](locks.md).
+
+| If someone asks | Say this |
+|---|---|
+| "How many current clients do we have?" | 0 Current and 0 Prospect, per the 18 Aug 2026 extract. |
+| "What's the Current KPI at?" | Empty. No figure has been sourced for that field. |
+| "Fine — just put 0 in the KPI." | No. 0 is a figure. The field stays empty until Michael sources one. |
 
 ## Where to go
 - [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855) (Notion)
