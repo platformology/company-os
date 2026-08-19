@@ -1,6 +1,11 @@
-# handbook/seats/ — one page per live seat
+# handbook/seats/ — one page per seat: assigned, unassigned, or parked
 
 Twenty-three seats, only the ones asked for. A seat is a function, not a person — [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI) `docs/spec/teamapi-extended-v1.md` puts it directly: "a role can be vacant... independent of whoever currently fills each seat." Each page below keeps that split, and uses the Purpose / Domains / Accountabilities shape from [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution) `Holacracy-Constitution.md`.
+
+Not every seat below is doing live work today:
+- **Assigned work, holder not recorded** — the seat has real accountabilities; who sits in it is a separate, usually-open question.
+- **Unassigned** — [Head of Demand](head-of-demand.md), [Head of Sales](head-of-sales.md), [SDR](sdr.md). No holder, and no work invented for them either.
+- **Parked** — [Head of Engineering](head-of-engineering.md), [Developer](developer.md). Locked out of doing almost anything until the machine locks lift.
 
 Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.md](../people.md)), and this handbook doesn't assign them a seat just to make the org chart look complete.
 

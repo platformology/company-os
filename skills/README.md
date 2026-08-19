@@ -11,6 +11,9 @@ Each folder is one `SKILL.md`: a short, human page for one job, adapted from a p
 | [blank-guest-intake](blank-guest-intake/SKILL.md) | Work the guest intake draft without inventing fields | Filling, reviewing, or extending the guest intake form |
 | [competitive-writing-guide](competitive-writing-guide/SKILL.md) | Copy the Methodical field list as-is; fill Competitive only from a sourced extract | Updating the competitive writing guide draft |
 | [campaign-lead-scoring](campaign-lead-scoring/SKILL.md) | Refuse to invent a scoring model that doesn't exist | Asked to score, rank, or qualify a lead |
+| [run-uncovery](run-uncovery/SKILL.md) | Point to the Uncovery SOP and sourced prices — never restate either | Running or checking on an Uncovery |
+| [run-piab](run-piab/SKILL.md) | Point to the PIAB SOP — never restate it | Running or checking on a Platform in a Box engagement |
+| [run-campaign](run-campaign/SKILL.md) | Point to the Campaign SOP and the Coordinator do-this page — never restate either | Running or checking on a live campaign |
 | [reuse-what-github-has](reuse-what-github-has/SKILL.md) | Search public GitHub first, adapt, name the gaps | Writing any new SOP, handbook page, or skill |
 
 Start with `last-gate-then-stop` — it's the step every other job on this page ends on, and the reason the rest of these skills are safe to run without Michael in the room for every keystroke.

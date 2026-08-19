@@ -57,10 +57,15 @@ Searched: "SKILL.md github intake form fill fields draft do not invent blank fie
 - [slgoodrich/agents](https://github.com/slgoodrich/agents), `plugins/ai-pm-copilot/skills/competitive-analysis-templates/SKILL.md` — "never fabricate competitor information... when data is unavailable, explicitly note it rather than inventing data"
 - [seb1n/awesome-ai-agent-skills](https://github.com/seb1n/awesome-ai-agent-skills), `sales/lead-scoring/SKILL.md`, and [sales-skills/sales](https://github.com/sales-skills/sales), `skills/sales-lead-score/SKILL.md` — both describe how a fit/engagement scoring model is normally built; `campaign-lead-scoring/SKILL.md` inverts this guidance into a refusal, since Platformology's corpus has no such model
 
-### Added for handbook/seats/head-of-demand.md, head-of-sales.md, sdr.md, and the retreat-producer.md update (this slice)
+### Added for handbook/seats/head-of-demand.md, head-of-sales.md, sdr.md, and the retreat-producer.md update (previous slice)
 Same seat-page shape already established and re-verified against public GitHub for this slice — no new source needed, per the same repos:
 - [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution), `Holacracy-Constitution.md`
 - [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI), `docs/spec/teamapi-extended-v1.md`
+
+### Added for skills/run-uncovery, run-piab, run-campaign (this slice)
+Searched: "SKILL.md github do not duplicate OR do not restate runbook pointer external SOP link only."
+- [narrative-io/narrative-skills-marketplace](https://github.com/narrative-io/narrative-skills-marketplace), `docs/authoring-skills.md` — "never duplicate" a reference in the skill body; point at it instead
+- [dzhng/skills](https://github.com/dzhng/skills), `skills/authoring/write-skills/SKILL.md` — "keep a single source of truth"
 
 ## What we adapted, file by file
 
@@ -86,6 +91,7 @@ Same seat-page shape already established and re-verified against public GitHub f
 | `skills/blank-guest-intake/SKILL.md` | "mark genuine gaps, never invent requirements" — `skills/stack-intake/SKILL.md` ([neurawork-git/n8n-autopilot](https://github.com/neurawork-git/n8n-autopilot)); required-vs-optional field table — `skills/tableau-intake/SKILL.md` ([lavidrori0702/tableau-dashboard-creator-skill](https://github.com/lavidrori0702/tableau-dashboard-creator-skill)) |
 | `skills/competitive-writing-guide/SKILL.md` | "never fabricate, note when data is unavailable" — `plugins/ai-pm-copilot/skills/competitive-analysis-templates/SKILL.md` ([slgoodrich/agents](https://github.com/slgoodrich/agents)) |
 | `skills/campaign-lead-scoring/SKILL.md` | Fit/engagement scoring shape, inverted into a refusal — `sales/lead-scoring/SKILL.md` ([seb1n/awesome-ai-agent-skills](https://github.com/seb1n/awesome-ai-agent-skills)) and `skills/sales-lead-score/SKILL.md` ([sales-skills/sales](https://github.com/sales-skills/sales)) |
+| `skills/run-uncovery/SKILL.md`, `skills/run-piab/SKILL.md`, `skills/run-campaign/SKILL.md` | "Never duplicate a reference in the skill body" — `docs/authoring-skills.md` ([narrative-io/narrative-skills-marketplace](https://github.com/narrative-io/narrative-skills-marketplace)); "single source of truth" — `skills/authoring/write-skills/SKILL.md` ([dzhng/skills](https://github.com/dzhng/skills)) |
 
 Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only the shape of the files and the phrasing patterns were reused — every fact inside them is a sourced fact from Michael, or a named gap.
 
@@ -127,5 +133,6 @@ Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only th
 - **Campaign Coordinator is not VP Campaigns** — they are two seats. VP Campaigns owns Campaign SOP; Campaign Coordinator reports into that seat and runs the do-this page. `handbook/seats/campaign-coordinator.md` was corrected to drop the earlier "also known as VP Campaigns" line, which wrongly merged them.
 - **VP Campaigns** (`handbook/seats/vp-campaigns.md`) and **VP Retreats** (`handbook/seats/vp-retreats.md`) now have their own pages — the earlier "VP Campaigns doesn't have its own page yet" gap is resolved. VP Retreats owns Retreat SOP and PIAB SOP; Retreat Producer reports into that seat. Who fills either seat stays named missing.
 - **No local LLM** was added to `handbook/locks.md` and `README.md`'s Locks summary — it's a real lock (surfaced on `handbook/seats/head-of-engineering.md` and `developer.md`) that was missing from the master list, and the master list is where every lock belongs.
+- **"one page per live seat"** in `handbook/seats/README.md` and `handbook/README.md` wrongly implied every seat is doing live work. Corrected to "assigned, unassigned, or parked" now that Head of Demand / Head of Sales / SDR are unassigned and Head of Engineering / Developer are parked.
 
 If you find the answer to any gap above, update the relevant `handbook/` file and remove the line here — do not leave a stale gap once it's resolved, and do not resolve it without a source.
