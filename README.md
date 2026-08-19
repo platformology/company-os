@@ -19,7 +19,7 @@ The living operational detail — Sales Menu line items, client records, SOP ste
 There is nothing to install or execute. "Running" this repo means reading it in order:
 
 1. Clone the repo.
-   - **On a Grok Bot seat, don't clone.** Open the raw file on [github.com/platformology/company-os](https://github.com/platformology/company-os) instead — `handbook/`, `skills/`, `reviews/`, one file at a time, in the same order as the steps below. Never clone this repo onto the box or onto the user's machine.
+   - **On a Grok Bot seat, don't clone.** Open the raw file on [github.com/platformology/company-os](https://github.com/platformology/company-os) instead — `handbook/`, `skills/`, `reviews/`, one file at a time, in the same order as the steps below. Never copy this repo down onto the computer the seat is running on, or onto the user's computer.
 2. Read [handbook/README.md](handbook/README.md) — it maps every other file.
 3. Read [handbook/locks.md](handbook/locks.md) before you draft, send, or repo anything.
 4. For a specific job, open [skills/README.md](skills/README.md) and run the matching `SKILL.md` — quoting a price, drafting a client reply, running the last gate, or writing a new doc. To find which seat owns that job, check [handbook/seats/README.md](handbook/seats/README.md) first.
