@@ -6,7 +6,7 @@ This is the page every Grok Bot seat — and every human picking up a job — op
 
 ## The rule
 
-1. **Open the matching `SKILL.md`** for the job in front of you. See [seat-job-map.md](seat-job-map.md) to find which one belongs to your seat.
+1. **Open the matching `SKILL.md`** for the job in front of you. See [seat-job-map.md](seat-job-map.md) to find it — the first skill in your seat's row is that seat's router, and it points at everything else the seat runs.
 2. **Follow it.** Each skill points at the real Notion SOP; this repo does not restate it, and neither do you.
 3. **Run [last-gate-then-stop](../skills/last-gate-then-stop/SKILL.md)** — [reviews/last-gate-checklist.md](../reviews/last-gate-checklist.md), every line, honestly.
 4. **Stop.** Hand off to Michael for anything that ships. Don't keep working past the gate "to be helpful" — that's where an expensive loop starts.

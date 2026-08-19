@@ -15,6 +15,10 @@ Planning → Meetings → Execution → Optimizing → next sourced slice. Five 
 
 A Grok Bot seat runs this cycle around the clock. Jhana, Bob, and Anthony do not — see [handbook/people.md](../../handbook/people.md). Don't schedule a human seat's part of the cycle as if it never sleeps, and don't let a bot seat's part of the cycle sit idle just because a human hasn't checked in yet.
 
+## This skill is the cycle, not the seat
+
+When the seat running a pass is the COO seat, [run-coo](../run-coo/SKILL.md) is the router for it — that skill runs the COO seat through one pass of this same cycle. This page is the cycle itself, shared by every bot seat; it doesn't replace a seat's own router. Find the router for any seat in [handbook/seat-job-map.md](../../handbook/seat-job-map.md).
+
 ## One report at a time
 
 The PA assigns **one report at a time.** This skill does not fan a report out to multiple seats or multiple jobs at once — one assignment, run through [handbook/cheap-loop.md](../../handbook/cheap-loop.md) start to finish, then the next.

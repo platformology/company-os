@@ -25,7 +25,8 @@ Two sources back a KPI check; this skill does not restate either:
 3. **Do not invent a Current number, a savings total, or an offer-level revenue figure.** None of those is sourced in this repo — see [handbook/how-money-moves.md](../../handbook/how-money-moves.md) and [SOURCES.md](../../SOURCES.md).
 4. **Hoffman is a question, not a fact.** Do not count Hoffman toward Current, Past, or Prospect — see [handbook/clients.md](../../handbook/clients.md).
 5. **The CRM is Notion Clients. HubSpot is closed** — don't pull a KPI from it, and don't treat a folder name as a client. See [handbook/clients.md](../../handbook/clients.md).
-6. Before anything drawn from a KPI check goes anywhere external, run it through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
+6. Hand the question to the seat that owns it rather than answering past your row: a **monthly close** question is [run-controller](../run-controller/SKILL.md) (June and July 2026 are not closed), **Bench or a savings figure** is [run-bookkeeper](../run-bookkeeper/SKILL.md), and the **track-record number** is [quote-track-record](../quote-track-record/SKILL.md) — not a KPI to collapse into one figure.
+7. Before anything drawn from a KPI check goes anywhere external, run it through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
 
 ## Never
 

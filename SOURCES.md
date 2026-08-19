@@ -56,4 +56,4 @@ We searched public GitHub before writing these pages. Facts inside are Michael's
 - Who the next PA is, and the current PA's tenure end date.
 - No invented invoice, accounts-receivable figure, or savings total.
 - Blue Sky stays off the LLC books.
-- Seven of 23 seats — COO, Head of Demand, CTO, Head of Engineering, Developer, CHRO, People Ops — have no matching skill yet; see [handbook/seat-job-map.md](handbook/seat-job-map.md).
+- Three of 23 seats have no dedicated seat router yet — Head of Content (`run-content`), CHRO (`run-chro`), People Ops (`run-people-ops`); see [handbook/seat-job-map.md](handbook/seat-job-map.md).

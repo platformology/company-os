@@ -18,7 +18,7 @@ The [Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3)
 | :08 / :38 | Recurring cadence slot — see [Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) for the live agenda |
 | :13 / :43 | Recurring cadence slot — see [Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) for the live agenda |
 | :23 / :53 | Recurring cadence slot — see [Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) for the live agenda |
-| Daily | PA + COO triage |
+| Daily | PA + COO triage — the two seats in it run [run-pa](../run-pa/SKILL.md) and [run-coo](../run-coo/SKILL.md) |
 
 This is the whole cadence. If a request doesn't match one of these four rows, it is not a scheduled Platformology meeting — check [handbook/locks.md](../../handbook/locks.md) before treating anything else as standing.
 
