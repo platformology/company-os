@@ -29,7 +29,7 @@ If you are new here and someone points you at this page: there is nothing for yo
 | A second hand, SmarterVoice only | Flash | The M5 — the shop | **Parked.** Not a Platformology seat brain — Platformology is not SmarterVoice, see [company-facts.md](company-facts.md) |
 | What every seat actually thinks with right now | Its existing Grok seat, plus the skill in its row | This M1 | **Running.** Unchanged by this page |
 
-Three rows is the whole runtime. There is no fourth slot to fill in, and no row here is a placeholder waiting on someone's judgment.
+**This table is the brain, not the install list.** It names the hand the seats would share, and nothing here is a placeholder waiting on someone's judgment — but it is not everything that goes on this M1 at the fourth phase. That list lives on [When you say go](https://app.notion.com/p/3c125e30d68b81a3b351c0ce17aa4602) in Notion, and this page does not restate it. It names **Llama 3.3 70B 4-bit** on this M1 as well, on purpose. If you are looking at what actually gets installed, open that page — do not read this table as the complete answer.
 
 ## After Michael says go
 
@@ -37,7 +37,7 @@ The sequence is already locked, in four phases, in this order: clone this M1 ont
 
 What that means for the brain, and nothing more than this:
 
-- **Gemma on this M1 is the one named hand**, and putting it there belongs to the fourth phase, on Michael's go. Who does it is on the go packet, not on this page — and either way it is not a new hire's job, and not today's.
+- **Gemma on this M1 is the hand this page names**, and putting it there belongs to the fourth phase, on Michael's go. It is not the whole of that phase — the full list is on the Notion page above, Llama 3.3 70B 4-bit included. Who does the work is on the go packet too, not on this page, and either way it is not a new hire's job and not today's.
 - **The office does not move.** After the strip, this M1 is still the office, and Daily Grok Bot still lives on it.
 - **The token rule does not change.** 8am, then 11, 2, and 5, with no hourly Grok wakes. The local hand covers the hours in between; it does not replace the wakes and it does not add any.
 - **Grok still last-gates.** The cheap hours run local; anything on its way out still goes through [reviews/last-gate-checklist.md](../reviews/last-gate-checklist.md) first.
