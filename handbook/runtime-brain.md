@@ -58,20 +58,30 @@ What that means for the brain, and nothing more than this:
 
 There is no partial credit between those two lists. Half-installed is not progress toward the second one — before go, it is a broken lock.
 
-## Never
+## Never until Michael says go
 
-- Never install Ollama, a model, or anything that runs one, and never write an instruction that tells someone else to.
-- Never give a seat its own model, and never rebuild a seat as a local model.
-- Never treat the M5 as available, or plan any work that assumes the hand already exists.
-- Never move Daily Grok Bot, or the office, onto the M5.
-- Never add Grok wakes to cover an hour the local hand would have covered.
-- Never unpark any of this yourself — changing a lock is Michael's call. Run [check-locks](../skills/check-locks/SKILL.md) first, name the lock, and stop.
+These two are the ones that end. They hold every day until he says go, and they end the way the M5 park ends on [locks.md](locks.md) — on his word, not on a machine arriving, not on someone deciding the wait is over.
+
+- **Do not install Ollama, a model, or anything that runs one**, and do not write an instruction that tells someone else to.
+- **Do not treat the M5 as available**, and do not plan work that assumes the hand is already on the machine.
+
+After he says go, the go packet takes over: the fourth phase is when the named hand is installed on this M1, and the M5 is the shop only even then. Nobody lifts either of these for themselves — changing a lock is Michael's call. Run [check-locks](../skills/check-locks/SKILL.md), name the lock, and stop.
+
+## Never, go or no go
+
+These do not end at go. They read the same the day after as the day before.
+
+- Do not rebuild a seat as a local model, and do not give any seat a model of its own. One shared hand is the design before go and after it.
+- Do not move Daily Grok Bot, or the office, off this M1.
+- Do not change the token rule: 8am, then 11, 2, and 5, with no hourly Grok wakes added.
+- Do not start work in a seat that is unassigned or parked — Demand, Sales, and SDR stay unassigned; Head of Engineering and Developer stay parked.
+- Do not send anything without Michael. No program GitHub. No VMs. No GKE. See [locks.md](locks.md).
 
 ## What this page is not
 
 - **Not a plan.** No business, marketing, or R&D plan comes out of this page, and no client, dollar figure, person, or KPI figure goes into it. KPI Current stays empty.
 - **Not an install guide, not a new stack, not a model architecture.** It is one page describing one slot on one machine.
-- **Not a way to start parked work.** Demand, Sales, and SDR stay unassigned; Head of Engineering and Developer stay parked. See [seat-job-map.md](seat-job-map.md).
+- **Not a way to start parked work.** The unassigned and parked seats stay that way — see the second Never list above, and [seat-job-map.md](seat-job-map.md).
 
 Every named gap in this repo is listed once in [SOURCES.md](../SOURCES.md). The hand is not one of them — it is not missing information, it is a locked decision, and the install waits on Michael.
 
