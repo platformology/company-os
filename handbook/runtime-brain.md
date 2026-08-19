@@ -37,7 +37,7 @@ The sequence is already locked, in four phases, in this order: clone this M1 ont
 
 What that means for the brain, and nothing more than this:
 
-- **Gemma on this M1 is the one named hand**, and putting it there is the fourth phase — the CTO's work, on Michael's go. It is not a new hire's job and it is not today's job.
+- **Gemma on this M1 is the one named hand**, and putting it there belongs to the fourth phase, on Michael's go. Who does it is on the go packet, not on this page — and either way it is not a new hire's job, and not today's.
 - **The office does not move.** After the strip, this M1 is still the office, and Daily Grok Bot still lives on it.
 - **The token rule does not change.** 8am, then 11, 2, and 5, with no hourly Grok wakes. The local hand covers the hours in between; it does not replace the wakes and it does not add any.
 - **Grok still last-gates.** The cheap hours run local; anything on its way out still goes through [reviews/last-gate-checklist.md](../reviews/last-gate-checklist.md) first.
