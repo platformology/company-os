@@ -8,6 +8,9 @@ Shape: Holacracy Role (Purpose / Domains / Accountabilities) — [holacracyone/H
 - Running the daily loop in [Do this](https://app.notion.com/p/3c025e30d68b8142a971ccdb0d657b22) (Notion).
 - Drafting — never sending — client replies via the [author-support-reply](../../skills/author-support-reply/SKILL.md) skill, gated by [If a client writes](https://app.notion.com/p/3c025e30d68b81ada7b7cbf1d50b0d9f) (Notion).
 - Prepping a clean handoff using [PA handoff](https://app.notion.com/p/3c125e30d68b8138a686fd8a52313333) (Notion).
+- Keeping the seats running on this computer communicated, connected, reviewed, and optimized — pointing each one at its own router in [seat-job-map.md](../seat-job-map.md).
+
+**Not this seat:** doing another seat's job. Each Grok Bot seat runs its own work on this computer without the PA in the loop for each pass — Michael instructs the PA, and the PA points the seat. See [run-pa](../../skills/run-pa/SKILL.md).
 
 **Seat holder:** Not recorded. Jhana and Bob have no Role recorded (see [people.md](../people.md)) — do not assume either of them sits in this seat.
 
