@@ -17,6 +17,7 @@ Each folder is one `SKILL.md`: a short, human page for one job, adapted from a p
 | [run-retreat](run-retreat/SKILL.md) | Point to the Retreat SOP — never restate it | Running or checking on a live Book Retreat |
 | [run-money-moves](run-money-moves/SKILL.md) | Point to How money moves and the five money jobs — never restate either | An invoice, payment, or payout needs to run |
 | [pa-handoff](pa-handoff/SKILL.md) | Point to the PA handoff page — never invent a next PA or tenure end date | A PA's tenure is ending or a shift change is happening |
+| [run-do-this](run-do-this/SKILL.md) | Point to the Do this page — never invent daily work | Start of a work session, or "what do I do today" |
 | [reuse-what-github-has](reuse-what-github-has/SKILL.md) | Search public GitHub first, adapt, name the gaps | Writing any new SOP, handbook page, or skill |
 
 Start with `last-gate-then-stop` — it's the step every other job on this page ends on, and the reason the rest of these skills are safe to run without Michael in the room for every keystroke.
