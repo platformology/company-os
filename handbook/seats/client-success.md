@@ -18,4 +18,4 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Locked:** No send without Michael — every draft goes to Michael or a named human. No program GitHub. See [locks.md](../locks.md).
 
-**Named missing:** who currently fills this seat. KPI "Current" stays 0 and empty by design — see [clients.md](../clients.md).
+**Named missing:** who currently fills this seat. The KPI "Current" stays empty — no figure goes in that field, and a 0 is a figure. The client count is the separate fact: 0 Current on the 18 Aug 2026 extract, quoted with that date — see [clients.md](../clients.md).

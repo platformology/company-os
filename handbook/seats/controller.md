@@ -7,7 +7,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 **Owns:**
 - The monthly close. As of this writing, **June and July 2026 are not closed** — that's a fact to carry forward, not a gap to paper over with an estimate.
 - The money boundary in [company-facts.md](../company-facts.md): Blue Sky stays off the LLC books.
-- KPI "Current" stays empty — 0 Current clients per the 18 Aug 2026 extract in [clients.md](../clients.md). The close does not invent a Current number to reconcile against.
+- KPI "Current" stays empty. No figure goes in that field, and a 0 is a figure. The client count is a different fact and travels with its date: 0 Current on the 18 Aug 2026 extract in [clients.md](../clients.md). The close does not invent a Current number to reconcile against, and it does not borrow that count to fill the KPI.
 
 **Reports to:** [CFO](cfo.md).
 

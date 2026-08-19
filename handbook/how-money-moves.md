@@ -59,6 +59,7 @@ Five jobs, in order. This page tells you what triggers each one and which Notion
 
 ## Across all five
 
-- **KPI "Current" stays empty.** 0 Current, 0 Prospect, per the 18 Aug 2026 extract — not a placeholder for a future guess. See [clients.md](clients.md).
+- **KPI "Current" stays empty.** Nothing goes in that field — not a guess, not a placeholder for a future one, and not a 0, because a 0 is a figure and empty means no figure was recorded.
+- **The client counts are a separate fact, and they carry their date.** 0 Current and 0 Prospect on the 18 Aug 2026 extract. Quote them with that date, and do not move either number into the KPI. See [clients.md](clients.md).
 - **No program GitHub.** None of these five jobs touches `smarter-voice`, `academic-research-platform`, `book-campaign-platform`, `styleguide-os`, `persona-standalone-programs`, or `tlpF-b01-research-engine`.
 - Before anything from any of these five jobs goes external, run [reviews/last-gate-checklist.md](../reviews/last-gate-checklist.md) (or the [last-gate-then-stop](../skills/last-gate-then-stop/SKILL.md) skill).

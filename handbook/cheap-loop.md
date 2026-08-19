@@ -20,7 +20,8 @@ If [offers.md](offers.md), [clients.md](clients.md), or [people.md](people.md) a
 ## Never invent
 
 - Never invent a client, a dollar figure, a person, or a price. See [locks.md](locks.md), [offers.md](offers.md), [clients.md](clients.md), [people.md](people.md).
-- Never invent a Current number. **KPI Current stays empty** — 0 Current, 0 Prospect, per the 18 Aug 2026 extract in [clients.md](clients.md).
+- Never invent a Current number, and never write one into the KPI. **KPI Current stays empty** — a 0 is a figure, so it does not go in there either.
+- The client counts are a separate fact and go out with their date: 0 Current, 0 Prospect on the 18 Aug 2026 extract in [clients.md](clients.md). Quote them that way; don't reuse them to fill the KPI.
 - If a price comes up mid-loop, don't recall it — run [place-on-offer-ladder](../skills/place-on-offer-ladder/SKILL.md), which quotes both numbers where the ladder shows two and says "no public price" for Platinum Major List.
 
 ## Humans are not 24/7. Bot seats are.
