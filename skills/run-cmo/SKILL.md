@@ -30,10 +30,11 @@ Four areas sit under this seat — demand, brand, content, and alumni stories �
 1. Open [handbook/seats/cmo.md](../../handbook/seats/cmo.md) before doing anything — this skill does not restate it.
 2. Sort the ask into one of the four areas above, or into campaign day-to-day. If it's day-to-day, stop here and run [run-campaign](../run-campaign/SKILL.md).
 3. If it's a price question, quote only from [handbook/offers.md](../../handbook/offers.md) via [place-on-offer-ladder](../place-on-offer-ladder/SKILL.md).
-4. If it's a demand question, run [run-demand](../run-demand/SKILL.md) — the answer is that the seat is unassigned, not a number.
-5. If it's an alumni-story question, say what's true: one Alumni relationship, support-only, no approved story. Flag it to Michael rather than drafting one.
-6. If the ask needs a fact this repo doesn't hold — a brand book, a membership price, the lead magnet's missing Offers row, who fills this seat — say "not recorded" and leave it named missing.
-7. Before anything from this seat goes anywhere external, run it through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
+4. If it's a content question, run [run-content](../run-content/SKILL.md) — catalog what exists, never write new copy and file it as corpus.
+5. If it's a demand question, run [run-demand](../run-demand/SKILL.md) — the answer is that the seat is unassigned, not a number.
+6. If it's an alumni-story question, say what's true: one Alumni relationship, support-only, no approved story. Flag it to Michael rather than drafting one.
+7. If the ask needs a fact this repo doesn't hold — a brand book, a membership price, the lead magnet's missing Offers row, who fills this seat — say "not recorded" and leave it named missing.
+8. Before anything from this seat goes anywhere external, run it through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
 
 ## Never
 - Never treat CMO, VP Campaigns, and Campaign Coordinator as one seat, and never hand campaign day-to-day to the CMO.
