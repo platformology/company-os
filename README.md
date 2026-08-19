@@ -21,7 +21,7 @@ There is nothing to install or execute. "Running" this repo means reading it in 
 1. Clone the repo.
 2. Read [handbook/README.md](handbook/README.md) — it maps every other file.
 3. Read [handbook/locks.md](handbook/locks.md) before you draft, send, or repo anything.
-4. For a specific job, open [skills/README.md](skills/README.md) and run the matching `SKILL.md` — quoting a price, drafting a client reply, running the last gate, or writing a new doc.
+4. For a specific job, open [skills/README.md](skills/README.md) and run the matching `SKILL.md` — quoting a price, drafting a client reply, running the last gate, or writing a new doc. To find which seat owns that job, check [handbook/seats/README.md](handbook/seats/README.md) first.
 5. Before anything goes to a client or gets sent externally, run it through [reviews/last-gate-checklist.md](reviews/last-gate-checklist.md).
 6. Follow the Notion links inline — those pages are the live SOP; this repo does not re-host them.
 
@@ -32,6 +32,8 @@ We searched public GitHub before writing any of this. Full attribution — every
 | Reused from | What we took the shape of |
 |---|---|
 | [dswh/company-os](https://github.com/dswh/company-os) (public fork: [kamleshvyasindia/company-os](https://github.com/kamleshvyasindia/company-os)) | `brain/` one-page-per-entity pattern → `handbook/company-facts.md`, `people.md`, `clients.md`, `offers.md`; `rules.md` → `handbook/locks.md`; `departments/_canvas-template.md` loop shape → `handbook/weekday-loop.md`; `reviews/` gate pattern → `reviews/` |
+| [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution) | the Role = Purpose + Domains + Accountabilities shape → every page in `handbook/seats/` |
+| [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI), `docs/spec/teamapi-extended-v1.md` | the seat-is-independent-of-its-holder model (a seat can be vacant) → `handbook/seats/` |
 | [Workflowsio/company-os-starter-kit](https://github.com/Workflowsio/company-os-starter-kit) | `blueprint/INDEX.md` content-catalog table → `handbook/README.md` |
 | [andreaswasita/copilot-cowork-dojo](https://github.com/andreaswasita/copilot-cowork-dojo), `skills/shipping-the-deliverable/SKILL.md` | the "last gate before it ships" checklist shape → `reviews/last-gate-checklist.md`, `skills/last-gate-then-stop/SKILL.md` |
 | [river-labs-inc/agents](https://github.com/river-labs-inc/agents), `customer-support-agent/system-prompt.md` | the FAQ-as-gate, draft-never-send model → `skills/author-support-reply/SKILL.md` |

@@ -10,6 +10,7 @@ One page per topic, not one giant wiki page — the same pattern [dswh/company-o
 | [offers.md](offers.md) | The public price ladder, quoted both ways where it conflicts | Quoting a price to anyone |
 | [locks.md](locks.md) | What nobody — human or bot — does without Michael | Every work session, first |
 | [weekday-loop.md](weekday-loop.md) | The shape of a normal work session and which Notion SOP runs each part of it | Planning your week |
+| [seats/](seats/README.md) | One short page per live seat — what it owns, who's in it (or "not recorded"), what's locked, what's named missing | Figuring out which seat a job belongs to |
 
 Before anything produced from this handbook goes external, it passes [reviews/last-gate-checklist.md](../reviews/last-gate-checklist.md).
 

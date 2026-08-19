@@ -8,12 +8,17 @@
 Also searched: "company operating system markdown handbook," "offer ladder SOP," "last-gate QC," "token-cheap agent loop," "sales menu," "retreat SOP." One additional file surfaced from that search and was adapted for the last-gate checklist:
 - [andreaswasita/copilot-cowork-dojo](https://github.com/andreaswasita/copilot-cowork-dojo), `skills/shipping-the-deliverable/SKILL.md`
 
-### Added for skills/ (this slice)
+### Added for skills/ (previous slice)
 Searched: "SKILL.md github pricing lookup skill quote both price conflict agent," "SKILL.md github FAQ gate customer support reply skill never send draft," "SKILL.md github search public GitHub first reuse skill adapt named missing."
 - [ItamarZand88/awesome-agent-conventions](https://github.com/ItamarZand88/awesome-agent-conventions/tree/main/conventions/skill-md) — the open Agent Skills `SKILL.md` convention (frontmatter + procedural body)
 - [llodev/skills](https://github.com/llodev/skills), `docs/publishing-guide.md`
 - [river-labs-inc/agents](https://github.com/river-labs-inc/agents), `customer-support-agent/system-prompt.md`
 - [0xranx/golembot](https://github.com/0xranx/golembot), `templates/customer-support/skills/faq-support/SKILL.md`
+
+### Added for handbook/seats/ (this slice)
+Searched: "github markdown seat role page template what this seat owns DRI handbook," "holacracy role markdown template github accountabilities domain role description file," "github markdown seat role page not yet filled OR vacant org chart template new hire onboarding."
+- [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution), `Holacracy-Constitution.md` — the official Holacracy Constitution repo; Article 1.1 defines a Role as Purpose + Domains + Accountabilities, filled (or not) by a "Role Lead"
+- [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI), `docs/spec/teamapi-extended-v1.md` — the role-vs-member split: "a role can be vacant... independent of whoever currently fills each seat"
 
 ## What we adapted, file by file
 
@@ -33,6 +38,7 @@ Searched: "SKILL.md github pricing lookup skill quote both price conflict agent,
 | `skills/last-gate-then-stop/SKILL.md` | `reviews/README.md` + `reviews/comms-checklist.md` — [dswh/company-os](https://github.com/dswh/company-os); "last gate before it ships" framing — `skills/shipping-the-deliverable/SKILL.md` ([andreaswasita/copilot-cowork-dojo](https://github.com/andreaswasita/copilot-cowork-dojo)) |
 | `skills/author-support-reply/SKILL.md` | FAQ-as-gate / READY TO SEND vs. DRAFT model — `customer-support-agent/system-prompt.md` ([river-labs-inc/agents](https://github.com/river-labs-inc/agents)); log-what's-not-covered pattern — `templates/customer-support/skills/faq-support/SKILL.md` ([0xranx/golembot](https://github.com/0xranx/golembot)) |
 | `skills/reuse-what-github-has/SKILL.md` | `SKILL.md` convention — [ItamarZand88/awesome-agent-conventions](https://github.com/ItamarZand88/awesome-agent-conventions/tree/main/conventions/skill-md); attribution-first packaging — `docs/publishing-guide.md` ([llodev/skills](https://github.com/llodev/skills)) |
+| `handbook/seats/README.md` and all ten `handbook/seats/*.md` pages | Role shape (Purpose / Domains / Accountabilities) — `Holacracy-Constitution.md` ([holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution)); seat-independent-of-holder model — `docs/spec/teamapi-extended-v1.md` ([JGalego/TeamAPI](https://github.com/JGalego/TeamAPI)) |
 
 Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only the shape of the files and the phrasing patterns were reused — every fact inside them is a sourced fact from Michael, or a named gap.
 
@@ -51,5 +57,10 @@ Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only th
 - Track record is uncollapsed: 124 (Dec 2022), 128 (Book Retreat), later 130–131 — no single number is asserted as current.
 - KPI "Current" stays empty — 0 Current clients per the 18 Aug 2026 extract, not a placeholder for a future guess.
 - Hoffman's client status is an open question, not a fact.
+
+## Named-missing holes added by handbook/seats/ (this slice)
+- Who currently fills each of the ten seats (PA, CMO, CSO, CFO, CTO, CCO, CHRO, Campaign Coordinator, Retreat Producer) — none is recorded except COO (Anthony C. Garcia, public title). Do not assign Jhana or Bob to any of them; their Role isn't recorded either (see [handbook/people.md](handbook/people.md)).
+- Which expansion "CSO" refers to (Chief Sales Officer vs. Chief Strategy Officer) — not recorded.
+- Which expansion "CCO" refers to (Chief Content, Compliance, or Creative Officer) — not recorded.
 
 If you find the answer to any gap above, update the relevant `handbook/` file and remove the line here — do not leave a stale gap once it's resolved, and do not resolve it without a source.
