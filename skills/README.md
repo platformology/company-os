@@ -13,4 +13,4 @@ Each folder is one `SKILL.md`: a short, human page for one job, adapted from a p
 | [campaign-lead-scoring](campaign-lead-scoring/SKILL.md) | Refuse to invent a scoring model that doesn't exist | Asked to score, rank, or qualify a lead |
 | [reuse-what-github-has](reuse-what-github-has/SKILL.md) | Search public GitHub first, adapt, name the gaps | Writing any new SOP, handbook page, or skill |
 
-Start with `last-gate-then-stop` — it's the step every other job ends on, and the reason the other three are safe to run without Michael in the room for every keystroke.
+Start with `last-gate-then-stop` — it's the step every other job on this page ends on, and the reason the rest of these skills are safe to run without Michael in the room for every keystroke.

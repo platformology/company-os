@@ -9,7 +9,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Not this seat:** running a campaign day-to-day is [VP Campaigns](vp-campaigns.md) / [Campaign Coordinator](campaign-coordinator.md), per [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (Notion) — don't fold that into CMO.
 
-**Reports into this seat:** [Head of Content](head-of-content.md).
+**Reports into this seat:** [Head of Content](head-of-content.md), [Head of Demand](head-of-demand.md) (unassigned).
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 

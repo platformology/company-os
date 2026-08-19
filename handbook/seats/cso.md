@@ -10,7 +10,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 - Close — the last step before a deal is real, still gated by [locks.md](../locks.md): no send without Michael.
 - The 18 Aug 2026 client count in [clients.md](../clients.md): 1 Alumni, 67 Past, 0 Current, 0 Prospect.
 
-**Reports into this seat:** Head of Sales, SDR — both unassigned.
+**Reports into this seat:** [Head of Sales](head-of-sales.md), [SDR](sdr.md) — both unassigned.
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 

@@ -1,6 +1,6 @@
 # handbook/seats/ — one page per live seat
 
-Twenty seats, only the ones asked for. A seat is a function, not a person — [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI) `docs/spec/teamapi-extended-v1.md` puts it directly: "a role can be vacant... independent of whoever currently fills each seat." Each page below keeps that split, and uses the Purpose / Domains / Accountabilities shape from [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution) `Holacracy-Constitution.md`.
+Twenty-three seats, only the ones asked for. A seat is a function, not a person — [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI) `docs/spec/teamapi-extended-v1.md` puts it directly: "a role can be vacant... independent of whoever currently fills each seat." Each page below keeps that split, and uses the Purpose / Domains / Accountabilities shape from [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution) `Holacracy-Constitution.md`.
 
 Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.md](../people.md)), and this handbook doesn't assign them a seat just to make the org chart look complete.
 
@@ -10,7 +10,10 @@ Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.
 | [COO](coo.md) | Anthony C. Garcia (public title) |
 | [CMO](cmo.md) | Not recorded |
 | [Head of Content](head-of-content.md) | Not recorded — reports into CMO |
+| [Head of Demand](head-of-demand.md) | **Unassigned** — reports into CMO, no work assigned |
 | [CSO](cso.md) | Not recorded |
+| [Head of Sales](head-of-sales.md) | **Unassigned** — reports into CSO, no work assigned |
+| [SDR](sdr.md) | **Unassigned** — reports into Head of Sales, no work assigned |
 | [CFO](cfo.md) | Not recorded |
 | [Controller](controller.md) | Not recorded — reports into CFO |
 | [Bookkeeper](bookkeeper.md) | Not recorded — reports into CFO |
