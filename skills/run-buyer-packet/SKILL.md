@@ -22,8 +22,8 @@ The **COO owns the buyer packet** — Anthony C. Garcia holds that seat ([handbo
 1. Open both pages above before assembling, editing, or answering anything about the packet.
 2. Work the corpus as a **catalog**: what exists, which of the five kinds it is, and where it lives. Cataloging is the job; writing is not.
 3. Check every fact against the repo, not against a folder: clients and counts → [handbook/clients.md](../../handbook/clients.md); public prices → [handbook/offers.md](../../handbook/offers.md); track record → [handbook/company-facts.md](../../handbook/company-facts.md), quoted with its date and never collapsed to one number.
-4. **Folder names are not clients.** A folder carrying a name is not a client, a logo, a case study, or a reference — see [handbook/clients.md](../../handbook/clients.md). Current is 0 and stays 0; Hoffman is a question; HubSpot is closed.
-5. Split what's sourced from what isn't, and hand the gaps over as an ask-next list rather than filling them. The standing list is in [SOURCES.md](../../SOURCES.md) — June and July 2026 are not closed, and the KPI "Current" stays empty.
+4. **Folder names are not clients.** A folder carrying a name is not a client, a logo, a case study, or a reference — see [handbook/clients.md](../../handbook/clients.md). The Current client count is 0 on the 18 Aug 2026 extract and stays 0 until Michael sources a change, quoted with that date; Hoffman is a question; HubSpot is closed.
+5. Split what's sourced from what isn't, and hand the gaps over as an ask-next list rather than filling them. The standing list is in [SOURCES.md](../../SOURCES.md) — June and July 2026 are not closed, and the KPI "Current" stays empty — no figure goes in that field, and a 0 borrowed from the client count is a figure.
 6. Run anything leaving for a buyer through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md), then stop and hand to Michael.
 
 ## Never

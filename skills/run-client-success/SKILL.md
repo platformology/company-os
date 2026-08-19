@@ -31,7 +31,8 @@ This seat drafts. It does not send, post, schedule, or reply directly, and it ne
 ## Never
 - Never send, post, or reply directly — draft only, every time, and never claim anything was sent.
 - Never answer outside the FAQ page. If it isn't there, flag it instead of filling it in.
-- Never invent a client fact, an offer, a price, a revenue figure, or a health score — there is no health score in this repo, and the KPI "Current" stays 0 and empty by design (see [handbook/clients.md](../../handbook/clients.md)).
+- Never invent a client fact, an offer, a price, a revenue figure, or a health score — there is no health score in this repo.
+- Never write a figure into the KPI "Current." It stays empty, and a 0 is a figure. The 0 Current on the 18 Aug 2026 extract in [handbook/clients.md](../../handbook/clients.md) is a client count: quote it with that date, and leave the KPI empty.
 - Never turn a day-to-day touch with an Alumni or Past client into a pitch.
 - Never pick between the two unresolved Cornelia Choe Zoom URLs.
 - Never record a client as Current, Prospect, or otherwise off "question" status — that's Michael's call.

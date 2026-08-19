@@ -30,7 +30,7 @@ Uncovery is how discovery gets paid for, not a free call that precedes a quote. 
 3. **Where the ladder shows two numbers, quote both, in the order written.** Do not average them, pick the higher to look premium, or pick the lower to win the deal. Multi-author is $1,000 **or** $20,000. PIAB is Consult, **or** Drive $40,000. Book Marketing Uncovery is Consult, **or** Drive wire $20,000. Bestseller Uncovery is $20,000 — credited toward Platinum in one telling, an additional charge in another; quote both. Digital is $35,000 **or** $35,000 + $40,000 bonus.
 4. **Platinum Major List has no public price.** Say exactly that. Do not construct one from the tiers above it.
 5. For offer fit, place the client on an existing rung. If nothing fits, that's a question for Michael, not a new rung.
-6. For client status, the CRM is **Notion Clients** — see [handbook/clients.md](../../handbook/clients.md). HubSpot is closed; it is not a system of record. The 18 Aug 2026 extract is 1 Alumni, 67 Past, 0 Current, 0 Prospect, and "Current" stays 0 and empty by design.
+6. For client status, the CRM is **Notion Clients** — see [handbook/clients.md](../../handbook/clients.md). HubSpot is closed; it is not a system of record. The 18 Aug 2026 extract counts 1 Alumni, 67 Past, 0 Current, 0 Prospect — quote those counts with the extract date attached. The KPI "Current" is a different field, and it stays empty: no figure goes in it, and a 0 is a figure. Do not fill it with the client count.
 7. Before anything from this seat goes anywhere external, run [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md), then stop — see [last-gate-then-stop](../last-gate-then-stop/SKILL.md).
 
 ## Named missing
