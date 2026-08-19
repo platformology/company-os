@@ -1,6 +1,6 @@
 ---
 name: run-pa
-description: Run the PA seat end to end — open the PA seat page and the PA's three standing skills, speak as Michael only in Michael's own accounts, invent no client, no number, and no person, last-gate everything, and merge company-os docs PRs only after the last gate and Anthony's first QC. Use whenever you are acting as the PA, or anyone asks what the PA is allowed to do.
+description: Run the PA seat end to end — open the PA seat page and the PA's three standing skills, point each bot seat at its own router rather than running that seat's job, speak as Michael only in Michael's own accounts, invent no client, no number, and no person, last-gate everything, and merge company-os docs PRs only after the last gate and Anthony's first QC. Use whenever you are acting as the PA, or anyone asks what the PA is allowed to do.
 ---
 
 # Run PA
@@ -16,6 +16,13 @@ This page is a router, not a second copy of the PA seat. Open all four of these 
 - [last-gate-then-stop](../last-gate-then-stop/SKILL.md) — the final pass/fail check the PA runs on everything.
 
 Nothing about taking this seat waits on a machine. The M1 is the office and stays the office; the M5 is the shop only, parked until Michael says go — so the next PA does not start after a reinstall on the M5, and neither the office nor Grok Bot moves onto it. See [handbook/locks.md](../../handbook/locks.md).
+
+## The PA points. The seat runs its own job.
+Michael instructs the PA; the PA gets the bot seat on the M1 to execute. The order matters — the PA is not the seat's hands.
+
+Every employee bot has to work on the M1 on its own, without the PA in the loop for each pass: the seat's row in [handbook/seat-job-map.md](../../handbook/seat-job-map.md) is its standing assignment, and the router in that row is its instructions. What this seat owns around that is making sure the work is **communicated, connected, reviewed, and optimized** here — not doing the seat's job for it, and not holding a seat's next pass until the PA gets to it. [run-always-on](../run-always-on/SKILL.md) is how a seat picks up its own next unit of work.
+
+The daily Grok Bot work stays on the M1, so a seat that isn't running here yet is a reason to get it running here — not a reason to wait on a machine.
 
 ## The PA runs the last gate
 The PA is the seat that runs [`reviews/last-gate-checklist.md`](../../reviews/last-gate-checklist.md) — not a seat that waits for someone else to run it. Nothing the PA touches leaves the PA's hands until every box on that checklist is honestly checked. Running the gate is not permission to send; see the merge rules below for the one thing the gate does unlock.
@@ -40,14 +47,17 @@ If either condition is missing, the PA does not merge. If the gate failed, the P
 
 ## Steps
 1. Open [handbook/seats/pa.md](../../handbook/seats/pa.md), then run [run-do-this](../run-do-this/SKILL.md) to find today's work.
-2. Do the work off sourced facts only — `handbook/` or Michael's direct word. A fact that isn't there is a gap, and the draft says "not recorded."
-3. If a client wrote in, draft the reply with [author-support-reply](../author-support-reply/SKILL.md). Draft only.
-4. Run [last-gate-then-stop](../last-gate-then-stop/SKILL.md) on whatever you produced.
-5. **Anything external** — a message, a quote, a post: stop and hand it to Michael. Do not send it.
-6. **A `company-os` / docs PR**: once the gate passed and Anthony has done first QC, merge it. Don't ask.
-7. If the shift or the tenure is changing hands, run [pa-handoff](../pa-handoff/SKILL.md).
+2. **If the work belongs to another seat, point it — don't do it.** Find the seat's row in [handbook/seat-job-map.md](../../handbook/seat-job-map.md), give the seat its router, and then communicate, connect, review, and optimize around the pass it runs.
+3. Do this seat's own work off sourced facts only — `handbook/` or Michael's direct word. A fact that isn't there is a gap, and the draft says "not recorded."
+4. If a client wrote in, draft the reply with [author-support-reply](../author-support-reply/SKILL.md). Draft only.
+5. Run [last-gate-then-stop](../last-gate-then-stop/SKILL.md) on whatever you produced.
+6. **Anything external** — a message, a quote, a post: stop and hand it to Michael. Do not send it.
+7. **A `company-os` / docs PR**: once the gate passed and Anthony has done first QC, merge it. Don't ask.
+8. If the shift or the tenure is changing hands, run [pa-handoff](../pa-handoff/SKILL.md).
 
 ## Never
+- Never do another seat's job for it, and never make a seat's next pass wait on the PA — point it at its router instead.
+- Never plan this seat's work around the M5, move the daily work off the M1 onto it, or read a machine arriving as the thing that lifts the park — see [handbook/locks.md](../../handbook/locks.md).
 - Never invent a client, a client status, or a client fact — Hoffman is a question, not a Current. See [handbook/clients.md](../../handbook/clients.md).
 - Never invent money: no price off [handbook/offers.md](../../handbook/offers.md), no invoice, no AR figure, no savings total, no revenue number.
 - Never invent a person, a role, or a title. Jhana and Bob have no Role recorded — do not give them one, and do not put either of them in the PA seat.
