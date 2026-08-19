@@ -9,6 +9,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 - [PIAB SOP](https://app.notion.com/p/3c125e30d68b81d5beecda81a111e6b3) (Notion) — same.
 - The [blank guest intake draft](https://app.notion.com/p/3c125e30d68b812486c8eac90777658c) (Notion) — whichever fields are blank there stay named missing; this repo does not fill them in from a guess.
 
+**Reports to:** [COO](coo.md).
+
 **Reports into this seat:** [Retreat Producer](retreat-producer.md).
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
