@@ -7,7 +7,8 @@ Adapted from the [dswh/company-os](https://github.com/dswh/company-os) `rules.md
 - **No program GitHub.** This repo is docs only. Do not touch, clone, fork, or open PRs against `smarter-voice`, `academic-research-platform`, `book-campaign-platform`, `styleguide-os`, `persona-standalone-programs`, or `tlpF-b01-research-engine`.
 - **No VMs.**
 - **No GKE.**
-- **No local LLM.**
+- **No local LLM until Michael says go.** Same trigger as the M5 park: not in hand, not once it is set up, not after a reinstall — until he says go. Until then there is no local model on any machine here. After he says go, models get installed at Phase 4 below, and not a step earlier.
+- **Seats are never rebuilt as local models.** That one does not change at go. Installing a model at Phase 4 does not turn a seat into one.
 - **The M1 is the office. The M5 is the shop only.** The M1 is the desk this company runs on, and it stays that way. The M5 is a shop machine: it is not the company desk, the office does not move onto it, and Grok Bot does not move onto it.
 - **M5 stays parked until Michael says go.** Not until it is in hand, not once it is set up, not after a reinstall — until Michael says go. Nothing here waits on that machine, and the next PA does not start after a reinstall on the M5.
 - **Blue Sky stays off the LLC books.**
@@ -25,7 +26,7 @@ Recorded 19 Aug 2026 — Michael, via the CTO. Nothing below starts until he say
 1. **Phase 1 — clone this M1 onto the M5.**
 2. **Phase 2 — the CTO proves the copy.**
 3. **Phase 3 — strip this M1 to the office.**
-4. **Phase 4 — then install models.** The list is on [When you say go](https://app.notion.com/p/3c125e30d68b81a3b351c0ce17aa4602) (Notion); this page does not restate it.
+4. **Phase 4 — then install models.** The list is on [When you say go](https://app.notion.com/p/3c125e30d68b81a3b351c0ce17aa4602) (Notion); this page does not restate it. Phase 4 is the only thing that lifts the local-model lock above — no earlier phase does, and neither do **No VMs** or **No GKE**, which stay locked.
 
 Three things hold across all four phases:
 
