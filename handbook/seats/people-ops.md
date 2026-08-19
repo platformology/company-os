@@ -12,7 +12,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
-**Run this:** No router for this seat yet — `run-people-ops` is named missing, not written. Until it lands, open [run-staff](../../skills/run-staff/SKILL.md), which keeps the vendor / staff split straight and leaves Jhana's and Bob's Role blank. Every skill in the repo: [skills/README.md](../../skills/README.md).
+**Run this:** [run-people-ops](../../skills/run-people-ops/SKILL.md) — the router for this seat — then [run-staff](../../skills/run-staff/SKILL.md), which keeps the vendor / staff split straight and leaves Jhana's and Bob's Role blank. Classification questions above the roster go to [run-chro](../../skills/run-chro/SKILL.md). Every skill in the repo: [skills/README.md](../../skills/README.md).
 
 **Open this in Notion:** [Grok Bot staff](https://app.notion.com/p/3c125e30d68b81dc9116e2e62b47f143) · [Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3)
 
