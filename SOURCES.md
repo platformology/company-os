@@ -26,6 +26,9 @@ We searched public GitHub before writing these pages. Facts inside are Michael's
 | [narrative-io/narrative-skills-marketplace](https://github.com/narrative-io/narrative-skills-marketplace) | "Never duplicate" a reference in the skill body |
 | [dzhng/skills](https://github.com/dzhng/skills) | "Keep a single source of truth" |
 | [rojenwai/CompanyOS](https://github.com/rojenwai/CompanyOS) | Read for structure ideas; not cited to a specific file |
+| [0xdarkmatter/claude-mods](https://github.com/0xdarkmatter/claude-mods) | The token-cheap loop discipline: "the cheapest lever is cadence... put the cheap model on the maker" → `handbook/cheap-loop.md` |
+| [Oruga420/claude-code-skills](https://github.com/Oruga420/claude-code-skills) | The zero-work-run question and the one-agent, no-fan-out rule — both inverted or reused straight → `handbook/cheap-loop.md`, `skills/run-always-on/SKILL.md` |
+| [tonone-ai/tonone](https://github.com/tonone-ai/tonone) | The meeting-definition table shape, inverted from "design the cadence" into "point at the cadence Michael already locked" → `skills/run-meetings/SKILL.md` |
 
 ## Named missing
 
@@ -53,3 +56,4 @@ We searched public GitHub before writing these pages. Facts inside are Michael's
 - Who the next PA is, and the current PA's tenure end date.
 - No invented invoice, accounts-receivable figure, or savings total.
 - Blue Sky stays off the LLC books.
+- Seven of 23 seats — COO, Head of Demand, CTO, Head of Engineering, Developer, CHRO, People Ops — have no matching skill yet; see [handbook/seat-job-map.md](handbook/seat-job-map.md).
