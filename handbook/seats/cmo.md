@@ -7,7 +7,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 **Owns:**
 - The public offer ladder in [offers.md](../offers.md) staying accurate against [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) (Notion).
 
-**Not this seat:** running a campaign day-to-day is VP Campaigns / [Campaign Coordinator](campaign-coordinator.md), per [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (Notion) — don't fold that into CMO.
+**Not this seat:** running a campaign day-to-day is [VP Campaigns](vp-campaigns.md) / [Campaign Coordinator](campaign-coordinator.md), per [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (Notion) — don't fold that into CMO.
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
