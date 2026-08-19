@@ -36,3 +36,5 @@ Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.
 | [Retreat Producer](retreat-producer.md) | Not recorded — reports into VP Retreats |
 
 "Not recorded" is the honest answer, not a placeholder for a guess. Full attribution in [SOURCES.md](../../SOURCES.md).
+
+Each seat page carries a **Run this** line naming the skill that runs it. To go the other way — pick a seat, get the skill and the Notion page in one row — open [seat-job-map.md](../seat-job-map.md). For the full list of skills regardless of seat, open [skills/README.md](../../skills/README.md). Twenty of these twenty-three seats have their own `run-*` router; Head of Content, CHRO, and People Ops do not yet, and each of those three pages says so rather than pointing at a page that doesn't exist.

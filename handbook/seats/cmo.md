@@ -13,6 +13,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-cmo](../../skills/run-cmo/SKILL.md) — the router for this seat — then [place-on-offer-ladder](../../skills/place-on-offer-ladder/SKILL.md) and [run-sales-menu](../../skills/run-sales-menu/SKILL.md) whenever a price or a menu line comes up. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7)
 
 **Locked:** No send without Michael. No price gets quoted outside [offers.md](../offers.md). See [locks.md](../locks.md).

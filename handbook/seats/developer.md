@@ -17,6 +17,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-developer](../../skills/run-developer/SKILL.md) — the router for this seat. It answers questions about the seat and refuses to start coding from it, because the seat is parked. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3)
 
 **Locked:** No program GitHub. No VMs. No GKE. No local LLM. M5 parked until the machine is in hand. No send without Michael. See [locks.md](../locks.md).

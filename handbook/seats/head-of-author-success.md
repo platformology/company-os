@@ -14,6 +14,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-author-success](../../skills/run-author-success/SKILL.md) — the router for this seat — then [author-support-reply](../../skills/author-support-reply/SKILL.md) to draft a reply and [support-call-prep](../../skills/support-call-prep/SKILL.md) before a call. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [If a client writes](https://app.notion.com/p/3c025e30d68b81ada7b7cbf1d50b0d9f) · [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855)
 
 **Locked:** No send without Michael. No program GitHub. See [locks.md](../locks.md).

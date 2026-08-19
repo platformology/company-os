@@ -14,6 +14,9 @@ One page per topic, not one giant wiki page — the same pattern [dswh/company-o
 | [seats/](seats/README.md) | One short page per seat — assigned, unassigned, or parked — what it owns, who's in it (or "not recorded"), what's locked, what's named missing | Figuring out which seat a job belongs to |
 | [seat-job-map.md](seat-job-map.md) | One table: every seat, its status, which skill to open, which Notion page to open | Finding the cheap run path for a specific seat's job |
 | [how-money-moves.md](how-money-moves.md) | The five jobs a coordinator runs — Attract, Diagnose, Place, Deliver, Expand alumni | Running a money job start to finish |
+| [../skills/README.md](../skills/README.md) | The index of every runnable job in this repo — one row per skill, seat routers and job pages both | Doing anything, rather than reading about it |
+
+This handbook holds the facts. [skills/](../skills/README.md) holds the jobs you run against them, and its README lists every one — if a skill exists as a folder, it has a row on that table.
 
 Before anything produced from this handbook goes external, it passes [reviews/last-gate-checklist.md](../reviews/last-gate-checklist.md).
 
