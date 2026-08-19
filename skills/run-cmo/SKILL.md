@@ -19,7 +19,7 @@ Four areas sit under this seat — demand, brand, content, and alumni stories �
 
 - **The offer ladder** — the written accountability: [handbook/offers.md](../../handbook/offers.md) staying accurate against [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) (Notion). Where the ladder shows two numbers, both get quoted or neither does.
 - **Brand and positioning.** How the two DBAs are presented. This repo holds no brand book, no voice guide, and no messaging framework — if you need one, that's a request to Michael, not something this skill drafts.
-- **Content.** Delegated to [Head of Content](../../handbook/seats/head-of-content.md), who is the corpus librarian — cataloging what already exists, not writing new copy. The nearest runnable job is [competitive-writing-guide](../competitive-writing-guide/SKILL.md), and its guide is a **draft, not a live campaign asset**. There is no `skills/run-content` in this repo today; use the seat page.
+- **Content.** Delegated to [Head of Content](../../handbook/seats/head-of-content.md), who is the corpus librarian — cataloging what already exists, never writing new copy and filing it as corpus. See [run-content](../run-content/SKILL.md) before answering any content question. The one corpus artifact with its own rules is [competitive-writing-guide](../competitive-writing-guide/SKILL.md), and its guide is a **draft, not a live campaign asset**.
 - **Demand.** Delegated to [Head of Demand](../../handbook/seats/head-of-demand.md), which is **unassigned** — no holder, no inbound volume, no leads, no work assigned. See [run-demand](../run-demand/SKILL.md) before answering any demand question.
 - **Alumni stories.** Today this is one relationship: Cornelia Choe (The Leaders Alliance), the 1 Alumni against 67 Past, 0 Current, 0 Prospect on the 18 Aug 2026 extract — see [handbook/clients.md](../../handbook/clients.md). Her communication is **support, not a pitch** ([support-call-prep](../support-call-prep/SKILL.md)). That means there is no approved alumni story, testimonial, or case study to reuse; asking her for one is a Michael decision.
 
@@ -30,10 +30,11 @@ Four areas sit under this seat — demand, brand, content, and alumni stories �
 1. Open [handbook/seats/cmo.md](../../handbook/seats/cmo.md) before doing anything — this skill does not restate it.
 2. Sort the ask into one of the four areas above, or into campaign day-to-day. If it's day-to-day, stop here and run [run-campaign](../run-campaign/SKILL.md).
 3. If it's a price question, quote only from [handbook/offers.md](../../handbook/offers.md) via [place-on-offer-ladder](../place-on-offer-ladder/SKILL.md).
-4. If it's a demand question, run [run-demand](../run-demand/SKILL.md) — the answer is that the seat is unassigned, not a number.
-5. If it's an alumni-story question, say what's true: one Alumni relationship, support-only, no approved story. Flag it to Michael rather than drafting one.
-6. If the ask needs a fact this repo doesn't hold — a brand book, a membership price, the lead magnet's missing Offers row, who fills this seat — say "not recorded" and leave it named missing.
-7. Before anything from this seat goes anywhere external, run it through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
+4. If it's a content question, run [run-content](../run-content/SKILL.md) — catalog what exists, never write new copy and file it as corpus.
+5. If it's a demand question, run [run-demand](../run-demand/SKILL.md) — the answer is that the seat is unassigned, not a number.
+6. If it's an alumni-story question, say what's true: one Alumni relationship, support-only, no approved story. Flag it to Michael rather than drafting one.
+7. If the ask needs a fact this repo doesn't hold — a brand book, a membership price, the lead magnet's missing Offers row, who fills this seat — say "not recorded" and leave it named missing.
+8. Before anything from this seat goes anywhere external, run it through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
 
 ## Never
 - Never treat CMO, VP Campaigns, and Campaign Coordinator as one seat, and never hand campaign day-to-day to the CMO.
