@@ -10,6 +10,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-campaign-coordinator](../../skills/run-campaign-coordinator/SKILL.md) — the router for this seat — then [run-campaign](../../skills/run-campaign/SKILL.md) for the live campaign itself and [run-sales-menu](../../skills/run-sales-menu/SKILL.md) if a menu line comes up. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Campaign Coordinator do-this (last-gated)](https://app.notion.com/p/3c125e30d68b8181aaece1c83104102d) · [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) · [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7)
 
 **Locked:** No send without Michael. Prices quoted only from [offers.md](../offers.md). See [locks.md](../locks.md).

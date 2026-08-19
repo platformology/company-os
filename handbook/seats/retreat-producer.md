@@ -16,6 +16,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-retreat-producer](../../skills/run-retreat-producer/SKILL.md) — the router for this seat — then [run-retreat](../../skills/run-retreat/SKILL.md) for the live retreat, [blank-guest-intake](../../skills/blank-guest-intake/SKILL.md) for the intake draft, and [quote-track-record](../../skills/quote-track-record/SKILL.md) whenever the retreat-era numbers above get quoted. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Retreat SOP](https://app.notion.com/p/3c025e30d68b8185b9a9f19dd56389e5) · [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7)
 
 **Locked:** No send without Michael. Prices quoted only from [offers.md](../offers.md). No program GitHub. See [locks.md](../locks.md).

@@ -13,6 +13,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-vp-retreats](../../skills/run-vp-retreats/SKILL.md) — the router for this seat, for ownership questions — then [run-retreat](../../skills/run-retreat/SKILL.md) or [run-piab](../../skills/run-piab/SKILL.md) for a live engagement, and [blank-guest-intake](../../skills/blank-guest-intake/SKILL.md) for the intake draft. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Retreat SOP](https://app.notion.com/p/3c025e30d68b8185b9a9f19dd56389e5) · [PIAB SOP](https://app.notion.com/p/3c125e30d68b81d5beecda81a111e6b3) · [Guest intake draft (blank)](https://app.notion.com/p/3c125e30d68b812486c8eac90777658c)
 
 **Locked:** No send without Michael. No program GitHub. Prices quoted only from [offers.md](../offers.md). See [locks.md](../locks.md).

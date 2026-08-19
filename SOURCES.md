@@ -2,6 +2,8 @@
 
 We searched public GitHub before writing these pages. Facts inside are Michael's, or named missing. Nobody else's C-suite, prices, clients, or KPIs were copied.
 
+This page holds one table and one list, and nothing else: every shape we reused, then every gap we left named. If a skill on this tree cites a repo, that repo has a row in the table. If a fact is missing, it is named once in the list rather than filled in from a guess.
+
 ## Reused shapes
 
 | Repo | What we took |
@@ -29,6 +31,21 @@ We searched public GitHub before writing these pages. Facts inside are Michael's
 | [0xdarkmatter/claude-mods](https://github.com/0xdarkmatter/claude-mods) | The token-cheap loop discipline: "the cheapest lever is cadence... put the cheap model on the maker" → `handbook/cheap-loop.md` |
 | [Oruga420/claude-code-skills](https://github.com/Oruga420/claude-code-skills) | The zero-work-run question and the one-agent, no-fan-out rule — both inverted or reused straight → `handbook/cheap-loop.md`, `skills/run-always-on/SKILL.md` |
 | [tonone-ai/tonone](https://github.com/tonone-ai/tonone) | The meeting-definition table shape, inverted from "design the cadence" into "point at the cadence Michael already locked" → `skills/run-meetings/SKILL.md` |
+| [athola/claude-night-market](https://github.com/athola/claude-night-market), `plugins/abstract/skills/skill-authoring/modules/advanced-patterns.md` | The Activation Gate shape — if the condition fails, stop and say the skill doesn't apply rather than quietly proceeding on a smaller version of the ask → `skills/run-engineering/SKILL.md`, `skills/run-developer/SKILL.md` |
+| [blouargant/yoke](https://github.com/blouargant/yoke), `docs/skills.md` | The "Hard rules" list plus a closing one-line verdict → `skills/run-engineering/SKILL.md` |
+| [designgrappler/agent-skills](https://github.com/designgrappler/agent-skills), `skills/add-specialist/SKILL.md` | The Scope Lock shape: work only on what's declared, and flag anything outside it instead of making the change → `skills/run-developer/SKILL.md` |
+| [judicialmind/legal-skills](https://github.com/judicialmind/legal-skills), `skills/due-diligence/SKILL.md` | Data-room organization: a diligence response is a checklist of what exists, not a narrative you write → `skills/run-buyer-packet/SKILL.md` |
+| [latour-ai/skills](https://github.com/latour-ai/skills), `hedge-fund-diligence/SKILL.md` | Separating what is claimed, what the evidence supports, and what still needs diligence — the gap becomes an ask-next list, never an estimate → `skills/run-buyer-packet/SKILL.md` |
+| [jwbreunsbach/uncommon-cco-library](https://github.com/jwbreunsbach/uncommon-cco-library), `skills/cs-launch-enablement.md` | The own-it / escalate-it split written as unambiguous rules, and "flag for review" in place of a guess → `skills/run-cco/SKILL.md`, `skills/run-author-success/SKILL.md`, `skills/run-client-success/SKILL.md` |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills), `c-level-advisor/skills/chief-customer-officer-advisor/SKILL.md` and `business-growth/skills/customer-success-manager/SKILL.md` | The shape of a customer seat — a short list of standing decisions, and one seat watching how engagements are going. Their health scores, churn tiers, and expansion metrics were left behind and inverted into a refusal, the same way `campaign-lead-scoring` inverts lead scoring → `skills/run-cco/SKILL.md`, `skills/run-author-success/SKILL.md`, `skills/run-client-success/SKILL.md` |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills), `business-operations/skills/capacity-planner/SKILL.md`, `business-operations/skills/vendor-management/SKILL.md`, and `business-operations/skills/knowledge-ops/SKILL.md` | "If you only have averages, stop and pull the distribution — single-point demand estimates are the most expensive anti-pattern in ops," which is why the CHRO seat refuses to size a three-person roster; vendor records come from the vendor's own source, "not invented"; and the librarian framing that the job is the artifacts operators consume, findable and with a named owner → `skills/run-chro/SKILL.md`, `skills/run-people-ops/SKILL.md`, `skills/run-content/SKILL.md` |
+| [microsoft/github-copilot-modernization](https://github.com/microsoft/github-copilot-modernization), `plugins/github-copilot-modernization/skills/team-charters/SKILL.md` | A charter is Mission plus what the role owns plus a Core Principle naming what the role must **not** do — "ownership boundaries are strict" → `skills/run-chro/SKILL.md` |
+| [mohitagw15856/pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills), `skills/role-redesign-for-ai/SKILL.md` | "Do not write 'focus on higher-value work' without naming the work" → `skills/run-chro/SKILL.md` |
+| [onvoyage-ai/gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills), `audit-content/SKILL.md` | "Don't rewrite the article — your job is to audit and report, not to edit," which is the librarian-not-writer line the content seat holds → `skills/run-content/SKILL.md` |
+| [alelaguard/agentguards-plugins](https://github.com/alelaguard/agentguards-plugins), `claude/skills/guardrails/SKILL.md` | Run the check *before* the action rather than after, and answer in one fixed shape when it blocks — kept, but rewritten as a sentence a person says out loud instead of a tool call → `skills/check-locks/SKILL.md` |
+| [arthursilas-ai/agent-preflight](https://github.com/arthursilas-ai/agent-preflight), `README.md` | The blocked verdict that names what to resolve, and "every finding carries a fix, not just a complaint" — so a refusal names where the ask goes next → `skills/check-locks/SKILL.md` |
+
+Searched and deliberately **not** adapted, so they get no row above: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), [kostja94/marketing-skills](https://github.com/kostja94/marketing-skills), and [guilhermemarketing/esc-skills](https://github.com/guilhermemarketing/esc-skills). All three generate ICPs, personas, ad creative, and landing-page copy from templates; the CMO seat needs the opposite of that, so nothing was taken. `skills/run-cmo/SKILL.md` names them for the same reason this note does — so the next person doesn't re-run the same search.
 
 ## Named missing
 
@@ -56,4 +73,5 @@ We searched public GitHub before writing these pages. Facts inside are Michael's
 - Who the next PA is, and the current PA's tenure end date.
 - No invented invoice, accounts-receivable figure, or savings total.
 - Blue Sky stays off the LLC books.
-- Three of 23 seats have no dedicated seat router yet — Head of Content (`run-content`), CHRO (`run-chro`), People Ops (`run-people-ops`); see [handbook/seat-job-map.md](handbook/seat-job-map.md).
+- A link to the Notion Clients database — the CRM itself — is not recorded in this repo.
+- Michael's 2021–2026 files, without which there is no current-client history to give.

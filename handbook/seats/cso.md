@@ -14,6 +14,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-cso](../../skills/run-cso/SKILL.md) — the router for this seat — then [run-offers](../../skills/run-offers/SKILL.md) when the ask reaches for a rung that isn't on the ladder, [place-on-offer-ladder](../../skills/place-on-offer-ladder/SKILL.md) for a price, and [run-sales-menu](../../skills/run-sales-menu/SKILL.md) to place someone on a rung that already exists. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) · [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855)
 
 **Locked:** No send without Michael. See [locks.md](../locks.md).

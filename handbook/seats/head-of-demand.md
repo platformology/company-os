@@ -12,6 +12,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-demand](../../skills/run-demand/SKILL.md) — the router for this seat, and the page that answers honestly that there is no work here yet. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7)
 
 **Locked:** No send without Michael. No program GitHub. See [locks.md](../locks.md).

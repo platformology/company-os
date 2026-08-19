@@ -12,6 +12,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-bookkeeper](../../skills/run-bookkeeper/SKILL.md) — the router for this seat — then [run-money-moves](../../skills/run-money-moves/SKILL.md) when an invoice, payment, or payout actually needs running. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3)
 
 **Locked:** No send without Michael. No program GitHub. No invented revenue, savings, or Current numbers. See [locks.md](../locks.md).

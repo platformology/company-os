@@ -12,6 +12,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-sdr-seat](../../skills/run-sdr-seat/SKILL.md) — the router for this seat — then [run-clients](../../skills/run-clients/SKILL.md) for the CRM this seat would keep honest, and [campaign-lead-scoring](../../skills/campaign-lead-scoring/SKILL.md), which refuses to invent the scoring model this seat doesn't have. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855)
 
 **Locked:** No send without Michael. No program GitHub. See [locks.md](../locks.md).

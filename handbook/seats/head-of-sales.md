@@ -14,6 +14,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
+**Run this:** [run-sales](../../skills/run-sales/SKILL.md) — the router for this seat, and the page that answers honestly that there is no pipeline here yet — then [run-uncovery](../../skills/run-uncovery/SKILL.md) for the paid-discovery step named in the Purpose above. Every skill in the repo: [skills/README.md](../../skills/README.md).
+
 **Open this in Notion:** [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) · [Uncovery SOP](https://app.notion.com/p/3c125e30d68b815d9dbbd7e59102af3e)
 
 **Locked:** No send without Michael. No price gets quoted outside [offers.md](../offers.md). No program GitHub. See [locks.md](../locks.md).
