@@ -18,4 +18,4 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Locked:** No send without Michael. See [locks.md](../locks.md).
 
-**Named missing:** who fills this seat; Head of Sales; SDR. The KPI "Current" number stays 0 and empty by design — do not update it without a source (see [clients.md](../clients.md)).
+**Named missing:** who fills this seat; Head of Sales; SDR. The KPI "Current" stays empty — no figure goes in that field, and a 0 is a figure, so the client count above does not get carried over into it. It changes when Michael sources a figure, not before (see [clients.md](../clients.md)).
