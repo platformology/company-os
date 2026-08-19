@@ -50,7 +50,7 @@ If you'd rather start from your seat than from the job, open [handbook/seat-job-
 | [run-money-moves](run-money-moves/SKILL.md) | Job | Points at How money moves and the five money jobs — never restates either | An invoice, payment, or payout needs to run |
 | [run-uncovery](run-uncovery/SKILL.md) | Job | Points at the Uncovery SOP and the sourced Uncovery prices | Running or checking on a Book Writing or Book Marketing Uncovery |
 | [run-piab](run-piab/SKILL.md) | Job | Points at the PIAB SOP — never restates it | Running or checking on a Platform in a Box engagement |
-| [run-clients](run-clients/SKILL.md) | Job | Points at the client counts and the Notion CRM; a folder name is not a client, and Current stays 0 | Asked who the clients are, or asked to add a client or change one's status |
+| [run-clients](run-clients/SKILL.md) | Job | Points at the client counts and the Notion CRM; a folder name is not a client, and the Current client count stays 0 with its extract date | Asked who the clients are, or asked to add a client or change one's status |
 | [run-faq](run-faq/SKILL.md) | Job | Says what the FAQ already answers, and stops there | A client message comes in and you need to know what's covered |
 | [author-support-reply](author-support-reply/SKILL.md) | Job | Drafts — never sends — a reply gated by the client FAQ page | A client, including Cornelia Choe, writes in |
 | [support-call-prep](support-call-prep/SKILL.md) | Job | Builds a short, honest pre-call brief — never a pitch, gaps flagged not guessed | Before any call with a named client |

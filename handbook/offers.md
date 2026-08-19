@@ -25,6 +25,13 @@ Adapted from the [dswh/company-os](https://github.com/dswh/company-os) `brain/of
 ## Rule
 If a client, a bot, or a new hire asks for a price not on this ladder, or asks you to resolve a "both" into one number, the answer is "check with Michael" — not a guess, not an average, not the higher or lower of the two.
 
+## Run this
+- [run-offers](../skills/run-offers/SKILL.md) — the page that answers from this ladder, and says "check with Michael" when the rung isn't on it.
+- [place-on-offer-ladder](../skills/place-on-offer-ladder/SKILL.md) — reading a single row correctly, including quoting both numbers where a rung is stated two ways.
+- [run-sales-menu](../skills/run-sales-menu/SKILL.md) — placing a client on a rung that already exists.
+
+Every skill in the repo: [skills/README.md](../skills/README.md).
+
 ## Where to go
 - [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) (Notion — the live version)
 - [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (Notion)

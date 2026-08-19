@@ -8,10 +8,10 @@ Each seat's own `run-<seat>` skill is listed first: it's the router that points 
 |---|---|---|---|
 | [PA](seats/pa.md) | Assigned | [run-pa](../skills/run-pa/SKILL.md) · [run-do-this](../skills/run-do-this/SKILL.md) · [author-support-reply](../skills/author-support-reply/SKILL.md) · [pa-handoff](../skills/pa-handoff/SKILL.md) | [Do this](https://app.notion.com/p/3c025e30d68b8142a971ccdb0d657b22) |
 | [COO](seats/coo.md) | Assigned | [run-coo](../skills/run-coo/SKILL.md) · [run-always-on](../skills/run-always-on/SKILL.md) · [run-buyer-packet](../skills/run-buyer-packet/SKILL.md) | [Grok Bot staff](https://app.notion.com/p/3c125e30d68b81dc9116e2e62b47f143) |
-| [CMO](seats/cmo.md) | Assigned | [run-cmo](../skills/run-cmo/SKILL.md) · [place-on-offer-ladder](../skills/place-on-offer-ladder/SKILL.md) · [run-sales-menu](../skills/run-sales-menu/SKILL.md) | [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) |
+| [CMO](seats/cmo.md) | Assigned | [run-cmo](../skills/run-cmo/SKILL.md) · [run-offers](../skills/run-offers/SKILL.md) · [place-on-offer-ladder](../skills/place-on-offer-ladder/SKILL.md) · [run-sales-menu](../skills/run-sales-menu/SKILL.md) | [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) |
 | [Head of Content](seats/head-of-content.md) | Assigned | [run-content](../skills/run-content/SKILL.md) · [competitive-writing-guide](../skills/competitive-writing-guide/SKILL.md) · [run-buyer-packet](../skills/run-buyer-packet/SKILL.md) | [Competitive Writing Guide draft](https://app.notion.com/p/3c125e30d68b81239c5fc767bddc0823) |
 | [Head of Demand](seats/head-of-demand.md) | Unassigned | [run-demand](../skills/run-demand/SKILL.md) | [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) |
-| [CSO](seats/cso.md) | Assigned | [run-cso](../skills/run-cso/SKILL.md) · [place-on-offer-ladder](../skills/place-on-offer-ladder/SKILL.md) · [run-sales-menu](../skills/run-sales-menu/SKILL.md) | [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) |
+| [CSO](seats/cso.md) | Assigned | [run-cso](../skills/run-cso/SKILL.md) · [run-offers](../skills/run-offers/SKILL.md) · [place-on-offer-ladder](../skills/place-on-offer-ladder/SKILL.md) · [run-sales-menu](../skills/run-sales-menu/SKILL.md) | [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) |
 | [Head of Sales](seats/head-of-sales.md) | Unassigned | [run-sales](../skills/run-sales/SKILL.md) · [run-uncovery](../skills/run-uncovery/SKILL.md) | [Uncovery SOP](https://app.notion.com/p/3c125e30d68b815d9dbbd7e59102af3e) |
 | [SDR](seats/sdr.md) | Unassigned | [run-sdr-seat](../skills/run-sdr-seat/SKILL.md) · [campaign-lead-scoring](../skills/campaign-lead-scoring/SKILL.md) | [Campaign lead scoring draft](https://app.notion.com/p/3c125e30d68b81f89125cfbbe398c770) |
 | [CFO](seats/cfo.md) | Assigned | [run-cfo](../skills/run-cfo/SKILL.md) · [run-money-moves](../skills/run-money-moves/SKILL.md) | [How money moves](https://app.notion.com/p/3c125e30d68b81b49524fe7bc9f65c81) |
@@ -54,7 +54,7 @@ Each seat's own `run-<seat>` skill is listed first: it's the router that points 
 - **CTO, Head of Engineering, and Developer stay under the machine locks.** No VMs, no GKE, no local LLM; M5 stays parked until the machine is physically in hand. Dave / Lehi Drew is a **vendor**, not a seat holder.
 - **Jhana and Bob have no Role recorded.** No row on this page assigns them one.
 - **Cornelia Choe is Alumni — support, not a pitch.** Her two Zoom URLs stay unresolved; flag both rather than picking one.
-- **KPI Current stays empty** — 0 Current, 0 Prospect per the 18 Aug 2026 extract in [clients.md](clients.md).
+- **KPI Current stays empty, and the client count is a different fact.** No figure goes in the KPI field. The 18 Aug 2026 extract in [clients.md](clients.md) separately counts 0 Current and 0 Prospect clients — quote that with its extract date, and don't move it into the KPI. See [run-kpis](../skills/run-kpis/SKILL.md) and [run-clients](../skills/run-clients/SKILL.md).
 - **Prices:** quote both numbers where the ladder shows two, and Platinum Major List has no public price. See [offers.md](offers.md).
 
 Full list: [locks.md](locks.md).
