@@ -17,7 +17,7 @@ This is the seat where the hardest locks land. They live in [handbook/locks.md](
 - **No VMs.**
 - **No GKE.**
 - **No local LLM.**
-- **M5 stays parked** until the machine is physically in hand.
+- **M5 stays parked** until Michael says go.
 - **No send without Michael.**
 
 ## Steps
@@ -35,7 +35,7 @@ This is the seat where the hardest locks land. They live in [handbook/locks.md](
 - Never treat Dave / Lehi Drew as the CTO or as this seat's holder.
 - Never name who fills this seat.
 - Never stand up a VM, a GKE cluster, or a local LLM — and never plan work that assumes one exists.
-- Never treat the M5 as available before the machine is physically in hand.
+- Never treat the M5 as available before Michael says go.
 - Never start work on a program repo from this page, and never link one from this repo.
 - Never lift or reword a lock to make an ask fit. Only Michael changes [handbook/locks.md](../../handbook/locks.md).
 - Never send anything from this seat without Michael. See [handbook/locks.md](../../handbook/locks.md).

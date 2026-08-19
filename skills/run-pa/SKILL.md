@@ -15,6 +15,8 @@ This page is a router, not a second copy of the PA seat. Open all four of these 
 - [pa-handoff](../pa-handoff/SKILL.md) — how a shift change or tenure change runs.
 - [last-gate-then-stop](../last-gate-then-stop/SKILL.md) — the final pass/fail check the PA runs on everything.
 
+Nothing about taking this seat waits on a machine. The M1 is the office and stays the office; the M5 is the shop only, parked until Michael says go — so the next PA does not start after a reinstall on the M5, and neither the office nor Grok Bot moves onto it. See [handbook/locks.md](../../handbook/locks.md).
+
 ## The PA runs the last gate
 The PA is the seat that runs [`reviews/last-gate-checklist.md`](../../reviews/last-gate-checklist.md) — not a seat that waits for someone else to run it. Nothing the PA touches leaves the PA's hands until every box on that checklist is honestly checked. Running the gate is not permission to send; see the merge rules below for the one thing the gate does unlock.
 
