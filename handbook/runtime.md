@@ -67,7 +67,7 @@ The PA steers and last-gates. Claude / Other Models writes the heavy pages. Grok
 
 **What already exists.** The wire. Each seat is already a Grok Bot teammate with its own chat, and that chat is the wire — nothing gets installed to carry a handoff. Around it: every seat has a router of its own, listed in [seat-job-map.md](seat-job-map.md), and every job ends at the same gate, [reviews/last-gate-checklist.md](../reviews/last-gate-checklist.md).
 
-**What is recorded now.** Which seat hands its finished work to which owner, and who checks it last, is written down on **[runtime-wiring.md](runtime-wiring.md)** — last-gated, in QC, merging now, so it is the one sister not yet on `main`. Read it there. This map does not copy it, and **nobody invents a sixth tool, a board, or a dashboard** in the meantime.
+**What is recorded now.** Which seat hands its finished work to which owner, and who checks it last, is written down on **[runtime-wiring.md](runtime-wiring.md)** — on `main`, open it. This map does not copy it, and **nobody invents a sixth tool, a board, or a dashboard** alongside it.
 
 **Done-check.** Two seats finish one job between them, and you can point at where the first seat's work landed and which seat picked it up — and the PA did not carry it between them. The PA still last-gates before anything external leaves; that is steering, not carrying.
 
@@ -87,16 +87,16 @@ The PA steers and last-gates. Claude / Other Models writes the heavy pages. Grok
 
 ## The four sister pages
 
-Each piece above has its own page, and **all four are written.** Three are on `main` and open the moment you click them. Wiring is the last sister still in QC — a page in QC is a real page waiting on a reviewer, not a page that doesn't exist.
+Each piece above has its own page, and **all four are on `main`.** Click any of them; they open on a real page.
 
 | Piece | Page | Where it is right now |
 |---|---|---|
 | Brain | [runtime-brain.md](runtime-brain.md) | **On `main`.** Click it. |
 | Body / hands | [runtime-body.md](runtime-body.md) | **On `main`.** Click it. |
-| Wiring | [runtime-wiring.md](runtime-wiring.md) | Last-gated, in QC, merging now — the last sister not yet on `main` |
+| Wiring | [runtime-wiring.md](runtime-wiring.md) | **On `main`.** Click it. |
 | Guts | [runtime-guts.md](runtime-guts.md) | **On `main`.** Click it. |
 
-The wiring link starts working the moment that PR lands. Until then, ask for the open PR — and don't tell anyone the page doesn't exist, because it does.
+This column is the page's own last-gate line: if a sister page is on `main`, this map says so, and it never tells a reader that a page which exists does not. When one of the four changes state, this column changes with it.
 
 Each of those pages owns its own detail. This map gives you the one line per piece above and nothing more: it does not restate them, does not summarize them, and does not guess at what they say.
 
