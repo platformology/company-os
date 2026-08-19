@@ -38,6 +38,13 @@ Both stay as they are until Michael sources a change — see [locks.md](locks.md
 | "What's the Current KPI at?" | Empty. No figure has been sourced for that field. |
 | "Fine — just put 0 in the KPI." | No. 0 is a figure. The field stays empty until Michael sources one. |
 
+## Run this
+- [run-clients](../skills/run-clients/SKILL.md) — the page that answers from these counts, and points at Notion Clients, where the records themselves live.
+- [run-kpis](../skills/run-kpis/SKILL.md) — the KPI side of the split above, where "Current" stays empty.
+- [run-faq](../skills/run-faq/SKILL.md), then [author-support-reply](../skills/author-support-reply/SKILL.md) — when a client writes in. Drafts only; nobody sends. Before a call, [support-call-prep](../skills/support-call-prep/SKILL.md).
+
+Every skill in the repo: [skills/README.md](../skills/README.md).
+
 ## Where to go
 - [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855) (Notion)
 - [If a client writes](https://app.notion.com/p/3c025e30d68b81ada7b7cbf1d50b0d9f) (Notion)
