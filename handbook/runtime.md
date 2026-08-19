@@ -25,18 +25,19 @@ The PA steers and last-gates. Claude / Other Models writes the heavy pages. Grok
 
 **What it is.** Where the seat's thinking happens. Today a seat only thinks inside its scheduled windows; a brain on this machine is what would let it think in the hours between them.
 
-**What already exists.** The names, and only the names:
+**What already exists.** The names, and only the names — the full page is **[runtime-brain.md](runtime-brain.md)**, on `main`, and this map does not restate it:
 
-- **Gemma on the M1** is the one hand — **after Michael says go**, not before.
-- **Flash on the M5** is one hand for SmarterVoice only, and **the M5 is parked**.
+- **Gemma 4 26B 8-bit on this M1** is the shared always-on hand — **after Michael says go**, not before.
+- **Llama 3.3 70B 4-bit on this M1** is the on-purpose pen. It is **not a second seat brain.**
+- **Flash 2-bit** stays on the M5, SmarterVoice only, and **the M5 is parked**.
 - **The M1 is the office.** The M5 is the shop only. Daily Grok Bot lives on this M1.
 - **The token rule:** weekday 8am, then 11, 2, and 5. No hourly Grok Bot wakes. The hours between those four windows are exactly the hours a local hand would cover — after go.
 
-**What is still missing.** Michael's go. **"No local LLM" is still a lock** — see [locks.md](locks.md). Lifting it is not this page's call and not this page's PR. The brain is **named, not installed**: nothing here tells anyone to install a model, or any other software, and this repo has no install step in it at all. Which hand a seat borrows is answered on **[runtime-brain.md](runtime-brain.md)** — last-gated and in owner QC on its own PR, so it is not on `main` yet. Read it there; this map does not restate it.
+**What is still missing.** Michael's go. **"No local LLM" holds until he says go** — that is the lock's own wording on [locks.md](locks.md), and it is a wait, not a forever. What lifting it involves is on that page and in Notion; this map does not restate it, and lifting it is Michael's call, not this map's. Until then the brain is **named, not installed**: nothing here tells anyone to install a model or any other software, and this repo has no install step in it at all.
 
-**Done-check.** You can say out loud which named hand belongs to which machine and what it is allowed to do — Gemma on the M1 after go, Flash on the M5 for SmarterVoice only, the M5 parked — and you can point at the line in [locks.md](locks.md) that keeps a local model off this machine until then. After Michael says go, the check becomes: the named hand runs on the M1 and covers the hours between the token windows, and no second model was added to make that work.
+**Done-check.** You can say out loud which named hand belongs to which machine and what each is for — Gemma 4 26B 8-bit shared and always-on on this M1 after go, Llama 3.3 70B 4-bit as the on-purpose pen rather than a second seat brain, Flash 2-bit on the parked M5 for SmarterVoice only — and you can point at the line in [locks.md](locks.md) that holds all of it until Michael says go. After go, the check becomes: the shared hand runs on this M1 and covers the hours between the token windows, and no seat got a model of its own to make that work.
 
-**Do not** rebuild a seat as a local model. A seat is a seat; a brain is one hand it gets to use.
+**Seats are never rebuilt as local models** — that one is on [locks.md](locks.md) and it does not end at go. A seat is a job plus a skill; a hand is something it borrows.
 
 ---
 
@@ -66,7 +67,7 @@ The PA steers and last-gates. Claude / Other Models writes the heavy pages. Grok
 
 **What already exists.** The wire. Each seat is already a Grok Bot teammate with its own chat, and that chat is the wire — nothing gets installed to carry a handoff. Around it: every seat has a router of its own, listed in [seat-job-map.md](seat-job-map.md), and every job ends at the same gate, [reviews/last-gate-checklist.md](../reviews/last-gate-checklist.md).
 
-**What is recorded now.** Which seat hands its finished work to which owner, and who checks it last, is written down on **[runtime-wiring.md](runtime-wiring.md)** — last-gated and in first QC on its own PR, so it is not on `main` yet. Read it there. This map does not copy it, and **nobody invents a sixth tool, a board, or a dashboard** in the meantime.
+**What is recorded now.** Which seat hands its finished work to which owner, and who checks it last, is written down on **[runtime-wiring.md](runtime-wiring.md)** — last-gated, in QC, merging now, so it is the one sister not yet on `main`. Read it there. This map does not copy it, and **nobody invents a sixth tool, a board, or a dashboard** in the meantime.
 
 **Done-check.** Two seats finish one job between them, and you can point at where the first seat's work landed and which seat picked it up — and the PA did not carry it between them. The PA still last-gates before anything external leaves; that is steering, not carrying.
 
@@ -86,16 +87,16 @@ The PA steers and last-gates. Claude / Other Models writes the heavy pages. Grok
 
 ## The four sister pages
 
-Each piece above has its own page, and **all four are written.** Two are on `main` and open the moment you click them. Two are last-gated and sitting in QC on their own PRs, so they are not on `main` yet — a page in QC is a real page waiting on a reviewer, not a page that doesn't exist.
+Each piece above has its own page, and **all four are written.** Three are on `main` and open the moment you click them. Wiring is the last sister still in QC — a page in QC is a real page waiting on a reviewer, not a page that doesn't exist.
 
 | Piece | Page | Where it is right now |
 |---|---|---|
-| Brain | [runtime-brain.md](runtime-brain.md) | Last-gated, in owner QC on its own PR — not on `main` yet |
+| Brain | [runtime-brain.md](runtime-brain.md) | **On `main`.** Click it. |
 | Body / hands | [runtime-body.md](runtime-body.md) | **On `main`.** Click it. |
-| Wiring | [runtime-wiring.md](runtime-wiring.md) | Last-gated, in first QC on its own PR — not on `main` yet |
+| Wiring | [runtime-wiring.md](runtime-wiring.md) | Last-gated, in QC, merging now — the last sister not yet on `main` |
 | Guts | [runtime-guts.md](runtime-guts.md) | **On `main`.** Click it. |
 
-The two QC links start working the moment those PRs land. Until then, ask for the open PR — and don't tell anyone the page doesn't exist, because it does.
+The wiring link starts working the moment that PR lands. Until then, ask for the open PR — and don't tell anyone the page doesn't exist, because it does.
 
 Each of those pages owns its own detail. This map gives you the one line per piece above and nothing more: it does not restate them, does not summarize them, and does not guess at what they say.
 
@@ -107,7 +108,7 @@ Each of those pages owns its own detail. This map gives you the one line per pie
 ## Locked, on every one of the four
 
 - **This repo is docs only.** No scripts, no services, and no step on this page that runs a command or installs anything.
-- **No send without Michael. No program GitHub. No VMs. No GKE. No local LLM. M5 parked. Blue Sky off the LLC books.** Full list: [locks.md](locks.md).
+- **No send without Michael. No program GitHub. No VMs. No GKE. No local LLM until Michael says go. Seats are never rebuilt as local models. M5 parked. Blue Sky off the LLC books.** Full list, in its own words: [locks.md](locks.md).
 - **The M1 is the office; the M5 is the shop only.** Daily Grok Bot does not move off this M1.
 - **Nothing gets invented to close a hole above** — no client, no money figure, no person, no price. The humans here are Jhana, Bob, and Anthony C. Garcia; Dave / Lehi Drew (tech) and David McInnis (Cranberry Press) are vendors, not seat holders ([people.md](people.md)).
 - **KPI "Current" stays empty**, and no done-check on this page carries a number. The client counts are a separate fact with their date: 1 Alumni (Cornelia Choe, The Leaders Alliance), 67 Past, 0 Current, 0 Prospect on the 18 Aug 2026 extract; Hoffman is a question ([clients.md](clients.md)).

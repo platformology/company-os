@@ -83,6 +83,5 @@ Searched and deliberately **not** adapted, so they get no row above: [coreyhaine
 - Blue Sky stays off the LLC books.
 - A link to the Notion Clients database — the CRM itself — is not recorded in this repo.
 - Michael's 2021–2026 files, without which there is no current-client history to give.
-- Michael's go for the named local hand. Gemma on the M1 is named, not installed; "no local LLM" stays the lock until he says go, and Flash on the M5 is for SmarterVoice only while the M5 is parked.
 - The named leftovers sitting behind most seats' jobs — this repo lists the router, not the queue.
-- Two of the four runtime sister pages are not on `main` yet: `handbook/runtime-brain.md` (last-gated, in owner QC) and `handbook/runtime-wiring.md` (last-gated, in first QC), each on its own open PR. Both are written, so nobody re-derives what they say or calls them missing; `handbook/runtime-body.md` and `handbook/runtime-guts.md` are already on `main`.
+- One of the four runtime sister pages is not on `main` yet: `handbook/runtime-wiring.md`, last-gated and in QC on its own PR. It is written, so nobody re-derives what it says or calls it missing. `handbook/runtime-brain.md`, `handbook/runtime-body.md`, and `handbook/runtime-guts.md` are already on `main`. The local hand itself is not a gap on this list — it is a locked decision waiting on Michael's go, per `handbook/locks.md` and `handbook/runtime-brain.md`.
