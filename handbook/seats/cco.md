@@ -9,6 +9,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 - Campaign QA — the quality gate on a live Promote a Book campaign, before it reaches [last-gate-then-stop](../../skills/last-gate-then-stop/SKILL.md) / [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
 - Retreat experience — how a live Book Retreat engagement is landing for the people in it.
 
+**Reports into this seat:** [Head of Author Success](head-of-author-success.md).
+
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
 **Open this in Notion:** [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855) · [If a client writes](https://app.notion.com/p/3c025e30d68b81ada7b7cbf1d50b0d9f)
