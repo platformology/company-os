@@ -19,6 +19,20 @@ Adapted from the [dswh/company-os](https://github.com/dswh/company-os) `rules.md
 - Assigning a Role to Jhana or Bob.
 - Anything that would change this file.
 
+## When Michael says go
+Recorded 19 Aug 2026 — Michael, via the CTO. Nothing below starts until he says go, and it runs in this order:
+
+1. **Phase 1 — clone this M1 onto the M5.**
+2. **Phase 2 — the CTO proves the copy.**
+3. **Phase 3 — strip this M1 to the office.**
+4. **Phase 4 — then install models.** The list is on [When you say go](https://app.notion.com/p/3c125e30d68b81a3b351c0ce17aa4602) (Notion); this page does not restate it.
+
+Three things hold across all four phases:
+
+- **Nothing is deleted on the M1 until the M5 copy is proven.** Phase 1 is a copy, not a move, and Phase 3 does not begin until Phase 2 passes.
+- **After Phase 3 the office is still this M1.** Stripping it to the office is what keeps it the office — it is not what hands the office to the M5.
+- **Daily Grok Bot does not live on the M5.** Not before go, not after it.
+
 **Open this in Notion:** [Desk](https://app.notion.com/p/3c125e30d68b81319e5bd9907af3d65e) — which machine is the office · [When you say go](https://app.notion.com/p/3c125e30d68b81a3b351c0ce17aa4602) — what unparking the M5 actually means. Those two pages are the live source; this page does not restate them.
 
 ## Why this page exists
