@@ -51,7 +51,7 @@ Each seat's own `run-<seat>` skill is listed first: it's the router that points 
 - **No send without Michael**, on any row, however clean the draft looks.
 - **No program GitHub** from any row — `smarter-voice`, `academic-research-platform`, `book-campaign-platform`, `styleguide-os`, `persona-standalone-programs`, `tlpF-b01-research-engine`.
 - **Demand, Sales, and SDR stay unassigned.** [run-demand](../skills/run-demand/SKILL.md), [run-sales](../skills/run-sales/SKILL.md), and [run-sdr-seat](../skills/run-sdr-seat/SKILL.md) exist to answer honestly about those seats — no inbound volume, pipeline, forecast, lead count, or score is invented for them.
-- **CTO, Head of Engineering, and Developer stay under the machine locks.** No VMs, no GKE, no local LLM; M5 stays parked until the machine is physically in hand. Dave / Lehi Drew is a **vendor**, not a seat holder.
+- **CTO, Head of Engineering, and Developer stay under the machine locks.** No VMs, no GKE, no local LLM; M5 stays parked until Michael says go. Dave / Lehi Drew is a **vendor**, not a seat holder.
 - **Jhana and Bob have no Role recorded.** No row on this page assigns them one.
 - **Cornelia Choe is Alumni — support, not a pitch.** Her two Zoom URLs stay unresolved; flag both rather than picking one.
 - **KPI Current stays empty, and the client count is a different fact.** No figure goes in the KPI field. The 18 Aug 2026 extract in [clients.md](clients.md) separately counts 0 Current and 0 Prospect clients — quote that with its extract date, and don't move it into the KPI. See [run-kpis](../skills/run-kpis/SKILL.md) and [run-clients](../skills/run-clients/SKILL.md).

@@ -31,7 +31,7 @@ Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.
 | [CHRO](chro.md) | Not recorded |
 | [People Ops](people-ops.md) | Not recorded — reports into CHRO |
 | [VP Campaigns](vp-campaigns.md) | Not recorded |
-| [Campaign Coordinator](campaign-coordinator.md) | Not recorded — reports into VP Campaigns |
+| [Campaign Coordinator](campaign-coordinator.md) | Not recorded — reports into CCO and VP Campaigns |
 | [VP Retreats](vp-retreats.md) | Not recorded |
 | [Retreat Producer](retreat-producer.md) | Not recorded — reports into VP Retreats |
 

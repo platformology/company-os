@@ -7,6 +7,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 **Owns:**
 - [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (Notion) — this repo does not restate the SOP.
 
+**Reports to:** [COO](coo.md).
+
 **Reports into this seat:** [Campaign Coordinator](campaign-coordinator.md), who runs the [Campaign Coordinator do-this page](https://app.notion.com/p/3c125e30d68b8181aaece1c83104102d) (Notion).
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
