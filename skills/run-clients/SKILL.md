@@ -22,7 +22,7 @@ This repo does not record a link to the Notion Clients database. Find it in Noti
 
 | Someone asks | The honest move |
 |---|---|
-| "Who are our clients?" | Read the counts off [handbook/clients.md](../../handbook/clients.md), name the extract date, and stop. Current is 0. That is the answer, not a gap to fill. |
+| "Who are our clients?" | Read the counts off [handbook/clients.md](../../handbook/clients.md), name the extract date, and stop. The Current client count is 0 on the 18 Aug 2026 extract, and that is the answer, not a gap to fill. The KPI "Current" is a different field, and it stays empty. |
 | "Add a client" / "move this one to Current" | The record is created in Notion Clients, and a status change is an ask-Michael-first item — see [handbook/locks.md](../../handbook/locks.md). Don't edit `clients.md` to make it true. |
 | "This folder is named X, so X is a client" | No. **Folder names are not clients** — not past, not current, not prospect. A folder is a folder. |
 
@@ -57,6 +57,6 @@ Our one Alumni relationship, The Leaders Alliance. Her project is done and we ar
 - Never treat a folder name as evidence of a client.
 - Never record Hoffman as Current.
 - Never treat HubSpot as the CRM — it is closed.
-- Never invent a Current number to make the roster look busier; 0 is sourced.
+- Never invent a Current number to make the roster look busier. What's sourced is the client count — 0 Current on the 18 Aug 2026 extract — and it goes out with that date.
 - Never restate the Notion Clients database or `clients.md` inside another page — link them, and keep one source of truth.
 - Never send anything to a client, and never pick between Cornelia's two Zoom URLs. No send without Michael. No program GitHub. See [handbook/locks.md](../../handbook/locks.md).
