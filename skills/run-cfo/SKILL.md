@@ -28,7 +28,8 @@ Three sources define this seat. This skill points at them and restates none of t
 3. **Blue Sky stays off the LLC books.** See [handbook/company-facts.md](../../handbook/company-facts.md) and [handbook/locks.md](../../handbook/locks.md).
 4. **Named missing stay named.** Carry them forward as written, do not resolve them to make an answer look finished:
    - June and July 2026 are **not closed** — see [handbook/seats/controller.md](../../handbook/seats/controller.md) and the [run-controller](../run-controller/SKILL.md) skill.
-   - KPI "Current" stays empty — 0 Current, 0 Prospect per the 18 Aug 2026 extract in [handbook/clients.md](../../handbook/clients.md).
+   - KPI "Current" stays empty. Nothing is written in that field — no figure, and not a 0 standing in for one.
+   - The client counts are a separate fact: 0 Current and 0 Prospect on the 18 Aug 2026 extract in [handbook/clients.md](../../handbook/clients.md). Quote those counts with the extract date attached, and do not carry them over into the KPI.
    - The track record is uncollapsed — 124 (Dec 2022), 128 (Book Retreat era), later 130–131. Quote a number with its date attached; never average or pick one. See [handbook/company-facts.md](../../handbook/company-facts.md).
    - Who fills this seat, and the seats reporting into it.
 5. Two seats report into this one: [Controller](../../handbook/seats/controller.md) for the monthly close ([run-controller](../run-controller/SKILL.md)) and [Bookkeeper](../../handbook/seats/bookkeeper.md) for bills and the general ledger ([run-bookkeeper](../run-bookkeeper/SKILL.md)). Hand the question down rather than answering it from this seat.

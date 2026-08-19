@@ -16,7 +16,10 @@ Two sources back a KPI check; this skill does not restate either:
 
 ## KPI Current stays empty
 
-**Do not invent a Current number.** 0 Current is the sourced fact from the 18 Aug 2026 extract — not a placeholder waiting for a bigger one. See [handbook/clients.md](../../handbook/clients.md).
+Two facts sit close together here, and they are not the same fact. Keep them apart.
+
+- **The client count.** The 18 Aug 2026 extract in [handbook/clients.md](../../handbook/clients.md) counts 0 Current and 0 Prospect clients. That is sourced, and you quote it with the extract date on it.
+- **The KPI.** "Current" stays empty. No figure goes in that field — not a guess, and not a 0 borrowed from the client count. Empty is the state, not a placeholder waiting for a bigger number.
 
 ## Steps
 
@@ -30,7 +33,8 @@ Two sources back a KPI check; this skill does not restate either:
 
 ## Never
 
-- Never invent a Current number — it stays empty/0 per the sourced 18 Aug 2026 extract.
+- Never write a figure into KPI "Current" — it stays empty, and a 0 is a figure.
+- Never restate the 0 Current client count from the 18 Aug 2026 extract as the KPI's value. It is a client count, and it travels with its extract date.
 - Never treat HubSpot as a live system of record — it's closed; the CRM is Notion Clients.
 - Never invent a savings total or a Bench connector — see [handbook/seats/bookkeeper.md](../../handbook/seats/bookkeeper.md).
 - Never invent offer-level revenue — no offer in [handbook/offers.md](../../handbook/offers.md) has a revenue figure attached to it.
