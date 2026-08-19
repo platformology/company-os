@@ -61,4 +61,4 @@ This repo is the git-native front door. The working pages already exist in Notio
 
 ## Locks (read before you do anything)
 
-No send without Michael. No program GitHub. No VMs. No GKE. M5 stays parked until the machine is in hand. Blue Sky stays off the LLC books. Full list: [handbook/locks.md](handbook/locks.md).
+No send without Michael. No program GitHub. No VMs. No GKE. No local LLM. M5 stays parked until the machine is in hand. Blue Sky stays off the LLC books. Full list: [handbook/locks.md](handbook/locks.md).

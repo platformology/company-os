@@ -7,6 +7,7 @@ Adapted from the [dswh/company-os](https://github.com/dswh/company-os) `rules.md
 - **No program GitHub.** This repo is docs only. Do not touch, clone, fork, or open PRs against `smarter-voice`, `academic-research-platform`, `book-campaign-platform`, `styleguide-os`, `persona-standalone-programs`, or `tlpF-b01-research-engine`.
 - **No VMs.**
 - **No GKE.**
+- **No local LLM.**
 - **M5 stays parked** until the machine is physically in hand.
 - **Blue Sky stays off the LLC books.**
 

@@ -1,6 +1,6 @@
 # handbook/seats/ — one page per live seat
 
-Eighteen seats, only the ones asked for. A seat is a function, not a person — [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI) `docs/spec/teamapi-extended-v1.md` puts it directly: "a role can be vacant... independent of whoever currently fills each seat." Each page below keeps that split, and uses the Purpose / Domains / Accountabilities shape from [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution) `Holacracy-Constitution.md`.
+Twenty seats, only the ones asked for. A seat is a function, not a person — [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI) `docs/spec/teamapi-extended-v1.md` puts it directly: "a role can be vacant... independent of whoever currently fills each seat." Each page below keeps that split, and uses the Purpose / Domains / Accountabilities shape from [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution) `Holacracy-Constitution.md`.
 
 Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.md](../people.md)), and this handbook doesn't assign them a seat just to make the org chart look complete.
 
@@ -15,6 +15,8 @@ Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.
 | [Controller](controller.md) | Not recorded — reports into CFO |
 | [Bookkeeper](bookkeeper.md) | Not recorded — reports into CFO |
 | [CTO](cto.md) | Not recorded |
+| [Head of Engineering](head-of-engineering.md) | Not recorded — reports into CTO; seat is parked |
+| [Developer](developer.md) | Not recorded — reports into Head of Engineering / CTO; seat is parked |
 | [CCO](cco.md) | Not recorded |
 | [Head of Author Success](head-of-author-success.md) | Not recorded — reports into CCO |
 | [Client Success](client-success.md) | Not recorded — reports into Head of Author Success |
