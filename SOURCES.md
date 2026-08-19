@@ -35,7 +35,12 @@ Same seat-page shape already established for the other ten pages — no new sear
 - [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution), `Holacracy-Constitution.md`
 - [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI), `docs/spec/teamapi-extended-v1.md`
 
-### Added for handbook/seats/head-of-content.md, head-of-author-success.md, client-success.md (this slice)
+### Added for handbook/seats/head-of-content.md, head-of-author-success.md, client-success.md (previous slice)
+Same seat-page shape already established and re-verified against public GitHub for this slice — no new source needed, per the same repos:
+- [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution), `Holacracy-Constitution.md`
+- [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI), `docs/spec/teamapi-extended-v1.md`
+
+### Added for handbook/seats/people-ops.md, controller.md, bookkeeper.md (this slice)
 Same seat-page shape already established and re-verified against public GitHub for this slice — no new source needed, per the same repos:
 - [holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution), `Holacracy-Constitution.md`
 - [JGalego/TeamAPI](https://github.com/JGalego/TeamAPI), `docs/spec/teamapi-extended-v1.md`
@@ -58,7 +63,7 @@ Same seat-page shape already established and re-verified against public GitHub f
 | `skills/last-gate-then-stop/SKILL.md` | `reviews/README.md` + `reviews/comms-checklist.md` — [dswh/company-os](https://github.com/dswh/company-os); "last gate before it ships" framing — `skills/shipping-the-deliverable/SKILL.md` ([andreaswasita/copilot-cowork-dojo](https://github.com/andreaswasita/copilot-cowork-dojo)) |
 | `skills/author-support-reply/SKILL.md` | FAQ-as-gate / READY TO SEND vs. DRAFT model — `customer-support-agent/system-prompt.md` ([river-labs-inc/agents](https://github.com/river-labs-inc/agents)); log-what's-not-covered pattern — `templates/customer-support/skills/faq-support/SKILL.md` ([0xranx/golembot](https://github.com/0xranx/golembot)) |
 | `skills/reuse-what-github-has/SKILL.md` | `SKILL.md` convention — [ItamarZand88/awesome-agent-conventions](https://github.com/ItamarZand88/awesome-agent-conventions/tree/main/conventions/skill-md); attribution-first packaging — `docs/publishing-guide.md` ([llodev/skills](https://github.com/llodev/skills)) |
-| `handbook/seats/README.md` and all fifteen `handbook/seats/*.md` pages (including `vp-campaigns.md`, `vp-retreats.md`, `head-of-content.md`, `head-of-author-success.md`, `client-success.md`) | Role shape (Purpose / Domains / Accountabilities) — `Holacracy-Constitution.md` ([holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution)); seat-independent-of-holder model — `docs/spec/teamapi-extended-v1.md` ([JGalego/TeamAPI](https://github.com/JGalego/TeamAPI)) |
+| `handbook/seats/README.md` and all eighteen `handbook/seats/*.md` pages (including `vp-campaigns.md`, `vp-retreats.md`, `head-of-content.md`, `head-of-author-success.md`, `client-success.md`, `people-ops.md`, `controller.md`, `bookkeeper.md`) | Role shape (Purpose / Domains / Accountabilities) — `Holacracy-Constitution.md` ([holacracyone/Holacracy-Constitution](https://github.com/holacracyone/Holacracy-Constitution)); seat-independent-of-holder model — `docs/spec/teamapi-extended-v1.md` ([JGalego/TeamAPI](https://github.com/JGalego/TeamAPI)) |
 | `handbook/how-money-moves.md` | Loop shape — `departments/_canvas-template.md` ([dswh/company-os](https://github.com/dswh/company-os)); "name the obligation at the point money moves" framing for Deliver — `docs/org-map.md`'s `money-flow` concept ([geraldmaron/construct](https://github.com/geraldmaron/construct)) |
 | `skills/support-call-prep/SKILL.md` | Pre-call brief shape — `customer-engineering/meeting-prep/SKILL.md` ([quivly/skills](https://github.com/quivly/skills)); "never invent deal context" framing — `partner-built/common-room/skills/call-prep/SKILL.md` ([anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)) |
 
@@ -81,10 +86,12 @@ Nothing here copies anyone's invented C-suite, prices, clients, or KPIs. Only th
 - Hoffman's client status is an open question, not a fact.
 
 ## Named-missing holes added by handbook/seats/ (this slice)
-- Who currently fills each of the fifteen seats (PA, CMO, Head of Content, CSO, CFO, CTO, CCO, Head of Author Success, Client Success, CHRO, VP Campaigns, Campaign Coordinator, VP Retreats, Retreat Producer) — none is recorded except COO (Anthony C. Garcia, public title). Do not assign Jhana or Bob to any of them; their Role isn't recorded either (see [handbook/people.md](handbook/people.md)).
+- Who currently fills each of the eighteen seats (PA, CMO, Head of Content, CSO, CFO, Controller, Bookkeeper, CTO, CCO, Head of Author Success, Client Success, CHRO, People Ops, VP Campaigns, Campaign Coordinator, VP Retreats, Retreat Producer) — none is recorded except COO (Anthony C. Garcia, public title). Do not assign Jhana or Bob to any of them; their Role isn't recorded either (see [handbook/people.md](handbook/people.md)).
 - Head of Demand, Head of Sales, and SDR — all unassigned (Head of Sales and SDR report into CSO; Head of Demand surfaces at the Attract/Place jobs in [handbook/how-money-moves.md](handbook/how-money-moves.md)). These are the only unassigned-role names sourced — no Demand, Sales, or SDR job was invented beyond them.
 - Whichever fields are blank in the [guest intake draft](https://app.notion.com/p/3c125e30d68b812486c8eac90777658c) (Notion) that VP Retreats owns — this repo does not guess at what they are.
 - Whatever the [Competitive Writing Guide draft](https://app.notion.com/p/3c125e30d68b81239c5fc767bddc0823) (Notion) contains — it's a draft, not a live campaign asset, and this repo does not quote or invent copy from it.
+- The closed status of June and July 2026 beyond "not closed" (Controller) — not written down here.
+- Any savings total tied to Bench (Bookkeeper) — not sourced, not invented. No Bench connector exists in this repo or its skills; do not invent a live pull from Bench.
 
 ### Corrected after PA/COO QC
 - **CSO** is sourced as Chief Sales Officer (pipeline, offer fit, close) — not a Chief Sales/Strategy Officer fork. The earlier "which CSO" ambiguity is resolved; only who fills the seat, plus Head of Sales and SDR, stay named missing.
