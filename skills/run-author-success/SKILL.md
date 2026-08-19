@@ -33,7 +33,7 @@ This seat reports to [CCO](../../handbook/seats/cco.md) — Chief Customer Offic
 7. Run the result through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md) and then stop.
 
 ## No author-health score
-The customer-success template this skill borrows its shape from computes weighted health scores, churn-risk tiers, and expansion opportunities per account. **None of that is imported.** There is no author-health score, no churn tier, and no expansion play written down anywhere in this repo, and there is no portfolio to score against — Current is 0 and the KPI "Current" stays empty by design (see [handbook/clients.md](../../handbook/clients.md)). "How is this author doing?" is answered from `clients.md` and the FAQ page in plain sentences, or answered "not recorded."
+The customer-success template this skill borrows its shape from computes weighted health scores, churn-risk tiers, and expansion opportunities per account. **None of that is imported.** There is no author-health score, no churn tier, and no expansion play written down anywhere in this repo, and there is no portfolio to score against. Two facts sit close together here, and they are not the same fact: the 18 Aug 2026 extract in [handbook/clients.md](../../handbook/clients.md) counts 0 Current clients, which you quote with that extract date; the KPI "Current" is a separate field and it stays empty, with no figure in it, and a 0 is a figure. "How is this author doing?" is answered from `clients.md` and the FAQ page in plain sentences, or answered "not recorded."
 
 ## Never
 - Never send. Every reply, brief, or summary from this seat is a draft for Michael or a named human — see [handbook/locks.md](../../handbook/locks.md).
