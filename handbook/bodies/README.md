@@ -34,7 +34,39 @@ Nothing in this folder needs installing. In Claude and on this Mac a body is a f
 | VP Retreats | [vp-retreats.md](vp-retreats.md) | Assigned |
 | Retreat Producer | [retreat-producer.md](retreat-producer.md) | Assigned |
 
-Twenty-three seats, the same twenty-three already written in [seats/](../seats/README.md). A body adds no seat, no job, and no fact — it is the seat page plus the hands already recorded in [runtime-body.md](../runtime-body.md), written as one runnable file. **If a body and its seat page ever disagree, the seat page wins.**
+## The twenty-three seats Michael named on 20 Aug 2026
+
+All unassigned, all refusing work. Each body says the seat is empty, names what would have to exist first, and stops. Same slugs as [seats/](../seats/README.md) and [desks/](../desks/README.md).
+
+| Seat | Body | Cluster |
+|---|---|---|
+| Senior Digital Designer | [senior-digital-designer.md](senior-digital-designer.md) | Design, in Craft |
+| Junior Digital Designer | [junior-digital-designer.md](junior-digital-designer.md) | Design, in Craft |
+| Senior Print and Book Designer | [senior-print-designer.md](senior-print-designer.md) | Design, in Craft |
+| Junior Print and Book Designer | [junior-print-designer.md](junior-print-designer.md) | Design, in Craft |
+| Social Media Strategist | [social-media-strategist.md](social-media-strategist.md) | Social, under the CMO |
+| Social Media Account Expert | [social-account-expert.md](social-account-expert.md) | Social, under the CMO |
+| Book Strategist | [book-strategist.md](book-strategist.md) | Book bench, under the CCO |
+| Book Writer | [book-writer.md](book-writer.md) | Book bench, under the CCO |
+| Book Conceptual Editor | [book-conceptual-editor.md](book-conceptual-editor.md) | Book bench, under the CCO |
+| Book Copy Writer | [book-copy-writer.md](book-copy-writer.md) | Book bench, under the CCO |
+| Book Technical Editor | [book-technical-editor.md](book-technical-editor.md) | Book bench, under the CCO |
+| Book Reader | [book-reader.md](book-reader.md) | Book bench, under the CCO |
+| Persona Architect | [persona-architect.md](persona-architect.md) | Craft — not a second COO |
+| Strategist | [strategist.md](strategist.md) | Craft |
+| Copy Writer | [copy-writer.md](copy-writer.md) | Craft |
+| Sales Writer | [sales-writer.md](sales-writer.md) | Craft |
+| Copy Editor | [copy-editor.md](copy-editor.md) | Craft |
+| Sales Editor | [sales-editor.md](sales-editor.md) | Craft |
+| SEO Expert | [seo-expert.md](seo-expert.md) | Growth, under the CMO |
+| PR and Media | [pr-media.md](pr-media.md) | Growth, under the CMO |
+| University Speaking Booker | [speaking-universities.md](speaking-universities.md) | Stage, under the CMO |
+| Association and Corporate Speaking Booker | [speaking-associations.md](speaking-associations.md) | Stage, under the CMO |
+| Pendulum Wiki Researcher | [pendulum-wiki.md](pendulum-wiki.md) | Under the Head of Content |
+
+**No seat model gets built for any of them.** The Modelfile recipe below is for the assigned seats; an unassigned seat does not get an alias built so the bench looks staffed. Two places to run these bodies, not three: paste one into Claude, or read it here on this Mac.
+
+Forty-six seats in total, the same forty-six written in [seats/](../seats/README.md). A body adds no seat, no job, and no fact — it is the seat page plus the hands already recorded in [runtime-body.md](../runtime-body.md), written as one runnable file. **If a body and its seat page ever disagree, the seat page wins.**
 
 A body repeats what those two pages already say, and that is on purpose: a model handed nothing but this file cannot follow a link, so the seat has to be complete inside it. The repetition stops at the seat. Prices, clients, people, and the locks are not copied into a body — they stay on the one page that owns each of them.
 

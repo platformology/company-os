@@ -16,7 +16,7 @@ Platformology LLC is one company with two names the public sees: Promote a Book 
 
 You do not need a model to run a desk. The desk file plus the pages it names are enough. The M1 command is only if you are already on that machine and the alias is already built.
 
-## The twenty-three seats
+## The original twenty-three seats
 
 | Seat | Status | Desk | On the M1 |
 |---|---|---|---|
@@ -45,6 +45,38 @@ You do not need a model to run a desk. The desk file plus the pages it names are
 | Retreat Producer | Assigned | [retreat-producer.md](retreat-producer.md) | `ollama run retreat-producer --think=false` |
 
 Assigned seats do the job on their desk. Parked seats (Head of Engineering, Developer) refuse work. Unassigned seats (Head of Demand, Head of Sales, SDR) refuse work and say the seat is unassigned. Do not start Engineering or Developer work from this folder. Do not pick up Demand, Sales, or SDR work to make the chart look busy.
+
+## The twenty-three seats Michael named on 20 Aug 2026
+
+Every one of these is unassigned and every desk is a refuse-work pack: it says the seat is empty, names what would have to exist before there is any work, and stops. None of them has a Notion page, and **none of them gets an M1 alias** — an unassigned seat does not get a model built for it. You do not need one to say a seat is empty.
+
+| Seat | Status | Desk | Hangs under |
+|---|---|---|---|
+| Senior Digital Designer | Unassigned | [senior-digital-designer.md](senior-digital-designer.md) | Craft |
+| Junior Digital Designer | Unassigned | [junior-digital-designer.md](junior-digital-designer.md) | Senior Digital Designer, in Craft |
+| Senior Print and Book Designer | Unassigned | [senior-print-designer.md](senior-print-designer.md) | Craft |
+| Junior Print and Book Designer | Unassigned | [junior-print-designer.md](junior-print-designer.md) | Senior Print and Book Designer, in Craft |
+| Social Media Strategist | Unassigned | [social-media-strategist.md](social-media-strategist.md) | CMO |
+| Social Media Account Expert | Unassigned | [social-account-expert.md](social-account-expert.md) | Social Media Strategist |
+| Book Strategist | Unassigned | [book-strategist.md](book-strategist.md) | CCO |
+| Book Writer | Unassigned | [book-writer.md](book-writer.md) | Book Strategist |
+| Book Conceptual Editor | Unassigned | [book-conceptual-editor.md](book-conceptual-editor.md) | Book Strategist |
+| Book Copy Writer | Unassigned | [book-copy-writer.md](book-copy-writer.md) | Book Strategist |
+| Book Technical Editor | Unassigned | [book-technical-editor.md](book-technical-editor.md) | Book Strategist |
+| Book Reader | Unassigned | [book-reader.md](book-reader.md) | Book Strategist |
+| Persona Architect | Unassigned | [persona-architect.md](persona-architect.md) | Craft |
+| Strategist | Unassigned | [strategist.md](strategist.md) | Craft |
+| Copy Writer | Unassigned | [copy-writer.md](copy-writer.md) | Craft |
+| Sales Writer | Unassigned | [sales-writer.md](sales-writer.md) | Craft |
+| Copy Editor | Unassigned | [copy-editor.md](copy-editor.md) | Craft |
+| Sales Editor | Unassigned | [sales-editor.md](sales-editor.md) | Craft |
+| SEO Expert | Unassigned | [seo-expert.md](seo-expert.md) | CMO |
+| PR and Media | Unassigned | [pr-media.md](pr-media.md) | CMO |
+| University Speaking Booker | Unassigned | [speaking-universities.md](speaking-universities.md) | CMO |
+| Association and Corporate Speaking Booker | Unassigned | [speaking-associations.md](speaking-associations.md) | CMO |
+| Pendulum Wiki Researcher | Unassigned | [pendulum-wiki.md](pendulum-wiki.md) | Head of Content |
+
+Craft is a cluster with no owner recorded, not a seat — [seats/README.md](../seats/README.md) explains why ten of these hang there instead of under an invented executive. Sitting down at one of these desks is a five-minute job: read it, learn what the company does not have, and go do something that exists.
 
 ## Before you pick a row
 

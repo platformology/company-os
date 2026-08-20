@@ -10,7 +10,7 @@ The "brain" is one shared local model on the office Mac — and until Michael sa
 
 A brain — Michael's word for it is a **local hand** — is the model that does the thinking on the machine sitting in this office, so a seat can work the cheap hours without spending Grok tokens all day long.
 
-**One hand, shared.** There are 23 seats in [seat-job-map.md](seat-job-map.md). There is not one model per seat, and there will not be 23 of them. A seat is a job plus a skill, not a model; the model is the hand a seat borrows when it needs one. Do not rebuild a seat as its own local model, and do not hand any seat a model of its own.
+**One hand, shared.** There are 46 seats in [seat-job-map.md](seat-job-map.md) — 23 of them named by Michael on 20 Aug 2026 and all unassigned. There is not one model per seat, and there will not be 46 of them; an unassigned seat gets no model at all. A seat is a job plus a skill, not a model; the model is the hand a seat borrows when it needs one. Do not rebuild a seat as its own local model, and do not hand any seat a model of its own.
 
 ## Today: the hand is named missing as an install
 

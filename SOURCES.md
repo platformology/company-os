@@ -60,6 +60,8 @@ Searched and deliberately **not** adapted, so they get no row above: [coreyhaine
 
 `skills/competitive-writing-guide/SKILL.md` no longer cites [slgoodrich/agents](https://github.com/slgoodrich/agents), `plugins/ai-pm-copilot/skills/competitive-analysis-templates/SKILL.md`. A competitive-analysis kit is the wrong shape for that job: the guide is about one buying style, not a rival company, and the kit's shape pulls a reader toward a teardown. Searched and not adapted there. The row above stays because `skills/run-clients/SKILL.md` and `skills/run-demand/SKILL.md` still use its never-fabricate line.
 
+The 23 seats Michael named on 20 Aug 2026 took no new outside shape. Their seat pages, bodies, desks, and thin routers reuse what is already in the table above — the Holacracy Role shape, the TeamAPI "a seat can be vacant independent of its holder" split, and the seat/body/desk/skill layout this repo already had. No public repo was copied to invent a job description, a design system, a social playbook, a book process, a speaking pipeline, or a dashboard for them, because inventing the work is exactly what those pages refuse to do.
+
 ## Named missing
 
 - Live Uncovery script.
@@ -90,4 +92,14 @@ Searched and deliberately **not** adapted, so they get no row above: [coreyhaine
 - Michael's 2021–2026 files, without which there is no current-client history to give.
 - The named leftovers sitting behind most seats' jobs — this repo lists the router, not the queue.
 - The office hand reaches none of the five connected tools — a body run in `office-hand` has no files and no browser, so it cannot open Notion or Gmail itself. Whether OpenClaw is ever installed on this M1 to close that is Michael's call, not a hole to fill; nothing in this repo installs it. See `handbook/runtime-openclaw.md`.
+- Who fills each of the 23 seats Michael named on 20 Aug 2026 — all unassigned, and no work assigned to any of them. See `handbook/seats/README.md`.
+- Which social accounts exist — no platform, network, handle, audience figure, or posting calendar is recorded anywhere in this repo.
+- Any speaking calendar — no event, date, venue, fee, talk title, or past booking, and nothing recorded makes speaking a sales channel.
+- Whether a Pendulum wiki exists at all, and where it would live.
+- Any book, author, or manuscript for the book bench to work on.
+- Brand and style rules for the design seats — none is recorded here, and `styleguide-os` is a locked program repo, not a source.
+- Any site, analytics account, keyword list, or ranking figure for the SEO seat.
+- Any outlet, journalist, contact, or past placement for the PR and Media seat.
+- An owner for **Craft** — no design or writing owner is recorded, so ten of the new seats hang under a cluster with nobody at the top of it. Michael names the real line.
+- A Notion page for any of the 23 new seats — none is recorded, and no neighbouring seat's page gets borrowed to fill the line.
 - All four runtime sister pages — `handbook/runtime-brain.md`, `handbook/runtime-body.md`, `handbook/runtime-wiring.md`, `handbook/runtime-guts.md` — are on `main`, so none of them is a gap. Nobody re-derives what they say or calls them missing. The local hand itself is not a gap either — it is a locked decision waiting on Michael's go, per `handbook/locks.md` and `handbook/runtime-brain.md`.
