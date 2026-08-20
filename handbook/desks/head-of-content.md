@@ -41,11 +41,9 @@ No send without Michael. No program GitHub. Do not write new copy and file it as
 
 ## If you are on the M1
 
-```
-ollama run head-of-content --think=false
-```
+The M1 is the office, and this desk runs here with no model at all — open the pages above and work off them. That is the whole setup today.
 
-One shared hand: this name is `FROM office-hand`. Thinking stays off. You are not installing a model, and this seat is not a model.
+The shared office hand is **Gemma 4 26B 8-bit**, and it is **named, not installed**: **"No local LLM until Michael says go"** on [locks.md](../locks.md) holds until he says it, and Phase 4 of the go packet is the only thing that lifts it. After go, the one thing that changes for this seat is that [bodies/head-of-content.md](../bodies/head-of-content.md) becomes the SYSTEM text — the seat, the hands, and the locks above stay exactly as written. **No command on this page**, and no tag, context size, or sampler setting: a run line written today is Phase 4 taken early, and a guessed tag is a wrong tag. The shape is on [bodies/README.md](../bodies/README.md). This seat is not a model, and it does not become one at go.
 
 ## Where the body and the seat page disagree
 

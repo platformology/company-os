@@ -1,6 +1,6 @@
 # skills/ — jobs a new hire can run
 
-Each folder here is one `SKILL.md`: a short, human page for one job, adapted from a public GitHub pattern (named at the top of the file and in [`SOURCES.md`](../SOURCES.md)). No stamp stacks, no bot jargon — if Anthony, Jhana, or Bob can't run the page, the page failed.
+Each folder here is one `SKILL.md`: a short, human page for one job, adapted from a public GitHub pattern. Every pattern is credited in [`SOURCES.md`](../SOURCES.md), and named in the file itself except where that would push the usable part of the page below the fold — then it goes at the bottom, or to `SOURCES.md` alone. No stamp stacks, no bot jargon — if Anthony, Jhana, or Bob can't run the page, the page failed.
 
 Every folder in this directory has a row below. If you find a folder that isn't on this table, that's a bug in the table, not a skill you're allowed to skip.
 
