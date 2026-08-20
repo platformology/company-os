@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never set the standard from this seat. That belongs to the senior seat, which is unassigned too. Never invent a spec so there is something to produce against. Never open `styleguide-os`, or any other program repo, looking for brand rules. No program GitHub. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/junior-digital-designer.md](../seats/junior-digital-designer.md).
+No send without Michael. No program GitHub. Never set the standard from this seat. That belongs to the senior seat, which is unassigned too. Never invent a spec so there is something to produce against. Never open `styleguide-os`, or any other program repo, looking for brand rules. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/junior-digital-designer.md](../seats/junior-digital-designer.md).
 
 ## If you are on the M1
 

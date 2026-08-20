@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never invent an event, a date, a venue, a fee, a talk title, or a past engagement. Never treat a retreat date as a speaking date — a retreat date, guest list, or venue is already named missing in [SOURCES.md](../../SOURCES.md). Never quote a speaking fee or add speaking to [offers.md](../offers.md). There is no rung for it. Never contact a school. No send without Michael. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/speaking-universities.md](../seats/speaking-universities.md).
+No send without Michael. No program GitHub. Never invent an event, a date, a venue, a fee, a talk title, or a past engagement. Never treat a retreat date as a speaking date — a retreat date, guest list, or venue is already named missing in [SOURCES.md](../../SOURCES.md). Never quote a speaking fee or add speaking to [offers.md](../offers.md). There is no rung for it. Never contact a school. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/speaking-universities.md](../seats/speaking-universities.md).
 
 ## If you are on the M1
 

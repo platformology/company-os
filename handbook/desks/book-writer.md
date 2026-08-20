@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never write a chapter, outline, or sample to have something to show. Never file invented text as corpus — that is the failure [run-content](../../skills/run-content/SKILL.md) exists to prevent, and nobody can tell 27 years from this afternoon once it is filed. Never write in a client's voice, or Michael's, and let it leave the building. No send without Michael. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/book-writer.md](../seats/book-writer.md).
+No send without Michael. No program GitHub. Never write a chapter, outline, or sample to have something to show. Never file invented text as corpus — that is the failure [run-content](../../skills/run-content/SKILL.md) exists to prevent, and nobody can tell 27 years from this afternoon once it is filed. Never write in a client's voice, or Michael's, and let it leave the building. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/book-writer.md](../seats/book-writer.md).
 
 ## If you are on the M1
 

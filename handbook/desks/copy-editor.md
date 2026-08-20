@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never invent a style rule and enforce it as this company's. Never open `styleguide-os`, or any other program repo, to go find one. No program GitHub. Never sharpen a claim while editing — an edit that strengthens a claim is a new claim. Never mark anything "ready to send." That is Michael's line, not an editor's. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/copy-editor.md](../seats/copy-editor.md).
+No send without Michael. No program GitHub. Never invent a style rule and enforce it as this company's. Never open `styleguide-os`, or any other program repo, to go find one. Never sharpen a claim while editing — an edit that strengthens a claim is a new claim. Never mark anything "ready to send." That is Michael's line, not an editor's. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/copy-editor.md](../seats/copy-editor.md).
 
 ## If you are on the M1
 

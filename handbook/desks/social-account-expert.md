@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never name the account, the network, or the handle. Never split this into several seats. One seat, one account, and no account is named yet. Never post, reply, or DM from anything. No send without Michael. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/social-account-expert.md](../seats/social-account-expert.md).
+No send without Michael. No program GitHub. Never name the account, the network, or the handle. Never split this into several seats. One seat, one account, and no account is named yet. Never post, reply, or DM from anything. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/social-account-expert.md](../seats/social-account-expert.md).
 
 ## If you are on the M1
 

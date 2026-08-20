@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never let a price in that is not on [offers.md](../offers.md), and never pick one number where the ladder shows two — that is an ask-Michael-first item. Never add urgency, a guarantee, a result, or a claim that is not sourced. Never approve a send. No send without Michael. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/sales-editor.md](../seats/sales-editor.md).
+No send without Michael. No program GitHub. Never let a price in that is not on [offers.md](../offers.md), and never pick one number where the ladder shows two — that is an ask-Michael-first item. Never add urgency, a guarantee, a result, or a claim that is not sourced. Never approve a send. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/sales-editor.md](../seats/sales-editor.md).
 
 ## If you are on the M1
 

@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never invent a keyword, a search volume, a ranking, or a traffic figure. Never name the site. It is not recorded here. Never change anything on a site or in a program repo. Engineering and Developer are parked, and no program GitHub. Never publish. No send without Michael. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/seo-expert.md](../seats/seo-expert.md).
+No send without Michael. No program GitHub. Never invent a keyword, a search volume, a ranking, or a traffic figure. Never name the site. It is not recorded here. Never change anything on a site or in a program repo. Engineering and Developer are parked, and no program GitHub. Never publish. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/seo-expert.md](../seats/seo-expert.md).
 
 ## If you are on the M1
 

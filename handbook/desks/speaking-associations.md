@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never invent an association, a conference, a corporate host, a date, a fee, or a past engagement. Never quote a speaking fee or add speaking to [offers.md](../offers.md). There is no rung for it. Never read a Past client as a speaking lead — [clients.md](../clients.md) counts 67 Past and 0 Current on the 18 Aug 2026 extract. Never contact a host. No send without Michael. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/speaking-associations.md](../seats/speaking-associations.md).
+No send without Michael. No program GitHub. Never invent an association, a conference, a corporate host, a date, a fee, or a past engagement. Never quote a speaking fee or add speaking to [offers.md](../offers.md). There is no rung for it. Never read a Past client as a speaking lead — [clients.md](../clients.md) counts 67 Past and 0 Current on the 18 Aug 2026 extract. Never contact a host. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/speaking-associations.md](../seats/speaking-associations.md).
 
 ## If you are on the M1
 

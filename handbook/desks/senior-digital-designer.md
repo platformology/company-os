@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never open `styleguide-os`, or any other program repo, looking for brand rules. No program GitHub. Never invent a palette, a typeface, a logo rule, or a template and file it as this company's. Never design a client-facing asset off a folder name or a guess at what the campaign is. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/senior-digital-designer.md](../seats/senior-digital-designer.md).
+No send without Michael. No program GitHub. Never open `styleguide-os`, or any other program repo, looking for brand rules. Never invent a palette, a typeface, a logo rule, or a template and file it as this company's. Never design a client-facing asset off a folder name or a guess at what the campaign is. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/senior-digital-designer.md](../seats/senior-digital-designer.md).
 
 ## If you are on the M1
 

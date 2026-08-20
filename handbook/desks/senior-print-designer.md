@@ -31,7 +31,7 @@ You said the seat is unassigned, named what is missing, named where you looked, 
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never invent a title, a trim size, a page count, a paper stock, or a print vendor. Never read a folder name as a book, or a past client as a live one. Never open `styleguide-os`, or any other program repo, looking for design rules. No program GitHub. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/senior-print-designer.md](../seats/senior-print-designer.md).
+No send without Michael. No program GitHub. Never invent a title, a trim size, a page count, a paper stock, or a print vendor. Never read a folder name as a book, or a past client as a live one. Never open `styleguide-os`, or any other program repo, looking for design rules. The full list is [locks.md](../locks.md), plus the unassigned lines on [seats/senior-print-designer.md](../seats/senior-print-designer.md).
 
 ## If you are on the M1
 
