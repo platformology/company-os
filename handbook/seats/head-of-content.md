@@ -11,6 +11,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Reports to:** [CMO](cmo.md).
 
+**Reports into this seat:** [Pendulum Wiki Researcher](pendulum-wiki.md) — unassigned, named by Michael 20 Aug 2026. Whether a Pendulum wiki exists at all is named missing, that seat has no work assigned, and the librarian rule holds over it: research what exists, never write new Pendulum material and shelve it as corpus.
+
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
 **Run this:** [run-content](../../skills/run-content/SKILL.md) — the router for this seat — then [competitive-writing-guide](../../skills/competitive-writing-guide/SKILL.md) for the draft this seat owns, and [run-buyer-packet](../../skills/run-buyer-packet/SKILL.md) for the packet drawn from the corpus. Every skill in the repo: [skills/README.md](../../skills/README.md).

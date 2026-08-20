@@ -1,6 +1,6 @@
 # Seat → job map
 
-One table: for each of the 23 seats already written in [seats/](seats/README.md), which status it's in, which skill to open, and which Notion page backs that skill. This page adds no new seat, invents no new job, and rewrites nothing already in `seats/` — it's an index on top of facts already sourced there. Shape: the content-catalog table from [Workflowsio/company-os-starter-kit](https://github.com/Workflowsio/company-os-starter-kit) `blueprint/INDEX.md` — the same shape already used in [handbook/README.md](README.md) and [skills/README.md](../skills/README.md).
+One table per group of seats, covering all 46 already written in [seats/](seats/README.md) — the original 23, then the 23 Michael named on 20 Aug 2026 — with the status each is in, which skill to open, and which Notion page backs that skill. This page adds no new seat, invents no new job, and rewrites nothing already in `seats/` — it's an index on top of facts already sourced there. Shape: the content-catalog table from [Workflowsio/company-os-starter-kit](https://github.com/Workflowsio/company-os-starter-kit) `blueprint/INDEX.md` — the same shape already used in [handbook/README.md](README.md) and [skills/README.md](../skills/README.md).
 
 Each seat's own `run-<seat>` skill is listed first: it's the router that points at the seat page and hands off to the job skills beside it. Open the router, and it will tell you where the real work lives.
 
@@ -29,6 +29,42 @@ Each seat's own `run-<seat>` skill is listed first: it's the router that points 
 | [Campaign Coordinator](seats/campaign-coordinator.md) | Assigned | [run-campaign-coordinator](../skills/run-campaign-coordinator/SKILL.md) · [run-campaign](../skills/run-campaign/SKILL.md) · [run-sales-menu](../skills/run-sales-menu/SKILL.md) | [Campaign Coordinator do-this](https://app.notion.com/p/3c125e30d68b8181aaece1c83104102d) |
 | [VP Retreats](seats/vp-retreats.md) | Assigned | [run-vp-retreats](../skills/run-vp-retreats/SKILL.md) · [run-retreat](../skills/run-retreat/SKILL.md) · [run-piab](../skills/run-piab/SKILL.md) · [blank-guest-intake](../skills/blank-guest-intake/SKILL.md) | [Retreat SOP](https://app.notion.com/p/3c025e30d68b8185b9a9f19dd56389e5) |
 | [Retreat Producer](seats/retreat-producer.md) | Assigned | [run-retreat-producer](../skills/run-retreat-producer/SKILL.md) · [run-retreat](../skills/run-retreat/SKILL.md) · [blank-guest-intake](../skills/blank-guest-intake/SKILL.md) · [quote-track-record](../skills/quote-track-record/SKILL.md) | [Retreat SOP](https://app.notion.com/p/3c025e30d68b8185b9a9f19dd56389e5) |
+
+## The twenty-three seats Michael named on 20 Aug 2026
+
+Same table, second half. Every row is **Unassigned**, every skill is a thin refuse-work router that sends you back to the seat page, and the Notion column is honest: no page is recorded for any of them, and none gets borrowed from a neighbouring seat to fill the cell.
+
+| Seat | Status | Open this skill | Open this Notion page |
+|---|---|---|---|
+| [Senior Digital Designer](seats/senior-digital-designer.md) | Unassigned | [run-senior-digital-designer](../skills/run-senior-digital-designer/SKILL.md) | Named missing |
+| [Junior Digital Designer](seats/junior-digital-designer.md) | Unassigned | [run-junior-digital-designer](../skills/run-junior-digital-designer/SKILL.md) | Named missing |
+| [Senior Print and Book Designer](seats/senior-print-designer.md) | Unassigned | [run-senior-print-designer](../skills/run-senior-print-designer/SKILL.md) | Named missing |
+| [Junior Print and Book Designer](seats/junior-print-designer.md) | Unassigned | [run-junior-print-designer](../skills/run-junior-print-designer/SKILL.md) | Named missing |
+| [Social Media Strategist](seats/social-media-strategist.md) | Unassigned | [run-social-media-strategist](../skills/run-social-media-strategist/SKILL.md) | Named missing |
+| [Social Media Account Expert](seats/social-account-expert.md) | Unassigned | [run-social-account-expert](../skills/run-social-account-expert/SKILL.md) | Named missing |
+| [Book Strategist](seats/book-strategist.md) | Unassigned | [run-book-strategist](../skills/run-book-strategist/SKILL.md) | Named missing |
+| [Book Writer](seats/book-writer.md) | Unassigned | [run-book-writer](../skills/run-book-writer/SKILL.md) | Named missing |
+| [Book Conceptual Editor](seats/book-conceptual-editor.md) | Unassigned | [run-book-conceptual-editor](../skills/run-book-conceptual-editor/SKILL.md) | Named missing |
+| [Book Copy Writer](seats/book-copy-writer.md) | Unassigned | [run-book-copy-writer](../skills/run-book-copy-writer/SKILL.md) | Named missing |
+| [Book Technical Editor](seats/book-technical-editor.md) | Unassigned | [run-book-technical-editor](../skills/run-book-technical-editor/SKILL.md) | Named missing |
+| [Book Reader](seats/book-reader.md) | Unassigned | [run-book-reader](../skills/run-book-reader/SKILL.md) | Named missing |
+| [Persona Architect](seats/persona-architect.md) | Unassigned | [run-persona-architect](../skills/run-persona-architect/SKILL.md) | Named missing |
+| [Strategist](seats/strategist.md) | Unassigned | [run-strategist](../skills/run-strategist/SKILL.md) | Named missing |
+| [Copy Writer](seats/copy-writer.md) | Unassigned | [run-copy-writer](../skills/run-copy-writer/SKILL.md) | Named missing |
+| [Sales Writer](seats/sales-writer.md) | Unassigned | [run-sales-writer](../skills/run-sales-writer/SKILL.md) | Named missing |
+| [Copy Editor](seats/copy-editor.md) | Unassigned | [run-copy-editor](../skills/run-copy-editor/SKILL.md) | Named missing |
+| [Sales Editor](seats/sales-editor.md) | Unassigned | [run-sales-editor](../skills/run-sales-editor/SKILL.md) | Named missing |
+| [SEO Expert](seats/seo-expert.md) | Unassigned | [run-seo-expert](../skills/run-seo-expert/SKILL.md) | Named missing |
+| [PR and Media](seats/pr-media.md) | Unassigned | [run-pr-media](../skills/run-pr-media/SKILL.md) | Named missing |
+| [University Speaking Booker](seats/speaking-universities.md) | Unassigned | [run-speaking-universities](../skills/run-speaking-universities/SKILL.md) | Named missing |
+| [Association and Corporate Speaking Booker](seats/speaking-associations.md) | Unassigned | [run-speaking-associations](../skills/run-speaking-associations/SKILL.md) | Named missing |
+| [Pendulum Wiki Researcher](seats/pendulum-wiki.md) | Unassigned | [run-pendulum-wiki](../skills/run-pendulum-wiki/SKILL.md) | Named missing |
+
+Three things bind on every row above, and they are the reason these rows exist at all rather than a wish list:
+
+- **Nobody was invented to fill them.** Every one reads "who fills this seat" under named missing, and [people.md](people.md) still records three people and two vendors.
+- **No work was invented to give them.** No client, price, social account, keyword, outlet, book, manuscript, or speaking date appears on any of these pages, because none is sourced. Which social accounts exist is named missing; there is no speaking calendar in this repo; whether a Pendulum wiki exists at all is named missing.
+- **Craft is a cluster, not a seat.** Ten of these hang under Craft because no design or writing owner is recorded — see [seats/README.md](seats/README.md). Nobody manages Craft, and naming it does not create a manager.
 
 ## Two seats that are not one seat
 
@@ -61,6 +97,6 @@ Full list: [locks.md](locks.md).
 
 ## Every seat now has a router
 
-All 23 seats on this table point at a `run-*` skill of their own. Head of Content, CHRO, and People Ops were the last three without one; `run-content`, `run-chro`, and `run-people-ops` have since landed, so no row here names a missing router any more.
+All 46 seats on this page point at a `run-*` skill of their own. Head of Content, CHRO, and People Ops were the last three of the original set without one; `run-content`, `run-chro`, and `run-people-ops` have since landed. The 23 seats Michael named on 20 Aug 2026 each got a thin router in the same pass as their seat page — a router that exists to say the seat is unassigned, not to give it work.
 
-What is still missing is who sits in these seats. Every row except COO reads "not recorded," and that stays the honest answer — a router existing for a seat does not fill it. Full list of every named gap in this repo: [SOURCES.md](../SOURCES.md).
+What is still missing is who sits in these seats. Every row except COO reads "not recorded" or "unassigned," and that stays the honest answer — a router existing for a seat does not fill it. Full list of every named gap in this repo: [SOURCES.md](../SOURCES.md).

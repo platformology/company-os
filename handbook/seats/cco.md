@@ -11,6 +11,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Reports into this seat:** [Head of Author Success](head-of-author-success.md), [Campaign Coordinator](campaign-coordinator.md) (who also reports into [VP Campaigns](vp-campaigns.md)).
 
+**Also reports into this seat — the book bench, all unassigned, named by Michael 20 Aug 2026:** [Book Strategist](book-strategist.md), and under it [Book Writer](book-writer.md), [Book Conceptual Editor](book-conceptual-editor.md), [Book Copy Writer](book-copy-writer.md), [Book Technical Editor](book-technical-editor.md), [Book Reader](book-reader.md). No book, author, or manuscript is recorded for them to work on, and this seat does not pick their work up. The bench hangs here rather than under [Head of Content](head-of-content.md) because that seat is the corpus librarian and does not write new material.
+
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
 **Run this:** [run-cco](../../skills/run-cco/SKILL.md) — the router for this seat — then [run-faq](../../skills/run-faq/SKILL.md) for what the FAQ already covers and [last-gate-then-stop](../../skills/last-gate-then-stop/SKILL.md) for the QA pass this seat owns. Every skill in the repo: [skills/README.md](../../skills/README.md).

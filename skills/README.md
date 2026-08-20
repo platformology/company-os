@@ -6,7 +6,7 @@ Every folder in this directory has a row below. If you find a folder that isn't 
 
 Two kinds of page live here, and the **Kind** column tells you which one you're opening:
 
-- **Seat router** — the page for a seat. It points at that seat's handbook page and hands you off to the job pages beside it. All twenty-three seats have one. Open the router when you're sitting in a seat and want to know what it owns.
+- **Seat router** — the page for a seat. It points at that seat's handbook page and hands you off to the job pages beside it. All forty-six seats have one. The twenty-three seats Michael named on 20 Aug 2026 have thin ones: they say the seat is unassigned, name what is missing, and send you back to the seat page. Open the router when you're sitting in a seat and want to know what it owns.
 - **Job** — the page for one piece of work: quoting a price, drafting a client reply, running a campaign. Open it when you know the task and need the safe way to do it.
 
 Five pages run on everything regardless of seat; they're marked as such and sit at the top. Two of them bracket every other page here: `check-locks` before you act, `last-gate-then-stop` before anything leaves your hands.
@@ -64,6 +64,29 @@ If you'd rather start from your seat than from the job, open [handbook/seat-job-
 | [run-kpis](run-kpis/SKILL.md) | Job | Points at the KPIs page and the 18 Aug 2026 client extract; KPI Current stays empty | Checking, reporting, or updating a KPI |
 | [run-meetings](run-meetings/SKILL.md) | Job | Points at the locked cadence — :08/:38, :13/:43, :23/:53, daily PA+COO triage | Running, joining, or checking on a meeting |
 | [pa-handoff](pa-handoff/SKILL.md) | Job | Points at the PA handoff page; never invents a next PA or a tenure end date | A PA's tenure is ending, or a shift change is happening |
+| [run-senior-digital-designer](run-senior-digital-designer/SKILL.md) | Seat router | Answers for the Senior Digital Designer seat — unassigned, no brief, no queue, no recorded brand rule | Asked who designs digital work, or asked this seat for a graphic, deck, or page |
+| [run-junior-digital-designer](run-junior-digital-designer/SKILL.md) | Seat router | Answers for the Junior Digital Designer seat — unassigned, and the senior seat above it is empty too | Asked who produces digital design day to day, or handed this seat a design job |
+| [run-senior-print-designer](run-senior-print-designer/SKILL.md) | Seat router | Answers for the Senior Print and Book Designer seat — unassigned, no book, trim size, or print vendor recorded | Asked who designs book interiors or covers |
+| [run-junior-print-designer](run-junior-print-designer/SKILL.md) | Seat router | Answers for the Junior Print and Book Designer seat — unassigned, no book, no spec, no senior seat filled | Asked who produces book layouts day to day |
+| [run-social-media-strategist](run-social-media-strategist/SKILL.md) | Seat router | Answers for the Social Media Strategist seat — unassigned, and which accounts exist is named missing | Asked who runs social, or asked for a posting plan or content calendar |
+| [run-social-account-expert](run-social-account-expert/SKILL.md) | Seat router | Answers for the Social Media Account Expert seat — one seat for one named account, and no account is named | Asked who runs a specific account, or asked for a seat per network |
+| [run-book-strategist](run-book-strategist/SKILL.md) | Seat router | Answers for the Book Strategist seat — unassigned, no book, author, or manuscript recorded | Asked who decides what a book is for, or asked for a book concept |
+| [run-book-writer](run-book-writer/SKILL.md) | Seat router | Answers for the Book Writer seat — unassigned, and nothing gets drafted to show willing | Asked who writes the book, or asked for a chapter or sample pages |
+| [run-book-conceptual-editor](run-book-conceptual-editor/SKILL.md) | Seat router | Answers for the Book Conceptual Editor seat — unassigned, no manuscript, no brief to edit against | Asked who edits a book's argument and structure |
+| [run-book-copy-writer](run-book-copy-writer/SKILL.md) | Seat router | Answers for the Book Copy Writer seat — unassigned, no book or title to write around | Asked for jacket, back-cover, or book description copy |
+| [run-book-technical-editor](run-book-technical-editor/SKILL.md) | Seat router | Answers for the Book Technical Editor seat — unassigned, no manuscript or source list in hand | Asked who fact-checks a book, or asked to verify a claim |
+| [run-book-reader](run-book-reader/SKILL.md) | Seat router | Answers for the Book Reader seat — unassigned, no manuscript to read, no reader reaction invented | Asked how a reader would take a book |
+| [run-persona-architect](run-persona-architect/SKILL.md) | Seat router | Answers for the Persona Architect craft seat — unassigned, no sourced material, and not a second COO | Asked for a persona or ICP, or the craft seat is confused with Anthony's COO title |
+| [run-strategist](run-strategist/SKILL.md) | Seat router | Answers for the Strategist craft seat — unassigned, no brief or piece of work recorded | Asked for the strategy behind a piece of work |
+| [run-copy-writer](run-copy-writer/SKILL.md) | Seat router | Answers for the Copy Writer craft seat — unassigned, no brief and no queue of copy | Asked who writes this company's copy |
+| [run-sales-writer](run-sales-writer/SKILL.md) | Seat router | Answers for the Sales Writer craft seat — unassigned, no offer brief, and prices only off the public ladder | Asked who writes sales copy, or handed this seat a pitch |
+| [run-copy-editor](run-copy-editor/SKILL.md) | Seat router | Answers for the Copy Editor craft seat — unassigned, and no style guide is recorded to edit against | Asked who edits copy, or handed this seat something to clean up |
+| [run-sales-editor](run-sales-editor/SKILL.md) | Seat router | Answers for the Sales Editor craft seat — unassigned, no queue, and it never approves a send | Asked who edits or approves sales copy |
+| [run-seo-expert](run-seo-expert/SKILL.md) | Seat router | Answers for the SEO Expert seat — unassigned, no site, analytics, keyword list, or ranking recorded | Asked who owns SEO, or asked how we rank |
+| [run-pr-media](run-pr-media/SKILL.md) | Seat router | Answers for the PR and Media seat — unassigned, no outlet, contact, or past placement recorded | Asked who handles press, or asked for a media list or a pitch |
+| [run-speaking-universities](run-speaking-universities/SKILL.md) | Seat router | Answers for the University Speaking Booker seat — unassigned, and there is no speaking calendar in this repo | Asked who books university talks, or what speaking is on the books |
+| [run-speaking-associations](run-speaking-associations/SKILL.md) | Seat router | Answers for the Association and Corporate Speaking Booker seat — unassigned, and there is no speaking calendar in this repo | Asked who books association or corporate talks |
+| [run-pendulum-wiki](run-pendulum-wiki/SKILL.md) | Seat router | Answers for the Pendulum Wiki Researcher seat — unassigned, and whether a Pendulum wiki exists at all is named missing | Asked about a Pendulum wiki, or asked to fill one in |
 
 ## Where to start
 

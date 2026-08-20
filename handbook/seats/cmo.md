@@ -11,6 +11,8 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Reports into this seat:** [Head of Content](head-of-content.md), [Head of Demand](head-of-demand.md) (unassigned).
 
+**Also reports into this seat — all unassigned, named by Michael 20 Aug 2026:** [Social Media Strategist](social-media-strategist.md) (and the [Social Media Account Expert](social-account-expert.md) under it), [SEO Expert](seo-expert.md), [PR and Media](pr-media.md), [University Speaking Booker](speaking-universities.md), [Association and Corporate Speaking Booker](speaking-associations.md). None of them has work assigned, and this seat does not pick their work up. Speaking hangs here rather than under the [CSO](cso.md) because nothing recorded here makes speaking a sales channel — Michael moves that line, not this page.
+
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
 **Run this:** [run-cmo](../../skills/run-cmo/SKILL.md) — the router for this seat — then [run-offers](../../skills/run-offers/SKILL.md) for the ladder this seat keeps accurate, [place-on-offer-ladder](../../skills/place-on-offer-ladder/SKILL.md) to read one row correctly, and [run-sales-menu](../../skills/run-sales-menu/SKILL.md) when a menu line comes up. Every skill in the repo: [skills/README.md](../../skills/README.md).

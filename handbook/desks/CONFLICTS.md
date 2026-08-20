@@ -106,6 +106,12 @@ These are here so nobody "fixes" a seat page over them.
 - **Head of Content — Grok Bot staff is opened, not held.** The seat page and the body open the same three Notion pages. **Grok Bot staff** is on both open lists and is not one of this seat's hands; the hands are Google Drive, **Buyer data room**, and the **Competitive Writing Guide draft**.
 - **Every other seat's extra hands.** A body naming a tool from [runtime-body.md](../runtime-body.md) that the seat page never listed is correct. The rule we held to is narrower: a body may not present that hand, or a company lock, as an accountability or a named missing the seat page recorded.
 
+## The 23 seats Michael named on 20 Aug 2026 — no fights
+
+Their seat pages, bodies, and desks were written in one pass off Michael's naming, and all three say the same short thing: the seat is unassigned, here is what would have to exist first, stop. There is nothing for a body to overstate, because none of those seats has an accountability, a hand, a Notion page, or a queue. Each of those desks says the same under its own "Where the body and the seat page disagree" heading.
+
+If a later pass gives one of them real work, it lands on the seat page first, and any disagreement that follows gets a section on this page like the ones above.
+
 ## The rule that settled all of it
 
 A body carries the seat page's own words for what the seat owns, what is locked on it, and what stays named missing. Hands come from [runtime-body.md](../runtime-body.md) and are labelled as hands. Company-wide locks — no send without Michael, KPI Current stays empty — live on [locks.md](../locks.md) and bind every seat from there. A body pulling one of those into its own named-missing list is the failure this page exists to catch.
