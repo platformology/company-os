@@ -16,7 +16,8 @@ Head of Sales would own pipeline, with Uncovery run as paid discovery. The seat 
 4. [run-sales](../../skills/run-sales/SKILL.md)
 5. Notion **Sales Menu**
 6. Notion **Uncovery SOP**
-7. [offers.md](../offers.md) only if someone asks what Uncovery costs — quote from that page, then stop. Uncovery-as-paid-discovery is the stated purpose, not a live pipeline.
+7. [run-uncovery](../../skills/run-uncovery/SKILL.md), only if the ask is about the paid-discovery step named in this seat's purpose. Your seat page routes there; it does not make the seat assigned.
+8. [offers.md](../offers.md) only if someone asks what Uncovery costs — quote from that page, then stop. Uncovery-as-paid-discovery is the stated purpose, not a live pipeline.
 
 ## The only hands this seat has
 

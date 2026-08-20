@@ -90,6 +90,13 @@ Reading every seat page against its body line by line turned up three more that 
 - **Now:** the named missing is who fills this seat and any lead count or score. The draft's unnamed fields stay a named gap in [SOURCES.md](../../SOURCES.md), and the corpus still has no scoring model — which is why [campaign-lead-scoring](../../skills/campaign-lead-scoring/SKILL.md) refuses to build one.
 - **Files:** [bodies/sdr.md](../bodies/sdr.md), [desks/sdr.md](sdr.md).
 
+## Desk vs seat — one routing gap, closed
+
+Not a body fight, but the same failure it would cause: a person following the desk taking a different route than the seat page gives them.
+
+- **Head of Sales.** The seat page routes to [run-sales](../../skills/run-sales/SKILL.md) and then [run-uncovery](../../skills/run-uncovery/SKILL.md) for the paid-discovery step named in its purpose. The body named both; the desk named only the first. `run-uncovery` is on the desk's open list now, marked as something you open only when the ask is about that step — the seat is still unassigned, and opening a skill does not assign it.
+- Every other desk names every skill its seat page routes to. Checked all 23.
+
 ## Not a fight — reason on each line
 
 These are here so nobody "fixes" a seat page over them.
