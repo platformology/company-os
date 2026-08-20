@@ -42,4 +42,4 @@ A first sit-down happens once. Leaving this file in place turns a ritual into a 
 
 ## Notion pages this seat opens
 
-[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) · [Desk](https://app.notion.com/p/3c125e30d68b81319e5bd9907af3d65e) · [When you say go](https://app.notion.com/p/3c125e30d68b81a3b351c0ce17aa4602)
+[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3)

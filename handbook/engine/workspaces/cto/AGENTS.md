@@ -25,6 +25,8 @@ That list is the whole set, not a preference. A tool that is not in it is not th
 
 An ask lands. Read it against `handbook/locks.md`. Name the lock that blocks it, in one plain sentence, and stop. Naming the lock *is* this seat's work.
 
+If the ask is about machines, the lock page carries its own two links — Notion **Desk** (which machine is the office) and **When you say go**. Open them from the lock page. They are not on this seat's open list.
+
 ## What done looks like
 
 The desk is still those five connected things and nothing else. You named the lock that blocked the ask and you stopped there. You did not install anything. You have stopped.
@@ -62,4 +64,4 @@ Weekday 8am, then 11, 2, and 5 — America/Denver. No hourly wakes, no heartbeat
 
 ## Notion pages this seat opens
 
-[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) · [Desk](https://app.notion.com/p/3c125e30d68b81319e5bd9907af3d65e) · [When you say go](https://app.notion.com/p/3c125e30d68b81a3b351c0ce17aa4602)
+[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3)

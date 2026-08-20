@@ -6,6 +6,8 @@ Recorded 20 Aug 2026 — Michael: **OpenClaw is the pile that already exists** f
 
 Where it sits: [runtime.md](runtime.md) is the build map for the four pieces — brain, hands, wiring, guts. This is a page beside those four, not a fifth piece. It names the outside runtime the four are already shaped like, so nobody sets out to design something a public project already finished.
 
+What came after it: [engine.md](engine.md) takes the reading below and writes the files the shape expects — one workspace folder per seat, the five bootstrap files inside each, and an honest per-seat read of the public skill registry. That page is a draft on its own branch and it installs nothing either.
+
 ## What OpenClaw already is
 
 [openclaw/openclaw](https://github.com/openclaw/openclaw) is a public MIT-licensed personal-assistant runtime, developed in the open by the OpenClaw Foundation, built for one operator running it on their own machine. Four parts of it matter here, and every one of them is something we would otherwise be inventing:
