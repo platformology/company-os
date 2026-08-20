@@ -41,7 +41,7 @@ No send without Michael. Blue Sky stays off the LLC books. No invented revenue o
 
 ## Named missing — stays missing
 
-Who currently fills this seat. **June and July 2026 are not closed.** No Bench connector and no savings total. **KPI "Current" stays empty** — a 0 is a figure, so the client count does not go in it; that count travels with its own extract date, in [clients.md](../clients.md).
+Who currently fills this seat. That is the whole list on this seat page, and the four things people try to add to it belong elsewhere: the unclosed June and July 2026 are the [Controller](controller.md)'s, the savings total is the [Bookkeeper](bookkeeper.md)'s, the missing Bench connector is already on your hands line above, and **KPI "Current" stays empty** as a company lock on [locks.md](../locks.md) rather than a gap this seat owns.
 
 ## Open in Notion
 

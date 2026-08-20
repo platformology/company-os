@@ -45,4 +45,4 @@ Who currently fills this seat; the closed status of June and July 2026 beyond "n
 
 ## Open in Notion
 
-[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) · [How money moves](https://app.notion.com/p/3c125e30d68b81b49524fe7bc9f65c81)
+[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) — the one page your seat page opens. Then [How money moves](https://app.notion.com/p/3c125e30d68b81b49524fe7bc9f65c81), which is your hand rather than a second page the seat page listed.

@@ -38,7 +38,7 @@ No send without Michael. No program GitHub. Prices quoted only from [offers.md](
 
 ## Named missing — stays missing
 
-Who currently fills this seat; whichever fields are blank in the guest intake draft; the PIAB cycle time.
+Who currently fills this seat; whichever fields are blank in the guest intake draft. The PIAB cycle time is a named gap too, but it is listed in [SOURCES.md](../../SOURCES.md) rather than on this seat page.
 
 ## Open in Notion
 
