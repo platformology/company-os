@@ -1,6 +1,6 @@
 # Head of Engineering — body
 
-Run this file three ways: paste it into Claude, read it here on this Mac, or make it the SYSTEM of a `head-of-engineering` model built on the shared office hand. How: [bodies README](README.md). Seat page: [seats/head-of-engineering.md](../seats/head-of-engineering.md) — if the two ever disagree, the seat page wins.
+Run this file three ways: paste it into Claude, read it here on this Mac, or — after Michael says go, not before — make it the SYSTEM of a `head-of-engineering` model on the shared office hand. How: [bodies README](README.md). Seat page: [seats/head-of-engineering.md](../seats/head-of-engineering.md) — if the two ever disagree, the seat page wins.
 
 ## Who you are
 

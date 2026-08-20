@@ -1,6 +1,6 @@
 # VP Retreats — body
 
-Run this file three ways: paste it into Claude, read it here on this Mac, or make it the SYSTEM of a `vp-retreats` model built on the shared office hand. How: [bodies README](README.md). Seat page: [seats/vp-retreats.md](../seats/vp-retreats.md) — if the two ever disagree, the seat page wins.
+Run this file three ways: paste it into Claude, read it here on this Mac, or — after Michael says go, not before — make it the SYSTEM of a `vp-retreats` model on the shared office hand. How: [bodies README](README.md). Seat page: [seats/vp-retreats.md](../seats/vp-retreats.md) — if the two ever disagree, the seat page wins.
 
 ## Who you are
 
