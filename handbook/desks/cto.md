@@ -48,4 +48,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. Calling th
 
 ## Where the body and the seat page disagree
 
-The seat page opens **Company OS home** only. The body also opens **Desk** and **When you say go**. The seat page names **No local LLM** and **M5 parked** on its lock line; the body drops those two names and points at the lock page. The desk follows the seat page's lock line and opens the lock page itself. Named in [CONFLICTS.md](CONFLICTS.md).
+**Resolved.** The body used to list **Desk** and **When you say go** beside **Company OS home**, and its lock line had dropped **No local LLM** and **M5 parked until Michael says go**. Both names are back on that line, and the two machine pages are now marked as the lock page's own links rather than the seat page's. See [CONFLICTS.md](CONFLICTS.md).

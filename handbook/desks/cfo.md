@@ -45,4 +45,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. You are no
 
 ## Where the body and the seat page disagree
 
-The seat page's named missing is who fills this seat. The body also lists June and July 2026 not closed, no Bench connector, no savings total, and KPI Current empty. Those are real company facts — the close is the Controller's, the Bench gap is the shared money-seat leftover — but they are not this seat page's named missing. The desk does not move them onto the CFO. Named in [CONFLICTS.md](CONFLICTS.md).
+**Resolved.** The body's named missing used to carry four things the seat page does not: the unclosed June and July 2026, no Bench connector, no savings total, and KPI Current. Its list is now who fills this seat, with the other four sent where they belong — the close to the Controller, the savings total to the Bookkeeper, the Bench gap to your hands line, and KPI Current to the lock page. See [CONFLICTS.md](CONFLICTS.md).

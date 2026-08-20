@@ -49,4 +49,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. You are no
 
 ## Where the body and the seat page disagree
 
-They don't, on what the seat owns. The body does not list **Grok Bot staff** as a hand; the seat page still opens it. The desk opens it because the seat page does.
+They don't. Both open the same three Notion pages. **Grok Bot staff** is one you open, not one of your hands — the hands are Google Drive, **Buyer data room**, and the **Competitive Writing Guide draft**.

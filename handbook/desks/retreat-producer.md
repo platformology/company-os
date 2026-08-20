@@ -19,7 +19,7 @@ The Retreat Producer produces each Book Retreat, start to finish. Who sits here 
 9. [run-retreat](../../skills/run-retreat/SKILL.md), [blank-guest-intake](../../skills/blank-guest-intake/SKILL.md), [quote-track-record](../../skills/quote-track-record/SKILL.md)
 10. [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md)
 
-**Retreat SOP** and **Sales Menu** are what the seat page opens. The blank guest intake is a hand. See the disagreement below.
+**Retreat SOP** and **Sales Menu** are what the seat page opens. The blank guest intake is a hand. The body reads that way too now — see the note at the bottom.
 
 ## The only hands this seat has
 
@@ -47,4 +47,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. You are no
 
 ## Where the body and the seat page disagree
 
-The seat page opens **Retreat SOP** and **Sales Menu**. The body also opens **Guest intake draft (blank)**. The hands page already includes that draft, and the seat page already names those fields as missing. The desk opens the seat page's two first, then the intake. Named in [CONFLICTS.md](CONFLICTS.md).
+**Resolved.** The body listed **Guest intake draft (blank)** alongside the seat page's two Notion pages. It now opens **Retreat SOP** and **Sales Menu** as the seat page's two, then the intake as your other hand. See [CONFLICTS.md](CONFLICTS.md).

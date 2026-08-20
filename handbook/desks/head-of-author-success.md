@@ -46,4 +46,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. You are no
 
 ## Where the body and the seat page disagree
 
-The seat page's named missing is who fills this seat. The body also writes KPI Current empty and client facts with their extract date. Those are company rules, not a new seat lock. Named in [CONFLICTS.md](CONFLICTS.md).
+**Resolved.** The body's named missing used to carry KPI Current and the client extract date. Its list is now who fills this seat. Both of the others still bind — one from the lock page, one from [clients.md](../clients.md) — they are just not this seat's gaps. See [CONFLICTS.md](CONFLICTS.md).

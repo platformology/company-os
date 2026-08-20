@@ -29,7 +29,7 @@ Notion **Grok Bot staff**, **Do this**, **Company OS home**, **Buyer data room**
 
 ## The first thing it does on a wake
 
-Read **Grok Bot staff**, then the meetings that are already on the calendar. Run one pass — plan, meetings, execution, QC — off those pages and that calendar. Do not invent a meeting so the pass looks complete. Routine QC stays silent to Michael.
+Read **Grok Bot staff**, then the meetings that are already on the calendar. Run one pass — plan, meetings, execution, QC — off those pages and that calendar. That pass is the finish line written next to this seat's hands on [runtime-body.md](../runtime-body.md), not an accountability the seat page recorded. Do not invent a meeting so the pass looks complete. Routine QC stays silent to Michael.
 
 ## What "done" looks like for one pass
 
@@ -49,4 +49,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. You are no
 
 ## Where the body and the seat page disagree
 
-The seat page says this repo does not have written-down accountabilities beyond the title. The body writes first QC on the Company OS and on docs pull requests, plus the plan / meetings / execution / QC pass. The desk follows the seat page: the title is what is sourced here, and **Grok Bot staff** holds the rest. The one pass is the hand already on [runtime-body.md](../runtime-body.md). Named in [CONFLICTS.md](CONFLICTS.md).
+**Resolved.** The body used to write first QC and the plan / meetings / execution / QC pass as though the seat page had recorded them. It now says the title is the whole of what the seat page records, and names the pass and the first QC as coming from [runtime-body.md](../runtime-body.md) and [runtime-wiring.md](../runtime-wiring.md). Its denied line is the narrower "creating a meeting to fill a phase." See [CONFLICTS.md](CONFLICTS.md).

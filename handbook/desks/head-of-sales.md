@@ -44,4 +44,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. Calling th
 
 ## Where the body and the seat page disagree
 
-The seat page's named missing is who fills this seat, plus any pipeline, forecast, or close rate. The body also lists the live Uncovery script. That gap is already on [weekday-loop.md](../weekday-loop.md). It does not become work. Named in [CONFLICTS.md](CONFLICTS.md).
+**Resolved.** The body's named missing used to carry the live Uncovery script as if it were this seat's gap. Its list is now who fills this seat, plus any pipeline, forecast, or close rate. The script is still a named gap, listed in [SOURCES.md](../../SOURCES.md) — and it does not become work for an unassigned seat. See [CONFLICTS.md](CONFLICTS.md).

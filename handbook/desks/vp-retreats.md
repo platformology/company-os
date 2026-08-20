@@ -45,4 +45,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. You are no
 
 ## Where the body and the seat page disagree
 
-The seat page's named missing is who fills this seat and the blank guest intake fields. The body also lists the PIAB cycle time. That gap is already on [weekday-loop.md](../weekday-loop.md). It is not a new job for this seat. Named in [CONFLICTS.md](CONFLICTS.md).
+**Resolved.** The body's named missing used to carry the PIAB cycle time as if it were this seat's gap. Its list is now who fills this seat and the blank guest intake fields. The cycle time is still a named gap, listed in [SOURCES.md](../../SOURCES.md). See [CONFLICTS.md](CONFLICTS.md).

@@ -44,4 +44,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. Calling th
 
 ## Where the body and the seat page disagree
 
-They don't. Both refuse work.
+**Resolved.** The body's lock line had dropped **No local LLM**, which the seat page names. It is back. Both pages refuse work, and nothing was softened to close this.

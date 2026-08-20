@@ -46,4 +46,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. You are no
 
 ## Where the body and the seat page disagree
 
-The seat page opens **Buyer data room**, then **If a client writes**. The body reverses that order. The desk follows the seat page. The body also adds KPI Current under named missing; the seat page's named missing is who fills the seat. Named in [CONFLICTS.md](CONFLICTS.md).
+**Resolved.** The body opened the two Notion pages in the opposite order from the seat page, and carried KPI Current under named missing. It now opens **Buyer data room** then **If a client writes**, and its named missing is who fills the seat — KPI Current sits on the lock page, where it always bound from. See [CONFLICTS.md](CONFLICTS.md).

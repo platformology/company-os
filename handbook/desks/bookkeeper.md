@@ -17,7 +17,7 @@ The Bookkeeper keeps the bills paid and the general ledger accurate. Who sits he
 7. [run-money-moves](../../skills/run-money-moves/SKILL.md) when an invoice, payment, or payout actually needs running
 8. [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md)
 
-**Company OS home** is what the seat page opens. **How money moves** is the hand. See the disagreement below.
+**Company OS home** is what the seat page opens. **How money moves** is the hand. The body reads that way too now — see the note at the bottom.
 
 ## The only hands this seat has
 
@@ -47,4 +47,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. You are no
 
 ## Where the body and the seat page disagree
 
-The seat page opens **Company OS home** only. The body also opens **How money moves**. The hands page says **How money moves** is the only hand. The desk opens **Company OS home** first, then **How money moves**. Named in [CONFLICTS.md](CONFLICTS.md).
+**Resolved**, on two counts. The body used to list **Company OS home** and **How money moves** side by side, as if the seat page opened both; it now opens **Company OS home** as the seat page's one page, then **How money moves** as your hand. Its named missing also carried the Bench connector, which is not on the seat page's list — that gap now sits on the hands line and in [SOURCES.md](../../SOURCES.md), where it belongs. See [CONFLICTS.md](CONFLICTS.md).

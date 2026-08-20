@@ -46,4 +46,4 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. You are no
 
 ## Where the body and the seat page disagree
 
-They don't, on what the seat owns. The body names Notion **Clients** as a hand; the seat page's open list is **Sales Menu** and **Buyer data room**. The desk opens the seat page's two first, then **Clients**, because that is the hand on [runtime-body.md](../runtime-body.md).
+They don't. Both open **Sales Menu** and **Buyer data room**. Notion **Clients** is a hand from [runtime-body.md](../runtime-body.md), not a page the seat page listed, which is why it comes after those two here.

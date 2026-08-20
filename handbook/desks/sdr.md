@@ -46,4 +46,6 @@ One shared hand: this name is `FROM office-hand`. Thinking stays off. Calling th
 
 ## Where the body and the seat page disagree
 
-They don't. The seat-job map names a different Notion page than the seat page does; that is noted above and in [CONFLICTS.md](CONFLICTS.md). It is not a reason to invent a lead list.
+**Resolved.** The body's named missing carried the unnamed fields on the campaign lead scoring draft as if they were this seat's gap. Its list is now who fills the seat and any lead count or score. The draft's fields are still a named gap, listed in [SOURCES.md](../../SOURCES.md), and the corpus still has no scoring model.
+
+Separately, the seat-job map names a different Notion page than the seat page does — noted above and in [CONFLICTS.md](CONFLICTS.md). That is not a fight, and not a reason to invent a lead list.
