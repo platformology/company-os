@@ -3,7 +3,7 @@
 **Seat:** CHRO — Chief Human Resources Officer
 **Slug:** `chro`
 **Status:** Assigned
-**Local alias on the M1:** `chro` — `FROM office-hand`, thinking off. One shared hand, twenty-three names. Calling this name does not make the seat a model, and it does not change its status.
+**Seat model name, after go:** `chro` — the same slug again, and the name a seat model would be built under once the shared office hand is on the machine. That hand is **named, not installed** (`handbook/desks/BUILD.md`), so no such model exists today and this file carries no command, no model tag, no context size, and no sampler setting. One shared hand, twenty-three names: calling this name does not make the seat a model, and it does not change its status.
 
 **Who fills this seat: not recorded.**
 

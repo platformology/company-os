@@ -2,7 +2,7 @@
 
 Twenty-three folders, one per seat, each holding the five plain markdown files OpenClaw reads at the start of a session. The run page above them is [engine.md](../../engine.md) — read that first if you have not.
 
-**These are source, not a running thing.** Nothing here is installed, and this repo cannot tell you whether any of it exists on the M1. Qwen on the M1 assembles; a person runs it after that; both halves are on [engine.md](../../engine.md).
+**These are source, not a running thing.** Nothing here is installed, this repo cannot tell you whether any of it exists on the M1, and no page here says who would put it there. OpenClaw is not installed on this M1 and whether it ever is stays Michael's call — see [engine.md](../../engine.md).
 
 **This README is not part of a workspace.** It sits beside the twenty-three folders, not inside one. Only the folder gets copied.
 
