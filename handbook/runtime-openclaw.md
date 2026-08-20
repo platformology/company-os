@@ -39,7 +39,7 @@ Two things that table is too narrow to hold:
 
 **Separate workspaces are the point.** OpenClaw is blunt that two agents must never share a state directory, because their auth and sessions collide. Our version of that rule is older and simpler: one page per seat, and where a body and a seat page disagree, the seat page wins.
 
-**Twenty-three more seats, and no workspaces for them.** On 20 Aug 2026 Michael also named twenty-three jobs this company is missing — design, social, the book bench, writing and offer craft, growth and stage. They are written up the same way the original twenty-three are, one seat page, one body, one desk, one thin router each, and every one of them is unassigned ([seats/README.md](seats/README.md)). What they did **not** get is an `engine/workspaces/<slug>/` stub: `handbook/engine/` does not exist on this branch, and an empty workspace tree for a runtime nobody has installed would look like progress instead of being it. Whoever adds `engine/` adds the stubs then, one per slug, pointed at the trio that already exists. Nothing gets installed to make that happen.
+**Twenty-three more seats, and workspaces that still refuse work.** On 20 Aug 2026 Michael also named twenty-three jobs this company is missing — design, social, the book bench, writing and offer craft, growth and stage. They are written up the same way the original twenty-three are, one seat page, one body, one desk, one thin router each, and every one of them is unassigned ([seats/README.md](seats/README.md)). They now also have `engine/workspaces/<slug>/` folders on [engine.md](engine.md) — source only, still unassigned, still no aliases, still no send. A workspace existing does not staff a seat. Nothing gets installed to make that happen.
 
 ## What we copy
 
