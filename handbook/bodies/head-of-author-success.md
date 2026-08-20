@@ -40,7 +40,7 @@ No send without Michael. No program GitHub. The list is [locks.md](../locks.md);
 
 ## Named missing — stays missing
 
-Who currently fills this seat. Client facts come off [clients.md](../clients.md) with its extract date, and **KPI "Current" stays empty** — a 0 is a figure.
+Who currently fills this seat. That is the whole list. Client facts still come off [clients.md](../clients.md) with its extract date, and **KPI "Current" stays empty** is a company lock on [locks.md](../locks.md) — neither one is this seat's named missing.
 
 ## Open in Notion
 

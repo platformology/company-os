@@ -40,8 +40,8 @@ No send without Michael. No program GitHub. No invented revenue, savings, or Cur
 
 ## Named missing — stays missing
 
-Who currently fills this seat; any savings total — not sourced, not invented; the Bench connector itself.
+Who currently fills this seat; any savings total — not sourced, not invented. The missing Bench connector is on your hands line above and in [SOURCES.md](../../SOURCES.md), rather than on this seat page's list.
 
 ## Open in Notion
 
-[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) · [How money moves](https://app.notion.com/p/3c125e30d68b81b49524fe7bc9f65c81)
+[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) — the one page your seat page opens. Then [How money moves](https://app.notion.com/p/3c125e30d68b81b49524fe7bc9f65c81), which is your hand rather than a second page the seat page listed.

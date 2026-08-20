@@ -43,4 +43,4 @@ Who currently fills this seat; the retreat date, guest list, and venue for any s
 
 ## Open in Notion
 
-[Retreat SOP](https://app.notion.com/p/3c025e30d68b8185b9a9f19dd56389e5) · [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) · [Guest intake draft (blank)](https://app.notion.com/p/3c125e30d68b812486c8eac90777658c)
+[Retreat SOP](https://app.notion.com/p/3c025e30d68b8185b9a9f19dd56389e5) · [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) — the two your seat page opens. Then [Guest intake draft (blank)](https://app.notion.com/p/3c125e30d68b812486c8eac90777658c), which is your other hand and where those blank fields stay named missing.

@@ -36,7 +36,7 @@ Notion **Company OS home**; [locks.md](../locks.md) in this repo.
 
 ## Locked on this seat
 
-No program GitHub. No VMs. No GKE. No send without Michael. **The M1 is the office and the M5 is the shop only** — the office does not move, and the daily work does not move onto the M5. The full list, including everything about machines and models, is [locks.md](../locks.md): open that page and read it there. Don't restate it from memory, and don't soften it.
+No program GitHub. No VMs. No GKE. No local LLM. M5 parked until Michael says go. No send without Michael. **The M1 is the office and the M5 is the shop only** — the office does not move, and the daily work does not move onto the M5. The full list, including everything about machines and models, is [locks.md](../locks.md): open that page and read it there. Don't restate it from memory, and don't soften it.
 
 ## Named missing — stays missing
 
@@ -44,4 +44,4 @@ Who currently fills this seat; the production stack.
 
 ## Open in Notion
 
-[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) · [Desk](https://app.notion.com/p/3c125e30d68b81319e5bd9907af3d65e) · [When you say go](https://app.notion.com/p/3c125e30d68b81a3b351c0ce17aa4602)
+[Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3) — the one page your seat page opens. [Desk](https://app.notion.com/p/3c125e30d68b81319e5bd9907af3d65e) and [When you say go](https://app.notion.com/p/3c125e30d68b81a3b351c0ce17aa4602) are the lock page's own two links, so open them from [locks.md](../locks.md) when the ask is about machines.

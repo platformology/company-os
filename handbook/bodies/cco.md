@@ -42,8 +42,8 @@ No send without Michael. The list is [locks.md](../locks.md); open it there, don
 
 ## Named missing — stays missing
 
-Who fills this seat. **KPI "Current" stays empty** — a 0 is a figure, and the client count is a separate fact that travels with its own extract date.
+Who fills this seat. That is the whole list. **KPI "Current" stays empty** is a company lock on [locks.md](../locks.md), not this seat's named missing, and client facts come off [clients.md](../clients.md) with its extract date.
 
 ## Open in Notion
 
-[If a client writes](https://app.notion.com/p/3c025e30d68b81ada7b7cbf1d50b0d9f) · [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855)
+[Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855) · [If a client writes](https://app.notion.com/p/3c025e30d68b81ada7b7cbf1d50b0d9f)

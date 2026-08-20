@@ -40,7 +40,7 @@ No send without Michael. No program GitHub. The list is [locks.md](../locks.md);
 
 ## Named missing — stays missing
 
-Who fills this seat; any lead count or score; the five unnamed fields on the campaign lead scoring draft, and the scoring model the corpus does not have.
+Who fills this seat; any lead count or score. The corpus has no scoring model, which is why [campaign-lead-scoring](../../skills/campaign-lead-scoring/SKILL.md) refuses to build one. The unnamed fields on the campaign lead scoring draft are a named gap too, listed in [SOURCES.md](../../SOURCES.md) rather than on this seat page.
 
 ## Open in Notion
 

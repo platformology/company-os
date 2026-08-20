@@ -40,7 +40,7 @@ No send without Michael. No price gets quoted outside [offers.md](../offers.md).
 
 ## Named missing — stays missing
 
-Who fills this seat; any pipeline, forecast, or close rate; the live Uncovery script.
+Who fills this seat; any pipeline, forecast, or close rate. The live Uncovery script is a named gap too, but it is listed in [SOURCES.md](../../SOURCES.md) rather than on this seat page — and an unassigned seat does not pick it up either.
 
 ## Open in Notion
 
