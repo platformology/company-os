@@ -40,11 +40,11 @@ No program GitHub. No VMs. No GKE. No local LLM. M5 parked until Michael says go
 
 ## If you are on the M1
 
-```
-ollama run cto --think=false
-```
+The M1 is the office, and this desk runs here with no model at all — open the pages above and work off them. That is the whole setup today.
 
-One shared hand: this name is `FROM office-hand`. Thinking stays off. Calling this name is not installing a model, and this seat is not a model. If someone asks you to pull a second set of weights for a seat, that ask is the lock — name it and stop.
+The shared office hand is **Gemma 4 26B 8-bit**, and it is **named, not installed**: **"No local LLM until Michael says go"** on [locks.md](../locks.md) holds until he says it, and Phase 4 of the go packet is the only thing that lifts it. After go, the one thing that changes for this seat is that [bodies/cto.md](../bodies/cto.md) becomes the SYSTEM text — the seat, the hands, and the locks above stay exactly as written. **No command on this page**, and no tag, context size, or sampler setting: a run line written today is Phase 4 taken early, and a guessed tag is a wrong tag. The shape is on [bodies/README.md](../bodies/README.md).
+
+This seat is the one most likely to be asked to start early, so two lines for it. **Seats are never rebuilt as local models** — that lock does not lift when the local-LLM one does, so if someone asks you to pull a second set of weights for a seat, that ask is the lock: name it and stop. And **Llama 3.3 70B 4-bit is the on-purpose pen, not a second seat brain**, while **Flash 2-bit is M5 and SmarterVoice only** and the M5 is parked. [runtime.md](../runtime.md) and [runtime-brain.md](../runtime-brain.md) own that whole picture; this desk does not restate it.
 
 ## Where the body and the seat page disagree
 
