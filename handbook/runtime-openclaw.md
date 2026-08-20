@@ -10,7 +10,7 @@ What came after it: [engine.md](engine.md) takes the reading below and writes th
 
 ## What OpenClaw already is
 
-[openclaw/openclaw](https://github.com/openclaw/openclaw) is a public MIT-licensed personal-assistant runtime, developed in the open by the OpenClaw Foundation, built for one operator running it on their own machine. Four parts of it matter here, and every one of them is something we would otherwise be inventing:
+[openclaw/openclaw](https://github.com/openclaw/openclaw) is a public MIT-licensed personal-assistant runtime, developed in the open by the OpenClaw Foundation, built for one operator running it on their own machine. It is somebody else's finished work, not a stack we invent here. Five parts of it matter, and every one is something we would otherwise be inventing:
 
 - **A gateway.** One local control plane that holds sessions, tools, events, and channel connections. Everything else — the CLI, the web UI — talks to it.
 - **An agent workspace.** Each agent gets one directory that is its home and its working directory. The docs' own phrasing: keep it private and treat it as memory.
@@ -22,6 +22,8 @@ None of that is ours to design. It exists, it's documented, and people run it ev
 
 ## Our twenty-three seats on that shape
 
+Same twenty-three seats already written in [seats/](seats/README.md). This page adds no seat, renames none, and changes no seat's status.
+
 | What OpenClaw calls it | What we already call it | Where ours lives |
 |---|---|---|
 | An agent | A seat | [seats/](seats/README.md) — one page per seat, the source of truth for what it owns |
@@ -30,16 +32,22 @@ None of that is ours to design. It exists, it's documented, and people run it ev
 | A skills folder | Our skills folder | [skills/](../skills/README.md) — one folder per job, `SKILL.md` with the same `name` + `description` frontmatter |
 | Per-agent skill allowlist | The seat's router row | [seat-job-map.md](seat-job-map.md) — one skill per seat, named, not chosen at runtime |
 | Per-agent tool allow/deny | The seat's hands | [runtime-body.md](runtime-body.md) — the tools in the row are the whole set, and what's denied is written down |
-| The model behind an agent | The shared office hand | `office-hand` = `qwen3.8:27b-q8_0` on this M1, Michael's word 20 Aug 2026 — see [bodies/README.md](bodies/README.md) |
+| The model behind an agent | The shared office hand — **named, not installed** | **Gemma 4 26B 8-bit on this M1**, after Michael says go. Named on [runtime.md](runtime.md) and [runtime-brain.md](runtime-brain.md), which own the rest |
 | Bindings and routing | The wire | [runtime-wiring.md](runtime-wiring.md) — each seat's own Grok Bot chat, no bus installed |
 | Whoever owns and checks the work | Grok Bot | Grok Bot stays the manager ([desks/BUILD.md](desks/BUILD.md)); the three QC layers are on [runtime-wiring.md](runtime-wiring.md) |
 | Whoever writes the operating files | Claude, in GitHub | [runtime.md](runtime.md): Claude / Other Models writes the heavy pages, seats QC, and the PA is not the workhorse |
 
-Two things that table is too narrow to hold:
+Three things that table is too narrow to hold:
 
-**One hand, twenty-three bodies.** OpenClaw lets every agent point at its own model, and we do not use that. Ours all point at the same local weights, and the local-model path in OpenClaw is the same shape ours already is — one Ollama server on the machine, models addressed as `ollama/<model>`, several agents sharing it. **Seats are never rebuilt as local models** ([locks.md](locks.md)); what changes per seat is the body text, never the weights.
+**The hand row is a name, not a machine state.** Two lines travel beside it so nobody reaches for the wrong one: **Llama 3.3 70B 4-bit on this M1** is the on-purpose pen, **not a second seat brain**, and no seat is built on it; **Flash 2-bit** is the M5, SmarterVoice only, and the M5 is parked. That is the CTO extract of 19 Aug 2026, restated 20 Aug. **Status today: not installed** — **"No local LLM until Michael says go"** is the lock's own wording on [locks.md](locks.md), and Phase 4 of the go packet is the only thing that lifts it.
+
+**One hand, twenty-three bodies.** OpenClaw lets every agent point at its own model, and we do not use that. Ours all point at the same shared weights, and OpenClaw's own local-provider shape is the one ours already is — one server on the machine, several agents sharing it. **Seats are never rebuilt as local models** ([locks.md](locks.md)); what changes per seat is the body text, never the weights.
 
 **Separate workspaces are the point.** OpenClaw is blunt that two agents must never share a state directory, because their auth and sessions collide. Our version of that rule is older and simpler: one page per seat, and where a body and a seat page disagree, the seat page wins.
+
+## What this page will not write down
+
+**No build command, no run command, no model tag, no context size, no sampler setting.** Not for the shared hand, not for OpenClaw, not as an example. Those are not recorded in this repo — they belong to the go packet behind Phase 4 on [locks.md](locks.md), and they stay named missing in [SOURCES.md](../SOURCES.md) rather than being guessed here. A guessed tag is a wrong tag, and a run line written today is Phase 4 taken early, which is a broken lock rather than a head start. OpenClaw's own model-provider docs are full of provider tags and settings; they were read and left there.
 
 ## What we copy
 
@@ -58,8 +66,9 @@ One smaller habit worth stealing outright: when a file is missing, OpenClaw inje
 
 Most of what makes OpenClaw fun is a mouth. It joins WhatsApp, Telegram, Slack, Discord, Signal, iMessage and more, streams replies into them as it thinks, pairs unknown senders, and can pass messages agent to agent. Every one of those is a way for text to leave the building without Michael reading it first, and an allowlist of approved senders does not fix that — it decides who may talk to the seat, not who the seat may answer. So:
 
-- **No channels.** No channel bindings, no pairing, no sender allowlists, no group chats. The seats' own Grok Bot chats stay the whole wire ([runtime-wiring.md](runtime-wiring.md)), and they are read by us, not by the public.
-- **No agent-to-agent messaging as a feature.** A handoff is a report messaging its owner's chat, and it waits in that chat until the owner's next window. That wait is the design.
+- **No channels, no bindings, no pairing.** No channel bindings, no sender allowlists, no group chats. The seats' own Grok Bot chats stay the whole wire ([runtime-wiring.md](runtime-wiring.md)), and they are read by us, not by the public.
+- **No streaming.** A reply that leaves the machine while it is still being thought has already left without Michael reading it.
+- **No agent-to-agent send.** A handoff is a report messaging its owner's chat, and it waits in that chat until the owner's next window. That wait is the design.
 - **No scheduled wakes beyond the ones we have.** Weekday 8am, then 11, 2, and 5. No hourly wakes, no heartbeat, no cron.
 - **No skill registry installs.** OpenClaw can pull community skills off a public registry; ours are written here, credited in [SOURCES.md](../SOURCES.md), and reviewed by a person. Their own security note says treat third-party skills as untrusted code — we agree, and we go one further by not fetching them.
 - **No sandboxes, containers, or VMs to make any of it work.** No VMs, no GKE ([locks.md](locks.md)).
@@ -79,21 +88,32 @@ A seat is a **worker** when a person can watch it do these, in order, without th
 
 Six for six is a worker. A body file with nobody running it is a page — a good one, but a page. The check that this repo genuinely cannot make is whether any of it is actually wired up on the Mac; that one gets confirmed at the machine, on [desks/BUILD.md](desks/BUILD.md).
 
+## Seats this page does not add
+
+- **Twenty-three seats, the ones that already exist.** No new seat comes out of reading a runtime, and no seat is renamed to match OpenClaw's vocabulary. An agent is a seat; the seats are the ones in [seats/](seats/README.md).
+- **Head of Demand, Head of Sales, and SDR stay unassigned.** Recognising a shape does not fill a seat.
+- **Head of Engineering and Developer stay parked.** Their desks are refuse-work packs, and this page does not start work in either.
+
 ### Still named missing on this Mac
 
 Honest list, because the page above would otherwise read as if we are further along than we are:
 
 - **The OpenClaw gateway is not installed on this M1.** Not partly, not in a folder somewhere — it is not here. Everything above is a shape we recognise, not software we run.
-- **The office hand has no Notion and no Gmail.** The five connected tools — Notion, Gmail, Calendar, Slack, Google Drive — are hands the Grok seat has. A body run in the local Qwen hand has no files and no browser, and it cannot open a Notion page ([bodies/README.md](bodies/README.md)). That gap is exactly what a gateway would close, and it is not closed.
+- **Whether OpenClaw is ever installed here is Michael's**, and it is not recorded either way. Nothing in this repo waits on it, and nobody settles the question by installing it to see.
+- **The shared hand is not installed either** — named, waiting on go, per the pages above.
+- **A body handed to a model has no files and no browser.** That is already on [bodies/README.md](bodies/README.md): it cannot open [offers.md](offers.md), [clients.md](clients.md), or a Notion page by itself, so a job that needs one of those gets "not in hand — open the page" and a person opens it. Closing that gap is the sort of thing a gateway is for, which is the honest reason anyone would want one — and it is not closed.
 - **HubSpot is out.** Closed, and not a system of record ([clients.md](clients.md)).
 - **Bench is out.** No connector, so no ledger figure comes off this Mac ([runtime-body.md](runtime-body.md)).
 - **Slack is connected and no seat's job sources it.** Michael names the job that uses it, or it stays unused.
-- **The lock pages and the hand pages still disagree.** [locks.md](locks.md) and [runtime-brain.md](runtime-brain.md) read "no local LLM until Michael says go"; [bodies/README.md](bodies/README.md) and [desks/BUILD.md](desks/BUILD.md) name `office-hand` as already on the machine. That is Michael's to settle, it is already flagged as a leftover on both of those pages, and until he settles it the lock page governs. This page does not settle it either.
+
+### One thing that is not missing
+
+**The hand pages and the lock pages agree.** [locks.md](locks.md), [runtime-brain.md](runtime-brain.md), [runtime.md](runtime.md), [bodies/README.md](bodies/README.md), and [desks/BUILD.md](desks/BUILD.md) all name Gemma 4 26B 8-bit as the shared hand and all of them wait on Michael's go. There is no open disagreement here for him to settle and nothing on this page reopens one — read those pages, in their own words, and this one does not restate them. [desks/CONFLICTS.md](desks/CONFLICTS.md) is the register of body-vs-seat fights, and it reads: open fights, none.
 
 ## Leftovers
 
-- Michael says whether OpenClaw is ever installed here. Until he does, this page is a read, not a plan, and nobody opens the question by installing it to see.
-- If it is ever installed, the first thing to check is what the office hand can reach — the Notion and Gmail gap above is the reason anyone would want a gateway at all.
+- Michael says whether OpenClaw is ever installed here. Until he does, this page is a read, not a plan.
+- If it is ever installed, the first thing to check is what the shared hand can reach — the no-files-no-browser gap above is the reason anyone would want a gateway at all.
 
 ## What we reused
 
@@ -106,6 +126,6 @@ Searched public GitHub first, per [reuse-what-github-has](../skills/reuse-what-g
 - [docs.openclaw.ai/tools/creating-skills](https://docs.openclaw.ai/tools/creating-skills) — a skill is a directory with a `SKILL.md`, `name` and `description` required, folder path for filing only. Its publishing flow and proposal queue were left behind.
 - [docs.openclaw.ai/concepts/multi-agent](https://docs.openclaw.ai/concepts/multi-agent) — several isolated agents in one process, never sharing a state directory, with per-agent tool allow/deny. Its bindings, channel accounts, and agent-to-agent messaging were read and deliberately **not** adapted: they are the send path this repo locks.
 - [docs.openclaw.ai/concepts/soul](https://docs.openclaw.ai/concepts/soul) — voice in one short file, operating rules kept out of it.
-- [docs.openclaw.ai/concepts/model-providers](https://docs.openclaw.ai/concepts/model-providers) — the local Ollama provider, one server on the machine addressed as `ollama/<model>`, which is the same one-hand-many-bodies shape [bodies/README.md](bodies/README.md) already records.
+- Read and **not** adapted: `docs/concepts/model-providers.md`. Its one-local-server-many-agents shape is the same one [bodies/README.md](bodies/README.md) already records, so nothing was taken from it, and every provider tag, base URL, and setting on that page stayed there. This page carries no tag.
 
 The row for the repo is in [SOURCES.md](../SOURCES.md). No client, price, person, KPI, or machine fact came from any of it — the facts on this page are Michael's word or already recorded in this handbook.

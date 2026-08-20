@@ -1,31 +1,45 @@
-# When a seat is fully built on the M1
+# When a seat is fully built
 
-This page is for the CTO. It is a check-off, not a script. A seat is "fully built" when every box below is true for that seat. You are not installing a model, and you are not turning a seat into one. The office hand is already on this Mac.
+This page is for the CTO. It is a check-off, not a script — and one of its six boxes cannot be ticked yet, on purpose.
 
-Recorded 20 Aug 2026 — Michael: the local office hand is **`office-hand`** = Qwen3.8 27B Q8 (`qwen3.8:27b-q8_0`), thinking off. One shared hand, twenty-three names. Gemma 4 31B Q6 stays on disk as backup only. Do not pull Flash onto this M1. Do not pull Qwen 16-bit. The M1 is the office. Grok Bot stays the manager.
+Five of the boxes are true or false today, on this M1. The sixth, the seat model on the shared office hand, waits on Michael's go: **"No local LLM until Michael says go"** is the wording on [locks.md](../locks.md), and Phase 4 of the go packet is the only thing that lifts it. A seat with the first five is as built as a seat gets today, and that is not a shortfall — it is the lock working.
 
-**Seats are never rebuilt as local models.** That lock does not lift. What changes per seat is the name you call and the body text it reads. The weights stay one file.
+## The hand, named
 
-The lock page still reads as if no local model is here until Michael says go — see [locks.md](../locks.md) and the leftover on [bodies/README.md](../bodies/README.md). This page does not rewrite that lock. Changing it is Michael's call. Until he does, the lock page governs, and this check-off is only for the hand he already named.
+The shared always-on office hand is **Gemma 4 26B 8-bit on this M1**. That is recorded 19 Aug 2026 via the CTO and restated 20 Aug on the build map; it is named on [runtime.md](../runtime.md) and [runtime-brain.md](../runtime-brain.md), which own the rest of the picture. Two lines beside it, so nobody reaches for the wrong one:
 
-## For one seat, all six must exist
+- **Llama 3.3 70B 4-bit on this M1** is the on-purpose pen. It is **not a second seat brain**, and no seat is built on it.
+- **Flash 2-bit** is the M5, SmarterVoice only, and the M5 is parked. No seat goes near it.
+
+**Status today: not installed.** The hand is named and is not on the machine. This page does not put it there and does not tell anyone else to, so it carries **no build command, no run command, no model tag, no context size, and no sampler setting**. Those are not recorded in this repo — they belong to the go packet behind Phase 4, and they stay named missing in [SOURCES.md](../../SOURCES.md) instead of being guessed here. A guessed tag is a wrong tag, and a run line written today is Phase 4 taken early, which is a broken lock rather than a head start.
+
+**Seats are never rebuilt as local models.** That lock does not lift at go. Installing the shared hand at Phase 4 does not turn a seat into one: what changes per seat is the SYSTEM text — that seat's body file — and nothing else. One set of weights, twenty-three bodies.
+
+## The five boxes you can check today
 
 Walk one seat at a time. Say the seat out loud, then check:
 
 - [ ] **Desk file** — `handbook/desks/<seat>.md` is on disk, same slug as the seat page. A person can sit down with it and run a pass without asking what to click.
-- [ ] **Body** — `handbook/bodies/<seat>.md` is on disk. Same slug. This is the file you paste into Claude, read on this Mac, or load as the SYSTEM of the seat's name.
+- [ ] **Body** — `handbook/bodies/<seat>.md` is on disk. Same slug. This is the file you paste into Claude or read here on this Mac, and the file that would become the seat model's SYSTEM text after go.
 - [ ] **Seat page** — `handbook/seats/<seat>.md` is on disk. If the body and the seat page disagree, the seat page wins. Do not edit the seat page to match the body. Name the disagreement in [CONFLICTS.md](CONFLICTS.md) and on the desk.
-- [ ] **Run page** — the seat's `run-*` page is a folder in [skills/](../../skills/README.md), the one named in [seat-job-map.md](../seat-job-map.md). The folder existing here is not the same as it being installed on this Mac as a Grok workflow. That second check is below, and this repo cannot see it.
-- [ ] **Qwen alias, FROM `office-hand`** — on the M1, `ollama run <alias> --think=false` starts that seat's name. The alias is `FROM office-hand`. It is not a second download. Thinking is off on the call (`--think=false`, or `"think": false` on an API call), not as a line that rebuilds the weights. Confirm with `ollama show <alias>` that FROM is `office-hand` (or the same `qwen3.8:27b-q8_0` weights `office-hand` already is). If FROM points at anything else, the alias is wrong — fix the FROM, do not pull another model.
-- [ ] **Grok Bot profile** — this seat already has its own Grok Bot teammate chat on the M1. That chat is the wire ([runtime-wiring.md](../runtime-wiring.md)). Open it. It should be this seat, pointed at this desk and this seat page, not a second copy of another seat. This repo cannot see the Mac, so you confirm it here, on the machine.
+- [ ] **Run page** — the seat's `run-*` page is a folder in [skills/](../../skills/README.md), the one named in [seat-job-map.md](../seat-job-map.md). The folder existing here is not the same as it being installed on this Mac as a Grok workflow. That second check is the one below, and this repo cannot see it.
+- [ ] **Grok Bot profile** — this seat already has its own Grok Bot teammate chat on the M1. That chat is the wire ([runtime-wiring.md](../runtime-wiring.md)). Open it. It should be this seat, pointed at this desk and this seat page, not a second copy of another seat. This repo cannot see the Mac, so you confirm it there, on the machine.
 
-If any box is empty, the seat is not fully built. A desk file alone is not a built seat. An alias that pulled its own weights is not a built seat — it is a lock break.
+If any of those five is empty, the seat is not built. A desk file on its own is not a built seat.
 
-## The twenty-three aliases
+## The sixth box, and why it stays empty
 
-Same names as [README.md](README.md). One shared FROM.
+- [ ] **Seat model on the shared hand** — **not available before Michael's go.** Nothing on this page or in this repo makes it available early.
 
-| Seat | Alias | Run page |
+This box is written down so it is not mistaken for an oversight, and so nobody closes it by installing something. Before go, the honest state of every seat's sixth box is empty, and the correct response to "can we just do this one seat" is the lock and a stop: run [check-locks](../../skills/check-locks/SKILL.md), name the lock, stop.
+
+After go, the shape is one model definition per seat, all of them pointing at the same shared weights: the base never changes, the SYSTEM text is that seat's body file, and the name is the seat's slug. That shape is written out once, on [bodies/README.md](../bodies/README.md). This page does not restate it, and neither page carries a command for it.
+
+## The twenty-three slugs
+
+One slug per seat, the same one on all three files — and, after go, the name a seat model would be built under. Same names as [README.md](README.md).
+
+| Seat | Slug | Run page |
 |---|---|---|
 | PA | `pa` | [run-pa](../../skills/run-pa/SKILL.md) |
 | COO | `coo` | [run-coo](../../skills/run-coo/SKILL.md) |
@@ -51,31 +65,16 @@ Same names as [README.md](README.md). One shared FROM.
 | VP Retreats | `vp-retreats` | [run-vp-retreats](../../skills/run-vp-retreats/SKILL.md) |
 | Retreat Producer | `retreat-producer` | [run-retreat-producer](../../skills/run-retreat-producer/SKILL.md) |
 
-Parked and unassigned seats still get the six boxes. Their desk is a refuse-work pack. Building the alias does not unpark Engineering or Developer, and it does not assign Demand, Sales, or SDR.
-
-## How to make one alias, if it is missing
-
-On the M1, next to the model, not in this repo:
-
-```
-FROM office-hand
-PARAMETER num_ctx 8192
-SYSTEM """
-...paste the entire contents of handbook/bodies/<seat>.md here...
-"""
-```
-
-Then `ollama create <alias> -f ./Modelfile.<alias>` and `ollama run <alias> --think=false`. Copy the file for the next seat. Change the name and the SYSTEM paste. FROM never changes.
-
-The longer recipe, including why thinking is a per-call flag, is on [bodies/README.md](../bodies/README.md). If that page still says `FROM qwen3.8:27b-q8_0`, that is the same weights `office-hand` already is. Prefer `FROM office-hand` so a missing alias cannot become a second download.
+Parked and unassigned seats still get the same boxes. Their desk is a refuse-work pack. Checking a box does not unpark Engineering or Developer, and it does not assign Demand, Sales, or SDR.
 
 ## What this page will not start
 
 - No VMs. No GKE. No program GitHub. No send without Michael.
+- **No local model**, and no instruction that tells someone else to install one — not Ollama, not weights, not a smaller version of the install to get ahead.
 - No Head of Engineering or Developer work.
 - No HubSpot, no Bench connector, no Apple Contacts, no sixth tool.
-- No rewrite of [locks.md](../locks.md) or [runtime-brain.md](../runtime-brain.md). Those still name an older hand. Flag that leftover to Michael.
+- No edit to [locks.md](../locks.md). Lifting a lock, or changing one, is Michael's — and [runtime-brain.md](../runtime-brain.md) already says the same thing this page does: the hand is named, it is not installed, and it waits on his go.
 
 ## Conflicts we found
 
-[CONFLICTS.md](CONFLICTS.md) lists every place a body file disagrees with its seat page. The seat page wins. This build check does not "fix" those by editing the seat.
+[CONFLICTS.md](CONFLICTS.md) lists every place a body file disagreed with its seat page. The seat page wins. This check-off does not "fix" those by editing a seat page.

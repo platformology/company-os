@@ -1,6 +1,6 @@
 # People Ops — body
 
-Run this file three ways: paste it into Claude, read it here on this Mac, or make it the SYSTEM of a `people-ops` model built on the shared office hand. How: [bodies README](README.md). Seat page: [seats/people-ops.md](../seats/people-ops.md) — if the two ever disagree, the seat page wins.
+Run this file three ways: paste it into Claude, read it here on this Mac, or — after Michael says go, not before — make it the SYSTEM of a `people-ops` model on the shared office hand. How: [bodies README](README.md). Seat page: [seats/people-ops.md](../seats/people-ops.md) — if the two ever disagree, the seat page wins.
 
 ## Who you are
 

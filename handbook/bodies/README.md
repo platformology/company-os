@@ -2,7 +2,7 @@
 
 A **body** is one seat written out so it can be run: what you are, what you own, what you may touch, how a pass ends. One file, one seat. Pick your seat below, open its body, do the job.
 
-Nothing in this folder needs installing. In Claude and on this Mac a body is a file you open; in the office hand it is the text that goes into one Modelfile, on weights that are already on the machine.
+Nothing in this folder gets installed. Two of the three places below work today, because a body is a file you open — and on this Mac it needs no model at all. The third, the shared office hand, is **named and not on this machine**: it waits on Michael's go, and no step on this page puts it there.
 
 **Two "body"s, one word.** [runtime-body.md](../runtime-body.md) is about *hands* — which of the five connected tools a seat may touch. A **body file** in this folder is the seat itself, written so a person or a model can run it. Don't read one as the other.
 
@@ -46,45 +46,41 @@ Same file all three times. You do not rewrite it for the place it is going.
 
 **2. This Mac.** The body is a file on disk in this repo — open it and work off it yourself. This is the version a new hire reads on day one, and it needs no model at all.
 
-**3. The office hand.** Build a seat model whose SYSTEM is that body, on the shared weights already on this M1 — the recipe is below.
+**3. The office hand — after Michael says go, not before.** The shared hand is named and is not on the machine. After go, a seat model's SYSTEM is its body file and nothing else about the seat changes. The shape is below; nothing here installs it.
 
-## The hand
+## The hand — named, not installed
 
-Recorded 20 Aug 2026 — Michael:
+The hand is named on [runtime.md](../runtime.md) and [runtime-brain.md](../runtime-brain.md) — recorded 19 Aug 2026 via the CTO, restated 20 Aug on the build map. This page repeats only the three lines a body needs; those two pages own the rest and this one does not restate them.
 
-- The local office hand is the Ollama alias **`office-hand`** = **`qwen3.8:27b-q8_0`**, num_ctx **8192**. Daily calls run with thinking off.
-- **Gemma 4 31B Q6 stays on disk as backup only.**
-- **Do not pull Flash onto this M1.** Do not pull Qwen 16-bit.
-- **The M1 is the office**, and Grok Bot stays the manager. Nothing in this folder moves either one.
-- **Seats are never rebuilt as local models.** One set of weights, twenty-three bodies. Do not create a weight file per seat, and do not download a second model to give a seat its own.
+- **Gemma 4 26B 8-bit on this M1** is the shared always-on hand — **after Michael says go**, not before. That is the one a body would run on.
+- **Llama 3.3 70B 4-bit on this M1** is the on-purpose pen. It is **not a second seat brain**, and no seat gets a body built on it.
+- **Flash 2-bit** is the M5, SmarterVoice only, and **the M5 is parked**. No body goes near it.
 
-That last one is a lock, not a preference, and it is the reason this folder exists as markdown instead of as models: what changes per seat is the SYSTEM text, and nothing else.
+**Status today: not installed.** **"No local LLM until Michael says go"** is the lock's own wording on [locks.md](../locks.md), and Phase 4 of the go packet is the only thing that lifts it. So there is no local model on this machine, this page tells nobody to put one there, and a page that treats the hand as already running is a broken lock — not a shortcut. Read [runtime-brain.md](../runtime-brain.md) if that is the question you arrived with; the answer there is the same, and it is "don't."
 
-## The Modelfile — SYSTEM is the only line that changes
+**Seats are never rebuilt as local models.** That one does not lift at go: one shared hand, twenty-three bodies. No weight file per seat, and no second model downloaded so a seat can have its own. It is a lock, not a preference, and it is why this folder is markdown instead of models — what changes per seat is the SYSTEM text, and nothing else.
 
-Make this on the Mac, next to the model. It is not checked into this repo; this repo is markdown, and the example below is the whole recipe:
+**The M1 is the office**, and Daily Grok Bot lives on it. Nothing in this folder moves either one, before go or after it.
 
-```
-# ollama create pa -f ./Modelfile.pa
-FROM qwen3.8:27b-q8_0
-PARAMETER num_ctx 8192
-SYSTEM """
-...paste the entire contents of handbook/bodies/pa.md here...
-"""
-```
+## After go: SYSTEM is the only thing that changes per seat
 
-Then build it and run it:
+Written down so nobody has to re-derive it, and **not a step to take**. What actually gets installed, in what order, and by whom belongs to the go packet behind Phase 4 on [locks.md](../locks.md) — this page does not restate that list and does not start a piece of it early.
 
-```
-ollama create pa -f ./Modelfile.pa
-ollama run pa --think=false "Today's list, off the Do this page."
-```
+The shape is one model definition per seat, every one of them pointing at the same shared weights:
 
-For the next seat, copy that file and change exactly two things: the name after `ollama create`, and the body pasted into `SYSTEM`. **`FROM` never changes** — every seat model points at the same 8-bit weights the office hand already runs, so twenty-three seat models cost one download, not twenty-three. Thinking off is a per-call setting, not a line in the file: `--think=false` on the command, `"think": false` on an API call.
+| Part of the definition | What it holds | Changes per seat? |
+|---|---|---|
+| The base it starts from | the one shared hand named above | **Never.** |
+| Its SYSTEM text | the entire contents of that seat's body file | **Yes — this is the only thing.** |
+| The name it is built under | the seat, e.g. `pa` | Yes |
+
+Twenty-three seat models, one set of weights. The base never changing is what makes that true, and it is the same lock as "seats are never rebuilt as local models" read from the other end.
+
+Two things this section deliberately does not carry. **No command** — a build or run line written out today is Phase 4 taken early, which is the exact broken lock this page exists to avoid. And **no model tag, context size, or sampler setting**: those are **not recorded in this repo**, they belong to the go packet, and a guessed tag is a wrong tag.
 
 ## What a body does not carry, on purpose
 
-A body run in the office hand has no files and no browser. It cannot open [offers.md](../offers.md), [clients.md](../clients.md), or a Notion page, and it does not remember what is on them.
+A body handed to a model and nothing else — which is what the office hand would be, after go — has no files and no browser. It cannot open [offers.md](../offers.md), [clients.md](../clients.md), or a Notion page, and it does not remember what is on them.
 
 So no body carries a price, a client fact, a person, a KPI, or a stack. When a job needs one of those, the honest answer is **"not in hand — open the page"**, and the person opens it. A remembered price is a wrong price, and a filled-in gap is worse than a blank. **Named missing stays named missing**, in the words the seat page already uses.
 
@@ -96,5 +92,6 @@ So no body carries a price, a client fact, a person, a KPI, or a stack. When a j
 
 ## Leftovers
 
-- [locks.md](../locks.md) and [runtime-brain.md](../runtime-brain.md) were written before the hand above was named, and they still read that way — including which model is the shared one. Both are Michael's to change, not this page's. Flag it to him rather than editing around it, and until he does, the lock page is the one that governs.
+- **How the hand is actually loaded is not recorded here** — no model tag, no context size, no call settings. That is the go packet's, behind Phase 4 on [locks.md](../locks.md), and it stays named missing in [SOURCES.md](../../SOURCES.md) rather than guessed at on this page.
+- **Lifting the lock is Michael's, and so is changing it.** If a seat needs the hand before he says go, the answer is the lock and a stop — not a smaller version of the install. Run [check-locks](../../skills/check-locks/SKILL.md), name the lock, stop.
 - The shapes this folder reused are named in [SOURCES.md](../../SOURCES.md), and the kit URLs stay there. A person running a seat does not need them on this page.
