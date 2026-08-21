@@ -4,28 +4,31 @@
 
 This folder holds one thing per file: a seat's pass, walked through by a person. Where [plans/](../plans/README.md) is the spec for one pass — what to open, the one job, the SOP, the KPI — a page here is somebody running it: what you read at each stop, what you write down, and the note you leave so the next person can pick up cold.
 
-**This slice is PA only.**
+**This slice is PA and COO.**
 
 | Seat | Pass | Plan |
 |---|---|---|
 | [PA](../seats/pa.md) | [pa.md](pa.md) | [plans/pa.md](../plans/pa.md) |
+| [COO](../seats/coo.md) | [coo.md](coo.md) | [plans/coo.md](../plans/coo.md) |
 
-The assigned seats with a job to run come first, and PA is the first of them. The rest have no pass page yet. That is a gap in this folder and nothing else — a missing row here does not mean a seat has no job, no plan, or no router. Which seats are assigned with a job to run is the seventeen-row table on [plans/README.md](../plans/README.md), and this page does not copy it.
+The assigned seats with a job to run come first: PA is the first of them, COO is the second. The rest have no pass page yet. That is a gap in this folder and nothing else — a missing row here does not mean a seat has no job, no plan, or no router. Which seats are assigned with a job to run is the seventeen-row table on [plans/README.md](../plans/README.md), and this page does not copy it.
+
+**Those two rows are one docs change seen from both ends, and they run in this order.** The COO is first QC on a Company OS or docs change; the PA runs the last gate after that and merges. First is not only, and the COO does not last-gate or merge. The layers themselves are on [runtime-wiring.md](../runtime-wiring.md), and neither page here restates them.
 
 ## What this folder is not
 
 - **Not another seat index.** [seats/](../seats/README.md) is what a seat owns, [bodies/](../bodies/README.md) is the seat as one runnable file, [desks/](../desks/README.md) is the sit-down pack, [plans/](../plans/README.md) is the pass spec. A page here points at those; it does not restate them, and when it disagrees with the seat page, **the seat page wins**.
 - **Not a tracker, a board, or a second place to look for work.** See [runtime-guts.md](../runtime-guts.md).
-- **Not evidence that a seat is staffed.** A pass page existing does not fill a seat, unpark one, or lift a lock. **Head of Demand, Head of Sales, and SDR stay unassigned**, and a pass page for one of them later would not change that.
+- **Not evidence that a seat is staffed.** A pass page existing does not fill a seat, unpark one, or lift a lock. **Head of Demand, Head of Sales, and SDR stay unassigned**, and a pass page for one of them later would not change that. The COO page names a holder because [people.md](../people.md) already recorded one — Anthony C. Garcia, COO / Chief Persona Architect — and it was recorded before this folder existed. [pa.md](pa.md) reads **Holder: not recorded** for the same reason: the page reports what the roster says, in either direction.
 - **Not the place the leftover-file seats get indexed.** Those seats stay UNASSIGNED, and their index rows stay unwritten here for the same reason they are unwritten on [plans/README.md](../plans/README.md) — that is Michael's call, not this folder's.
 
 ## Run one
 
 1. Read [locks.md](../locks.md).
 2. Open your seat's plan, then the pass page beside it, and follow it in order.
-3. Stop where it says stop, and run [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
+3. Stop where it says stop, and run [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md) — or, where the last gate is not your seat's step, read the lines the work will have to pass anyway and hand it on.
 4. Hand anything external to Michael. **Nothing sends.**
 
 One pass, one gate, one stop. [cheap-loop.md](../cheap-loop.md) already says why, and no page here restates it.
 
-Named gaps stay named. Where a page here says a thing is not recorded — starting with who fills the PA seat — that is the answer until Michael sources one. Full list: [SOURCES.md](../../SOURCES.md).
+Named gaps stay named. Where a page here says a thing is not recorded — who fills the PA seat, and the COO's accountabilities beyond the public title — that is the answer until Michael sources one. Full list: [SOURCES.md](../../SOURCES.md).
