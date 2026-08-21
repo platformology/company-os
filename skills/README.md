@@ -15,7 +15,7 @@ If you'd rather start from your seat than from the job, open [handbook/seat-job-
 
 | Skill | Kind | What it does | Open it when |
 |---|---|---|---|
-| [check-locks](check-locks/SKILL.md) | Runs on everything | Reads the ask against the lock page, and when a lock trips, names it in one plain sentence and stops | Before you act — sending, touching program GitHub, starting on the M5, or filling in something named missing |
+| [check-locks](check-locks/SKILL.md) | Runs on everything | Reads the ask against the lock page, and when a lock trips, names it in one plain sentence and stops | Before you act — sending, touching program GitHub, starting work the machine locks forbid, or filling in something named missing |
 | [last-gate-then-stop](last-gate-then-stop/SKILL.md) | Runs on everything | Runs the final pass/fail check, then stops and hands off | Right before anything ships — this is the last step of every other page here |
 | [run-do-this](run-do-this/SKILL.md) | Runs on everything | Points at the Do this page; never invents daily work | Start of a work session, or "what do I do today" |
 | [run-always-on](run-always-on/SKILL.md) | Runs on everything | Runs the locked COO cycle — planning, meetings, execution, optimizing, next sourced slice — one report at a time, never fanned out | A Grok Bot seat is picking up its next unit of work |
@@ -24,15 +24,15 @@ If you'd rather start from your seat than from the job, open [handbook/seat-job-
 | [run-coo](run-coo/SKILL.md) | Seat router | Runs the COO seat — Anthony C. Garcia — through one pass of its cycle | Working the COO seat, or asked what the COO is doing |
 | [run-cmo](run-cmo/SKILL.md) | Seat router | Runs the CMO seat: demand, brand, content, and alumni stories at the ownership level — not campaign day-to-day | A marketing, brand, positioning, or content question lands on the CMO |
 | [run-content](run-content/SKILL.md) | Seat router | Runs the Head of Content seat: librarian for the 27-year corpus. Catalogs what exists; never writes new copy and files it as corpus | Asked what the corpus holds, or to find a persona, proposal, white paper, ebook, or Pendulum piece |
-| [run-demand](run-demand/SKILL.md) | Seat router | Answers for the Head of Demand seat honestly — unassigned, no inbound volume, no leads | Asked who owns demand, or asked this seat for numbers |
+| [run-demand](run-demand/SKILL.md) | Seat router | Answers for the Head of Demand seat honestly — leftover-file assigned, who fills not recorded, no inbound volume, no leads, leftover already written | Asked who owns demand, or asked this seat for numbers |
 | [run-cso](run-cso/SKILL.md) | Seat router | Runs the CSO seat — Chief Sales Officer, not Chief Strategy Officer — and refuses to invent a pipeline or forecast | A pricing or offer-fit question needs routing, or someone asks the CSO for pipeline |
-| [run-sales](run-sales/SKILL.md) | Seat router | Answers for the Head of Sales seat honestly — unassigned, no pipeline, no forecast, no close rate | Asked who owns sales day to day, or asked this seat for a forecast |
-| [run-sdr-seat](run-sdr-seat/SKILL.md) | Seat router | Answers for the SDR seat honestly — unassigned, no lead list, no scoring model | Asked who qualifies inbound, or asked this seat for leads |
+| [run-sales](run-sales/SKILL.md) | Seat router | Answers for the Head of Sales seat honestly — leftover-file assigned, who fills not recorded, no pipeline, no forecast, leftover already written | Asked who owns sales day to day, or asked this seat for a forecast |
+| [run-sdr-seat](run-sdr-seat/SKILL.md) | Seat router | Answers for the SDR seat honestly — leftover-file assigned, who fills not recorded, no lead list, leftover already written | Asked who qualifies inbound, or asked this seat for leads |
 | [run-cfo](run-cfo/SKILL.md) | Seat router | Runs the CFO seat off its handbook page and the two money pages under it | A unit-economics, cash, or buyer-ready-books question lands |
 | [run-controller](run-controller/SKILL.md) | Seat router | Runs the Controller seat, which owns the monthly close and never invents one | Asked about the monthly close, or about June and July 2026 |
 | [run-bookkeeper](run-bookkeeper/SKILL.md) | Seat router | Runs the Bookkeeper seat: bills and the general ledger, with no savings total reported | A bill needs paying or checking, or someone asks about Bench |
-| [run-cto](run-cto/SKILL.md) | Seat router | Runs the CTO seat, where the hardest machine locks land | Asked to pick a stack, stand up infrastructure, touch a program repo, or start on the M5 |
-| [run-engineering](run-engineering/SKILL.md) | Seat router | Answers for the Head of Engineering seat, which is parked — no work starts here | Asked about sites, the production stack, the M5, a VM, GKE, or a local LLM |
+| [run-cto](run-cto/SKILL.md) | Seat router | Runs the CTO seat, where the hardest machine locks land | Asked to pick a stack, stand up infrastructure, touch a program repo, or start work the machine locks forbid |
+| [run-engineering](run-engineering/SKILL.md) | Seat router | Answers for the Head of Engineering seat, which is parked — no work starts here | Asked about sites, the production stack, a VM, GKE, or a local LLM |
 | [run-developer](run-developer/SKILL.md) | Seat router | Answers for the Developer seat, parked under the same locks — no code starts here | Asked to write, ship, fix, or review code |
 | [run-cco](run-cco/SKILL.md) | Seat router | Runs the CCO seat — Chief Customer Officer, nothing else | Someone says "CCO," or asks who owns author success, campaign QA, or retreat experience |
 | [run-author-success](run-author-success/SKILL.md) | Seat router | Runs the Head of Author Success seat and hands the actual work to the reply and call-prep pages | Asked how an author's engagement is going, or who owns author outcomes |

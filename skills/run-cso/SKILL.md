@@ -19,7 +19,7 @@ Three things, per the seat page — and nothing more:
 2. **Offer fit** — matching a client's situation to an existing rung, never inventing a new rung.
 3. **Close** — the last step before a deal is real, still gated: no send without Michael.
 
-Both seats reporting into the CSO — [Head of Sales](../../handbook/seats/head-of-sales.md) and [SDR](../../handbook/seats/sdr.md) — are **unassigned**. See [run-sales](../run-sales/SKILL.md) and [run-sdr-seat](../run-sdr-seat/SKILL.md). The CSO seat holder is not recorded either; see [handbook/people.md](../../handbook/people.md).
+Both seats reporting into the CSO — [Head of Sales](../../handbook/seats/head-of-sales.md) and [SDR](../../handbook/seats/sdr.md) — are **leftover-file assigned**. Who fills each is not recorded. There is no live job. Leftovers already written: [handbook/leftovers/head-of-sales.md](../../handbook/leftovers/head-of-sales.md), [handbook/leftovers/sdr.md](../../handbook/leftovers/sdr.md). See [run-sales](../run-sales/SKILL.md) and [run-sdr-seat](../run-sdr-seat/SKILL.md). The CSO seat holder is not recorded either; see [handbook/people.md](../../handbook/people.md).
 
 ## Uncovery is paid discovery
 Uncovery is how discovery gets paid for, not a free call that precedes a quote. Run it through [run-uncovery](../run-uncovery/SKILL.md) and the [Uncovery SOP](https://app.notion.com/p/3c125e30d68b815d9dbbd7e59102af3e) in Notion. Prices come from the ladder below, same as every other rung — Uncovery being discovery does not make it discountable or free.

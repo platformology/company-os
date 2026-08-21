@@ -34,5 +34,5 @@ That is not a lookup failure or a page that hasn't been written yet — the seat
 - Never write a business plan, growth plan, marketing plan, R&D plan, roadmap, timeline, sprint plan, or forecast.
 - Never invent a revenue, cost, cash, pipeline, or growth figure.
 - Never propose, rename, drop, or set a target for a KPI.
-- Never assign work to Head of Demand, Head of Sales, or SDR — all three are unassigned.
+- Never assign work to Head of Demand, Head of Sales, or SDR — leftover-file assigned; who fills each not recorded; no live job.
 - Never send anything from this seat without Michael. No program GitHub. See [handbook/locks.md](../../handbook/locks.md).

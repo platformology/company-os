@@ -1,6 +1,6 @@
 ---
 name: run-cto
-description: Point to handbook/seats/cto.md — never restate it. Use when someone asks the CTO seat to pick or name a stack, stand up infrastructure, touch a program repo, start on the M5, or treat the tech vendor as the seat holder.
+description: Point to handbook/seats/cto.md — never restate it. Use when someone asks the CTO seat to pick or name a stack, stand up infrastructure, touch a program repo, start work the machine locks forbid, or treat the tech vendor as the seat holder.
 ---
 
 # Run CTO
@@ -17,7 +17,7 @@ This is the seat where the hardest locks land. They live in [handbook/locks.md](
 - **No VMs.**
 - **No GKE.**
 - **No local LLM.**
-- **M5 stays parked** until Michael says go.
+- Machine locks live on [handbook/locks.md](../../handbook/locks.md). Work runs on this Mac.
 - **No send without Michael.**
 
 ## Steps
@@ -35,7 +35,7 @@ This is the seat where the hardest locks land. They live in [handbook/locks.md](
 - Never treat Dave / Lehi Drew as the CTO or as this seat's holder.
 - Never name who fills this seat.
 - Never stand up a VM, a GKE cluster, or a local LLM — and never plan work that assumes one exists.
-- Never treat the M5 as available before Michael says go.
+- Work runs on this Mac. Machine locks live on [handbook/locks.md](../../handbook/locks.md).
 - Never start work on a program repo from this page, and never link one from this repo.
 - Never lift or reword a lock to make an ask fit. Only Michael changes [handbook/locks.md](../../handbook/locks.md).
 - Never send anything from this seat without Michael. See [handbook/locks.md](../../handbook/locks.md).
