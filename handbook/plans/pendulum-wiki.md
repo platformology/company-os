@@ -4,12 +4,12 @@
 
 One pass that reads the leftover for this seat and writes down what it records and what it is missing. **No wiki gets started.**
 
-This seat has **no page in [seats/](../seats/README.md)**, no sit-down pack in [desks/](../desks/README.md), no brief in [bodies/](../bodies/README.md), and no `run-*` router. Those trees hold twenty-three seats and this is not one of them. This plan is not on the index in [plans/README.md](README.md) either; that index still describes the seventeen assigned plans, and the row for this file belongs to a different pass.
+**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions.
-2. **The leftover: `/Users/mdrew/Company/Jobs/pendulum-wiki-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [seats/head-of-content.md](../seats/head-of-content.md) — the corpus, and the librarian who already owns cataloguing it.
 4. [run-buyer-packet](../../skills/run-buyer-packet/SKILL.md) — the page that says Pendulum is **part** of the corpus and not a synonym for it.
 5. [runtime-guts.md](../runtime-guts.md) — the **no new tracker** rule, which a wiki runs straight into.
@@ -46,7 +46,7 @@ So this seat produces **no wiki, no page tree, no index, no glossary, no concept
 | **Current** | **Empty**, with no named field for it to be empty in. Not a page count, not a coverage percentage, not an edit count, not a 0. **A 0 is a figure.** |
 | **What not to reach for** | **Content output** is [Head of Content](head-of-content.md)'s KPI, and it is explicitly **not** a word count, a posting schedule, or a volume target — a librarian's pass is not measured by how much new material it produced. It is a different seat's row and it does not transfer here. |
 | **Why a coverage figure is impossible** | Coverage is a fraction of a catalogue, and **no catalogue of the corpus is recorded** — that cataloguing job sits with [Head of Content](../seats/head-of-content.md) and has nothing counted behind it. There is no denominator. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/pendulum-wiki-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

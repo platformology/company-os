@@ -4,12 +4,12 @@
 
 One pass that reads the leftover for this seat and writes down what it records and what it is missing — starting with the fact that the seat's name is ambiguous and this plan does not resolve it.
 
-This seat has **no page in [seats/](../seats/README.md)**, no sit-down pack in [desks/](../desks/README.md), no brief in [bodies/](../bodies/README.md), and no `run-*` router. Those trees hold twenty-three seats and this is not one of them. This plan is not on the index in [plans/README.md](README.md) either; that index still describes the seventeen assigned plans, and the row for this file belongs to a different pass.
+**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions.
-2. **The leftover: `/Users/mdrew/Company/Jobs/book-copy-writer-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.** It is also the only thing that can settle the question in the next section.
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.** It is also the only thing that can settle the question in the next section.
 3. [offers.md](../offers.md) — the ladder, if this seat turns out to sell anything.
 4. [company-facts.md](../company-facts.md) — the uncollapsed track record, which jacket copy always wants to collapse.
 5. [SOURCES.md](../../SOURCES.md) — the named-missing list.
@@ -45,7 +45,7 @@ The nearest recorded neighbour is the [Sales Menu](https://app.notion.com/p/3c02
 | **KPI** | **None is named for this seat.** No KPI for a Book Copy Writer is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not a conversion rate, not a click rate, not a piece count, not a 0. **A 0 is a figure.** |
 | **Why a conversion figure is impossible twice over** | There is no copy, and there is nothing measuring copy. **No inbound volume, lead count, or channel is recorded anywhere in this repo**, and [Head of Demand](../seats/head-of-demand.md) — the seat that would own inbound — is unassigned with no work assigned to it. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/book-copy-writer-job.md` on the M1. It is the only thing recorded about this seat, including which of the two jobs above it actually is. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat, including which of the two jobs above it actually is. |
 
 ## Run it
 

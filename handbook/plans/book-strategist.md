@@ -4,12 +4,12 @@
 
 One pass that reads the leftover for this seat and writes down what it records and what it is missing. No book gets shaped.
 
-This seat has **no page in [seats/](../seats/README.md)**, no sit-down pack in [desks/](../desks/README.md), no brief in [bodies/](../bodies/README.md), and no `run-*` router. That is not a lookup failure — those trees hold twenty-three seats and this is not one of them. This plan is not on the index in [plans/README.md](README.md) either; that index still describes the seventeen assigned plans, and the row for this file belongs to a different pass.
+**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions. No send without Michael, and no price outside [offers.md](../offers.md).
-2. **The leftover: `/Users/mdrew/Company/Jobs/book-strategist-job.md`, on the M1.** That file is the only recorded source for this seat and **it is not in this repo.** This plan does not restate it, summarise it, or guess what it says.
+2. **The leftover job file on the M1 is not in this repo and is not restated.** That file is the only recorded source for this seat and **it is not in this repo.** This plan does not restate it, summarise it, or guess what it says.
 3. [offers.md](../offers.md) — the only place a book-related price comes from.
 4. [company-facts.md](../company-facts.md) — the track record is uncollapsed, and this seat is the kind of seat that wants to collapse it.
 5. [SOURCES.md](../../SOURCES.md) — the named-missing list. Nothing on it gets filled here.
@@ -40,7 +40,7 @@ The 27-year corpus of personas, proposals, white papers, ebooks, and Pendulum ma
 |---|---|
 | **KPI** | **None is named for this seat.** No KPI for a Book Strategist is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one, does not name a proxy, and does not borrow the nearest seat's. |
 | **Current** | **Empty**, and empty in a stronger sense than usual: there is no named KPI for a figure to go into. Not a book count, not a milestone, not a 0. **A 0 is a figure**, and a figure implies somebody measured something. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/book-strategist-job.md` on the M1. When somebody asks how this seat is doing, that file is the answer: it is the only thing recorded about the seat, and the seat is unassigned. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. When somebody asks how this seat is doing, that file is the answer: it is the only thing recorded about the seat, and the seat is unassigned. |
 | **What "no KPI" is not** | It is not permission to pick one. A KPI arrives when Michael names one; until then this row says none, and a plan that supplies one has invented the measurement and the job it measures. |
 
 ## Run it

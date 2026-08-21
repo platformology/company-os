@@ -4,12 +4,12 @@
 
 One pass that reads the leftover for this seat and writes down what it records and what it is missing. No strategy gets written.
 
-This seat has **no page in [seats/](../seats/README.md)**, no sit-down pack in [desks/](../desks/README.md), no brief in [bodies/](../bodies/README.md), and no `run-*` router. Those trees hold twenty-three seats and this is not one of them. This plan is not on the index in [plans/README.md](README.md) either; that index still describes the seventeen assigned plans, and the row for this file belongs to a different pass.
+**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions.
-2. **The leftover: `/Users/mdrew/Company/Jobs/strategist-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [runtime.md](../runtime.md) and [runtime-guts.md](../runtime-guts.md) — the build order that says when a growth plan gets written, and it is not yet.
 4. [cso.md](cso.md) — **CSO is Chief Sales Officer, not Chief Strategy Officer.** That matters here.
 5. [book-strategist.md](book-strategist.md) and [persona-architect.md](persona-architect.md) — the two neighbouring craft seats this one is not.
@@ -49,7 +49,7 @@ What does exist is the **decision order Michael already set**, and it is the clo
 | **KPI** | **None is named for this seat.** No KPI for a Strategist is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not a revenue figure, not a growth rate, not a target, not a 0. **A 0 is a figure.** |
 | **The temptation specific to this seat** | A strategist's natural move is to **propose** a KPI — to say what the company *should* measure. **That is inventing the measurement and the plan behind it.** Ten KPIs are already named on the C-suite operating plan and the rest on the KPIs database; every one of them is copied into a plan as a name only, with **Current empty and nothing measured underneath.** This seat does not add an eleventh, rename one, drop one, or set a target for one. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/strategist-job.md` on the M1. It is the only thing recorded about this seat, including which kind of strategist it is. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat, including which kind of strategist it is. |
 
 ## Run it
 

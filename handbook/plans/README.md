@@ -70,7 +70,37 @@ Each of the six plans carries the locks that actually bite on it, in its own **N
 - **Never put a figure in a KPI Current field, including a 0.**
 - **Never treat a lock a plan does not happen to list as lifted.** [locks.md](../locks.md) is the list; a plan is not.
 
-**Every name in both tables was already named before this folder existed** — ten on the C-suite operating plan, and the rest on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database in Notion. They are copied here as names only. No plan invents a KPI, renames one, drops one, or measures one.
+## The twenty-three leftover-file plans — UNASSIGNED
+
+A different twenty-three from the charter tables above. The two counts do not merge. Every plan refuses live work. A plan existing does not staff the seat. Person packs now exist: seat, body, desk, leftover, pass, `run-*`. The leftover job file on the M1 is still not in this repo. Packet: [leftover-packet.md](../leftover-packet.md).
+
+| Seat | Plan | Status | The KPI this plan is pointed at |
+|---|---|---|---|
+| [Book Strategist](../seats/book-strategist.md) | [book-strategist.md](book-strategist.md) | **Unassigned** | None is named for this seat |
+| [Book Writer](../seats/book-writer.md) | [book-writer.md](book-writer.md) | **Unassigned** | None is named for this seat |
+| [Book Conceptual Editor](../seats/book-conceptual-editor.md) | [book-conceptual-editor.md](book-conceptual-editor.md) | **Unassigned** | None is named for this seat |
+| [Book Copy Writer](../seats/book-copy-writer.md) | [book-copy-writer.md](book-copy-writer.md) | **Unassigned** | None is named for this seat |
+| [Book Technical Editor](../seats/book-technical-editor.md) | [book-technical-editor.md](book-technical-editor.md) | **Unassigned** | None is named for this seat |
+| [Book Reader](../seats/book-reader.md) | [book-reader.md](book-reader.md) | **Unassigned** | None is named for this seat |
+| [Copy Writer](../seats/copy-writer.md) | [copy-writer.md](copy-writer.md) | **Unassigned** | None is named for this seat |
+| [Copy Editor](../seats/copy-editor.md) | [copy-editor.md](copy-editor.md) | **Unassigned** | None is named for this seat |
+| [Sales Writer](../seats/sales-writer.md) | [sales-writer.md](sales-writer.md) | **Unassigned** | None is named for this seat |
+| [Sales Editor](../seats/sales-editor.md) | [sales-editor.md](sales-editor.md) | **Unassigned** | None is named for this seat |
+| [Strategist](../seats/strategist.md) | [strategist.md](strategist.md) | **Unassigned** | None is named for this seat |
+| [Persona Architect](../seats/persona-architect.md) | [persona-architect.md](persona-architect.md) | **Unassigned** | None is named for this seat |
+| [Junior Digital Designer](../seats/junior-digital-designer.md) | [junior-digital-designer.md](junior-digital-designer.md) | **Unassigned** | None is named for this seat |
+| [Senior Digital Designer](../seats/senior-digital-designer.md) | [senior-digital-designer.md](senior-digital-designer.md) | **Unassigned** | None is named for this seat |
+| [Junior Print Designer](../seats/junior-print-designer.md) | [junior-print-designer.md](junior-print-designer.md) | **Unassigned** | None is named for this seat |
+| [Senior Print Designer](../seats/senior-print-designer.md) | [senior-print-designer.md](senior-print-designer.md) | **Unassigned** | None is named for this seat |
+| [Pendulum Wiki](../seats/pendulum-wiki.md) | [pendulum-wiki.md](pendulum-wiki.md) | **Unassigned** | None is named for this seat |
+| [PR / Media](../seats/pr-media.md) | [pr-media.md](pr-media.md) | **Unassigned** | None is named for this seat |
+| [SEO Expert](../seats/seo-expert.md) | [seo-expert.md](seo-expert.md) | **Unassigned** | None is named for this seat |
+| [Social Media Strategist](../seats/social-media-strategist.md) | [social-media-strategist.md](social-media-strategist.md) | **Unassigned** | None is named for this seat |
+| [Social Account Expert](../seats/social-account-expert.md) | [social-account-expert.md](social-account-expert.md) | **Unassigned** | None is named for this seat |
+| [Speaking — Associations](../seats/speaking-associations.md) | [speaking-associations.md](speaking-associations.md) | **Unassigned** | None is named for this seat |
+| [Speaking — Universities](../seats/speaking-universities.md) | [speaking-universities.md](speaking-universities.md) | **Unassigned** | None is named for this seat |
+
+**Every name in both charter tables was already named before this folder existed** — ten on the C-suite operating plan, and the rest on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database in Notion. They are copied here as names only. No plan invents a KPI, renames one, drops one, or measures one. Leftover-file plans name no KPI at all.
 
 **One seat has no KPI at all: [Developer](developer.md).** No row on that board carries Developer in its Owner field, and its plan says so in those words instead of inventing one or borrowing the one above it. It is pointed at the live leftover on its seat page instead.
 

@@ -18,4 +18,6 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Locked:** No program GitHub. No VMs. No GKE. No local LLM. M5 parked until Michael says go. No send without Michael. See [locks.md](../locks.md).
 
-**Named missing:** who currently fills this seat; the production stack (see [SOURCES.md](../../SOURCES.md)).
+**Leftover today:** [leftovers/cto.md](../leftovers/cto.md) — last-gated on [company-run.md](../company-run.md).
+
+**Named missing:** who currently fills this seat; the production stack; the go packet, not written in this repo (see [SOURCES.md](../../SOURCES.md)).

@@ -60,7 +60,37 @@ Each seat's own `run-<seat>` skill is listed first: it's the router that points 
 
 Full list: [locks.md](locks.md).
 
-## Every seat now has a router
+## Leftover-file seats — UNASSIGNED
+
+A different twenty-three from the charter table above. The two counts do not merge. **No Notion page is recorded for these seats**, and no other seat's page gets borrowed. A router existing does not staff the seat. Packet: [leftover-packet.md](leftover-packet.md). Leftovers: [leftovers/README.md](leftovers/README.md).
+
+| Seat | Status | Open this skill | Open this Notion page |
+|---|---|---|---|
+| [Book Strategist](seats/book-strategist.md) | Unassigned | [run-book-strategist](../skills/run-book-strategist/SKILL.md) | Named missing — none recorded |
+| [Book Writer](seats/book-writer.md) | Unassigned | [run-book-writer](../skills/run-book-writer/SKILL.md) | Named missing — none recorded |
+| [Book Conceptual Editor](seats/book-conceptual-editor.md) | Unassigned | [run-book-conceptual-editor](../skills/run-book-conceptual-editor/SKILL.md) | Named missing — none recorded |
+| [Book Copy Writer](seats/book-copy-writer.md) | Unassigned | [run-book-copy-writer](../skills/run-book-copy-writer/SKILL.md) | Named missing — none recorded |
+| [Book Technical Editor](seats/book-technical-editor.md) | Unassigned | [run-book-technical-editor](../skills/run-book-technical-editor/SKILL.md) | Named missing — none recorded |
+| [Book Reader](seats/book-reader.md) | Unassigned | [run-book-reader](../skills/run-book-reader/SKILL.md) | Named missing — none recorded |
+| [Copy Writer](seats/copy-writer.md) | Unassigned | [run-copy-writer](../skills/run-copy-writer/SKILL.md) | Named missing — none recorded |
+| [Copy Editor](seats/copy-editor.md) | Unassigned | [run-copy-editor](../skills/run-copy-editor/SKILL.md) | Named missing — none recorded |
+| [Sales Writer](seats/sales-writer.md) | Unassigned | [run-sales-writer](../skills/run-sales-writer/SKILL.md) | Named missing — none recorded |
+| [Sales Editor](seats/sales-editor.md) | Unassigned | [run-sales-editor](../skills/run-sales-editor/SKILL.md) | Named missing — none recorded |
+| [Strategist](seats/strategist.md) | Unassigned | [run-strategist](../skills/run-strategist/SKILL.md) | Named missing — none recorded |
+| [Persona Architect](seats/persona-architect.md) | Unassigned | [run-persona-architect](../skills/run-persona-architect/SKILL.md) | Named missing — none recorded |
+| [Junior Digital Designer](seats/junior-digital-designer.md) | Unassigned | [run-junior-digital-designer](../skills/run-junior-digital-designer/SKILL.md) | Named missing — none recorded |
+| [Senior Digital Designer](seats/senior-digital-designer.md) | Unassigned | [run-senior-digital-designer](../skills/run-senior-digital-designer/SKILL.md) | Named missing — none recorded |
+| [Junior Print Designer](seats/junior-print-designer.md) | Unassigned | [run-junior-print-designer](../skills/run-junior-print-designer/SKILL.md) | Named missing — none recorded |
+| [Senior Print Designer](seats/senior-print-designer.md) | Unassigned | [run-senior-print-designer](../skills/run-senior-print-designer/SKILL.md) | Named missing — none recorded |
+| [Pendulum Wiki](seats/pendulum-wiki.md) | Unassigned | [run-pendulum-wiki](../skills/run-pendulum-wiki/SKILL.md) | Named missing — none recorded |
+| [PR / Media](seats/pr-media.md) | Unassigned | [run-pr-media](../skills/run-pr-media/SKILL.md) | Named missing — none recorded |
+| [SEO Expert](seats/seo-expert.md) | Unassigned | [run-seo-expert](../skills/run-seo-expert/SKILL.md) | Named missing — none recorded |
+| [Social Media Strategist](seats/social-media-strategist.md) | Unassigned | [run-social-media-strategist](../skills/run-social-media-strategist/SKILL.md) | Named missing — none recorded |
+| [Social Account Expert](seats/social-account-expert.md) | Unassigned | [run-social-account-expert](../skills/run-social-account-expert/SKILL.md) | Named missing — none recorded |
+| [Speaking — Associations](seats/speaking-associations.md) | Unassigned | [run-speaking-associations](../skills/run-speaking-associations/SKILL.md) | Named missing — none recorded |
+| [Speaking — Universities](seats/speaking-universities.md) | Unassigned | [run-speaking-universities](../skills/run-speaking-universities/SKILL.md) | Named missing — none recorded |
+
+## Every charter seat now has a router
 
 All 23 seats on this table point at a `run-*` skill of their own. Head of Content, CHRO, and People Ops were the last three without one; `run-content`, `run-chro`, and `run-people-ops` have since landed, so no row here names a missing router any more.
 

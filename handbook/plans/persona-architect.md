@@ -6,12 +6,12 @@ One pass that reads the leftover for this seat and writes down what it records a
 
 **This is not the COO seat, and it is not a second COO.** **Anthony C. Garcia already holds COO / Chief Persona Architect** — that is his recorded public title, on [people.md](../people.md) and [seats/coo.md](../seats/coo.md), and it has its own plan at [coo.md](coo.md). **This leftover is a separate, empty craft seat** that happens to share a word with his title. Nobody holds it, and Anthony is not moved into it, named on it, or read as its holder.
 
-This seat has **no page in [seats/](../seats/README.md)**, no sit-down pack in [desks/](../desks/README.md), no brief in [bodies/](../bodies/README.md), and no `run-*` router. Those trees hold twenty-three seats and this is not one of them. This plan is not on the index in [plans/README.md](README.md) either; that index still describes the seventeen assigned plans, and the row for this file belongs to a different pass.
+**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions.
-2. **The leftover: `/Users/mdrew/Company/Jobs/persona-architect-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [people.md](../people.md) — the recorded roster, and the one recorded public title that contains the words "Persona Architect."
 4. [seats/head-of-content.md](../seats/head-of-content.md) — the 27-year corpus of personas, and the librarian who owns cataloguing it.
 5. [head-of-content.md](head-of-content.md) — the plan that already says the training names in the old persona decks are not clients.
@@ -53,7 +53,7 @@ Public GitHub is full of persona and ICP generators. This repo has already searc
 | **KPI** | **None is named for this seat.** No KPI for a Persona Architect is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not a persona count, not a coverage figure, not a 0. **A 0 is a figure.** |
 | **What not to reach for — and this is the important one** | **[COO](coo.md) carries two named KPIs — Founder delivery hours % and Retreat fill rate — and neither belongs to this seat.** Anthony's title contains "Chief Persona Architect," so his KPI rows are the nearest thing on any board with the word "persona" attached. **They are a different seat's, and both are empty besides:** no hours record exists for anyone, and no next retreat is recorded. Do not copy either one here. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/persona-architect-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

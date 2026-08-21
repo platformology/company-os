@@ -4,12 +4,12 @@
 
 One pass that reads the leftover for this seat and writes down what it records and what it is missing. Nothing gets copy-edited, and nothing gets tidied.
 
-This seat has **no page in [seats/](../seats/README.md)**, no sit-down pack in [desks/](../desks/README.md), no brief in [bodies/](../bodies/README.md), and no `run-*` router. Those trees hold twenty-three seats and this is not one of them. This plan is not on the index in [plans/README.md](README.md) either; that index still describes the seventeen assigned plans, and the row for this file belongs to a different pass.
+**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions, and the list of things that only look like inconsistencies.
-2. **The leftover: `/Users/mdrew/Company/Jobs/copy-editor-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [offers.md](../offers.md) — every rung that shows two numbers, and the rung with no public price.
 4. [company-facts.md](../company-facts.md) — the uncollapsed track record.
 5. [SOURCES.md](../../SOURCES.md) — the named-missing list, which is the list of phrases this seat must not improve.
@@ -44,7 +44,7 @@ What does exist is a gate, and it is not a style guide: [reviews/last-gate-check
 | **KPI** | **None is named for this seat.** No KPI for a Copy Editor is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not an error rate, not a documents-edited count, not a turnaround time, not a 0. **A 0 is a figure**, and an error rate is a figure twice over. |
 | **Why an error rate cannot exist here** | An error is a departure from a standard, and **no standard is recorded.** Counting errors against a style guide nobody wrote would be measuring a document against this seat's own taste and calling it quality. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/copy-editor-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

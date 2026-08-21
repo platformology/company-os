@@ -45,6 +45,36 @@ That is the whole of it. A desk needs no model: the desk file plus the pages it 
 
 Assigned seats do the job on their desk. Parked seats (Head of Engineering, Developer) refuse work. Unassigned seats (Head of Demand, Head of Sales, SDR) refuse work and say the seat is unassigned. Do not start Engineering or Developer work from this folder. Do not pick up Demand, Sales, or SDR work to make the chart look busy.
 
+## Leftover-file desks — UNASSIGNED
+
+The twenty-three leftover-file seats now have a refuse-work desk each. A desk existing does not staff the seat. Leftover: [leftovers/README.md](../leftovers/README.md). Packet: [leftover-packet.md](../leftover-packet.md).
+
+| Seat | Status | Desk | Body |
+|---|---|---|---|
+| Book Strategist | Unassigned | [book-strategist.md](book-strategist.md) | [bodies/book-strategist.md](../bodies/book-strategist.md) |
+| Book Writer | Unassigned | [book-writer.md](book-writer.md) | [bodies/book-writer.md](../bodies/book-writer.md) |
+| Book Conceptual Editor | Unassigned | [book-conceptual-editor.md](book-conceptual-editor.md) | [bodies/book-conceptual-editor.md](../bodies/book-conceptual-editor.md) |
+| Book Copy Writer | Unassigned | [book-copy-writer.md](book-copy-writer.md) | [bodies/book-copy-writer.md](../bodies/book-copy-writer.md) |
+| Book Technical Editor | Unassigned | [book-technical-editor.md](book-technical-editor.md) | [bodies/book-technical-editor.md](../bodies/book-technical-editor.md) |
+| Book Reader | Unassigned | [book-reader.md](book-reader.md) | [bodies/book-reader.md](../bodies/book-reader.md) |
+| Copy Writer | Unassigned | [copy-writer.md](copy-writer.md) | [bodies/copy-writer.md](../bodies/copy-writer.md) |
+| Copy Editor | Unassigned | [copy-editor.md](copy-editor.md) | [bodies/copy-editor.md](../bodies/copy-editor.md) |
+| Sales Writer | Unassigned | [sales-writer.md](sales-writer.md) | [bodies/sales-writer.md](../bodies/sales-writer.md) |
+| Sales Editor | Unassigned | [sales-editor.md](sales-editor.md) | [bodies/sales-editor.md](../bodies/sales-editor.md) |
+| Strategist | Unassigned | [strategist.md](strategist.md) | [bodies/strategist.md](../bodies/strategist.md) |
+| Persona Architect | Unassigned | [persona-architect.md](persona-architect.md) | [bodies/persona-architect.md](../bodies/persona-architect.md) |
+| Junior Digital Designer | Unassigned | [junior-digital-designer.md](junior-digital-designer.md) | [bodies/junior-digital-designer.md](../bodies/junior-digital-designer.md) |
+| Senior Digital Designer | Unassigned | [senior-digital-designer.md](senior-digital-designer.md) | [bodies/senior-digital-designer.md](../bodies/senior-digital-designer.md) |
+| Junior Print Designer | Unassigned | [junior-print-designer.md](junior-print-designer.md) | [bodies/junior-print-designer.md](../bodies/junior-print-designer.md) |
+| Senior Print Designer | Unassigned | [senior-print-designer.md](senior-print-designer.md) | [bodies/senior-print-designer.md](../bodies/senior-print-designer.md) |
+| Pendulum Wiki | Unassigned | [pendulum-wiki.md](pendulum-wiki.md) | [bodies/pendulum-wiki.md](../bodies/pendulum-wiki.md) |
+| PR / Media | Unassigned | [pr-media.md](pr-media.md) | [bodies/pr-media.md](../bodies/pr-media.md) |
+| SEO Expert | Unassigned | [seo-expert.md](seo-expert.md) | [bodies/seo-expert.md](../bodies/seo-expert.md) |
+| Social Media Strategist | Unassigned | [social-media-strategist.md](social-media-strategist.md) | [bodies/social-media-strategist.md](../bodies/social-media-strategist.md) |
+| Social Account Expert | Unassigned | [social-account-expert.md](social-account-expert.md) | [bodies/social-account-expert.md](../bodies/social-account-expert.md) |
+| Speaking — Associations | Unassigned | [speaking-associations.md](speaking-associations.md) | [bodies/speaking-associations.md](../bodies/speaking-associations.md) |
+| Speaking — Universities | Unassigned | [speaking-universities.md](speaking-universities.md) | [bodies/speaking-universities.md](../bodies/speaking-universities.md) |
+
 ## After the desk: the plan
 
 The desk is the pack. The **plan** is the pass. Every seat above has one complete plan in [plans/](../plans/README.md) — the one job to take, the SOP that runs it, the KPI it is pointed at with Current empty, and what done looks like. On an unassigned or parked seat the plan is how to hold that state, and it does not staff the seat or unpark it.

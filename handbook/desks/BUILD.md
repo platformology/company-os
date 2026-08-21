@@ -67,6 +67,36 @@ One slug per seat, the same one on all three files — and, after go, the name a
 
 Parked and unassigned seats still get the same boxes. Their desk is a refuse-work pack. Checking a box does not unpark Engineering or Developer, and it does not assign Demand, Sales, or SDR.
 
+## Leftover-file slugs — UNASSIGNED
+
+The twenty-three leftover-file seats now have desk, body, seat page, and `run-*` on disk. Checking those boxes does not staff them. No Grok Bot profile is recorded for them in this repo. The sixth box stays empty for the same lock as the charter seats. Packet: [leftover-packet.md](../leftover-packet.md).
+
+| Seat | Slug | Run page |
+|---|---|---|
+| Book Strategist | `book-strategist` | [run-book-strategist](../../skills/run-book-strategist/SKILL.md) |
+| Book Writer | `book-writer` | [run-book-writer](../../skills/run-book-writer/SKILL.md) |
+| Book Conceptual Editor | `book-conceptual-editor` | [run-book-conceptual-editor](../../skills/run-book-conceptual-editor/SKILL.md) |
+| Book Copy Writer | `book-copy-writer` | [run-book-copy-writer](../../skills/run-book-copy-writer/SKILL.md) |
+| Book Technical Editor | `book-technical-editor` | [run-book-technical-editor](../../skills/run-book-technical-editor/SKILL.md) |
+| Book Reader | `book-reader` | [run-book-reader](../../skills/run-book-reader/SKILL.md) |
+| Copy Writer | `copy-writer` | [run-copy-writer](../../skills/run-copy-writer/SKILL.md) |
+| Copy Editor | `copy-editor` | [run-copy-editor](../../skills/run-copy-editor/SKILL.md) |
+| Sales Writer | `sales-writer` | [run-sales-writer](../../skills/run-sales-writer/SKILL.md) |
+| Sales Editor | `sales-editor` | [run-sales-editor](../../skills/run-sales-editor/SKILL.md) |
+| Strategist | `strategist` | [run-strategist](../../skills/run-strategist/SKILL.md) |
+| Persona Architect | `persona-architect` | [run-persona-architect](../../skills/run-persona-architect/SKILL.md) |
+| Junior Digital Designer | `junior-digital-designer` | [run-junior-digital-designer](../../skills/run-junior-digital-designer/SKILL.md) |
+| Senior Digital Designer | `senior-digital-designer` | [run-senior-digital-designer](../../skills/run-senior-digital-designer/SKILL.md) |
+| Junior Print Designer | `junior-print-designer` | [run-junior-print-designer](../../skills/run-junior-print-designer/SKILL.md) |
+| Senior Print Designer | `senior-print-designer` | [run-senior-print-designer](../../skills/run-senior-print-designer/SKILL.md) |
+| Pendulum Wiki | `pendulum-wiki` | [run-pendulum-wiki](../../skills/run-pendulum-wiki/SKILL.md) |
+| PR / Media | `pr-media` | [run-pr-media](../../skills/run-pr-media/SKILL.md) |
+| SEO Expert | `seo-expert` | [run-seo-expert](../../skills/run-seo-expert/SKILL.md) |
+| Social Media Strategist | `social-media-strategist` | [run-social-media-strategist](../../skills/run-social-media-strategist/SKILL.md) |
+| Social Account Expert | `social-account-expert` | [run-social-account-expert](../../skills/run-social-account-expert/SKILL.md) |
+| Speaking — Associations | `speaking-associations` | [run-speaking-associations](../../skills/run-speaking-associations/SKILL.md) |
+| Speaking — Universities | `speaking-universities` | [run-speaking-universities](../../skills/run-speaking-universities/SKILL.md) |
+
 ## What this page will not start
 
 - No VMs. No GKE. No program GitHub. No send without Michael.

@@ -4,12 +4,12 @@
 
 One pass that reads the leftover for this seat and writes down what it records and what it is missing. No calendar, no channel mix, no cadence.
 
-This seat has **no page in [seats/](../seats/README.md)**, no sit-down pack in [desks/](../desks/README.md), no brief in [bodies/](../bodies/README.md), and no `run-*` router. Those trees hold twenty-three seats and this is not one of them. This plan is not on the index in [plans/README.md](README.md) either; that index still describes the seventeen assigned plans, and the row for this file belongs to a different pass.
+**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions. Everything a social plan schedules is a send.
-2. **The leftover: `/Users/mdrew/Company/Jobs/social-media-strategist-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [social-account-expert.md](social-account-expert.md) — the neighbouring seat, whose line against this one is not recorded.
 4. [cmo.md](cmo.md) — the plan that already names what marketing scope does **not** exist here, and warns against inventing it.
 5. [SOURCES.md](../../SOURCES.md) — the named-missing list.
@@ -49,7 +49,7 @@ Public GitHub is full of social and content-calendar kits, and this repo already
 | **Current** | **Empty**, with no named field for it to be empty in. Not a reach figure, not an engagement rate, not a follower target, not a post count, not a 0. **A 0 is a figure.** |
 | **What not to reach for** | **Inbound leads** is [CMO](cmo.md)'s and has nothing recorded behind it. **Content output** is [Head of Content](head-of-content.md)'s and is explicitly not a cadence or a volume target. Neither is this seat's, and neither has a figure to borrow. |
 | **Why a measurement plan is also barred** | Writing what *would* be measured names the channels, the audiences, and the targets — the strategy, arrived at sideways. Naming the metric names the plan. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/social-media-strategist-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

@@ -4,12 +4,12 @@
 
 One pass that reads the leftover for this seat and writes down what it records and what it is missing. Nothing gets checked, because there is nothing to check and nothing to check it against.
 
-This seat has **no page in [seats/](../seats/README.md)**, no sit-down pack in [desks/](../desks/README.md), no brief in [bodies/](../bodies/README.md), and no `run-*` router. Those trees hold twenty-three seats and this is not one of them. This plan is not on the index in [plans/README.md](README.md) either; that index still describes the seventeen assigned plans, and the row for this file belongs to a different pass.
+**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions.
-2. **The leftover: `/Users/mdrew/Company/Jobs/book-technical-editor-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [company-facts.md](../company-facts.md) — the uncollapsed track record. This is the seat most likely to "fix" it.
 4. [offers.md](../offers.md) — the rungs that show two numbers, and the rung with no public price.
 5. [SOURCES.md](../../SOURCES.md) — the named-missing list.
@@ -42,7 +42,7 @@ The one relevant standing instruction that *does* exist is the last gate — [re
 |---|---|
 | **KPI** | **None is named for this seat.** No KPI for a Book Technical Editor is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not an error count, not a claims-checked count, not an accuracy rate, not a 0. **A 0 is a figure**, and an accuracy rate is a figure twice over — it needs a numerator and a denominator, and neither exists. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/book-technical-editor-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 | **The honest reading** | A seat whose job is verification, with nothing recorded to verify against, is a seat that reports the gap. That report is the output. It is not a smaller version of the job. |
 
 ## Run it
