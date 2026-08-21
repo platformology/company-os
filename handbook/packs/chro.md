@@ -12,7 +12,7 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 - **Reports to:** not recorded on the seat page.
 - **Who fills it:** not recorded.
-- **Leftover today:** Jhana has no Role recorded, Bob has no Role recorded, and there is no hiring SOP, no onboarding SOP, and no classification SOP.
+- **Leftover today:** Jhana has no Role recorded, Bob has no Role recorded, and there is no hiring SOP, no onboarding SOP, and no classification SOP recorded.
 - **KPI:** Seats filled vs charter. **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.

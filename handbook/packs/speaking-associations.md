@@ -12,7 +12,7 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 - **Reports to:** [CMO](../seats/cmo.md), not [CSO](../seats/cso.md).
 - **Who fills it:** not recorded.
-- **Leftover today:** no speaking calendar, association, contact, topic, or fee is recorded, and no speaking rung is on offers.md.
+- **Leftover today:** there is no speaking calendar, association, contact, topic, or fee; there is no speaking rung; who fills this seat is not recorded.
 - **KPI:** none is named for this seat on [plans/README.md](../plans/README.md). **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.

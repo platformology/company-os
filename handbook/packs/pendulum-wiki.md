@@ -12,7 +12,7 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 - **Reports to:** [Head of Content](../seats/head-of-content.md) (librarian).
 - **Who fills it:** not recorded.
-- **Leftover today:** no Pendulum wiki exists, and no decision is recorded that one gets built or where it would live.
+- **Leftover today:** there is no Pendulum wiki, and there is no decision that one gets built; who fills this seat is not recorded.
 - **KPI:** none is named for this seat on [plans/README.md](../plans/README.md). **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.

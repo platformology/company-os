@@ -12,7 +12,7 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 - **Reports to:** [CMO](../seats/cmo.md).
 - **Who fills it:** not recorded.
-- **Leftover today:** the accountabilities of this seat are unwritten on purpose; no inbound volume, lead count, or channel is recorded; the lead magnet has no Offers row, and that hole is the CMO's to name.
+- **Leftover today:** this seat's accountabilities are unwritten on purpose; the lead magnet has no Offers row — the CMO's hole to name, not this seat's to fill; who fills this seat is not recorded.
 - **KPI:** Cost per consult. **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.

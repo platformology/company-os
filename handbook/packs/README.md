@@ -25,7 +25,7 @@ Where a pack and a seat page disagree, **the seat page wins**, and the pack is t
 - **Who fills a seat stays "not recorded."** The one recorded holder is the COO, and there is no COO pack in this folder.
 - **No status stamp.** These pages carry no Assigned / Unassigned / Parked line. The status columns on [desks/README.md](../desks/README.md), [bodies/README.md](../bodies/README.md), and [plans/README.md](../plans/README.md) are the ones that carry status, and this folder changes none of them.
 - **Named missing stays named.** Each page ends with the seat page's own named-missing list, unfilled.
-- **[how-money-moves.md](../how-money-moves.md) appears in exactly one Knowledge line — the CMO's** — because the CMO leftover is the one that names a money-move job, Attract. It is not added to a pack whose leftover does not name one.
+- **[how-money-moves.md](../how-money-moves.md) goes on a Knowledge line only when that seat's own leftover names a money-move job.** Read against the leftovers as they stand today, none does, so the page is on no pack. It gets added to one when a leftover names one, and not before.
 - **Nothing here sends, and no program GitHub.** [locks.md](../locks.md) is the list, and every pack opens it first.
 
 ## Who has a pack here

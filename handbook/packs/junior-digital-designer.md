@@ -12,7 +12,7 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 - **Reports to:** Craft cluster — no owner recorded.
 - **Who fills it:** not recorded.
-- **Leftover today:** there is no design brief, no brand book, no palette, no type, and no logo; no digital property is recorded; the junior / senior split is not recorded.
+- **Leftover today:** there is no design brief, brand book, palette, type, or logo; who fills this seat is not recorded.
 - **KPI:** none is named for this seat on [plans/README.md](../plans/README.md). **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.

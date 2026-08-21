@@ -14,7 +14,7 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 - **Reports to:** not recorded on the seat page.
 - **Who fills it:** not recorded.
-- **Leftover today:** who fills this seat is not recorded; the go packet is not written down in this repo; the production stack is not recorded.
+- **Leftover today:** who fills this seat is not recorded; the go packet is not written in this repo; the production stack is not recorded.
 - **KPI:** CRM hygiene. **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.

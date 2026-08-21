@@ -12,7 +12,7 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 - **Reports to:** [Head of Sales](../seats/head-of-sales.md).
 - **Who fills it:** not recorded.
-- **Leftover today:** five fields on the campaign lead scoring draft stay unnamed; no scoring model is in the corpus; a link to the Notion Clients database is not recorded in this repo.
+- **Leftover today:** there is no scoring model in the corpus, five fields on the campaign lead scoring draft stay unnamed, and a link to the Notion Clients database is not recorded in this repo; who fills this seat is not recorded, and neither is who fills Head of Sales above it.
 - **KPI:** Consults booked. **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.

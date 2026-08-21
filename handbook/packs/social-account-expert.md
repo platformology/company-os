@@ -10,9 +10,9 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 **Support**
 
-- **Reports to:** [Social Media Strategist](../seats/social-media-strategist.md); the line between the two seats is not recorded.
+- **Reports to:** [Social Media Strategist](../seats/social-media-strategist.md) (holder not recorded); the line between the two seats is not recorded.
 - **Who fills it:** not recorded.
-- **Leftover today:** no social handle, account, profile, page, or platform is recorded.
+- **Leftover today:** there is no social handle, account, or connected platform; who fills this seat is not recorded.
 - **KPI:** none is named for this seat on [plans/README.md](../plans/README.md). **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.

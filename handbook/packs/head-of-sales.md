@@ -12,7 +12,7 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 - **Reports to:** [CSO](../seats/cso.md).
 - **Who fills it:** not recorded.
-- **Leftover today:** the live Uncovery script is not recorded; how an Uncovery is sold is not written on offers.md; no pipeline, forecast, or close rate is recorded.
+- **Leftover today:** there is no live Uncovery script, and how an Uncovery is sold is not recorded; who fills this seat is not recorded, and who fills SDR underneath it is not recorded either.
 - **KPI:** Pipeline coverage. **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.
