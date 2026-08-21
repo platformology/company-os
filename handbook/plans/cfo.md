@@ -28,9 +28,12 @@ The boundary this seat holds on every pass: **Blue Sky stays off the LLC books.*
 
 | | |
 |---|---|
-| **KPI** | **None is named for this seat.** No KPI appears for the CFO on the C-suite operating plan, and this plan does not invent one. The two seats under this one do carry named KPIs — see [controller.md](controller.md) and [bookkeeper.md](bookkeeper.md). |
-| **Pointed at instead** | The live leftover already on [seats/cfo.md](../seats/cfo.md): **who currently fills this seat.** |
-| **Current** | **Empty.** If a KPI is ever named for this seat, its Current field still starts empty. No figure goes in it, and a 0 is a figure. |
+| **KPI** | Three, all named on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion): **Revenue by offer**, **Gross margin**, and **Cash and AR.** Copied here as names, nothing more — this repo does not restate the dashboard. The two seats reporting in carry their own — see [controller.md](controller.md) and [bookkeeper.md](bookkeeper.md). |
+| **Current** | **Empty on all three.** No figure has been sourced for any of them — not an amount, not a percentage, not a 0. **A 0 is a figure.** |
+| **What is behind Revenue by offer** | **No offer on [offers.md](../offers.md) has a revenue figure attached to it**, and no company-wide revenue figure is recorded either. The ladder is a list of prices, and a price is not revenue. |
+| **What is behind Gross margin** | **No cost figure of any kind is recorded in this repo.** With neither side of the calculation sourced, a margin is not something to work out here — it is something nobody has measured. |
+| **What is behind Cash and AR** | **No cash balance and no accounts-receivable figure is recorded.** Bench is the general ledger and **there is no Bench connector**, so nothing here reads a balance off it. **June and July 2026 are not closed** ([controller.md](controller.md)), so even the periods behind these numbers are open. |
+| **The live leftover on the seat page** | Separate from the KPIs, and still open: **who currently fills this seat** ([seats/cfo.md](../seats/cfo.md)). |
 
 ## Run it
 
@@ -53,7 +56,9 @@ One money point is described in the four terms above, sourced from the Notion pa
 - June and July 2026 are not closed.
 - No Bench savings total, and no Bench connector.
 - No invented invoice, accounts-receivable figure, or savings total.
-- No offer-level revenue figure exists in this repo.
+- No offer-level revenue figure exists in this repo, and no company-wide one either.
+- No cost figure, and therefore no margin.
+- No cash balance and no accounts-receivable balance.
 
 ## Never
 

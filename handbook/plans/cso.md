@@ -24,15 +24,20 @@ This seat's live leftover is that **both reports under it are unassigned**: [Hea
 
 ## The SOP that runs it
 
-[Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) (Notion) for the live ladder, [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855) (Notion) for what a diligence reader already sees. Uncovery-as-paid-discovery runs off [Uncovery SOP](https://app.notion.com/p/3c125e30d68b815d9dbbd7e59102af3e) (Notion) — and **the live Uncovery script is named missing**, so nothing scripts that call from this seat.
+[Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) (Notion) for the live ladder, [Buyer data room](https://app.notion.com/p/3c025e30d68b8135bdcdc9010e649855) (Notion) for what a diligence reader already sees. Diagnosis — job 2 on [how-money-moves.md](../how-money-moves.md) — runs off [Uncovery SOP](https://app.notion.com/p/3c125e30d68b815d9dbbd7e59102af3e) (Notion), and **the live Uncovery script is named missing**, so nothing scripts that call from this seat.
+
+**How an Uncovery is sold is not written on [offers.md](../offers.md) either.** That page carries three rungs and their prices — Book Writing Uncovery: Consult; Book Marketing Uncovery: Consult, or Drive wire $20,000; Bestseller Uncovery: $20,000 — and nothing about what the engagement is positioned as. **Named missing.** Do not describe it as paid discovery, paid diagnosis, or anything else that page does not say.
 
 ## The KPI this plan is pointed at
 
 | | |
 |---|---|
-| **KPI** | **None is named for this seat.** No KPI appears for the CSO on the C-suite operating plan, and this plan does not invent one. |
-| **Pointed at instead** | The live leftover already on [seats/cso.md](../seats/cso.md): **Head of Sales and SDR are both unassigned**, and the seat page's own standing note that KPI "Current" stays empty. |
-| **Current** | **Empty.** No figure goes in that field. The 18 Aug 2026 extract in [clients.md](../clients.md) separately counts 0 Current and 0 Prospect — that is a client count with a date on it, and it does not get carried into the KPI. A 0 is a figure. |
+| **KPI** | Three, all named on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion): **Qualified consults**, **Close rate by offer**, and **% revenue not sold by Michael.** Copied here as names, nothing more — this repo does not restate the dashboard. |
+| **Current** | **Empty on all three.** No figure has been sourced for any of them — not a consult count, not a rate, not a share, not a 0. **A 0 is a figure**, and a rate or a percentage is a figure twice over. |
+| **What is behind Qualified consults** | **No pipeline, forecast, lead count, or consult record exists in this repo**, and no qualification bar is written down either. The 18 Aug 2026 extract in [clients.md](../clients.md) counts 0 Current and 0 Prospect — that is a client count with a date on it, not a consult count, and it does not get carried into the field. |
+| **What is behind Close rate by offer** | **No offer on [offers.md](../offers.md) has a close, a win, or a count attached to it.** A rate needs both a numerator and a denominator, and neither is recorded. |
+| **What is behind % revenue not sold by Michael** | **No revenue figure is recorded anywhere in this repo** — not company-wide, not per offer. So there is no total to take a share of, and no attribution of a sale to any person is recorded either. Both halves are missing, and neither gets estimated. |
+| **The live leftover on the seat page** | Separate from the KPIs, and still open: **[Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) are both unassigned** ([seats/cso.md](../seats/cso.md)). |
 
 ## Run it
 
@@ -53,7 +58,8 @@ One buyer question is answered against a rung that exists, priced exactly as the
 
 - Who fills this seat.
 - Head of Sales and SDR — unassigned, and no pipeline, forecast, close rate, lead count, or score invented for them.
-- The live Uncovery script.
+- The live Uncovery script, and how an Uncovery is sold — neither is on [offers.md](../offers.md).
+- Any consult count or qualification bar; any close or win attached to an offer; any revenue figure to take a share of.
 - Platinum Major List has no public price.
 - Hoffman's client status is a question, not a fact.
 

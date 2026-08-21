@@ -28,9 +28,10 @@ That is the whole roster. **Today's roster is small enough that this seat's dail
 
 | | |
 |---|---|
-| **KPI** | **None is named for this seat.** No KPI appears for the CHRO on the C-suite operating plan, and this plan does not invent one. The seat under it does carry one — see [people-ops.md](people-ops.md). |
-| **Pointed at instead** | The live leftover already on [seats/chro.md](../seats/chro.md): **Jhana's Role and Bob's Role.** Both stay blank. Assigning either is an ask-Michael-first item on [locks.md](../locks.md). |
-| **Current** | **Empty.** If a KPI is ever named for this seat, its Current field still starts empty. No figure goes in it, and a 0 is a figure. |
+| **KPI** | **Seats filled vs charter.** Named on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion). Copied here as a name, nothing more — this repo does not restate the dashboard. The seat under this one carries its own — see [people-ops.md](people-ops.md). |
+| **Current** | **Empty.** No figure has been sourced for that field, and none goes in it — not a count, not a ratio, not a fraction, not a 0. **A 0 is a figure**, and so is a ratio. |
+| **What is behind it today** | The charter is the seat pages in [seats/](../seats/README.md). **Every one of them except COO reads "not recorded."** That is a roster fact and it stays a roster fact — read it off the pages, and **do not compute it into a ratio and drop the ratio in the Current field.** A count you worked out yourself is still a figure nobody sourced. |
+| **The live leftover on the seat page** | Separate from the KPI, and still open: **Jhana's Role and Bob's Role** ([seats/chro.md](../seats/chro.md)). Both stay blank; assigning either is an ask-Michael-first item on [locks.md](../locks.md). |
 
 ## Run it
 

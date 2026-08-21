@@ -30,9 +30,11 @@ Two seats hand work here: [Head of Author Success](../seats/head-of-author-succe
 
 | | |
 |---|---|
-| **KPI** | **None is named for this seat.** No KPI appears for the CCO on the C-suite operating plan, and this plan does not invent one. The three seats under and beside this one carry named KPIs — see [head-of-author-success.md](head-of-author-success.md), [client-success.md](client-success.md), and [campaign-coordinator.md](campaign-coordinator.md). |
-| **Pointed at instead** | The live leftover already on [seats/cco.md](../seats/cco.md): **who fills this seat.** |
-| **Current** | **Empty.** If a KPI is ever named for this seat, its Current field still starts empty. No figure goes in it, and a 0 is a figure. |
+| **KPI** | Two, both named on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion): **Bestseller hit rate** and **Client NPS / referral rate.** Copied here as names, nothing more — this repo does not restate the dashboard. The three seats under and beside this one carry their own — see [head-of-author-success.md](head-of-author-success.md), [client-success.md](client-success.md), and [campaign-coordinator.md](campaign-coordinator.md). |
+| **Current** | **Empty on both.** No figure has been sourced for either field, and none goes in either — not a rate, not a score, not a 0. **A 0 is a figure**, and a rate is a figure twice over. |
+| **What is behind Bestseller hit rate** | **No list placement, attempt, or outcome is recorded in this repo.** The track record is uncollapsed and stays that way — 124 (Dec 2022), 128 (Book Retreat era), later 130–131 — and it is **not** a hit rate: do not collapse it into one, and do not divide it by anything. **Naming this KPI is not a promise.** No page in this repo records a guaranteed list placement, and nothing drafted off this plan implies one. |
+| **What is behind Client NPS / referral rate** | **No survey, score, or referral is recorded.** There is no NPS instrument here and no referral log, so neither half of that row has anything behind it. |
+| **The live leftover on the seat page** | Separate from the KPIs, and still open: **who fills this seat** ([seats/cco.md](../seats/cco.md)). |
 
 ## Run it
 
@@ -53,6 +55,8 @@ One finished thing carries a pass or a named miss from the function this seat ac
 
 - Who fills this seat.
 - Any campaign-QA SOP of its own.
+- Any list placement, attempt, or outcome — and no guaranteed list placement is recorded anywhere.
+- Any NPS survey, score, or referral log.
 - Hoffman's client status is a question, not a fact.
 - The two unresolved Zoom URLs for Cornelia Choe's Thu 20 Aug 2026, 11:00–11:30am America/Denver meeting — neither is picked.
 

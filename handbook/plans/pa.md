@@ -28,9 +28,10 @@ Daily work comes off the Do this page. This seat does not invent daily work — 
 
 | | |
 |---|---|
-| **KPI** | **None is named for this seat.** No KPI appears for the PA on the C-suite operating plan, and this plan does not invent one to fill the row. |
-| **Pointed at instead** | The live leftover already on [seats/pa.md](../seats/pa.md): **who currently fills this seat** — plus who the next PA is and when the current one's tenure ends, both named missing in [SOURCES.md](../../SOURCES.md). |
-| **Current** | **Empty.** If a KPI is ever named for this seat, its Current field still starts empty. No figure goes in it, and a 0 is a figure. |
+| **KPI** | **Open question-batch age.** Named on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion). Copied here as a name, nothing more — this repo does not restate the dashboard. |
+| **Current** | **Empty.** No figure has been sourced for that field, and none goes in it — not a count of open batches, not a number of days, not a 0. **A 0 is a figure.** |
+| **What is behind it today** | **No question batch, and no age on one, is recorded in this repo.** The daily loop lives on the [Do this](https://app.notion.com/p/3c025e30d68b8142a971ccdb0d657b22) page in Notion and this repo does not restate it, so nothing here is measured — and an age does not get estimated from how long something has looked open. |
+| **The live leftover on the seat page** | Separate from the KPI, and still open: **who currently fills this seat**, plus who the next PA is and when the current one's tenure ends — both named missing in [SOURCES.md](../../SOURCES.md). |
 
 ## Run it
 
@@ -51,8 +52,9 @@ One item off the Do this page is finished, anything for a client is a draft sitt
 
 - Who currently fills this seat.
 - Who the next PA is, and the current PA's tenure end date.
+- Any question-batch record, and any age on one.
 
-Both stay named until Michael sources them. Writing a plausible name in either place is the failure this repo exists to prevent.
+These stay named until Michael sources them. Writing a plausible name in either place is the failure this repo exists to prevent.
 
 ## Never
 

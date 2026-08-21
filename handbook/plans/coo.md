@@ -28,9 +28,11 @@ This is also the seat's live leftover read from the other end: **detailed COO ac
 
 | | |
 |---|---|
-| **KPI** | **None is named for this seat.** No KPI appears for the COO on the C-suite operating plan, and this plan does not invent one. |
-| **Pointed at instead** | The live leftover already on [seats/coo.md](../seats/coo.md): **detailed COO accountabilities beyond the public title.** |
-| **Current** | **Empty.** If a KPI is ever named for this seat, its Current field still starts empty. No figure goes in it, and a 0 is a figure. |
+| **KPI** | Two, both named on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion): **Founder delivery hours %** and **Retreat fill rate.** Copied here as names, nothing more — this repo does not restate the dashboard. |
+| **Current** | **Empty on both.** No figure has been sourced for either field, and none goes in either — not a percentage, not a headcount, not a 0. **A 0 is a figure**, and a percentage is a figure twice over. |
+| **What is behind Founder delivery hours %** | **No hours are recorded in this repo** — not Michael's, not anyone's. There is no time record here to read a share off, so the percentage is not something to calculate; it is something nobody has measured. |
+| **What is behind Retreat fill rate** | **No next retreat is recorded** — no date, no guest list, no venue. See [retreat-producer.md](retreat-producer.md), where the same hole sits under a different KPI. Nothing to fill means nothing to measure, and a fill rate does not get inferred from the offer ladder. |
+| **The live leftover on the seat page** | Separate from the KPIs, and still open: **detailed COO accountabilities beyond the public title** ([seats/coo.md](../seats/coo.md)). |
 
 ## Run it
 
@@ -51,6 +53,8 @@ One change carries a plain pass or a named miss from this seat, it moved on to t
 
 - Detailed COO accountabilities beyond the public title.
 - Any COO SOP of its own. The Notion pages above are the fuller picture; a dedicated SOP is not recorded.
+- Any hours record, for Michael or for anyone else.
+- Any next retreat — no date, guest list, or venue, so no roster to fill.
 
 ## Never
 

@@ -22,13 +22,13 @@ Seats that are unassigned or parked are not in this table and get no plan. **[He
 
 | Seat | Plan | The KPI this plan is pointed at |
 |---|---|---|
-| [PA](../seats/pa.md) | [pa.md](pa.md) | None named — pointed at the live leftover on the seat page |
-| [COO](../seats/coo.md) | [coo.md](coo.md) | None named — pointed at the live leftover on the seat page |
-| [CMO](../seats/cmo.md) | [cmo.md](cmo.md) | None named — pointed at the live leftover on the seat page |
-| [CSO](../seats/cso.md) | [cso.md](cso.md) | None named — pointed at the live leftover on the seat page |
-| [CFO](../seats/cfo.md) | [cfo.md](cfo.md) | None named — pointed at the live leftover on the seat page |
-| [CCO](../seats/cco.md) | [cco.md](cco.md) | None named — pointed at the live leftover on the seat page |
-| [CHRO](../seats/chro.md) | [chro.md](chro.md) | None named — pointed at the live leftover on the seat page |
+| [PA](../seats/pa.md) | [pa.md](pa.md) | Open question-batch age |
+| [COO](../seats/coo.md) | [coo.md](coo.md) | Founder delivery hours % · Retreat fill rate |
+| [CMO](../seats/cmo.md) | [cmo.md](cmo.md) | Inbound leads |
+| [CSO](../seats/cso.md) | [cso.md](cso.md) | Qualified consults · Close rate by offer · % revenue not sold by Michael |
+| [CFO](../seats/cfo.md) | [cfo.md](cfo.md) | Revenue by offer · Gross margin · Cash and AR |
+| [CCO](../seats/cco.md) | [cco.md](cco.md) | Bestseller hit rate · Client NPS / referral rate |
+| [CHRO](../seats/chro.md) | [chro.md](chro.md) | Seats filled vs charter |
 | [Controller](../seats/controller.md) | [controller.md](controller.md) | Clean close by day 10 |
 | [Bookkeeper](../seats/bookkeeper.md) | [bookkeeper.md](bookkeeper.md) | Bills and collections |
 | [People Ops](../seats/people-ops.md) | [people-ops.md](people-ops.md) | Time-to-onboard a campaign coordinator |
@@ -40,7 +40,9 @@ Seats that are unassigned or parked are not in this table and get no plan. **[He
 | [VP Retreats](../seats/vp-retreats.md) | [vp-retreats.md](vp-retreats.md) | PIAB cycle time |
 | [Retreat Producer](../seats/retreat-producer.md) | [retreat-producer.md](retreat-producer.md) | Next retreat roster complete |
 
-Ten of those KPIs were already named on the C-suite operating plan and are copied here as names only. The other seven seats have no KPI named anywhere, so their plans say **none named** and point at the live leftover the seat page already carries instead. A plan does not invent a KPI to fill its own row.
+**Every one of the seventeen seats has at least one named KPI, and every name above was already named before this folder existed** — ten on the C-suite operating plan, and the rest on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database in Notion. They are copied here as names only. No plan invents a KPI, renames one, drops one, or measures one.
+
+A named KPI is not a measured KPI. Naming the thing being watched says nothing about whether anybody has watched it, and for most of these nobody has: each plan carries a **"What is behind it today"** row that says plainly what is missing underneath — no milestone schedule, no hours record, no consult count, no revenue figure, no survey. That row is the honest half of the KPI, and it does not get replaced with a number.
 
 ## KPI Current stays empty on all seventeen
 
@@ -61,7 +63,7 @@ A plan existing for a seat does not fill the seat. It means the work is written 
 You do not need this to run a plan, but it is the frame every plan sits inside, and each piece points at a page that already exists.
 
 - **One method, two buyer faces.** Platformology LLC is one company. Promote a Book and Book Retreat are DBAs of it — not two companies, and not SmarterVoice. See [company-facts.md](../company-facts.md).
-- **Diagnose before you place.** Uncovery is the paid diagnosis, and placing a buyer on a rung comes after it. Both are jobs 2 and 3 of the five on [how-money-moves.md](../how-money-moves.md).
+- **Diagnose before you place.** Jobs 2 and 3 of the five on [how-money-moves.md](../how-money-moves.md): Diagnose is what the Uncovery offers are for, and Place matches a buyer to a rung after it. **How an Uncovery is sold is not written on [offers.md](../offers.md)** — that page carries the three Uncovery rungs and their prices and nothing else. So no plan here calls it paid discovery, paid diagnosis, or anything else that page does not say. **Named missing.**
 - **Then a timed campaign.** A live campaign runs off the [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (Notion) under [VP Campaigns](../seats/vp-campaigns.md), day-to-day under the [Campaign Coordinator](../seats/campaign-coordinator.md). Its milestones are what two of the KPIs above are named after.
 - **No list guarantee.** No page in this repo records a promised list placement, so no plan here writes one, and no draft off a plan implies one. A rung on [offers.md](../offers.md) is a price, not a promise about an outcome.
 - **Roles a person can run.** Seventeen plans, each short enough to read before you start and specific enough to finish. That is the test this folder is graded on.

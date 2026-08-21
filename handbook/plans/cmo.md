@@ -28,9 +28,10 @@ The two holes are this seat's live leftover, and they are already written on [se
 
 | | |
 |---|---|
-| **KPI** | **None is named for this seat.** No KPI appears for the CMO on the C-suite operating plan, and this plan does not invent one. |
-| **Pointed at instead** | The live leftover already on [seats/cmo.md](../seats/cmo.md): **the membership price, and the lead magnet's missing Offers row.** Both are listed in [SOURCES.md](../../SOURCES.md). |
-| **Current** | **Empty.** If a KPI is ever named for this seat, its Current field still starts empty. No figure goes in it, and a 0 is a figure. |
+| **KPI** | **Inbound leads.** Named on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion). Copied here as a name, nothing more — this repo does not restate the dashboard. |
+| **Current** | **Empty.** No figure has been sourced for that field, and none goes in it — not a lead count, not a channel breakdown, not a 0. **A 0 is a figure.** |
+| **What is behind it today** | **No inbound volume, lead count, or channel is recorded anywhere in this repo.** [Head of Demand](../seats/head-of-demand.md) — the seat that would own inbound — is unassigned, with no work assigned to it. The KPI is named on this seat; the job underneath it is not staffed, and no lead count is invented to make the field look answered. |
+| **The live leftover on the seat page** | Separate from the KPI, and still open: **the membership price, and the lead magnet's missing Offers row** ([seats/cmo.md](../seats/cmo.md), listed in [SOURCES.md](../../SOURCES.md)). |
 
 ## Run it
 
@@ -52,6 +53,7 @@ The ladder either matches the Sales Menu or you have named the row that does not
 - The membership price.
 - The lead magnet has no Offers row.
 - Platinum Major List has no public price.
+- Any inbound volume, lead count, or channel — Head of Demand is unassigned and none is recorded.
 
 ## Never
 
