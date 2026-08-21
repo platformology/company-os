@@ -16,7 +16,7 @@ Point at the page that holds each fact. Do not restate a Notion SOP. Do not writ
 
 2. **Money-move pipeline.** Attract, Diagnose, Place, Deliver, Expand alumni — in that order. [how-money-moves.md](how-money-moves.md). Those five jobs are the money-move pipeline.
 
-3. **Leftover-file employee pipelines.** Sourced on [pipelines/](pipelines/) and `handbook/pipelines/<slug>.md` — three or more per leftover-file employee (incoming, leftover-today, outgoing/QC), plus leftover named holes as child stages. Point at that folder. Do not call those unsourced. Do not invent a forecast. Do not write those pipeline pages here.
+3. **Leftover-file employee pipelines.** Sourced on [pipelines.md](pipelines.md) and [pipelines/](pipelines/) — three or more per leftover-file employee (incoming, leftover-today, outgoing/QC), plus leftover named holes as child stages. Point at that folder. Do not call those unsourced. Do not invent a forecast. Do not write those pipeline pages here.
 
 4. **Offers and quote-both.** Public rungs live on [offers.md](offers.md). Where a rung shows two numbers, quote both. Pick neither. **Platinum Major List has no public price.** **Membership price** is named missing. **Lead magnet has no Offers row.** Quoted from [SOURCES.md](../SOURCES.md) and from that offers page. Do not invent a price.
 
