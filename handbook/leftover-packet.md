@@ -23,7 +23,7 @@ One leftover, one gate, one stop. [cheap-loop.md](cheap-loop.md) already says wh
 |---|---|---|
 | **A People** | In progress | Roster, CHRO SOP, twenty-three leftover-file seats last-gated. Holders named missing except COO (Anthony C. Garcia). Forty-three leftover-file employees. Engineering and Developer parked. Who fills CTO stays missing. |
 | **B Company run** | In progress | PA, COO, CTO leftovers last-gated on [company-run.md](company-run.md). M1 is the office. M5 parked. |
-| **C Demand** | In progress | Honest leftovers last-gated including CSO after the cut. Quote-both stays cut. Sales Menu is the live quote-both page. Pipeline means the five money-move jobs. Demand / Sales / SDR are leftover-file assigned, holder not recorded. No advertising file. Do not add an advertising seat. |
+| **C Demand** | In progress | Honest leftovers last-gated including CSO after the cut. Quote-both stays cut. Sales Menu is the live quote-both page. Demand / Sales / SDR stay unassigned. No advertising file. Do not add an advertising seat. |
 | **D Delivery** | In progress | Including CCO last-gated. Writing guides and intake/scoring stamps stand. Do not rewrite stamped D pages. |
 | **E Money** | In progress | CFO, Bookkeeper, Controller last-gated. Quote, do not average. June/July close blocked on a human for Bench. Do not invent a close. |
 | **F Automation** | Not started | Stays parked. Do not start VMs. Do not invent SmarterVoice work. No GKE. |
@@ -49,15 +49,13 @@ Open [company-run.md](company-run.md). PA, COO, and CTO leftovers are last-gated
 
 Open [leftovers/cso.md](leftovers/cso.md), [leftovers/cmo.md](leftovers/cmo.md), [leftovers/head-of-demand.md](leftovers/head-of-demand.md), [leftovers/head-of-sales.md](leftovers/head-of-sales.md), [leftovers/sdr.md](leftovers/sdr.md), and [offers.md](offers.md).
 
-**CSO after the cut, last-gated:** Head of Sales and SDR are leftover-file assigned; who fills either is not recorded. Live Uncovery script is not recorded. How an Uncovery is sold is not written on [offers.md](offers.md).
-
-**Pipeline is not a blank word in this letter.** It means the five money-move jobs — Attract → Diagnose → Place → Deliver → Expand alumni on [how-money-moves.md](how-money-moves.md), listed on [pipelines.md](pipelines.md). Asked for the pipeline, name those five jobs. It never means a forecast, and there is no pipeline figure to report.
+**CSO after the cut, last-gated:** Head of Sales and SDR stay unassigned. Live Uncovery script is not recorded. How an Uncovery is sold is not written on [offers.md](offers.md). Do not invent a pipeline.
 
 **Quote-both stays cut.** Where the ladder shows two numbers, both travel. **Platinum Major List has no public price.** The membership price is named missing. The lead magnet has no Offers row.
 
 **Sales Menu is the live quote-both page** — [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7). Check a named row. Do not restamp quote-both.
 
-**Demand / Sales / SDR are leftover-file assigned, holder not recorded.** Do not hand them work beyond the leftover already named. Do not invent inbound, a forecast, or a lead list so they have something to digest.
+**Demand / Sales / SDR stay unassigned.** Do not hand them work. Do not invent inbound, a forecast, or a lead list so they have something to digest.
 
 **No advertising file. Do not add an advertising seat.** Asking for an advertising plan is a request to Michael, not a draft this packet produces.
 

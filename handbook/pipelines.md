@@ -26,9 +26,9 @@ Those three steps are the whole of it. No stage gets added to them here.
 
 ## The leftover-packet letters
 
-A People, B Company run, C Demand, D Delivery, E Money. Those are the letters on leftover-packet.md, and that page is the only place their state is written — this page does not restamp them and does not hand them work. F Automation stays parked.
+A People, B Company run, C Demand, D Delivery, E Money are the leftover-packet's letters. F Automation stays parked.
 
-None of the letters is a pipeline. Pipeline means the five jobs above.
+They are named here and nothing else. No status for any of them is written on this page, none of them is live leftover work here, and none of them is a pipeline. Pipeline means the five jobs above.
 
 ## What "pipeline" never means here
 
