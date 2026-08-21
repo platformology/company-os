@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** The first honest reaction to a draft — where a reader got lost, bored, confused, or hooked.
 
-**This seat is unassigned.** There is no draft and no reader. A reported reaction without a real draft is invented evidence about an audience.
+**This seat is leftover-file assigned.** The assignment is this seat's leftover job file — not in this repo, and not restated here. Assigned on file is not staffed: **who fills this seat is not recorded.** There is no draft and no reader. A reported reaction without a real draft is invented evidence about an audience.
 
 **Owns:** Nothing invented.
 

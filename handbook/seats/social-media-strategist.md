@@ -4,17 +4,17 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Own social strategy.
 
-**This seat is unassigned.** There is no extract naming a holder, no handle, no channel, and no brand book. If you opened this page looking for work, that's the honest answer — there isn't any assigned here yet.
+**This seat is leftover-file assigned.** The assignment is this seat's leftover job file — not in this repo, and not restated here. Assigned on file is not staffed: **who fills this seat is not recorded.** There is no handle, no channel, and no brand book.
 
 **Owns:** Nothing invented. When this seat is staffed, its accountabilities get written here from a source — not before.
 
 **Reports to:** [CMO](cmo.md).
 
-**Reports into this seat:** [Social Account Expert](social-account-expert.md) (unassigned). The line between the two seats is not recorded. Do not draw it.
+**Reports into this seat:** [Social Account Expert](social-account-expert.md) (holder not recorded). The line between the two seats is not recorded. Do not draw it.
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
-**Run this:** [run-social-media-strategist](../../skills/run-social-media-strategist/SKILL.md) — the router for this seat, and the page that answers honestly that there is no work here yet. Every skill in the repo: [skills/README.md](../../skills/README.md).
+**Run this:** [run-social-media-strategist](../../skills/run-social-media-strategist/SKILL.md) — the router for this seat. Every skill in the repo: [skills/README.md](../../skills/README.md).
 
 **Open this in Notion:** Named missing — no Notion page is recorded for this seat, and no other seat's page gets borrowed.
 
