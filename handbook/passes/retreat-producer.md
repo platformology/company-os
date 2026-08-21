@@ -41,7 +41,7 @@ What it does **not** produce, each for its own reason rather than as one shrug:
 - **A retreat date, a guest list, or a venue.** **None of the three is sourced.** See below.
 - **An answer to an ownership question.** That is [VP Retreats](../seats/vp-retreats.md)'. Hand it up.
 - **A sixth field on the guest intake, or a blank one filled.** See below.
-- **A roster.** See below; the KPI is empty for want of a retreat, and drafting one is how the field stops being empty without anybody sourcing a thing.
+- **A roster.** See below. The KPI is empty for want of a retreat, and a drafted roster fills the field without anybody having sourced one.
 - **Retreat-experience QC on your own work.** That is the [CCO](../seats/cco.md)'s, in parallel. Leave it there.
 - **A price you worked out.** Prices come off [offers.md](../offers.md) and nowhere else.
 - **A single, current track-record number.** See below.
@@ -71,7 +71,7 @@ Two ways that goes wrong, and both look like helpfulness while you are doing the
 
 ### The track record travels uncollapsed
 
-This seat owns quoting the **Book Retreat-era** numbers ([company-facts.md](../company-facts.md)), and they go out the way that page records them: **124 (Dec 2022), 128 (Book Retreat era), later reported as 130–131.** **Each figure with its date or context. Never averaged, never rounded, and not one of them presented as "current"** — including 130–131, which is the newest and still not current. [quote-track-record](../../skills/quote-track-record/SKILL.md) is the skill, and the last gate fails a draft for exactly this.
+This is the seat that owns quoting the **Book Retreat-era** figures — **128 (Book Retreat era), later reported as 130–131** — and they go out the way [company-facts.md](../company-facts.md) records the whole run: **124 (Dec 2022), 128 (Book Retreat era), later reported as 130–131.** **Each figure with its date or context. Never averaged, never rounded, and not one of them presented as "current"** — including 130–131, which is the newest and still not current. [quote-track-record](../../skills/quote-track-record/SKILL.md) is the skill, and the last gate fails a draft for exactly this.
 
 Two readings that get made here and neither is true. **Those figures are not a retreat result** — they are not what a retreat this repo does not record produced, and quoting them next to a retreat does not make them one. And **they are not a list placement.** **No list guarantee:** no page in this repo records a promised placement, and **a rung on [offers.md](../offers.md) is a price, not a promise about an outcome.**
 
@@ -86,7 +86,7 @@ Two readings that get made here and neither is true. **Those figures are not a r
 
 **The same hole sits under the [COO](../seats/coo.md)'s Retreat fill rate, one seat up.** Name that it is the same absence — no next retreat — and then **leave the two holes as two.** Neither gets merged into the other, and **neither gets filled from this chair.**
 
-**A pass that leaves that field empty has not come up short — it has read the state correctly.** And the reach here is short, which is why it is written down: this is the seat that would produce the roster, so the seat best placed to sketch one is the seat sitting next to the empty field. **A sketched roster makes the number real by making up the thing it counts.**
+**A pass that leaves that field empty has not come up short — it has read the state correctly.** And the reach is shorter here than on most seats, which is why it is written down at all: **this is the seat that would build the roster**, so the one person best placed to sketch a plausible one is the person sitting in front of the empty field. **A sketched roster makes the number real by making up the thing it counts.**
 
 And there is no queue. Nothing in this repo lists retreats waiting on this seat, so **"nothing arrived" is a real answer and a finished pass.**
 
