@@ -55,7 +55,7 @@ These seats stay **UNASSIGNED**. Their leftover is the vacancy plus the named ho
 | [Head of Sales](../seats/head-of-sales.md) | [head-of-sales.md](head-of-sales.md) | The seat is unassigned; SDR underneath is unassigned; no live Uncovery script |
 | [SDR](../seats/sdr.md) | [sdr.md](sdr.md) | The seat is unassigned; Head of Sales above is unassigned; no scoring model |
 
-**Twenty-three leftover-file craft seats.** The leftover job files on the M1 at `/Users/mdrew/Company/Jobs/<slug>-job.md` are **not in this repo** and are not restated here. The leftover in this folder is what this repo already names as missing for that seat.
+**Twenty-three leftover-file craft seats.** The leftover job files on the M1 are **not in this repo** and are not restated here. The leftover in this folder is what this repo already names as missing for that seat.
 
 | Seat | Leftover | The leftover today |
 |---|---|---|
