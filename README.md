@@ -23,7 +23,7 @@ There is nothing to install or execute. "Running" this repo means reading it in 
 2. Read [handbook/README.md](handbook/README.md) — it maps every other file.
 3. Read [handbook/locks.md](handbook/locks.md) before you draft, send, or repo anything.
 4. For a specific job, open [skills/README.md](skills/README.md) and run the matching `SKILL.md` — quoting a price, drafting a client reply, running the last gate, or writing a new doc. To find which seat owns that job, check [handbook/seats/README.md](handbook/seats/README.md) first.
-   - **Sitting down in an assigned seat rather than looking a job up?** Open [handbook/plans/README.md](handbook/plans/README.md) and run the plan for that seat, start to stop. Seventeen assigned seats, one plan each. Unassigned and parked seats have no plan.
+   - **Sitting down in a seat rather than looking a job up?** Open [handbook/plans/README.md](handbook/plans/README.md) and run the plan for that seat, start to stop. Twenty-three seats, one plan each. On the three unassigned and two parked seats, the plan is how to hold that state — the honest answer, the named lock, and a stop.
 5. Before anything goes to a client or gets sent externally, run it through [reviews/last-gate-checklist.md](reviews/last-gate-checklist.md).
 6. Follow the Notion links inline — those pages are the live SOP; this repo does not re-host them.
 
@@ -42,6 +42,7 @@ We searched public GitHub before writing any of this. Full attribution — every
 | [0xranx/golembot](https://github.com/0xranx/golembot), `templates/customer-support/skills/faq-support/SKILL.md` | log-what's-not-covered pattern → `skills/author-support-reply/SKILL.md` |
 | [ItamarZand88/awesome-agent-conventions](https://github.com/ItamarZand88/awesome-agent-conventions/tree/main/conventions/skill-md), [llodev/skills](https://github.com/llodev/skills) `docs/publishing-guide.md` | the `SKILL.md` frontmatter + attribution convention → every file in `skills/` |
 | [andygeiss/baseline-ops](https://github.com/andygeiss/baseline-ops) `runbooks/deploy.md`, [Milkeles/software-doc-templates](https://github.com/Milkeles/software-doc-templates) `ai-assisted-development/foundations/task-plan.md`, [decyphered/ops-wiki-foundation](https://github.com/decyphered/ops-wiki-foundation) `templates/service-page.md` | the dated header and prerequisite gate, the one-job-per-pass rule, and the unknown recorded as an unknown → every file in `handbook/plans/` |
+| [bryce-seefieldt/portfolio-docs](https://github.com/bryce-seefieldt/portfolio-docs) `docs/_meta/templates/template-runbook.md`, [chranveer/sre-runbook-templates](https://github.com/chranveer/sre-runbook-templates) `_template.md` | the use-when / do-not-use-when scope pair and the stop-and-escalate gate, and the escalation written as a named destination → the six unassigned and parked plans in `handbook/plans/` |
 
 We did not copy anyone's invented C-suite, prices, clients, or KPIs. Every fact in `handbook/` is a fact Michael gave us, or a gap we're naming as missing. Full attribution for every file: [SOURCES.md](SOURCES.md).
 

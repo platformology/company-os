@@ -47,7 +47,7 @@ Assigned seats do the job on their desk. Parked seats (Head of Engineering, Deve
 
 ## After the desk: the plan
 
-The desk is the pack. The **plan** is the pass. Every assigned seat above also has one complete plan in [plans/](../plans/README.md) — the one job to take, the SOP that runs it, the KPI it is pointed at with Current empty, and what done looks like. Unassigned and parked seats have no plan, on purpose.
+The desk is the pack. The **plan** is the pass. Every seat above has one complete plan in [plans/](../plans/README.md) — the one job to take, the SOP that runs it, the KPI it is pointed at with Current empty, and what done looks like. On an unassigned or parked seat the plan is how to hold that state, and it does not staff the seat or unpark it.
 
 ## Before you pick a row
 
