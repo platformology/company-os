@@ -1,6 +1,6 @@
 ---
 name: check-locks
-description: Check the locks before you act — point at handbook/locks.md, never restate it, and when a lock trips, name the lock in plain words and stop. Use when any seat is about to send, touch program GitHub, start on the M5, invent a client, a number, a person, or a price, or fill in something this repo has already named as missing.
+description: Check the locks before you act — point at handbook/locks.md, never restate it, and when a lock trips, name the lock in plain words and stop. Use when any seat is about to send, touch program GitHub, start work the machine locks forbid, invent a client, a number, a person, or a price, or fill in something this repo has already named as missing.
 ---
 
 # Check locks
@@ -19,7 +19,7 @@ Before the action, not after it. Any seat — human or bot — about to:
 
 - **Send** anything to a client, a prospect, or the public.
 - **Touch program GitHub** — clone, fork, branch, link, or open a PR against a program repo.
-- **Start on the M5**, move the office or Grok Bot onto it, or plan on a VM, a cluster, or a local model existing.
+- **Start work the machine locks forbid**, move the office or Grok Bot off this Mac, or plan on a VM, a cluster, or a local model existing.
 - **Invent** a client, a money figure, a person, or a price.
 - **Fill a named missing** — a blank this repo has already written down as missing, in [SOURCES.md](../../SOURCES.md).
 
@@ -45,7 +45,7 @@ Name the one lock that actually stopped the ask and where the ask goes next. Don
 
 - **Never send without Michael** — no client, prospect, or public message leaves your hands. See [handbook/locks.md](../../handbook/locks.md).
 - **Never touch program GitHub** — `smarter-voice`, `styleguide-os`, `academic-research-platform`, `book-campaign-platform`, `persona-standalone-programs`, `tlpF-b01-research-engine`. Named here so you recognize them; this repo does not link them.
-- **Never treat the M5 as the company desk** — the M1 is the office, the M5 is the shop only, and it stays parked until Michael says go. Never move the office or Grok Bot onto the M5, and never stand up a VM or a GKE cluster — those two stay locked. A local model is locked until Michael says go too, and then it is Phase 4; that trigger lives on the lock page, not here. See [handbook/locks.md](../../handbook/locks.md).
+- **Work runs on this Mac.** Machine locks live on [handbook/locks.md](../../handbook/locks.md) — this page does not restate them. Never stand up a VM or a GKE cluster — those two stay locked. A local model is locked until Michael says go too, and then it is Phase 4; that trigger lives on the lock page, not here.
 - **Never invent a client, a money figure, a person, or a price**, and never fill KPI Current — see [handbook/clients.md](../../handbook/clients.md), [handbook/how-money-moves.md](../../handbook/how-money-moves.md), and [handbook/offers.md](../../handbook/offers.md).
 - **Never give Jhana or Bob a Role** — both are blank, and a vendor stays a vendor, not a seat holder. See [handbook/people.md](../../handbook/people.md).
 - **Never answer past the FAQ** — the FAQ is the gate, and Cornelia Choe is Alumni: support, never a pitch. See [run-faq](../run-faq/SKILL.md) and [handbook/clients.md](../../handbook/clients.md).

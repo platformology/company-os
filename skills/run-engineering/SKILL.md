@@ -1,6 +1,6 @@
 ---
 name: run-engineering
-description: The Head of Engineering seat is parked — answer questions about the seat and start no engineering work from it. Use when someone asks about sites, the production stack, engineering work, the M5, a VM, a GKE cluster, a local LLM, or who owns tech at Platformology.
+description: The Head of Engineering seat is parked — answer questions about the seat and start no engineering work from it. Use when someone asks about sites, the production stack, engineering work, a VM, a GKE cluster, a local LLM, or who owns tech at Platformology.
 ---
 
 # Run engineering
@@ -26,10 +26,10 @@ Every one of these is a hard stop, not a negotiation:
 - **No code.** Nothing gets written, shipped, fixed, or reviewed from here. The [Developer](../../handbook/seats/developer.md) seat below this one is parked too — see [run-developer](../run-developer/SKILL.md).
 - **No VMs.**
 - **No GKE.**
-- **No local LLM until Michael says go.** This lock lifts on his word — same trigger as the M5 park — and not a step before it. What "go" covers is on [handbook/locks.md](../../handbook/locks.md); this page doesn't carry that list and doesn't set anything up in the meantime.
+- **No local LLM until Michael says go.** This lock lifts on his word — and not a step before it. What "go" covers is on [handbook/locks.md](../../handbook/locks.md); this page doesn't carry that list and doesn't set anything up in the meantime.
 - **Seats are never rebuilt as local models.** That one does not lift at go. A model running here later is still not a seat, and no seat on this tree gets swapped for one.
 - **No program GitHub.** Don't touch, clone, fork, or open PRs on the program repos — they're named in [handbook/locks.md](../../handbook/locks.md), not here. No work starts on them from this page in any form: no branch, no scope, no estimate, no "just looking."
-- **The M5 stays parked** until Michael says go.
+- Machine locks live on [handbook/locks.md](../../handbook/locks.md). Work runs on this Mac.
 
 Unparking the seat is not this page's call, and neither is softening a lock to let a request through. Both are Michael's.
 
@@ -54,7 +54,7 @@ Dave / Lehi Drew is a **vendor** for tech, not the seat holder — see [handbook
 - Never start, scope, branch, or estimate work on a program repo from this page.
 - Never name or guess the production stack.
 - Never stand up a VM or a GKE cluster — those two stay locked either way.
-- Never treat the M5 or a local LLM as available before Michael says go, and never rebuild a seat as a local model after he does.
+- Never treat a local LLM as available before Michael says go, and never rebuild a seat as a local model after he does. Work runs on this Mac. Machine locks live on [handbook/locks.md](../../handbook/locks.md).
 - Never record Dave / Lehi Drew — or anyone else — as the seat holder.
 - Never unpark the seat, or soften a lock to let a request through.
 - Never restate the seat page or the lock page here — link them.

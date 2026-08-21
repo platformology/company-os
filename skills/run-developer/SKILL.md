@@ -17,11 +17,11 @@ The seat is **parked**, under the same locks as [Head of Engineering](../../hand
 ## What's blocked
 Every one of these is a hard stop:
 
-- **M5** stays parked until Michael says go.
 - **No local LLM.**
 - **No VMs.**
 - **No GKE.**
 - **No program GitHub** — do not touch, clone, fork, or open PRs on the program repos named in [handbook/locks.md](../../handbook/locks.md). **Do not start work on those repos from this page**, in any form: no branch, no commit, no scope, no estimate, no "just reading the code first."
+- Machine locks live on [handbook/locks.md](../../handbook/locks.md). Work runs on this Mac.
 
 Scope lock: if you spot a change that looks necessary, that is not permission to make it. Flag it and hand it up.
 
@@ -37,7 +37,7 @@ Dave / Lehi Drew is a **vendor** for tech, not the seat holder — see [handbook
 2. Decide which kind of ask this is:
    - **A question about the seat** — answer from the seat page, and only from it.
    - **A request to write, ship, fix, or review code** — the seat is parked. Say so, name the specific lock that blocks it, and stop.
-3. If the ask assumes a stack, machine, or repo, say what's actually missing: the machine (M5, parked) and the production stack (named missing).
+3. If the ask assumes a stack, machine, or repo, say what's actually missing: the machine lock (see [handbook/locks.md](../../handbook/locks.md)) and the production stack (named missing).
 4. If the ask needs a seat holder, say it's not recorded.
 5. Anything that actually needs deciding goes up: [Head of Engineering](../../handbook/seats/head-of-engineering.md) / [CTO](../../handbook/seats/cto.md), and then Michael. **Unparking is not this skill's call** — changing a lock is Michael's decision. See [handbook/locks.md](../../handbook/locks.md).
 6. Before anything drawn from this seat goes anywhere external, run it through [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
@@ -46,7 +46,7 @@ Dave / Lehi Drew is a **vendor** for tech, not the seat holder — see [handbook
 - Never start work on a program repo from this page — no clone, no branch, no commit, no PR, no estimate.
 - Never write, run, or ship code against a stack that isn't recorded.
 - Never name or guess the production stack.
-- Never stand up a VM, a GKE cluster, or a local LLM, and never treat the M5 as available.
+- Never stand up a VM, a GKE cluster, or a local LLM. Work runs on this Mac. Machine locks live on [handbook/locks.md](../../handbook/locks.md).
 - Never record Dave / Lehi Drew — or anyone else — as the seat holder.
 - Never unpark the seat, or soften a lock to let a request through.
 - Never restate the seat page in this skill — link it, don't copy it.

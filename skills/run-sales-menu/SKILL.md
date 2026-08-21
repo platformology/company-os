@@ -22,7 +22,7 @@ Two sources run a placement, and this skill restates neither:
 7. Quoting is not sending. Before a placement or a number goes to a client, run [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md).
 
 ## Where this sits
-Placing is job 3 of the five in [handbook/how-money-moves.md](../../handbook/how-money-moves.md), and it follows Diagnose. For the mechanics of reading a single ladder row correctly, run [place-on-offer-ladder](../place-on-offer-ladder/SKILL.md) — this skill is the Sales-Menu side of that same job. Head of Demand, Head of Sales, and SDR are all unassigned; whoever runs a placement today does it without a filled seat under them, and that is not a reason to invent one.
+Placing is job 3 of the five in [handbook/how-money-moves.md](../../handbook/how-money-moves.md), and it follows Diagnose. For the mechanics of reading a single ladder row correctly, run [place-on-offer-ladder](../place-on-offer-ladder/SKILL.md) — this skill is the Sales-Menu side of that same job. Head of Demand, Head of Sales, and SDR are leftover-file assigned — who fills each is not recorded, leftover already written; whoever runs a placement today does it without a live job under them, and that is not a reason to invent a pipeline, a holder, or a job.
 
 ## Never
 - Never restate the Sales Menu in this repo — link it, don't copy it.

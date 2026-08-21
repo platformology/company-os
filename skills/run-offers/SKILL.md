@@ -28,7 +28,7 @@ What can be sold is a separate question with a separate source: the live line it
 
 ## Where this sits
 
-Three skills share this job and none of them duplicates the others: [run-sales-menu](../run-sales-menu/SKILL.md) is the menu side (which rungs exist), [place-on-offer-ladder](../place-on-offer-ladder/SKILL.md) is the mechanics of reading one row, and this skill is the handbook side — the pointer to where the numbers live and what to say when there isn't one. Placing is job 3 of the five in [handbook/how-money-moves.md](../../handbook/how-money-moves.md). Head of Demand, Head of Sales, and SDR are unassigned; whoever answers a price question today does it without a filled seat under them, and that is not a reason to invent one.
+Three skills share this job and none of them duplicates the others: [run-sales-menu](../run-sales-menu/SKILL.md) is the menu side (which rungs exist), [place-on-offer-ladder](../place-on-offer-ladder/SKILL.md) is the mechanics of reading one row, and this skill is the handbook side — the pointer to where the numbers live and what to say when there isn't one. Placing is job 3 of the five in [handbook/how-money-moves.md](../../handbook/how-money-moves.md). Head of Demand, Head of Sales, and SDR are leftover-file assigned — who fills each is not recorded, leftover already written; whoever answers a price question today does it without a live job under them, and that is not a reason to invent a pipeline, a holder, or a job.
 
 ## Never
 

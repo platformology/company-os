@@ -21,7 +21,7 @@ That is not a lookup failure or a page that hasn't been written yet — the seat
 
 ## Steps
 1. Open [handbook/seats/sales-writer.md](../../handbook/seats/sales-writer.md) before answering anything.
-2. Asked who writes sales copy? The seat sits in Craft cluster, no owner recorded, and is unassigned. Don't hand the work to Sales Editor, Copy Writer, Head of Sales, or SDR. Head of Sales and SDR are unassigned too.
+2. Asked who writes sales copy? The seat sits in Craft cluster, no owner recorded, and is unassigned. Don't hand the work to Sales Editor, Copy Writer, Head of Sales, or SDR. Head of Sales and SDR are leftover-file assigned too — who fills each not recorded, no live job.
 3. Asked for a pitch, proposal, email, or sequence? There is no brief and no live Uncovery script. Say so. Do not draft a version we can edit.
 4. Asked how an Uncovery is sold? **Named missing.** Do not call it paid discovery, paid diagnosis, a strategy session, or an audit. [handbook/offers.md](../../handbook/offers.md) carries the three rungs and their prices and nothing else.
 5. Asked for a price? Read the rung off [handbook/offers.md](../../handbook/offers.md) exactly as it stands. Both numbers where two. Platinum Major List has no public price.
