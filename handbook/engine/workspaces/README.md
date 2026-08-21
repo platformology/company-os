@@ -2,7 +2,7 @@
 
 Twenty-three folders, one per seat, each holding the five plain markdown files OpenClaw reads at the start of a session. The run page above them is [engine.md](../../engine.md) — read that first if you have not.
 
-**These are source, not a running thing.** Nothing here is installed, this repo cannot tell you whether any of it exists on the M1, and no page here says who would put it there. OpenClaw is not installed on this M1 and whether it ever is stays Michael's call — see [engine.md](../../engine.md).
+**Leftover-file assigned seats run on this Mac in OpenClaw without the PA writing the next hole on their own page.** Nothing here is an install, a build command, a run command, a model tag, a channel, or a send. See [engine.md](../../engine.md).
 
 **This README is not part of a workspace.** It sits beside the twenty-three folders, not inside one. Only the folder gets copied.
 
@@ -14,10 +14,10 @@ Twenty-three folders, one per seat, each holding the five plain markdown files O
 | COO | [coo/](coo/) | Assigned | **Anthony C. Garcia** |
 | CMO | [cmo/](cmo/) | Assigned | Not recorded |
 | Head of Content | [head-of-content/](head-of-content/) | Assigned | Not recorded |
-| Head of Demand | [head-of-demand/](head-of-demand/) | **Unassigned** — refuses work | Not recorded |
+| Head of Demand | [head-of-demand/](head-of-demand/) | **Leftover-file assigned** — no live job | Not recorded |
 | CSO | [cso/](cso/) | Assigned | Not recorded |
-| Head of Sales | [head-of-sales/](head-of-sales/) | **Unassigned** — refuses work | Not recorded |
-| SDR | [sdr/](sdr/) | **Unassigned** — refuses work | Not recorded |
+| Head of Sales | [head-of-sales/](head-of-sales/) | **Leftover-file assigned** — no live job | Not recorded |
+| SDR | [sdr/](sdr/) | **Leftover-file assigned** — no live job | Not recorded |
 | CFO | [cfo/](cfo/) | Assigned | Not recorded |
 | Controller | [controller/](controller/) | Assigned | Not recorded |
 | Bookkeeper | [bookkeeper/](bookkeeper/) | Assigned | Not recorded |
@@ -34,7 +34,7 @@ Twenty-three folders, one per seat, each holding the five plain markdown files O
 | VP Retreats | [vp-retreats/](vp-retreats/) | Assigned | Not recorded |
 | Retreat Producer | [retreat-producer/](retreat-producer/) | Assigned | Not recorded |
 
-Twenty-two "not recorded" rows is the honest state, not an oversight. A folder existing for a seat does not fill the seat, unpark Engineering or Developer, or assign Demand, Sales, or SDR.
+Twenty-two "not recorded" rows is the honest state, not an oversight. A folder existing for a seat does not fill the seat, unpark Engineering or Developer, or invent a job for Demand, Sales, or SDR. Those three are leftover-file assigned. Who fills each stays not recorded. The leftover they open is already written: [leftovers/head-of-demand.md](../../leftovers/head-of-demand.md), [leftovers/head-of-sales.md](../../leftovers/head-of-sales.md), [leftovers/sdr.md](../../leftovers/sdr.md). Leftover-today unique leftover writes are done. Do not invent a second leftover.
 
 ## The five files, every folder, no sixth
 
@@ -44,7 +44,7 @@ Twenty-two "not recorded" rows is the honest state, not an oversight. A folder e
 - **`USER.md`** — Michael Drew, Platformology LLC, America/Denver, and the standing directives. The same file in all twenty-three folders, because every seat works for the same man under the same locks.
 - **`BOOTSTRAP.md`** — the first sit-down, run once and then deleted. Opens [locks.md](../../locks.md), then the desk's own list in the desk's own order.
 
-**No `MEMORY.md`, and no `memory/`.** Nothing here has run, so there is nothing remembered. A memory file full of plausible facts reads like history and is fiction — it is the one artifact this repo would most regret shipping. When a seat has really run and really learned something, a person writes it then.
+**No `MEMORY.md`, and no `memory/`.** This repo writes none. A memory file full of plausible facts reads like history and is fiction — it is the one artifact this repo would most regret shipping. When a seat has really run and really learned something, a person writes it then.
 
 ## Two rules that outrank anything in these files
 
