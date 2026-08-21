@@ -5,11 +5,11 @@ Do not write new copy. Do not invent a rival, a count, or KPI Current.
 
 ## Searched, 21 Aug 2026
 
-Notion [Competitive Writing Guide (draft)](https://app.notion.com/p/3c125e30d68b81239c5fc767bddc0823). Notion [Content output](https://app.notion.com/p/3c025e30d68b81218244ff1663dd5516). Notion Content catalog. Notion Content Library. Google Drive for a Competitive Writing Guide file and for a publication-log, catalogue-inventory, or content-output title.
+Notion [Competitive Writing Guide draft](https://app.notion.com/p/3c125e30d68b81239c5fc767bddc0823). Notion [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928). Google Drive for a sourced extract.
 
-**Competitive-style answers — created/draft.** That draft is on the Notion page this seat already owns. The page's own stamp: **Created / draft. Not a sourced extract.** This leftover does not restate the field answers. No sourced extract from Michael is in hand. The five Methodical field names stay on that page. Named missing / created/draft.
+**Competitive-style answers — created/draft.** That draft is on the Notion page this seat already owns. This leftover does not restate the field answers. No sourced extract from Michael is in hand. Named missing / created/draft.
 
-**Content-output record — named missing.** The Content output KPI exists as a name. **Current** is empty. Status: Needs data. The KPI page is blank. Drive search for a publication log, a catalogue inventory, or a content-output title returned none. A file existing is not a piece produced. Do not tally Drive or the Content catalog into Current. **Current stays empty**, not 0.
+**Content-output record — named missing.** The Content output KPI lives on that KPIs page as a name. **Current** is empty, not 0. No piece count, no catalogue inventory, no publication log. A file existing is not a piece produced. Do not tally Drive into Current.
 
 **Who fills this seat:** not recorded.
 
