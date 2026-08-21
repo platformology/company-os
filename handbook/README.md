@@ -4,6 +4,7 @@ One page per topic, not one giant wiki page — the same pattern [dswh/company-o
 
 | File | What it covers | Read this before |
 |---|---|---|
+| [research-basis.md](research-basis.md) | Decision basis: what the files already sourced, what is still unread or named missing; research is not closed | Any leftover or decision |
 | [company-facts.md](company-facts.md) | Legal entity, DBAs, what this company is not, track-record numbers | Introducing the company to anyone |
 | [people.md](people.md) | Who the humans are, roles (and where a role is genuinely blank), vendors vs. employees | Assigning work, answering "who do I ask" |
 | [clients.md](clients.md) | Client counts, the one alumni relationship, what's a question vs. a fact | Touching any client record or message |
