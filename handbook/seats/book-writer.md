@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Write a client's book in the author's voice.
 
-**This seat is unassigned.** No author, manuscript, interview transcript, or voice sample is recorded. Nothing this seat wrote would go out on its own: no send without Michael.
+**This seat is leftover-file assigned.** The assignment is this seat's leftover job file — not in this repo, and not restated here. Assigned on file is not staffed: **who fills this seat is not recorded.** No author, manuscript, interview transcript, or voice sample is recorded. Nothing this seat wrote would go out on its own: no send without Michael.
 
 **Owns:** Nothing invented.
 

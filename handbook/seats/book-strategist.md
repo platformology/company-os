@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Shape a client's book — what it is, and what it is not — before anyone writes it.
 
-**This seat is unassigned.** Michael named the job; nobody is in it. No author, manuscript, or engagement is recorded here. If you opened this page looking for something to do today, that is the honest answer — there is none here yet.
+**This seat is leftover-file assigned.** The assignment is this seat's leftover job file — not in this repo, and not restated here. Assigned on file is not staffed: **who fills this seat is not recorded.** Michael named the job. No author, manuscript, or engagement is recorded here.
 
 **Owns:** Nothing invented. When this seat is staffed, its accountabilities get written here from a source — not before.
 
@@ -12,7 +12,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
-**Run this:** [run-book-strategist](../../skills/run-book-strategist/SKILL.md) — the router for this seat, and it says the seat is unassigned. Every skill in the repo: [skills/README.md](../../skills/README.md).
+**Run this:** [run-book-strategist](../../skills/run-book-strategist/SKILL.md) — the router for this seat. Every skill in the repo: [skills/README.md](../../skills/README.md).
 
 **Open this in Notion:** Named missing — no Notion page is recorded for this seat, and no other seat's page gets borrowed.
 

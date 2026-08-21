@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Named missing as to which of two jobs this is. The leftover name reads two ways and **this page does not pick.**
 
-**This seat is unassigned.** There is no book — [clients.md](../clients.md) counts **0 Current and 0 Prospect** on the 18 Aug 2026 extract — so there is no jacket to write and no manuscript to write into.
+**This seat is leftover-file assigned.** The assignment is this seat's leftover job file — not in this repo, and not restated here. Assigned on file is not staffed: **who fills this seat is not recorded.** There is no book — [clients.md](../clients.md) counts **0 Current and 0 Prospect** on the 18 Aug 2026 extract — so there is no jacket to write and no manuscript to write into.
 
 **Owns:** Nothing invented. Guessing which of two jobs a seat is would invent the seat.
 

@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** The big-picture read of a manuscript — argument, structure, sequence — before line work.
 
-**This seat is unassigned.** There is no manuscript in this repo. A conceptual note without a place in a text is filler that reads like a finding.
+**This seat is leftover-file assigned.** The assignment is this seat's leftover job file — not in this repo, and not restated here. Assigned on file is not staffed: **who fills this seat is not recorded.** There is no manuscript in this repo. A conceptual note without a place in a text is filler that reads like a finding.
 
 **Owns:** Nothing invented.
 
