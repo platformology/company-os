@@ -57,7 +57,7 @@ One name worth keeping straight while you are in that table: the **Platform in a
 
 **7. Hand across what is not this seat.** Campaign day-to-day to [VP Campaigns](../seats/vp-campaigns.md) and the [Campaign Coordinator](../seats/campaign-coordinator.md); a demand ask to the honest answer above. Pointing it is the finished pass — **do not do it for them.**
 
-**8. Run the last gate honestly, then hand it on.** [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md), every line, out loud. Name the unchecked line rather than softening it. Then the finished check goes to the [PA](../seats/pa.md) for the last gate and the merge — and if what you produced is a Company OS or docs change, it goes to the [COO](../seats/coo.md) for first QC before that ([plans/cmo.md](../plans/cmo.md)). **You do not merge**, and nothing goes out because your own check passed.
+**8. Run the checklist honestly, then hand it on.** [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md), every line, out loud, on your own work. Name the unchecked line rather than softening it. Then the finished check goes to the [PA](../seats/pa.md), whose gate is the one that ships it and who merges — and if what you produced is a Company OS or docs change, it goes to the [COO](../seats/coo.md) for first QC before that ([plans/cmo.md](../plans/cmo.md)). **You do not last-gate and you do not merge**, and nothing goes out because your own check passed.
 
 **9. Stop, and write the note below.** An ask-Michael-first item travels up the wire through the PA — **you do not message Michael from this seat** ([runtime-wiring.md](../runtime-wiring.md)).
 
@@ -97,7 +97,7 @@ If the block is an ask-Michael-first item, carrying it up the wire to the PA is 
 - **Never implies a list placement.** No page here records one.
 - **Never starts an advertising plan, a PR programme, a speaking calendar, or a brand book**, and never writes a handle, a wiki, or a KPI for one of the UNASSIGNED leftover-file seats.
 - **Never picks up [Head of Demand](../seats/head-of-demand.md)'s work**, and never invents an inbound figure, a channel, or a lead for it.
-- **Never runs a campaign day-to-day**, and never takes the [Campaign Coordinator](../seats/campaign-coordinator.md)'s half of a job that belongs to the [CCO](../seats/cco.md) or [VP Campaigns](../seats/vp-campaigns.md).
+- **Never runs a campaign day-to-day.** The [Campaign Coordinator](../seats/campaign-coordinator.md) has two owners and neither is this seat: campaign QA is the [CCO](../seats/cco.md)'s and the Campaign SOP is [VP Campaigns](../seats/vp-campaigns.md)'. Neither half comes here ([runtime-wiring.md](../runtime-wiring.md)).
 - **Never names who fills this seat**, and never gives Jhana or Bob a Role.
 - **Never puts a figure in a KPI Current field.** **Inbound leads** stays empty — not a lead count, not a channel breakdown, not a 0. **A 0 is a figure.**
 - **Never sends.** Every draft goes to Michael through the PA. Drafts stay drafts.
