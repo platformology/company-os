@@ -18,6 +18,8 @@ Leftover write is found, not invented. If you cannot point at the line that alre
 
 **Qwen writes it only if Claude credit is out.** A fallback writer is not an install. Nothing here installs a local model and nothing here lifts that lock.
 
+**Recorded 21 Aug 2026, 10:35 AM Denver — Michael.** Claude keeps leftover-writing until tokens run out. Qwen writes only if Claude credit is out. Nothing stops until the named leftovers are written and COO can propose what is next. Do not invent a second cycle.
+
 **Not a Grok seat.** A Grok seat that writes a leftover file has done work that was assigned somewhere else.
 
 **Not Michael. Not the PA.** The PA is not the workhorse.
