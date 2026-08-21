@@ -4,7 +4,7 @@
 
 One pass that reads the leftover for this seat and writes down what it records and what it is missing. No manuscript gets diagnosed.
 
-This seat has **no page in [seats/](../seats/README.md)**, no sit-down pack in [desks/](../desks/README.md), no brief in [bodies/](../bodies/README.md), and no `run-*` router. Those trees hold twenty-three seats and this is not one of them. This plan is not on the index in [plans/README.md](README.md) either; that index still describes the seventeen assigned plans, and the row for this file belongs to a different pass.
+**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
 
 ## Open these first, in this order
 

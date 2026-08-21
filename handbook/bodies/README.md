@@ -34,7 +34,37 @@ Nothing in this folder gets installed. Two of the three places below work today,
 | VP Retreats | [vp-retreats.md](vp-retreats.md) | Assigned |
 | Retreat Producer | [retreat-producer.md](retreat-producer.md) | Assigned |
 
-Twenty-three seats, the same twenty-three already written in [seats/](../seats/README.md). A body adds no seat, no job, and no fact — it is the seat page plus the hands already recorded in [runtime-body.md](../runtime-body.md), written as one runnable file. **If a body and its seat page ever disagree, the seat page wins.**
+Twenty-three charter seats, the same twenty-three already written in [seats/](../seats/README.md). A body adds no seat, no job, and no fact — it is the seat page plus the hands already recorded in [runtime-body.md](../runtime-body.md), written as one runnable file. **If a body and its seat page ever disagree, the seat page wins.**
+
+## Leftover-file bodies — UNASSIGNED
+
+The twenty-three leftover-file seats now have a body each. Every one refuses live work. A body existing does not staff the seat. Index: [leftovers/README.md](../leftovers/README.md). Packet: [leftover-packet.md](../leftover-packet.md).
+
+| Seat | Body | Status |
+|---|---|---|
+| Book Strategist | [book-strategist.md](book-strategist.md) | **Unassigned** |
+| Book Writer | [book-writer.md](book-writer.md) | **Unassigned** |
+| Book Conceptual Editor | [book-conceptual-editor.md](book-conceptual-editor.md) | **Unassigned** |
+| Book Copy Writer | [book-copy-writer.md](book-copy-writer.md) | **Unassigned** |
+| Book Technical Editor | [book-technical-editor.md](book-technical-editor.md) | **Unassigned** |
+| Book Reader | [book-reader.md](book-reader.md) | **Unassigned** |
+| Copy Writer | [copy-writer.md](copy-writer.md) | **Unassigned** |
+| Copy Editor | [copy-editor.md](copy-editor.md) | **Unassigned** |
+| Sales Writer | [sales-writer.md](sales-writer.md) | **Unassigned** |
+| Sales Editor | [sales-editor.md](sales-editor.md) | **Unassigned** |
+| Strategist | [strategist.md](strategist.md) | **Unassigned** |
+| Persona Architect | [persona-architect.md](persona-architect.md) | **Unassigned** |
+| Junior Digital Designer | [junior-digital-designer.md](junior-digital-designer.md) | **Unassigned** |
+| Senior Digital Designer | [senior-digital-designer.md](senior-digital-designer.md) | **Unassigned** |
+| Junior Print Designer | [junior-print-designer.md](junior-print-designer.md) | **Unassigned** |
+| Senior Print Designer | [senior-print-designer.md](senior-print-designer.md) | **Unassigned** |
+| Pendulum Wiki | [pendulum-wiki.md](pendulum-wiki.md) | **Unassigned** |
+| PR / Media | [pr-media.md](pr-media.md) | **Unassigned** |
+| SEO Expert | [seo-expert.md](seo-expert.md) | **Unassigned** |
+| Social Media Strategist | [social-media-strategist.md](social-media-strategist.md) | **Unassigned** |
+| Social Account Expert | [social-account-expert.md](social-account-expert.md) | **Unassigned** |
+| Speaking — Associations | [speaking-associations.md](speaking-associations.md) | **Unassigned** |
+| Speaking — Universities | [speaking-universities.md](speaking-universities.md) | **Unassigned** |
 
 A body repeats what those two pages already say, and that is on purpose: a model handed nothing but this file cannot follow a link, so the seat has to be complete inside it. The repetition stops at the seat. Prices, clients, people, and the locks are not copied into a body — they stay on the one page that owns each of them.
 

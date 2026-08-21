@@ -37,4 +37,34 @@ Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.
 
 "Not recorded" is the honest answer, not a placeholder for a guess. Full attribution in [SOURCES.md](../../SOURCES.md).
 
+## The twenty-three leftover-file seats — UNASSIGNED
+
+A different twenty-three from the charter table above. The two counts do not merge. Every row stays **UNASSIGNED**. A page existing here does not staff the seat. The leftover job files on the M1 are **not in this repo** and are not restated. Person pack: leftover in [leftovers/](../leftovers/README.md), pass in [passes/](../passes/README.md). Packet: [leftover-packet.md](../leftover-packet.md).
+
+| Seat | Who's in it today |
+|---|---|
+| [Book Strategist](book-strategist.md) | **Unassigned** — reports into CCO on paper |
+| [Book Writer](book-writer.md) | **Unassigned** — book bench under Book Strategist |
+| [Book Conceptual Editor](book-conceptual-editor.md) | **Unassigned** — book bench under Book Strategist |
+| [Book Copy Writer](book-copy-writer.md) | **Unassigned** — name is ambiguous; do not pick |
+| [Book Technical Editor](book-technical-editor.md) | **Unassigned** — book bench under Book Strategist |
+| [Book Reader](book-reader.md) | **Unassigned** — book bench under Book Strategist |
+| [Copy Writer](copy-writer.md) | **Unassigned** — Craft cluster, no owner recorded |
+| [Copy Editor](copy-editor.md) | **Unassigned** — Craft cluster, no owner recorded |
+| [Sales Writer](sales-writer.md) | **Unassigned** — Craft cluster, no owner recorded |
+| [Sales Editor](sales-editor.md) | **Unassigned** — Craft cluster, no owner recorded |
+| [Strategist](strategist.md) | **Unassigned** — no qualifier; do not pick; not under CSO |
+| [Persona Architect](persona-architect.md) | **Unassigned** — not a second COO |
+| [Junior Digital Designer](junior-digital-designer.md) | **Unassigned** — Craft cluster, no owner recorded |
+| [Senior Digital Designer](senior-digital-designer.md) | **Unassigned** — junior/senior split not recorded |
+| [Junior Print Designer](junior-print-designer.md) | **Unassigned** — Craft cluster, no owner recorded |
+| [Senior Print Designer](senior-print-designer.md) | **Unassigned** — junior/senior split not recorded |
+| [Pendulum Wiki](pendulum-wiki.md) | **Unassigned** — reports into Head of Content on paper |
+| [PR / Media](pr-media.md) | **Unassigned** — reports into CMO on paper |
+| [SEO Expert](seo-expert.md) | **Unassigned** — reports into CMO on paper |
+| [Social Media Strategist](social-media-strategist.md) | **Unassigned** — reports into CMO on paper |
+| [Social Account Expert](social-account-expert.md) | **Unassigned** — under Social Media Strategist on paper |
+| [Speaking — Associations](speaking-associations.md) | **Unassigned** — reports into CMO on paper; speaking is not under CSO |
+| [Speaking — Universities](speaking-universities.md) | **Unassigned** — reports into CMO on paper; speaking is not under CSO |
+
 Each seat page carries a **Run this** line naming the skill that runs it, and all twenty-three seats now have a `run-*` router of their own. To go the other way — pick a seat, get the skill and the Notion page in one row — open [seat-job-map.md](../seat-job-map.md). For the full list of skills regardless of seat, open [skills/README.md](../../skills/README.md). A router existing for a seat does not fill it: every seat above except COO is still "Not recorded."
