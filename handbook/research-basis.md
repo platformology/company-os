@@ -6,7 +6,7 @@ Michael told the office to do the research and make it the basis for all decisio
 
 A later leftover may only use a fact that is on this page, in [SOURCES.md](../SOURCES.md), or on a page this page points at. If a fact is not there, it is unread or named missing. Do not invent it.
 
-Docs only. Company OS only. No program GitHub. No VMs. No GKE. [F Automation](leftover-packet.md#f-automation--not-started) stays parked. Engineering and Developer stay parked. Nothing sends.
+Docs only. Company OS only. No program GitHub. No VMs. No GKE. F stays parked. Engineering and Developer stay parked. Nothing sends.
 
 ## What the files already sourced
 
@@ -19,7 +19,9 @@ One company, two buyer faces, the method steps already named, and the five money
 
 [company-run.md](company-run.md) is PA, COO, and CTO leftovers last-gated, the office, and F parked. It is not a pipeline page. Do not read a money-move stage off it.
 
-Pages this basis also points at, already on this tree, not restamped here: [leftover-packet.md](leftover-packet.md) (A–E remaining, F parked), [locks.md](locks.md), [people.md](people.md), [clients.md](clients.md), [offers.md](offers.md).
+[leftover-packet.md](leftover-packet.md) exists on this tree and is not restamped here. Leftover-packet **B–E stay cancelled as invented leftover labels.** They are not live leftover work. **F stays parked.**
+
+Pages this basis also points at, already on this tree, not restamped here: [locks.md](locks.md), [people.md](people.md), [clients.md](clients.md), [offers.md](offers.md).
 
 ## What is still unread or named missing
 
