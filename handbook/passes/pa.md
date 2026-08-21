@@ -10,8 +10,6 @@ Read the plan first. This page does not restate it, and it does not restate the 
 
 **One unit, then the gate.** Not two, and not a second one "while I'm here."
 
-Shape adapted from [mohitagw15856/pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills) (MIT), `skills/oncall-handoff/SKILL.md`: a shift ends with a note that hands over **state and the next step** rather than a diary of the shift, anything not known stays marked unknown rather than filled in, no ID, owner, or timestamp is ever invented, and nothing the last note left open is quietly dropped. Its incident tables, severity grades, silenced-alert expiries, escalation contacts, and its emoji headings were left behind — this seat has none of those, and a note a person actually reads carries no stamps. Full attribution: [SOURCES.md](../../SOURCES.md).
-
 ## What you need open
 
 [locks.md](../locks.md), [plans/pa.md](../plans/pa.md), and [run-pa](../../skills/run-pa/SKILL.md) from this repo. In Notion: [Do this](https://app.notion.com/p/3c025e30d68b8142a971ccdb0d657b22), [If a client writes](https://app.notion.com/p/3c025e30d68b81ada7b7cbf1d50b0d9f), and [PA handoff](https://app.notion.com/p/3c125e30d68b8138a686fd8a52313333). Those three Notion names are the whole set — do not invent a fourth.
