@@ -6,7 +6,7 @@ Open this before you write a leftover file, recut one, do the research behind on
 
 ## What leftover write is
 
-Finishing a leftover that already exists, named, on `leftovers/<slug>.md`. Or filling a blank that already exists, named.
+Finishing a leftover that is already named in `leftovers/`. Or filling a blank that already exists, named.
 
 Recut, research, and blank-fill are the same job. One writer, one rule, one gate.
 
