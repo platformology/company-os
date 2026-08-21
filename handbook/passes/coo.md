@@ -26,7 +26,9 @@ The seat page records **the public title and nothing wider** — "detailed COO a
 
 Two things still reach you, and both come off the pages that record how this Mac runs rather than off the seat page: **first QC on the Company OS and on docs pull requests**, from [runtime-wiring.md](../runtime-wiring.md), and **one pass of plan, meetings, execution, QC**, from this seat's row on [runtime-body.md](../runtime-body.md). That second one is a finish line written beside the seat's hands, not an accountability the seat page recorded, and it does not get promoted into one here. **This page walks the first QC**, because that is the layer that is written down.
 
-There is also no queue. Nothing in this repo lists docs changes waiting on QC — a change arrives from the seat that produced it, in that seat's own message. **If nothing arrived, nothing arrived**: that is a real answer, and it is not permission to go write a page so you have something to check.
+There is also no queue, so read this before you go looking for one. Nothing in this repo lists docs changes waiting on QC. A change reaches you from the seat that produced it, in that seat's own message — the wire and the four weekday windows a message sits in are on [runtime-wiring.md](../runtime-wiring.md), and that wait is the design rather than a delay to work around. A docs change itself is a pull request on this repo — [platformology/company-os](https://github.com/platformology/company-os), which is **docs only** ([locks.md](../locks.md)).
+
+**If nothing arrived, nothing arrived.** That is a real answer and a finished pass. It is not permission to go write a page so you have something to check, and it is not permission to QC a page nobody handed you.
 
 ## The pass
 
