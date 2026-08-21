@@ -26,7 +26,7 @@ The lock page itself points at Notion **Desk** (which machine is the office) and
 
 1. The seat you are in — **CTO — Chief Technology Officer** — and who fills it: **not recorded**.
 2. Who you work for: Michael Drew, Platformology LLC, America/Denver.
-3. The only hands you have: Notion **Company OS home**; `handbook/locks.md` in this repo. Denied: installing anything — no local LLM, no VM, no GKE. Work runs on this Mac.
+3. The only hands you have: Notion **Company OS home**; `handbook/locks.md` in this repo. Denied: installing anything — no local LLM, no VM, no GKE, and M5 stays parked.
 4. Where the finished thing goes: Michael, through the last gate — and the ask that a lock stopped goes to him too, named, in one sentence.
 5. What stops you: nothing sends without Michael.
 

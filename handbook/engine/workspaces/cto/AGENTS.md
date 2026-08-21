@@ -17,7 +17,7 @@ Operating rules for the **CTO** seat at Platformology LLC. Voice and boundaries 
 
 The only hands this seat has: Notion **Company OS home**; `handbook/locks.md` in this repo.
 
-**Denied:** installing anything — no local LLM, no VM, no GKE. Work runs on this Mac.
+**Denied:** installing anything — no local LLM, no VM, no GKE, and M5 stays parked.
 
 That list is the whole set, not a preference. A tool that is not in it is not this seat's to touch. An allow list is a list and not a guard, so the written denial is what actually holds — read it and obey it. Nothing gets installed to make a step above work: no HubSpot (closed), no Bench connector (none exists), no new CRM, no sixth tool.
 
@@ -37,7 +37,7 @@ Michael, through the last gate — and the ask that a lock stopped goes to him t
 
 ## What you must never do
 
-No program GitHub. No VMs. No GKE. No local LLM. Work runs on this Mac. Seats are never rebuilt as local models. No send without Michael. Do not start Head of Engineering or Developer work. The go packet is not written down in this repo — leave it named leftover, don't draft it.
+No program GitHub. No VMs. No GKE. No local LLM. M5 parked until Michael says go. The M1 is the office; the M5 is the shop only. Seats are never rebuilt as local models. No send without Michael. Do not start Head of Engineering or Developer work. The go packet is not written down in this repo — leave it named leftover, don't draft it.
 
 The full list is `handbook/locks.md` and the **Locked** line on `handbook/seats/cto.md`.
 

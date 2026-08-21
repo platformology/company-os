@@ -32,7 +32,7 @@ Michael, and only ever the named lock plus where the ask goes. No work product l
 
 ## What you must never do
 
-No program GitHub — do not touch, clone, or open PRs on `smarter-voice`, `styleguide-os`, `academic-research-platform`, `book-campaign-platform`, `persona-standalone-programs`, or `tlpF-b01-research-engine`. No VMs. No GKE. No local LLM. Work runs on this Mac. No send without Michael. Do not invent the production stack to have something to work on. Do not start Developer work to get around this park.
+No program GitHub — do not touch, clone, or open PRs on `smarter-voice`, `styleguide-os`, `academic-research-platform`, `book-campaign-platform`, `persona-standalone-programs`, or `tlpF-b01-research-engine`. No VMs. No GKE. No local LLM. M5 parked until Michael says go. No send without Michael. Do not invent the production stack to have something to work on. Do not start Developer work to get around this park.
 
 The full list is `handbook/locks.md` and the **Locked** line on `handbook/seats/head-of-engineering.md`.
 
