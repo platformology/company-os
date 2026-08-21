@@ -12,7 +12,7 @@ Three verdicts, and only three:
 
 - **Shape only** — the thing exists, the shape is right, a person could read it for ideas. Still not installed.
 - **DENIED** — it sends, posts, publishes, replies, or writes to something we only read. The lock is *no send without Michael*, and a skill that sends is a lock break with a nice description.
-- **Refused** — the shape is wrong for this company, or the seat is parked or unassigned. Named so nobody proposes it again.
+- **Refused** — the shape is wrong for this company, or the seat is parked, leftover-file assigned, or unassigned. Named so nobody proposes it again.
 
 Two standing cautions that travel with every row. ClawHub is **open by default**: their own docs say anyone can upload, publishing needs only a GitHub account old enough to pass an upload gate, and automated scans can pull a release out of the public catalog after the fact. And their own security note says to treat a third-party skill as untrusted code. We agree, and we go one further by not fetching it.
 
@@ -77,11 +77,11 @@ Same twenty-three, same order as [desks/README.md](../desks/README.md).
 | Read a corpus PDF | `@anthropics/pdf` | Shape only |
 | A catalog of a 27-year private archive | — | **Not confirmed on ClawHub — named missing.** No public skill knows our corpus, and none is going to |
 
-### Head of Demand — unassigned
+### Head of Demand — leftover-file assigned
 
 | Would reach for | On ClawHub | Verdict |
 |---|---|---|
-| Anything inbound | `@luigi08001/lead-scoring` and a long list beside it | **Refused — the seat is unassigned.** There is no inbound volume, lead count, or channel recorded. That skill also scores into HubSpot, which is closed here. Installing something does not staff a seat |
+| Anything inbound | `@luigi08001/lead-scoring` and a long list beside it | **Refused — leftover-file assigned, no live job.** There is no inbound volume, lead count, or channel recorded. That skill also scores into HubSpot, which is closed here. Installing something does not invent a job |
 
 ### CSO
 
@@ -92,18 +92,18 @@ Same twenty-three, same order as [desks/README.md](../desks/README.md).
 | Track a pipeline | `@1kalin/sales-pipeline-tracker` | **Refused.** No pipeline exists to track, and one does not get invented to give the tool something to do |
 | Place someone on a rung | — | **Not confirmed on ClawHub — named missing.** [place-on-offer-ladder](../../skills/place-on-offer-ladder/SKILL.md) stays ours |
 
-### Head of Sales — unassigned
+### Head of Sales — leftover-file assigned
 
 | Would reach for | On ClawHub | Verdict |
 |---|---|---|
-| Outbound | `@coreyhaines31/cold-email` | **DENIED — sends**, twice over: the seat is unassigned and nothing goes out without Michael |
-| Paid discovery | `@mohitagw15856/discovery-call-prep`, `@staybased/client-discovery` | **Refused — the seat is unassigned.** The live Uncovery script is a named gap in [SOURCES.md](../../SOURCES.md), and an unassigned seat does not close it with a generic sales framework |
+| Outbound | `@coreyhaines31/cold-email` | **DENIED — sends**, twice over: leftover-file assigned, no live job, and nothing goes out without Michael |
+| Paid discovery | `@mohitagw15856/discovery-call-prep`, `@staybased/client-discovery` | **Refused — leftover-file assigned, no live job.** The live Uncovery script is a named gap in [SOURCES.md](../../SOURCES.md), and a leftover-file assigned seat with no live job does not close it with a generic sales framework |
 
-### SDR — unassigned
+### SDR — leftover-file assigned
 
 | Would reach for | On ClawHub | Verdict |
 |---|---|---|
-| Score leads | `@luigi08001/lead-scoring` | **Refused.** No scoring model exists in the corpus, and [campaign-lead-scoring](../../skills/campaign-lead-scoring/SKILL.md) exists specifically to refuse building one. The seat is unassigned besides |
+| Score leads | `@luigi08001/lead-scoring` | **Refused.** No scoring model exists in the corpus, and [campaign-lead-scoring](../../skills/campaign-lead-scoring/SKILL.md) exists specifically to refuse building one. The seat is leftover-file assigned besides, with no live job |
 
 ### CFO
 

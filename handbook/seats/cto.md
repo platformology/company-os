@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Own the technology this seat is allowed to touch — which today is deliberately almost nothing.
 
-**Owns:** Very little, on purpose. This is where the hardest locks land: no program GitHub, no VMs, no GKE, no local LLM, M5 parked until Michael says go. See [locks.md](../locks.md).
+**Owns:** Very little, on purpose. This is where the hardest locks land: no program GitHub, no VMs, no GKE, no local LLM. See [locks.md](../locks.md).
 
 **Not this seat:** Dave / Lehi Drew is a **vendor** for tech, not the seat holder — see [people.md](../people.md). Don't conflate a vendor relationship with a filled seat.
 
@@ -16,7 +16,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Open this in Notion:** [Company OS home](https://app.notion.com/p/3c025e30d68b81cdbad7fdf5912e3ca3)
 
-**Locked:** No program GitHub. No VMs. No GKE. No local LLM. M5 parked until Michael says go. No send without Michael. See [locks.md](../locks.md).
+**Locked:** No program GitHub. No VMs. No GKE. No local LLM. No send without Michael. Machine locks live on [locks.md](../locks.md).
 
 **Leftover today:** [leftovers/cto.md](../leftovers/cto.md) — last-gated on [company-run.md](../company-run.md).
 

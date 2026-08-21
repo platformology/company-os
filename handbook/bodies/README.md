@@ -14,10 +14,10 @@ Nothing in this folder gets installed. Two of the three places below work today,
 | COO | [coo.md](coo.md) | Assigned |
 | CMO | [cmo.md](cmo.md) | Assigned |
 | Head of Content | [head-of-content.md](head-of-content.md) | Assigned |
-| Head of Demand | [head-of-demand.md](head-of-demand.md) | **Unassigned** — the body says so and refuses work |
+| Head of Demand | [head-of-demand.md](head-of-demand.md) | **Leftover-file assigned** — who fills not recorded, no live job, leftover already written |
 | CSO | [cso.md](cso.md) | Assigned |
-| Head of Sales | [head-of-sales.md](head-of-sales.md) | **Unassigned** — the body says so and refuses work |
-| SDR | [sdr.md](sdr.md) | **Unassigned** — the body says so and refuses work |
+| Head of Sales | [head-of-sales.md](head-of-sales.md) | **Leftover-file assigned** — who fills not recorded, no live job, leftover already written |
+| SDR | [sdr.md](sdr.md) | **Leftover-file assigned** — who fills not recorded, no live job, leftover already written |
 | CFO | [cfo.md](cfo.md) | Assigned |
 | Controller | [controller.md](controller.md) | Assigned |
 | Bookkeeper | [bookkeeper.md](bookkeeper.md) | Assigned |
@@ -82,15 +82,15 @@ Same file all three times. You do not rewrite it for the place it is going.
 
 The hand is named on [runtime.md](../runtime.md) and [runtime-brain.md](../runtime-brain.md) — recorded 19 Aug 2026 via the CTO, restated 20 Aug on the build map. This page repeats only the three lines a body needs; those two pages own the rest and this one does not restate them.
 
-- **Gemma 4 26B 8-bit on this M1** is the shared always-on hand — **after Michael says go**, not before. That is the one a body would run on.
-- **Llama 3.3 70B 4-bit on this M1** is the on-purpose pen. It is **not a second seat brain**, and no seat gets a body built on it.
-- **Flash 2-bit** is the M5, SmarterVoice only, and **the M5 is parked**. No body goes near it.
+- **Gemma 4 26B 8-bit on this Mac** is the shared always-on hand — **after Michael says go**, not before. That is the one a body would run on.
+- **Llama 3.3 70B 4-bit on this Mac** is the on-purpose pen. It is **not a second seat brain**, and no seat gets a body built on it.
+- **Flash 2-bit** is SmarterVoice only and stays parked. No body goes near it. Work runs on this Mac. Machine locks live on [locks.md](../locks.md).
 
 **Status today: not installed.** **"No local LLM until Michael says go"** is the lock's own wording on [locks.md](../locks.md), and Phase 4 of the go packet is the only thing that lifts it. So there is no local model on this machine, this page tells nobody to put one there, and a page that treats the hand as already running is a broken lock — not a shortcut. Read [runtime-brain.md](../runtime-brain.md) if that is the question you arrived with; the answer there is the same, and it is "don't."
 
 **Seats are never rebuilt as local models.** That one does not lift at go: one shared hand, twenty-three bodies. No weight file per seat, and no second model downloaded so a seat can have its own. It is a lock, not a preference, and it is why this folder is markdown instead of models — what changes per seat is the SYSTEM text, and nothing else.
 
-**The M1 is the office**, and Daily Grok Bot lives on it. Nothing in this folder moves either one, before go or after it.
+Work runs on this Mac. Daily Grok Bot lives here. Nothing in this folder moves either one, before go or after it.
 
 ## After go: SYSTEM is the only thing that changes per seat
 

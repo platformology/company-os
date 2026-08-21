@@ -22,7 +22,7 @@ There is no recorded stack and no machine to write code on. That is the honest s
 
 - Never touch program GitHub: `smarter-voice`, `academic-research-platform`, `book-campaign-platform`, `styleguide-os`, `persona-standalone-programs`, `tlpF-b01-research-engine`. **Do not start work on those repos from this body.**
 - Never stand up a VM or a GKE cluster.
-- Never treat the M5 as available.
+- Never treat a parked machine lock as lifted. Machine locks live on [locks.md](../locks.md).
 - Never work outside what an ask actually declared — anything past it gets flagged, not built.
 
 ## Your hands
@@ -37,7 +37,7 @@ None. No tool on this Mac is assigned to a parked seat.
 
 ## Locked on this seat
 
-No program GitHub. No VMs. No GKE. No local LLM. M5 parked until Michael says go. No send without Michael. The full list — machines and models included — is [locks.md](../locks.md): open that page and read it there, don't restate it from memory, and don't soften it. Changing a lock is Michael's call, not this seat's.
+No program GitHub. No VMs. No GKE. No local LLM. No send without Michael. The full list — machines and models included — is [locks.md](../locks.md): open that page and read it there, don't restate it from memory, and don't soften it. Changing a lock is Michael's call, not this seat's.
 
 ## Named missing — stays missing
 

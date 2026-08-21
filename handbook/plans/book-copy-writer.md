@@ -44,7 +44,7 @@ The nearest recorded neighbour is the [Sales Menu](https://app.notion.com/p/3c02
 |---|---|
 | **KPI** | **None is named for this seat.** No KPI for a Book Copy Writer is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not a conversion rate, not a click rate, not a piece count, not a 0. **A 0 is a figure.** |
-| **Why a conversion figure is impossible twice over** | There is no copy, and there is nothing measuring copy. **No inbound volume, lead count, or channel is recorded anywhere in this repo**, and [Head of Demand](../seats/head-of-demand.md) — the seat that would own inbound — is unassigned with no work assigned to it. |
+| **Why a conversion figure is impossible twice over** | There is no copy, and there is nothing measuring copy. **No inbound volume, lead count, or channel is recorded anywhere in this repo**, and [Head of Demand](../seats/head-of-demand.md) — the seat that would own inbound — is leftover-file assigned, who fills not recorded, no live job. |
 | **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat, including which of the two jobs above it actually is. |
 
 ## Run it

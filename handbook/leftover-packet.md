@@ -4,7 +4,7 @@
 
 This is the page a new hire opens when Michael says the leftover packet is the job. It is docs only. It quotes leftovers that are already last-gated. It does not invent a leftover, a client, a price, a holder, a close, or a production stack.
 
-**The forty-three leftover-file employees each have a person pack.** Job is the seat page, knowledge is the body, skills is the `run-*` router, tools is the desk, leftover is the leftover. Opening the pack tells you how to do that seat’s job today. Unassigned seats stay unassigned. A pack existing does not staff a seat.
+**The forty-three leftover-file employees each have a person pack.** Job is the seat page, knowledge is the body, skills is the `run-*` router, tools is the desk, leftover is the leftover. Opening the pack tells you how to do that seat’s job today. Craft leftover-file seats stay UNASSIGNED. Head of Demand, Head of Sales, and SDR are leftover-file assigned — who fills is not recorded, there is no live job, leftover already written. A pack existing does not staff a seat.
 
 **Head of Engineering and Developer stay parked.** Who fills the [CTO](seats/cto.md) stays missing. Dave / Lehi Drew is a vendor, not CTO. Jhana and Bob have **no Role**. **KPI Current stays empty.** Folder names are not clients.
 
@@ -22,8 +22,8 @@ One leftover, one gate, one stop. [cheap-loop.md](cheap-loop.md) already says wh
 | Letter | Status | Remaining work already named |
 |---|---|---|
 | **A People** | In progress | Roster, CHRO SOP, twenty-three leftover-file seats last-gated. Holders named missing except COO (Anthony C. Garcia). Forty-three leftover-file employees. Engineering and Developer parked. Who fills CTO stays missing. |
-| **B Company run** | In progress | PA, COO, CTO leftovers last-gated on [company-run.md](company-run.md). M1 is the office. M5 parked. |
-| **C Demand** | In progress | Honest leftovers last-gated including CSO after the cut. Quote-both stays cut. Sales Menu is the live quote-both page. Demand / Sales / SDR stay unassigned. No advertising file. Do not add an advertising seat. |
+| **B Company run** | In progress | PA, COO, CTO leftovers last-gated on [company-run.md](company-run.md). Work runs on this Mac. |
+| **C Demand** | In progress | Honest leftovers last-gated including CSO after the cut. Quote-both stays cut. Sales Menu is the live quote-both page. Demand / Sales / SDR are leftover-file assigned; who fills is not recorded; no live job; leftover already written. No advertising file. Do not add an advertising seat. |
 | **D Delivery** | In progress | Including CCO last-gated. Writing guides and intake/scoring stamps stand. Do not rewrite stamped D pages. |
 | **E Money** | In progress | CFO, Bookkeeper, Controller last-gated. Quote, do not average. June/July close blocked on a human for Bench. Do not invent a close. |
 | **F Automation** | Not started | Stays parked. Do not start VMs. Do not invent SmarterVoice work. No GKE. |
@@ -43,19 +43,19 @@ Open [people.md](people.md), [leftovers/chro.md](leftovers/chro.md), and [leftov
 
 ## B Company run — remaining
 
-Open [company-run.md](company-run.md). PA, COO, and CTO leftovers are last-gated there. M1 office. M5 parked. No install until go. Do not draft the go packet.
+Open [company-run.md](company-run.md). PA, COO, and CTO leftovers are last-gated there. Work runs on this Mac. No install until go. Do not draft the go packet. Machine locks live on [locks.md](locks.md).
 
 ## C Demand — remaining
 
 Open [leftovers/cso.md](leftovers/cso.md), [leftovers/cmo.md](leftovers/cmo.md), [leftovers/head-of-demand.md](leftovers/head-of-demand.md), [leftovers/head-of-sales.md](leftovers/head-of-sales.md), [leftovers/sdr.md](leftovers/sdr.md), and [offers.md](offers.md).
 
-**CSO after the cut, last-gated:** Head of Sales and SDR stay unassigned. Live Uncovery script is not recorded. How an Uncovery is sold is not written on [offers.md](offers.md). Do not invent a pipeline.
+**CSO after the cut, last-gated:** Head of Sales and SDR are leftover-file assigned; who fills is not recorded; no live job; leftover already written. Live Uncovery script is not recorded. How an Uncovery is sold is not written on [offers.md](offers.md). Do not invent a pipeline.
 
 **Quote-both stays cut.** Where the ladder shows two numbers, both travel. **Platinum Major List has no public price.** The membership price is named missing. The lead magnet has no Offers row.
 
 **Sales Menu is the live quote-both page** — [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7). Check a named row. Do not restamp quote-both.
 
-**Demand / Sales / SDR stay unassigned.** Do not hand them work. Do not invent inbound, a forecast, or a lead list so they have something to digest.
+**Demand / Sales / SDR are leftover-file assigned.** Who fills is not recorded. There is no live job. Leftover already written: [head-of-demand](leftovers/head-of-demand.md), [head-of-sales](leftovers/head-of-sales.md), [sdr](leftovers/sdr.md). Do not invent inbound, a forecast, a holder, or a job.
 
 **No advertising file. Do not add an advertising seat.** Asking for an advertising plan is a request to Michael, not a draft this packet produces.
 
@@ -95,6 +95,6 @@ Open [leftovers/cfo.md](leftovers/cfo.md), [leftovers/controller.md](leftovers/c
 
 Index: [leftovers/README.md](leftovers/README.md). Charter seats also sit on [seats/README.md](seats/README.md). Leftover-file seats sit in the UNASSIGNED tables on that page and on [seat-job-map.md](seat-job-map.md).
 
-Unassigned stay unassigned. Do not invent a live leftover they do not own.
+Craft leftover-file seats stay UNASSIGNED. Do not invent a live leftover they do not own.
 
 Named gaps stay named. Full list: [SOURCES.md](../SOURCES.md).

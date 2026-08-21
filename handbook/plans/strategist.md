@@ -29,7 +29,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 **The material a strategist would reach for is not there, either:**
 
 - **No revenue figure is recorded anywhere in this repo** — not company-wide, not per offer. **No cost figure, so no margin. No cash or accounts-receivable balance.**
-- **No pipeline, forecast, consult count, close, or win** is attached to anything, and [Head of Demand](../seats/head-of-demand.md), [Head of Sales](../seats/head-of-sales.md), and [SDR](../seats/sdr.md) are **all unassigned with no work assigned to them.**
+- **No pipeline, forecast, consult count, close, or win** is attached to anything, and [Head of Demand](../seats/head-of-demand.md), [Head of Sales](../seats/head-of-sales.md), and [SDR](../seats/sdr.md) are **leftover-file assigned, who fills each not recorded, no live job.**
 - **No inbound volume, lead count, or channel**, and **nothing is measured behind any named KPI** on any seat.
 - **0 Current and 0 Prospect** clients on the 18 Aug 2026 extract ([clients.md](../clients.md)) — a client count with a date on it, not a market position.
 - **[Head of Engineering](../seats/head-of-engineering.md) and [Developer](../seats/developer.md) are parked** under the machine locks, so no plan here assumes engineering capacity, and **finding a parked seat work does not un-park it.**
@@ -40,7 +40,7 @@ A strategy built on that is a strategy built out of the strategist. **The honest
 
 **None of this seat's own is recorded**, and no Notion page in [seat-job-map.md](../seat-job-map.md) is assigned to it. No planning cycle, no strategy review, no decision log, and no operating-plan process exists in this repo.
 
-What does exist is the **decision order Michael already set**, and it is the closest thing to a strategy document here: **when Michael says go**, Phase 1 clones the M1 onto the M5, Phase 2 the CTO proves the copy, Phase 3 strips the M1 to the office, Phase 4 installs models — and **nothing starts until he says go** ([locks.md](../locks.md)). **The M1 is the office and the M5 is the shop only. Blue Sky stays off the LLC books.** Those are recorded decisions. A strategist reads them; a strategist does not reopen them, re-sequence them, or write a fifth phase.
+What does exist is the **decision order Michael already set**, and it is the closest thing to a strategy document here: **when Michael says go**, the four phases locked in order on [locks.md](../locks.md) — and **nothing starts until he says go**. **Work runs on this Mac.** Machine locks live on [locks.md](../locks.md) — this page does not restate them. **Blue Sky stays off the LLC books.** Those are recorded decisions. A strategist reads them; a strategist does not reopen them, re-sequence them, or write a fifth phase.
 
 ## The KPI this plan is pointed at
 
@@ -78,7 +78,7 @@ Two lists exist — what the leftover records, and what it is missing — plus, 
 - No SOP of its own, no planning cycle, no strategy review, no decision log, and no KPI of any kind.
 - **No revenue figure company-wide or per offer; no cost figure and so no margin; no cash or accounts-receivable balance.**
 - **No pipeline, forecast, consult count, qualification bar, close, or win.**
-- No inbound volume, lead count, or channel — [Head of Demand](../seats/head-of-demand.md) is unassigned, as are [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md).
+- No inbound volume, lead count, or channel — [Head of Demand](../seats/head-of-demand.md) is leftover-file assigned, as are [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md); who fills each is not recorded; there is no live job.
 - **Nothing is measured behind any named KPI on any seat.**
 - Where the line falls between this seat, [Book Strategist](book-strategist.md), and [Persona Architect](persona-architect.md).
 
@@ -88,9 +88,9 @@ Two lists exist — what the leftover records, and what it is missing — plus, 
 - **Never write a business plan, growth plan, marketing plan, R&D plan, roadmap, timeline, sprint plan, market analysis, competitive analysis, scenario, or forecast.** The recorded build order defers all of it.
 - Never invent a revenue, cost, margin, cash, pipeline, or growth figure, and never derive one from the 18 Aug 2026 client count.
 - **Never propose, rename, drop, or set a target for a KPI**, and never put a figure in a Current field, including a 0.
-- Never reopen, re-sequence, or extend a recorded decision: **the four runtime pieces first; Michael's four phases at go; the M1 is the office and the M5 is the shop; Blue Sky stays off the LLC books.**
+- Never reopen, re-sequence, or extend a recorded decision: **the four runtime pieces first; Michael's four phases at go; work runs on this Mac; Blue Sky stays off the LLC books.** Machine locks live on [locks.md](../locks.md) — this page does not restate them.
 - Never plan work for a parked seat, and never soften a machine lock. **No VMs, no GKE, no local LLM until Michael says go.**
-- Never assign work to [Head of Demand](../seats/head-of-demand.md), [Head of Sales](../seats/head-of-sales.md), or [SDR](../seats/sdr.md) — all three are unassigned.
+- Never assign work to [Head of Demand](../seats/head-of-demand.md), [Head of Sales](../seats/head-of-sales.md), or [SDR](../seats/sdr.md) — all three are leftover-file assigned, who fills each not recorded, no live job.
 - Never quote a price outside [offers.md](../offers.md), never resolve a "both" into one figure, and never collapse the track record.
 - Never name a holder for this seat, and never give Jhana or Bob a Role.
 - Never send without Michael. No program GitHub. See [locks.md](../locks.md).

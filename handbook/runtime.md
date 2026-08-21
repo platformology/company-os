@@ -29,13 +29,13 @@ The PA steers and last-gates. Claude / Other Models writes the heavy pages. Grok
 
 - **Gemma 4 26B 8-bit on this M1** is the shared always-on hand — **after Michael says go**, not before.
 - **Llama 3.3 70B 4-bit on this M1** is the on-purpose pen. It is **not a second seat brain.**
-- **Flash 2-bit** stays on the M5, SmarterVoice only, and **the M5 is parked**.
-- **The M1 is the office.** The M5 is the shop only. Daily Grok Bot lives on this M1.
+- **Flash 2-bit** stays SmarterVoice only and stays parked. Work runs on this Mac. Machine locks live on [locks.md](locks.md) — this map does not restate them.
+- Daily Grok Bot lives on this Mac.
 - **The token rule:** weekday 8am, then 11, 2, and 5. No hourly Grok Bot wakes. The hours between those four windows are exactly the hours a local hand would cover — after go.
 
 **What is still missing.** Michael's go. **"No local LLM" holds until he says go** — that is the lock's own wording on [locks.md](locks.md), and it is a wait, not a forever. What lifting it involves is on that page and in Notion; this map does not restate it, and lifting it is Michael's call, not this map's. Until then the brain is **named, not installed**: nothing here tells anyone to install a model or any other software, and this repo has no install step in it at all.
 
-**Done-check.** You can say out loud which named hand belongs to which machine and what each is for — Gemma 4 26B 8-bit shared and always-on on this M1 after go, Llama 3.3 70B 4-bit as the on-purpose pen rather than a second seat brain, Flash 2-bit on the parked M5 for SmarterVoice only — and you can point at the line in [locks.md](locks.md) that holds all of it until Michael says go. After go, the check becomes: the shared hand runs on this M1 and covers the hours between the token windows, and no seat got a model of its own to make that work.
+**Done-check.** You can say out loud which named hand is for what — Gemma 4 26B 8-bit shared and always-on on this Mac after go, Llama 3.3 70B 4-bit as the on-purpose pen rather than a second seat brain, Flash 2-bit parked for SmarterVoice only — and you can point at the line in [locks.md](locks.md) that holds all of it until Michael says go. After go, the check becomes: the shared hand runs on this Mac and covers the hours between the token windows, and no seat got a model of its own to make that work.
 
 **Seats are never rebuilt as local models** — that one is on [locks.md](locks.md) and it does not end at go. A seat is a job plus a skill; a hand is something it borrows.
 
@@ -102,14 +102,14 @@ Each of those pages owns its own detail. This map gives you the one line per pie
 
 ## Seats this page does not build
 
-- **Head of Demand, Head of Sales, and SDR stay unassigned.** No brain, hands, wiring, or guts gets built for a seat nobody is in.
+- **Head of Demand, Head of Sales, and SDR are leftover-file assigned.** Who fills each is not recorded. There is no live job. The leftover they open is already written: [leftovers/head-of-demand.md](leftovers/head-of-demand.md), [leftovers/head-of-sales.md](leftovers/head-of-sales.md), [leftovers/sdr.md](leftovers/sdr.md). No brain, hands, wiring, or guts gets invented so they have a job to run.
 - **Head of Engineering and Developer stay parked.** Building a runtime piece is not unparking a seat.
 
 ## Locked, on every one of the four
 
 - **This repo is docs only.** No scripts, no services, and no step on this page that runs a command or installs anything.
-- **No send without Michael. No program GitHub. No VMs. No GKE. No local LLM until Michael says go. Seats are never rebuilt as local models. M5 parked. Blue Sky off the LLC books.** Full list, in its own words: [locks.md](locks.md).
-- **The M1 is the office; the M5 is the shop only.** Daily Grok Bot does not move off this M1.
+- **No send without Michael. No program GitHub. No VMs. No GKE. No local LLM until Michael says go. Seats are never rebuilt as local models. Blue Sky off the LLC books.** Work runs on this Mac. Full list, in its own words: [locks.md](locks.md).
+- Daily Grok Bot does not move off this Mac.
 - **Nothing gets invented to close a hole above** — no client, no money figure, no person, no price. The humans here are Jhana, Bob, and Anthony C. Garcia; Dave / Lehi Drew (tech) and David McInnis (Cranberry Press) are vendors, not seat holders ([people.md](people.md)).
 - **KPI "Current" stays empty**, and no done-check on this page carries a number. The client counts are a separate fact with their date: 1 Alumni (Cornelia Choe, The Leaders Alliance), 67 Past, 0 Current, 0 Prospect on the 18 Aug 2026 extract; Hoffman is a question ([clients.md](clients.md)).
 

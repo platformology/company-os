@@ -36,7 +36,7 @@ Notion **Company OS home**; [locks.md](../locks.md) in this repo.
 
 ## Locked on this seat
 
-No program GitHub. No VMs. No GKE. No local LLM. M5 parked until Michael says go. No send without Michael. **The M1 is the office and the M5 is the shop only** — the office does not move, and the daily work does not move onto the M5. The full list, including everything about machines and models, is [locks.md](../locks.md): open that page and read it there. Don't restate it from memory, and don't soften it.
+No program GitHub. No VMs. No GKE. No local LLM. No send without Michael. Work runs on this Mac. The full list, including everything about machines and models, is [locks.md](../locks.md): open that page and read it there. Don't restate it from memory, and don't soften it.
 
 ## Named missing — stays missing
 

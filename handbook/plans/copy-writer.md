@@ -22,7 +22,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 
 - **No audience.** [clients.md](../clients.md) counts **0 Current and 0 Prospect** on the 18 Aug 2026 extract, and no inbound volume, lead count, or channel is recorded anywhere.
 - **No brief.** [CMO](cmo.md) already names what this repo does not hold: **no advertising plan, no PR programme, no speaking calendar, and no brand book.** A copy writer with none of those is being asked to invent the strategy and then write to it.
-- **No channel.** The five connected tools are Notion, Gmail, Google Calendar, Slack, and Google Drive, and **no sixth gets added** ([engine.md](../engine.md)). None of them is a publishing channel, and **[Head of Demand](../seats/head-of-demand.md) — the seat that would own inbound — is unassigned with no work assigned to it.**
+- **No channel.** The five connected tools are Notion, Gmail, Google Calendar, Slack, and Google Drive, and **no sixth gets added** ([engine.md](../engine.md)). None of them is a publishing channel, and **[Head of Demand](../seats/head-of-demand.md) — the seat that would own inbound — is leftover-file assigned, who fills not recorded, no live job.**
 
 **The lead magnet is the sharpest example, so use it as the test case.** It is the single most obvious thing a copy writer would be handed, and **it has no row on [offers.md](../offers.md)** — no price, no description, no offer behind it. [how-money-moves.md](../how-money-moves.md) names it as the named-missing at exactly the Attract stage that would use one. Writing lead-magnet copy would mean inventing the offer first.
 
@@ -71,7 +71,7 @@ Two lists exist — what the leftover records, and what it is missing — and **
 - **No brand book, voice guide, house style guide, messaging framework, or channel plan.**
 - **The lead magnet has no Offers row**, and the **membership price** is not recorded.
 - No advertising plan, PR programme, or speaking calendar exists anywhere in this repo.
-- No inbound volume, lead count, or channel — [Head of Demand](../seats/head-of-demand.md) is unassigned.
+- No inbound volume, lead count, or channel — [Head of Demand](../seats/head-of-demand.md) is leftover-file assigned, who fills not recorded, no live job.
 - Platinum Major List has no public price.
 
 ## Never

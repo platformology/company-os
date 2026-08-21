@@ -2,7 +2,7 @@
 
 Recorded 20 Aug 2026 — Michael: **OpenClaw is the pile that already exists** for building real seat-workers. This page is that pile read against our twenty-three seats — what it already does, which parts of it we take, which parts we refuse, and how a person would know a seat is a worker instead of a page.
 
-**Nothing here installs anything.** OpenClaw is not on this Mac, this page does not put it there, and no step below runs a command. This repo is markdown ([README.md](../README.md)); reading this page is the whole job today.
+**Nothing here installs anything.** Recorded 21 Aug 2026 — Michael: leftover-file seats run on this Mac in OpenClaw without the PA writing the next hole on their own page. This page does not install anything, and no step below runs a command. This repo is markdown ([README.md](../README.md)); reading this page is the whole job today.
 
 Where it sits: [runtime.md](runtime.md) is the build map for the four pieces — brain, hands, wiring, guts. This is a page beside those four, not a fifth piece. It names the outside runtime the four are already shaped like, so nobody sets out to design something a public project already finished.
 
@@ -39,7 +39,7 @@ Same twenty-three seats already written in [seats/](seats/README.md). This page 
 
 Three things that table is too narrow to hold:
 
-**The hand row is a name, not a machine state.** Two lines travel beside it so nobody reaches for the wrong one: **Llama 3.3 70B 4-bit on this M1** is the on-purpose pen, **not a second seat brain**, and no seat is built on it; **Flash 2-bit** is the M5, SmarterVoice only, and the M5 is parked. That is the CTO extract of 19 Aug 2026, restated 20 Aug. **Status today: not installed** — **"No local LLM until Michael says go"** is the lock's own wording on [locks.md](locks.md), and Phase 4 of the go packet is the only thing that lifts it.
+**The hand row is a name, not a machine state.** Two lines travel beside it so nobody reaches for the wrong one: **Llama 3.3 70B 4-bit on this M1** is the on-purpose pen, **not a second seat brain**, and no seat is built on it; **Flash 2-bit** is SmarterVoice only and stays parked. Work runs on this Mac. Machine locks live on [locks.md](locks.md) — this page does not restate them. That is the CTO extract of 19 Aug 2026, restated 20 Aug. **Status today: not installed** — **"No local LLM until Michael says go"** is the lock's own wording on [locks.md](locks.md), and Phase 4 of the go packet is the only thing that lifts it.
 
 **One hand, twenty-three bodies.** OpenClaw lets every agent point at its own model, and we do not use that. Ours all point at the same shared weights, and OpenClaw's own local-provider shape is the one ours already is — one server on the machine, several agents sharing it. **Seats are never rebuilt as local models** ([locks.md](locks.md)); what changes per seat is the body text, never the weights.
 
@@ -91,14 +91,14 @@ Six for six is a worker. A body file with nobody running it is a page — a good
 ## Seats this page does not add
 
 - **Twenty-three seats, the ones that already exist.** No new seat comes out of reading a runtime, and no seat is renamed to match OpenClaw's vocabulary. An agent is a seat; the seats are the ones in [seats/](seats/README.md).
-- **Head of Demand, Head of Sales, and SDR stay unassigned.** Recognising a shape does not fill a seat.
+- **Head of Demand, Head of Sales, and SDR are leftover-file assigned.** Who fills each is not recorded. There is no live job. The leftover they open is already written: [leftovers/head-of-demand.md](leftovers/head-of-demand.md), [leftovers/head-of-sales.md](leftovers/head-of-sales.md), [leftovers/sdr.md](leftovers/sdr.md). Recognising a shape does not invent a live job or a holder.
 - **Head of Engineering and Developer stay parked.** Their desks are refuse-work packs, and this page does not start work in either.
 
 ### Still named missing on this Mac
 
 Honest list, because the page above would otherwise read as if we are further along than we are:
 
-- **The OpenClaw gateway is not installed on this M1.** Not partly, not in a folder somewhere — it is not here. Everything above is a shape we recognise, not software we run.
+- **The OpenClaw gateway is not installed on this Mac.** Not partly, not in a folder somewhere — it is not here. Everything above is a shape we recognise, not software we run.
 - **Whether OpenClaw is ever installed here is Michael's**, and it is not recorded either way. Nothing in this repo waits on it, and nobody settles the question by installing it to see.
 - **The shared hand is not installed either** — named, waiting on go, per the pages above.
 - **A body handed to a model has no files and no browser.** That is already on [bodies/README.md](bodies/README.md): it cannot open [offers.md](offers.md), [clients.md](clients.md), or a Notion page by itself, so a job that needs one of those gets "not in hand — open the page" and a person opens it. Closing that gap is the sort of thing a gateway is for, which is the honest reason anyone would want one — and it is not closed.

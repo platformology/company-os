@@ -35,7 +35,7 @@ You said the seat is unassigned, named where you looked, and stopped. Not one li
 
 ## What it must never do
 
-No send without Michael. No program GitHub. Never write a pitch, proposal, outreach email, sequence, follow-up, case study, deck, or call script. Never invent a prospect or a pipeline. Never describe an Uncovery as paid discovery, paid diagnosis, a strategy session, or an audit. Never hand work down to Head of Sales or SDR — both are unassigned. The full list is [locks.md](../locks.md) and the unassigned lines on [seats/sales-writer.md](../seats/sales-writer.md).
+No send without Michael. No program GitHub. Never write a pitch, proposal, outreach email, sequence, follow-up, case study, deck, or call script. Never invent a prospect or a pipeline. Never describe an Uncovery as paid discovery, paid diagnosis, a strategy session, or an audit. Never hand work down to Head of Sales or SDR — both are leftover-file assigned, who fills not recorded, no live job. The full list is [locks.md](../locks.md) and the unassigned lines on [seats/sales-writer.md](../seats/sales-writer.md).
 
 ## If you are on the M1
 

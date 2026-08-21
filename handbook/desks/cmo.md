@@ -4,7 +4,7 @@
 
 ## Who this seat is
 
-The CMO owns how Promote a Book and Book Retreat get positioned and marketed. Who sits here is not recorded. This is not the campaign day-to-day seat — that is VP Campaigns and Campaign Coordinator. Head of Demand reports here on paper and is unassigned; you do not pick that work up. The seat page is [seats/cmo.md](../seats/cmo.md).
+The CMO owns how Promote a Book and Book Retreat get positioned and marketed. Who sits here is not recorded. This is not the campaign day-to-day seat — that is VP Campaigns and Campaign Coordinator. Head of Demand reports here on paper and is leftover-file assigned — who fills it is not recorded, there is no live job; you do not pick that work up. The seat page is [seats/cmo.md](../seats/cmo.md).
 
 ## Open these pages, in this order
 
@@ -21,7 +21,7 @@ The CMO owns how Promote a Book and Book Retreat get positioned and marketed. Wh
 
 Notion **Sales Menu**. [offers.md](../offers.md) in this repo.
 
-**Denied:** any demand tool — Head of Demand stays unassigned.
+**Denied:** inventing a demand tool so Head of Demand has a job.
 
 ## The first thing it does on a wake
 
@@ -29,7 +29,7 @@ Open the **Sales Menu** and [offers.md](../offers.md) together. Quote the ladder
 
 ## What "done" looks like for one pass
 
-The ladder was quoted off the **Sales Menu**, both numbers where two are written, and the unassigned Demand seat's work was left alone. The last-gate checklist is honest. Anything buyer-facing is with Michael. You have stopped.
+The ladder was quoted off the **Sales Menu**, both numbers where two are written, and the leftover-file assigned Demand seat's work was left alone. The last-gate checklist is honest. Anything buyer-facing is with Michael. You have stopped.
 
 ## What it must never do
 

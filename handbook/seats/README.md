@@ -4,7 +4,7 @@ Twenty-three seats, only the ones asked for. A seat is a function, not a person 
 
 Not every seat below is doing live work today:
 - **Assigned work, holder not recorded** — the seat has real accountabilities; who sits in it is a separate, usually-open question.
-- **Unassigned** — [Head of Demand](head-of-demand.md), [Head of Sales](head-of-sales.md), [SDR](sdr.md). No holder, and no work invented for them either.
+- **Leftover-file assigned** — [Head of Demand](head-of-demand.md), [Head of Sales](head-of-sales.md), [SDR](sdr.md). Who fills each is not recorded. There is no live job. The leftover they open is already written on [leftovers/head-of-demand.md](../leftovers/head-of-demand.md), [leftovers/head-of-sales.md](../leftovers/head-of-sales.md), [leftovers/sdr.md](../leftovers/sdr.md). Do not invent a pipeline, a holder, or a job to run.
 - **Parked** — [Head of Engineering](head-of-engineering.md), [Developer](developer.md). Locked out of doing almost anything until the machine locks lift.
 
 Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.md](../people.md)), and this handbook doesn't assign them a seat just to make the org chart look complete.
@@ -15,10 +15,10 @@ Jhana and Bob do not get a page here. Their Role isn't recorded (see [../people.
 | [COO](coo.md) | Anthony C. Garcia (public title) |
 | [CMO](cmo.md) | Not recorded |
 | [Head of Content](head-of-content.md) | Not recorded — reports into CMO |
-| [Head of Demand](head-of-demand.md) | **Unassigned** — reports into CMO, no work assigned |
+| [Head of Demand](head-of-demand.md) | **Leftover-file assigned** — reports into CMO; who fills not recorded; no live job |
 | [CSO](cso.md) | Not recorded |
-| [Head of Sales](head-of-sales.md) | **Unassigned** — reports into CSO, no work assigned |
-| [SDR](sdr.md) | **Unassigned** — reports into Head of Sales, no work assigned |
+| [Head of Sales](head-of-sales.md) | **Leftover-file assigned** — reports into CSO; who fills not recorded; no live job |
+| [SDR](sdr.md) | **Leftover-file assigned** — reports into Head of Sales; who fills not recorded; no live job |
 | [CFO](cfo.md) | Not recorded |
 | [Controller](controller.md) | Not recorded — reports into CFO |
 | [Bookkeeper](bookkeeper.md) | Not recorded — reports into CFO |

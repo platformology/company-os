@@ -62,7 +62,7 @@ Those three names are already on the seat page. **Do not invent a fourth one.**
 
 Name it and stop — do not route around it, and do not invent a smaller version of the ask to stay busy. In the message to whoever is waiting, write one of exactly two things ([runtime-wiring.md](../runtime-wiring.md)):
 
-- **The lock**, quoted from [locks.md](../locks.md) — no send without Michael, no program GitHub, no VMs, no GKE, no local LLM, M5 parked, Blue Sky off the LLC books.
+- **The lock**, quoted from [locks.md](../locks.md) — no send without Michael, no program GitHub, no VMs, no GKE, no local LLM, Blue Sky off the LLC books. **Work runs on this Mac.** Machine locks live on [locks.md](../locks.md) — this page does not restate them.
 - **The named-missing hole**, quoted from [SOURCES.md](../../SOURCES.md) in the words that list already uses.
 
 Then stop. **A block is not permission to invent work.** If the block is an ask-Michael-first item, this is the seat that carries it to Michael — that is the one direction this seat does relay.

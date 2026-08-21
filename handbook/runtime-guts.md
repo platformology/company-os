@@ -51,9 +51,9 @@ The seat's day runs on the token rule: a wake at 8am, then 11, 2, and 5. Four wa
 
 Bot seats run around the clock. Jhana, Bob, and Anthony do not — see [people.md](people.md). A bot seat's pass doesn't wait on a human's clock, and a human seat's job isn't scheduled as if it never sleeps.
 
-## Where the guts stay off
+## Leftover-file assigned and parked
 
-- **Demand, Sales, and SDR — unassigned, so the guts stay off.** See [seats/head-of-demand.md](seats/head-of-demand.md), [seats/head-of-sales.md](seats/head-of-sales.md), [seats/sdr.md](seats/sdr.md). Asked what's next, these seats answer honestly that the seat is unassigned and there is no work in it yet; [run-demand](../skills/run-demand/SKILL.md), [run-sales](../skills/run-sales/SKILL.md), and [run-sdr-seat](../skills/run-sdr-seat/SKILL.md) exist to say exactly that. Do not give them a leftover generator, and do not invent inbound volume, pipeline, a forecast, a lead count, or a score so they have something to digest.
+- **Demand, Sales, and SDR — leftover-file assigned.** Who fills each is not recorded. There is no live job. They open the leftover already written: [leftovers/head-of-demand.md](leftovers/head-of-demand.md), [leftovers/head-of-sales.md](leftovers/head-of-sales.md), [leftovers/sdr.md](leftovers/sdr.md). See [seats/head-of-demand.md](seats/head-of-demand.md), [seats/head-of-sales.md](seats/head-of-sales.md), [seats/sdr.md](seats/sdr.md). [run-demand](../skills/run-demand/SKILL.md), [run-sales](../skills/run-sales/SKILL.md), and [run-sdr-seat](../skills/run-sdr-seat/SKILL.md) exist to answer honestly about those seats. Do not give them a leftover generator, and do not invent inbound volume, pipeline, a forecast, a lead count, or a score so they have something to digest.
 - **Head of Engineering and Developer — parked, so the guts stay off.** See [seats/head-of-engineering.md](seats/head-of-engineering.md) and [seats/developer.md](seats/developer.md). The guts do not start code, a VM, GKE, or a local LLM, and finding a parked seat a leftover does not un-park it. See [locks.md](locks.md).
 
 ## The PA's part
@@ -77,7 +77,7 @@ The guts are one piece of four. The brain, the body, and the wiring are not writ
 - Never sit out a pass while a named leftover exists.
 - Never invent a leftover, a new job, a client, a dollar figure, a person, or a price. **KPI Current stays empty** — a 0 is a figure, so it doesn't go in there either. The 18 Aug 2026 extract in [clients.md](clients.md) separately counts 0 Current and 0 Prospect; quote that with its date, and don't move it into the KPI.
 - Never take a second unit in the same pass, and never fan one out across seats.
-- Never switch the guts on for an unassigned or a parked seat.
+- Leftover-file assigned seats open the leftover already written. Never switch the guts on for a parked seat.
 - Never stand up a tracker or a board to hold a leftover.
 - Never send without Michael. No program GitHub. See [locks.md](locks.md).
 
