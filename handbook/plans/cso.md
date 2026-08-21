@@ -1,6 +1,6 @@
 # CSO — plan
 
-**Status: Assigned** · **Holder: not recorded** · **Written: 20 Aug 2026**
+**Status: Assigned** · **Holder: not recorded** · **Written: 20 Aug 2026** · **Deepened: 21 Aug 2026**
 
 One pass placing a real buyer on a rung that already exists, with both reports underneath this seat still unassigned.
 
@@ -14,13 +14,25 @@ CSO is **Chief Sales Officer**, not Chief Strategy Officer.
 4. [run-cso](../../skills/run-cso/SKILL.md) — the router for this seat.
 5. [offers.md](../offers.md) — every price this seat quotes comes off this page and nowhere else.
 
+**In hand before you start.** The hands on this seat's row in [runtime-body.md](../runtime-body.md) are the whole set: Notion **Sales Menu**, Notion **Clients** for status, plus [offers.md](../offers.md) and [clients.md](../clients.md) in this repo. **Denied: any pipeline tool — [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) stay unassigned.** Notion **Clients** is the CRM; **HubSpot is closed and is not a system of record.**
+
+**The locks that bite on this pass, in their own words** ([locks.md](../locks.md)):
+
+- **"No send without Michael."** Nothing goes to a client, a prospect, or the public without his sign-off.
+- **"No program GitHub."**
+- **Ask Michael first:** **"picking a number where the offer ladder shows 'both'"**, and **"recording a client as Current, Prospect, or otherwise moving them off 'question' status (e.g., Hoffman)."**
+
 ## The one job
 
 **Take one real, sourced buyer question and answer it off the public ladder — the rung, and the price as the ladder states it.**
 
-Offer fit is matching a situation to a rung that exists. It is not building a new rung, and it is not resolving a "both" into one number.
+Offer fit is matching a situation to a rung that exists. It is not building a new rung, and it is not resolving a "both" into one number. The rule on [offers.md](../offers.md), in its own words: **"If a client, a bot, or a new hire asks for a price not on this ladder, or asks you to resolve a 'both' into one number, the answer is 'check with Michael' — not a guess, not an average, not the higher or lower of the two."**
 
-This seat's live leftover is that **both reports under it are unassigned**: [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md). Whoever is doing sales work today is doing it without a filled seat below them. That is the honest state, and it does not get papered over with an invented pipeline.
+The rungs that show two numbers, so you do not have to go and look: **Multi-author $1,000 or $20,000** · **PIAB Consult, or Drive $40,000** · **Book Marketing Uncovery Consult, or Drive wire $20,000** · **Digital $35,000 or $35,000 + $40,000 bonus** · **Bestseller Uncovery $20,000**, credited toward Platinum in one telling and an additional charge in another. **Platinum Major List has no public price.** Single-number rungs: Virtual Retreat $1,000, Guided $10,000, Professional $20,000, Elite $40,000, SUCCESS $35,000 + $40,000 bonus, NYT $35,000 + $60,000 in bonuses, Book Writing Uncovery Consult.
+
+**No list guarantee.** No page in this repo records a promised list placement. A rung is a price, not a promise about an outcome, and nothing drafted off this plan implies one.
+
+This seat's live leftover is that **both reports under it are unassigned**: [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md). Whoever is doing sales work today is doing it without a filled seat below them. That is the honest state, and it does not get papered over with an invented pipeline — [runtime-guts.md](../runtime-guts.md) is explicit that the guts stay off for those seats and that no inbound volume, pipeline, forecast, lead count, or score gets invented so they have something to digest.
 
 ## The SOP that runs it
 
@@ -42,17 +54,35 @@ This seat's live leftover is that **both reports under it are unassigned**: [Hea
 ## Run it
 
 1. Open [locks.md](../locks.md). No send without Michael, and no price outside [offers.md](../offers.md).
-2. Read the ask. If it is really a diagnosis question — "what do I actually need?" — that is Uncovery, job 2 on [how-money-moves.md](../how-money-moves.md), before any placement.
-3. Place the buyer on a rung that already exists: [place-on-offer-ladder](../../skills/place-on-offer-ladder/SKILL.md), then [run-sales-menu](../../skills/run-sales-menu/SKILL.md).
-4. Quote the rung the way the ladder states it. Two numbers stay two numbers. Platinum Major List has **no public price** — say so.
-5. Asked for a rung that is not on the ladder? The answer is "check with Michael." Not a guess, not an average, not the nearer of two.
-6. Asked for pipeline, a forecast, or a close rate? None is recorded. Say so plainly. Do not build one out of the client count, and do not hand work down to Head of Sales or SDR to make the chart look busy — both seats are unassigned.
-7. Anything about a client's status goes through [run-clients](../../skills/run-clients/SKILL.md). **Hoffman is a question, not a Current client**, and recording anyone as Current is an ask-Michael-first item.
+2. Read the ask. If it is really a diagnosis question — "what do I actually need?" — that is **Uncovery, job 2 on [how-money-moves.md](../how-money-moves.md)**, before any placement. **Diagnose comes before Place**, and the live script for it is named missing.
+3. Place the buyer on a rung that already exists: [place-on-offer-ladder](../../skills/place-on-offer-ladder/SKILL.md), then [run-sales-menu](../../skills/run-sales-menu/SKILL.md). Open the [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) — do not place from memory of it.
+4. Quote the rung the way the ladder states it. **Two numbers stay two numbers. Platinum Major List has no public price** — say so.
+5. Asked for a rung that is not on the ladder? The answer is **"check with Michael."** Not a guess, not an average, not the nearer of two. The **membership price** has none recorded and the **lead magnet has no Offers row** at all — both are named missing on [offers.md](../offers.md) itself.
+6. Asked for pipeline, a forecast, a consult count, or a close rate? **None is recorded.** Say so plainly. Do not build one out of the client count, and **do not hand work down to Head of Sales or SDR to make the chart look busy** — both seats are unassigned and neither has hands on [runtime-body.md](../runtime-body.md).
+7. Anything about a client's status goes through [run-clients](../../skills/run-clients/SKILL.md), against the 18 Aug 2026 extract: **1 Alumni (Cornelia Choe, The Leaders Alliance), 67 Past, 0 Current, 0 Prospect.** **Hoffman is a question, not a Current client**, and recording anyone as Current is ask-Michael-first. **A folder name is not a client. HubSpot is closed.**
 8. Run [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md) and stop. The draft sits with Michael.
+
+## If the pass blocks
+
+Name it and stop. In the message to whoever is waiting, write one of exactly two things ([runtime-wiring.md](../runtime-wiring.md)):
+
+- **The lock**, quoted from [locks.md](../locks.md) — here, most often "no send without Michael," the ask-first line on resolving a "both," or the ask-first line on moving a client off "question" status.
+- **The named-missing hole**, quoted from [SOURCES.md](../../SOURCES.md) — the live Uncovery script, how an Uncovery is sold, the membership price, or Hoffman's status.
+
+Then stop. **Do not route around it, and do not invent a pipeline to have something to report.** An ask-Michael-first item travels up the wire through the [PA](../seats/pa.md).
+
+## Where the finished thing goes
+
+| Hand it to | What they are checking |
+|---|---|
+| [PA](../seats/pa.md) | The last gate — [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md) — then Michael. |
+| [COO](../seats/coo.md) first, if the finished thing is a Company OS / docs change | First QC on the docs, before the PA's gate. |
+
+No seat reports into this one today, so nothing arrives from below to check.
 
 ## Done looks like
 
-One buyer question is answered against a rung that exists, priced exactly as the ladder states it, with no seat below this one handed work it cannot take. Nothing sent.
+Something a second person could check: **one buyer question is answered against a named rung that exists on the ladder, priced exactly as the ladder states it** — both numbers where it shows two, "no public price" where it says so — with no seat below this one handed work it cannot take. Nothing sent. If the honest answer was "not recorded, check with Michael," that is a finished pass too.
 
 ## Named missing — stays named
 
@@ -60,7 +90,7 @@ One buyer question is answered against a rung that exists, priced exactly as the
 - Head of Sales and SDR — unassigned, and no pipeline, forecast, close rate, lead count, or score invented for them.
 - The live Uncovery script, and how an Uncovery is sold — neither is on [offers.md](../offers.md).
 - Any consult count or qualification bar; any close or win attached to an offer; any revenue figure to take a share of.
-- Platinum Major List has no public price.
+- Platinum Major List has no public price. The membership price is not recorded, and the lead magnet has no Offers row.
 - Hoffman's client status is a question, not a fact.
 
 ## Never
@@ -68,6 +98,8 @@ One buyer question is answered against a rung that exists, priced exactly as the
 - Never invent a pipeline, a forecast, a close rate, or a lead count.
 - Never turn the 0 Current client count into a KPI value, a target, or a trend.
 - Never resolve a "both" into one number, and never quote a price that is not on [offers.md](../offers.md).
+- Never call an Uncovery paid discovery or paid diagnosis — [offers.md](../offers.md) does not say what it is positioned as.
+- Never imply a list placement. No page here records one.
 - Never record a client as Current or Prospect without Michael.
 - Never put a figure in a KPI Current field, including a 0.
 - Never send without Michael. No program GitHub. See [locks.md](../locks.md).
