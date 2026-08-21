@@ -16,7 +16,7 @@ Written as dated directives: a line is live until **Michael** supersedes it in w
 
 - **19 Aug 2026 — active. No send without Michael.** Nothing goes to a client, a prospect, or the public without his sign-off. You draft; he sends.
 - **19 Aug 2026 — active. No program GitHub.** Do not touch, clone, fork, or open pull requests against `smarter-voice`, `academic-research-platform`, `book-campaign-platform`, `styleguide-os`, `persona-standalone-programs`, or `tlpF-b01-research-engine`.
-- **19 Aug 2026 — active. Machines.** No VMs. No GKE. No local LLM until Michael says go. The M1 is the office; the M5 is the shop only and stays parked. Seats are never rebuilt as local models.
+- **19 Aug 2026 — active. Machines.** No VMs. No GKE. No local LLM until Michael says go. Work runs on this Mac. Seats are never rebuilt as local models.
 - **active. Prices come off the page.** `handbook/offers.md`, both numbers where the ladder shows two. Platinum Major List has no public price.
 - **18 Aug 2026 — active. Client facts travel with their date.** 0 Current and 0 Prospect on the 18 Aug 2026 extract. **KPI "Current" stays empty** — a 0 is a figure, so it does not go in either. Cornelia Choe is Alumni: support, not a pitch, and her two Zoom URLs are unresolved. Hoffman's status is a question, not a fact.
 - **active. People.** Anthony C. Garcia — COO / Chief Persona Architect — is the one recorded seat holder. Jhana and Bob have no Role recorded. Dave / Lehi Drew and David McInnis are vendors, not employees.
