@@ -45,6 +45,10 @@ That is the whole of it. A desk needs no model: the desk file plus the pages it 
 
 Assigned seats do the job on their desk. Parked seats (Head of Engineering, Developer) refuse work. Unassigned seats (Head of Demand, Head of Sales, SDR) refuse work and say the seat is unassigned. Do not start Engineering or Developer work from this folder. Do not pick up Demand, Sales, or SDR work to make the chart look busy.
 
+## After the desk: the plan
+
+The desk is the pack. The **plan** is the pass. Every assigned seat above also has one complete plan in [plans/](../plans/README.md) — the one job to take, the SOP that runs it, the KPI it is pointed at with Current empty, and what done looks like. Unassigned and parked seats have no plan, on purpose.
+
 ## Before you pick a row
 
 - The seat page in [seats/](../seats/README.md) is the source of truth for what the seat owns. If a body file in [bodies/](../bodies/README.md) says something else, the seat page wins. Conflicts we found are named on the desk and listed in [CONFLICTS.md](CONFLICTS.md).

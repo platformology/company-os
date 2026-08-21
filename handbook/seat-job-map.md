@@ -45,6 +45,7 @@ Each seat's own `run-<seat>` skill is listed first: it's the router that points 
 - If a **person** question comes up on any row, [run-staff](../skills/run-staff/SKILL.md) answers it from the recorded roster.
 - [reuse-what-github-has](../skills/reuse-what-github-has/SKILL.md) runs before anyone writes a new skill for a row above — search public GitHub first, adapt the shape, name what you reused in [SOURCES.md](../SOURCES.md). Do not invent a page to close a gap in this table.
 - [handbook/cheap-loop.md](cheap-loop.md) is the loop this whole table plugs into: open the skill in the row, follow it, gate, stop.
+- Every row marked **Assigned** above also has one complete plan in [plans/](plans/README.md) — the one job that pass takes, the SOP behind it, and the KPI it is pointed at with Current empty. Unassigned and parked rows have no plan, on purpose.
 
 ## Locked, regardless of row
 
