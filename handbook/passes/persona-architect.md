@@ -26,7 +26,7 @@ Read the plan first. This page does not restate it, and it does not restate the 
 
 **1. Read the ask against the locks first.** [locks.md](../locks.md). No send without Michael. No program GitHub. Read the title collision before anything else, so nothing in this pass lands on Anthony's seat by accident. If a lock stops the ask, quote it and stop.
 
-**2. Open the leftover.** [leftovers/persona-architect.md](../leftovers/persona-architect.md) is the leftover today: the vacancy, and **how this leftover relates to the COO / Chief Persona Architect title is named missing.** The leftover job file `/Users/mdrew/Company/Jobs/persona-architect-job.md` exists on the M1. It is not in this repo and is not restated here. If that file says how this seat relates to the COO title, that is the only place that answer can come from.
+**2. Open the leftover.** [leftovers/persona-architect.md](../leftovers/persona-architect.md) is the leftover today: the vacancy, and **how this leftover relates to the COO / Chief Persona Architect title is named missing.** The leftover job file on the M1 is not in this repo and is not restated. If that file says how this seat relates to the COO title, that is the only place that answer can come from.
 
 **3. Answer from the seat page and the router only.** Who is the Persona Architect leftover on paper? This leftover-file craft seat, unassigned, Craft cluster, no owner recorded. Say that. **Do not hand the work to the COO, to Head of Content, to Strategist, or to Book Strategist.**
 

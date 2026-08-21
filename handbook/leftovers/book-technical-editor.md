@@ -4,7 +4,7 @@
 
 Last-gated on **A People**. Not a live leftover invented so the seat has claims to check. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/book-technical-editor-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, **there is no manuscript**, and **there is no house style guide, dictionary, or date format** to check against. The danger is tidying a true inconsistency into a false single number.
 

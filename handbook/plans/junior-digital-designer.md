@@ -9,7 +9,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions. **No send without Michael**, and design output is something that goes out.
-2. **The leftover: `/Users/mdrew/Company/Jobs/junior-digital-designer-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [senior-digital-designer.md](senior-digital-designer.md) — the other half of a pair whose split is not recorded.
 4. [cmo.md](cmo.md) — the plan that already says **no brand book** exists here.
 5. [SOURCES.md](../../SOURCES.md) — the named-missing list.
@@ -44,7 +44,7 @@ The [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (N
 | **KPI** | **None is named for this seat.** No KPI for a Junior Digital Designer is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not an asset count, not a turnaround time, not a revision count, not a 0. **A 0 is a figure.** |
 | **What not to reach for** | **Content output** is [Head of Content](head-of-content.md)'s KPI and it is explicitly **not** a volume target. **On-time campaign milestones** is [VP Campaigns](vp-campaigns.md)'s, and **no campaign milestone schedule is recorded** behind it. Neither transfers here. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/junior-digital-designer-job.md` on the M1. It is the only thing recorded about this seat, including anything it says about seniority. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat, including anything it says about seniority. |
 
 ## Run it
 

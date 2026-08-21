@@ -9,7 +9,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions. Nothing this seat could produce goes anywhere without Michael.
-2. **The leftover: `/Users/mdrew/Company/Jobs/book-writer-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.** This plan does not restate it or guess at it.
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.** This plan does not restate it or guess at it.
 3. [clients.md](../clients.md) — 0 Current and 0 Prospect on the 18 Aug 2026 extract. There is no author waiting on a draft.
 4. [seats/head-of-content.md](../seats/head-of-content.md) — the corpus, and the reason new writing does not get filed as corpus.
 5. [SOURCES.md](../../SOURCES.md) — the named-missing list.
@@ -39,7 +39,7 @@ The one writing-adjacent thing this repo does hold is the [Competitive Writing G
 | **KPI** | **None is named for this seat.** No KPI for a Book Writer is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, and there is no field for it to be empty in — no KPI is named. Not a word count, not a chapter count, not a delivery date, not a 0. **A 0 is a figure.** |
 | **What a word count would be** | An invented measurement of invented work. [Head of Content](head-of-content.md)'s **Content output** KPI is explicitly **not** a word count or a posting schedule, and that is a *different seat's* KPI besides. Do not reach for it. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/book-writer-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

@@ -26,7 +26,7 @@ Read the plan first. This page does not restate it, and it does not restate the 
 
 **1. Read the ask against the locks first.** [locks.md](../locks.md). No send without Michael. No program GitHub. Anything this seat could write would be a send. If a lock stops the ask, quote it and stop.
 
-**2. Open the leftover.** [leftovers/copy-writer.md](../leftovers/copy-writer.md) is the leftover today: the vacancy, no brief, no audience, no channel, the lead magnet's missing Offers row, and no brand book, voice guide, or messaging framework. The leftover job file `/Users/mdrew/Company/Jobs/copy-writer-job.md` exists on the M1. It is not in this repo and is not restated here.
+**2. Open the leftover.** [leftovers/copy-writer.md](../leftovers/copy-writer.md) is the leftover today: the vacancy, no brief, no audience, no channel, the lead magnet's missing Offers row, and no brand book, voice guide, or messaging framework. The leftover job file on the M1 is not in this repo and is not restated.
 
 **3. Answer from the seat page and the router only.** Who writes copy on paper? This leftover-file craft seat, unassigned, Craft cluster, no owner recorded. Say that. **Do not hand the work to Sales Writer, Book Copy Writer, Book Writer, or Head of Content.**
 

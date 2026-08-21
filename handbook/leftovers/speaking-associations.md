@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has a booking. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/speaking-associations-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **no speaking calendar, association, contact, topic, or fee is recorded.** **No speaking rung** is on [offers.md](../offers.md). Reports to [CMO](../seats/cmo.md), not [CSO](../seats/cso.md). The split from [Speaking — Universities](speaking-universities.md) is not recorded. Do not draw it.
 

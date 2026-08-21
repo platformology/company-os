@@ -4,7 +4,7 @@
 
 Last-gated on **A People**. Not a live leftover invented so the seat has jacket copy. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/book-copy-writer-job.md` exists on the M1. It is not in this repo and is not restated here. **It is the only thing that can settle which of two jobs this name is.**
+The leftover job file on the M1 is not in this repo and is not restated. **It is the only thing that can settle which of two jobs this name is.**
 
 **The leftover:** **which of two jobs this name is is not recorded** — the copy that sells a book, or copy written inside one — and **there is no book** either way. This page does not pick.
 

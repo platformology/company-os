@@ -38,7 +38,7 @@ No send without Michael. No program GitHub. Never invent an author or a book. Ne
 
 ## If you are on the M1
 
-The M1 is the office. The leftover job file `/Users/mdrew/Company/Jobs/book-strategist-job.md` exists on this machine. It is not in this repo and is not restated here.
+The M1 is the office. The leftover job file on the M1 is not in this repo and is not restated.
 
 The shared office hand is **Gemma 4 26B 8-bit**, and it is **named, not installed**. **"No local LLM until Michael says go"** on [locks.md](../locks.md) holds. **No command on this page.**
 

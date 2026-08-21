@@ -4,7 +4,7 @@
 
 Last-gated on **A People**. Not a live leftover invented so the seat has a draft to react to. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/book-reader-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **there is no manuscript to read.** The specific invention this seat must refuse is a **person** — a typical reader, a panel, a demographic, a reaction. A reported reaction reads as evidence about a real audience.
 

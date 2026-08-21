@@ -9,7 +9,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions.
-2. **The leftover: `/Users/mdrew/Company/Jobs/pendulum-wiki-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [seats/head-of-content.md](../seats/head-of-content.md) — the corpus, and the librarian who already owns cataloguing it.
 4. [run-buyer-packet](../../skills/run-buyer-packet/SKILL.md) — the page that says Pendulum is **part** of the corpus and not a synonym for it.
 5. [runtime-guts.md](../runtime-guts.md) — the **no new tracker** rule, which a wiki runs straight into.
@@ -46,7 +46,7 @@ So this seat produces **no wiki, no page tree, no index, no glossary, no concept
 | **Current** | **Empty**, with no named field for it to be empty in. Not a page count, not a coverage percentage, not an edit count, not a 0. **A 0 is a figure.** |
 | **What not to reach for** | **Content output** is [Head of Content](head-of-content.md)'s KPI, and it is explicitly **not** a word count, a posting schedule, or a volume target — a librarian's pass is not measured by how much new material it produced. It is a different seat's row and it does not transfer here. |
 | **Why a coverage figure is impossible** | Coverage is a fraction of a catalogue, and **no catalogue of the corpus is recorded** — that cataloguing job sits with [Head of Content](../seats/head-of-content.md) and has nothing counted behind it. There is no denominator. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/pendulum-wiki-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

@@ -11,7 +11,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions.
-2. **The leftover: `/Users/mdrew/Company/Jobs/persona-architect-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [people.md](../people.md) — the recorded roster, and the one recorded public title that contains the words "Persona Architect."
 4. [seats/head-of-content.md](../seats/head-of-content.md) — the 27-year corpus of personas, and the librarian who owns cataloguing it.
 5. [head-of-content.md](head-of-content.md) — the plan that already says the training names in the old persona decks are not clients.
@@ -53,7 +53,7 @@ Public GitHub is full of persona and ICP generators. This repo has already searc
 | **KPI** | **None is named for this seat.** No KPI for a Persona Architect is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not a persona count, not a coverage figure, not a 0. **A 0 is a figure.** |
 | **What not to reach for — and this is the important one** | **[COO](coo.md) carries two named KPIs — Founder delivery hours % and Retreat fill rate — and neither belongs to this seat.** Anthony's title contains "Chief Persona Architect," so his KPI rows are the nearest thing on any board with the word "persona" attached. **They are a different seat's, and both are empty besides:** no hours record exists for anyone, and no next retreat is recorded. Do not copy either one here. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/persona-architect-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

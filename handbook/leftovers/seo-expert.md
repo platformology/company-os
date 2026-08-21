@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has a site. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/seo-expert-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **no web property, analytics, or keyword is recorded.** Client websites are not a product. Do not invent a domain. Do not open a locked program repo to have something to audit. Reports to [CMO](../seats/cmo.md). [Head of Demand](../seats/head-of-demand.md) — the seat that would own inbound — is unassigned too.
 

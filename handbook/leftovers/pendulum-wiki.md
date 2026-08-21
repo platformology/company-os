@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has a wiki. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/pendulum-wiki-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **no Pendulum wiki exists.** **No decision is recorded that one gets built, or where it would live.** Reports to [Head of Content](../seats/head-of-content.md) (librarian). Pendulum is part of the 27-year corpus, not a synonym for it. A wiki must not become a second tracker. The corpus is read-only. Contradictions get recorded, not resolved. Do not start a wiki.
 

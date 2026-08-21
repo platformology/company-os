@@ -9,7 +9,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions, and **the reason this seat has a lock the association seat does not:** `academic-research-platform` is a locked program repo.
-2. **The leftover: `/Users/mdrew/Company/Jobs/speaking-universities-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [cmo.md](cmo.md) — the plan that already says **no speaking calendar** exists here.
 4. [offers.md](../offers.md) — the whole public ladder, which carries **no speaking rung.**
 5. [speaking-associations.md](speaking-associations.md) — the paired seat, whose split from this one is not recorded.
@@ -51,7 +51,7 @@ Everything outbound is **draft-only**: nothing leaves anyone's hands until [revi
 | **KPI** | **None is named for this seat.** No KPI for a speaking seat of any kind is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not a bookings count, not an enquiry count, not a fee total, not a 0. **A 0 is a figure.** |
 | **What not to reach for** | **Qualified consults** is [CSO](cso.md)'s and has no consult count or qualification bar behind it; **Inbound leads** is [CMO](cmo.md)'s and has no volume behind it. A university enquiry is neither, and neither row is this seat's. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/speaking-universities-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

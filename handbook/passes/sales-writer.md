@@ -26,7 +26,7 @@ Read the plan first. This page does not restate it, and it does not restate the 
 
 **1. Read the ask against the locks first.** [locks.md](../locks.md). No send without Michael. Everything this seat would produce is a send. No invented pipeline, forecast, close rate, or lead count. If a lock stops the ask, quote it and stop.
 
-**2. Open the leftover.** [leftovers/sales-writer.md](../leftovers/sales-writer.md) is the leftover today: the vacancy, no brief, no live Uncovery script, and how an Uncovery is sold named missing. The leftover job file `/Users/mdrew/Company/Jobs/sales-writer-job.md` exists on the M1. It is not in this repo and is not restated here.
+**2. Open the leftover.** [leftovers/sales-writer.md](../leftovers/sales-writer.md) is the leftover today: the vacancy, no brief, no live Uncovery script, and how an Uncovery is sold named missing. The leftover job file on the M1 is not in this repo and is not restated.
 
 **3. Answer from the seat page and the router only.** Who writes sales copy on paper? This leftover-file craft seat, unassigned, Craft cluster, no owner recorded. Say that. **Do not hand the work to Sales Editor, Copy Writer, Head of Sales, or SDR.**
 

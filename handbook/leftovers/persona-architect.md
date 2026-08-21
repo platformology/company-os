@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has a persona. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/persona-architect-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **how this leftover relates to the COO / Chief Persona Architect title is named missing.** This is **not a second COO**. **Anthony C. Garcia holds COO / Chief Persona Architect.** This leftover is a separate empty craft seat. Do not write a persona. The corpus already holds 27 years of personas — [Head of Content](../seats/head-of-content.md) catalogues them. Training names in old persona decks are not clients.
 

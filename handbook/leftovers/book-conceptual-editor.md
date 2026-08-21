@@ -4,7 +4,7 @@
 
 Last-gated on **A People**. Not a live leftover invented so the seat has a manuscript to diagnose. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/book-conceptual-editor-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **there is no manuscript.** A conceptual note is only worth anything when it points at a place in the text and quotes what is there. No text, no location, no quote — so no note.
 

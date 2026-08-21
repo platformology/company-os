@@ -38,7 +38,7 @@ No send without Michael. Never pick which job this is. Never collapse the track 
 
 ## If you are on the M1
 
-The M1 is the office. The leftover job file `/Users/mdrew/Company/Jobs/book-copy-writer-job.md` exists on this machine. It is not in this repo. The shared office hand is **named, not installed**. **No command on this page.**
+The M1 is the office. The leftover job file on the M1 is not in this repo and is not restated. The shared office hand is **named, not installed**. **No command on this page.**
 
 ## Where the body and the seat page disagree
 

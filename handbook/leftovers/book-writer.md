@@ -4,7 +4,7 @@
 
 Last-gated on **A People**. Not a live leftover invented so the seat has prose. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/book-writer-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **there is no author, no manuscript, no interview transcript, and no voice sample.** Manufactured prose is worse than a blank page, because a blank page cannot be mistaken for the author's own.
 

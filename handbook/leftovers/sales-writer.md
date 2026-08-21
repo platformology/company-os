@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has a pitch. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/sales-writer-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **there is no brief and no live Uncovery script to write to.** Also open: **how an Uncovery is sold is named missing.** Do not call it paid discovery, paid diagnosis, a strategy session, or an audit.
 

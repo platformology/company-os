@@ -9,7 +9,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions.
-2. **The leftover: `/Users/mdrew/Company/Jobs/book-reader-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [clients.md](../clients.md) — 0 Current and 0 Prospect on the 18 Aug 2026 extract, 1 Alumni, 67 Past. **Folder names are not clients**, and a past client is not a reader.
 4. [head-of-content.md](head-of-content.md) — the plan that already says the training names in the old persona decks are not clients.
 5. [SOURCES.md](../../SOURCES.md) — the named-missing list.
@@ -42,7 +42,7 @@ The nearest recorded thing is a **refusal to score**, and it is worth reading be
 | **KPI** | **None is named for this seat.** No KPI for a Book Reader is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not a books-read count, not a reader score, not a turnaround time, not a 0. **A 0 is a figure.** |
 | **What not to reach for** | **Client NPS / referral rate** is [CCO](cco.md)'s KPI and **no survey exists behind it**. A reader reaction is not an NPS, an NPS is not this seat's, and neither has anything measured underneath it. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/book-reader-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

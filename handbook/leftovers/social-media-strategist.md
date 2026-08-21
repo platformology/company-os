@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has a calendar. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/social-media-strategist-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **there is no handle, no channel, and no brand book.** Also open: **no advertising plan**, and **the line against [Social Account Expert](social-account-expert.md) is not recorded.** Do not draw it. [Social Account Expert](../seats/social-account-expert.md) reports in on paper and stays **unassigned**. [CMO](../seats/cmo.md) names the brand book and the advertising plan as absent; this leftover names them. It does not write either.
 

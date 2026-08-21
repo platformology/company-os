@@ -26,7 +26,7 @@ Read the plan first. This page does not restate it, and it does not restate the 
 
 **1. Read the ask against the locks first.** [locks.md](../locks.md). No send without Michael. No program GitHub. Then read the build order on [runtime.md](../runtime.md) and the deferral on [runtime-guts.md](../runtime-guts.md). **The reason this seat is quiet is written down.** If a lock stops the ask, quote it and stop.
 
-**2. Open the leftover.** [leftovers/strategist.md](../leftovers/strategist.md) is the leftover today: the vacancy, and **which kind of strategist this leftover is is not recorded.** The leftover job file `/Users/mdrew/Company/Jobs/strategist-job.md` exists on the M1. It is not in this repo and is not restated here. Answer the naming question from that file if you are on the M1, or record that this repo does not answer it. Either is a finished step. Do not decide it yourself.
+**2. Open the leftover.** [leftovers/strategist.md](../leftovers/strategist.md) is the leftover today: the vacancy, and **which kind of strategist this leftover is is not recorded.** The leftover job file on the M1 is not in this repo and is not restated. Answer the naming question from that file if you are on the M1, or record that this repo does not answer it. Either is a finished step. Do not decide it yourself.
 
 **3. Answer from the seat page and the router only.** Who is the strategist on paper? This leftover-file craft seat, unassigned, Craft cluster, no owner recorded, kind not recorded. Say that. **Do not hand the work to the CSO, to Book Strategist, or to Persona Architect.**
 

@@ -9,7 +9,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 ## Open these first, in this order
 
 1. [locks.md](../locks.md) — permissions.
-2. **The leftover: `/Users/mdrew/Company/Jobs/book-conceptual-editor-job.md`, on the M1.** The only recorded source for this seat, and **it is not in this repo.**
+2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [clients.md](../clients.md) — 0 Current and 0 Prospect on the 18 Aug 2026 extract. There is no manuscript in the building.
 4. [book-technical-editor.md](book-technical-editor.md) and [copy-editor.md](copy-editor.md) — the two neighbouring editing seats, so nobody merges the three.
 5. [SOURCES.md](../../SOURCES.md) — the named-missing list.
@@ -37,7 +37,7 @@ So this seat does not produce **an edit letter, a structural diagnosis, a revers
 | **KPI** | **None is named for this seat.** No KPI for a Book Conceptual Editor is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
 | **Current** | **Empty**, with no named field for it to be empty in. Not a manuscript count, not a turnaround time, not a pass count, not a 0. **A 0 is a figure.** |
 | **What not to reach for** | **On-time author milestones** is [Head of Author Success](head-of-author-success.md)'s KPI, and there is no author milestone schedule behind it either. It is a different seat's row and it does not transfer here. |
-| **What to point at instead** | The live leftover — `/Users/mdrew/Company/Jobs/book-conceptual-editor-job.md` on the M1. It is the only thing recorded about this seat. |
+| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
 
 ## Run it
 

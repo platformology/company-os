@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has an account. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/social-account-expert-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **no social handle, account, profile, page, or platform is recorded.** This is one seat that would run one named account, not one seat per invented network. **A post is a send.** No sixth tool gets added. Slack is connected and no seat's job sources it — not a social channel. The line against [Social Media Strategist](social-media-strategist.md) is not recorded. Do not draw it.
 

@@ -20,7 +20,7 @@ Named missing — no Notion page is recorded for this seat, and no other seat's 
 
 **Hands: none.** No tool on this Mac is assigned to an unassigned seat. Nothing in this repo installs software, so no page here names a layout application as available on any desk.
 
-The leftover job file `/Users/mdrew/Company/Jobs/senior-print-designer-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 ## The pass
 

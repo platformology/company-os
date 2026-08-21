@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has a spec. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/senior-print-designer-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **there is no brief, no production stack, no print vendor, and the junior / senior split is not recorded.** Also open: **the studio address is named missing**, and **no brand book, palette, type, or logo.** This seat does not preflight [Junior Print Designer](junior-print-designer.md). Both chairs are empty. Cranberry Press is who David McInnis is a vendor for, not our printer.
 

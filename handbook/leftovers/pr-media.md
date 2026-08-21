@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has news. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/pr-media-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **no outlet, media contact, news, boilerplate, or spokesperson is recorded.** [CMO](../seats/cmo.md) names **no PR programme**. Do not draft a release "for when we have news." The track record stays uncollapsed. No list is promised. **Bestseller hit rate** is [CCO](../seats/cco.md)'s KPI, not this seat's.
 

@@ -4,7 +4,7 @@
 
 This leftover is last-gated on **A People** — one of the twenty-three leftover-file seats. It is not a live leftover invented so the seat has a book to shape. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/book-strategist-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **there is no author, no manuscript, and no engagement** to be strategic about. [clients.md](../clients.md) counts **0 Current and 0 Prospect** on the 18 Aug 2026 extract. This is not the Uncovery, not [Strategist](strategist.md), and not [Persona Architect](persona-architect.md).
 

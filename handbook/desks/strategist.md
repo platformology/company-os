@@ -39,7 +39,7 @@ No send without Michael. No program GitHub. Never decide which kind of strategis
 
 ## If you are on the M1
 
-The M1 is the office, and this desk runs here with no model at all — open the pages above and work off them. That is the whole setup today, and for an unassigned seat the whole setup is still "say the seat is unassigned and refuse the work." The leftover job file `/Users/mdrew/Company/Jobs/strategist-job.md` exists on this machine. It is not in this repo and is not restated here.
+The M1 is the office, and this desk runs here with no model at all — open the pages above and work off them. That is the whole setup today, and for an unassigned seat the whole setup is still "say the seat is unassigned and refuse the work." The leftover job file on the M1 is not in this repo and is not restated.
 
 The shared office hand is **Gemma 4 26B 8-bit**, and it is **named, not installed**: **"No local LLM until Michael says go"** on [locks.md](../locks.md) holds until he says it, and Phase 4 of the go packet is the only thing that lifts it. After go, the one thing that changes for this seat is that [bodies/strategist.md](../bodies/strategist.md) becomes the SYSTEM text — the seat, the hands, and the locks above stay exactly as written. **No command on this page**, and no tag, context size, or sampler setting: a run line written today is Phase 4 taken early, and a guessed tag is a wrong tag. The shape is on [bodies/README.md](../bodies/README.md). This seat is not a model, and nothing on this page assigns it — not before go, not after it.
 

@@ -4,7 +4,7 @@
 
 This seat stays **unassigned**. This leftover is the vacancy plus the named holes the seat would own. It is not a live leftover invented so the seat has a plan. [runtime-guts.md](../runtime-guts.md) keeps the guts off.
 
-The leftover job file `/Users/mdrew/Company/Jobs/strategist-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 **The leftover:** the seat is unassigned, and **which kind of strategist this leftover is is not recorded.** Do not pick. **CSO is Chief Sales Officer, not Chief Strategy Officer** — this leftover does not route under [CSO](../seats/cso.md). Growth plans are deferred by [runtime.md](../runtime.md) until the four runtime pieces work. No revenue, cost, cash, or pipeline figure exists. Do not propose a KPI.
 

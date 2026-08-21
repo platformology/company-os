@@ -20,7 +20,7 @@ Named missing — no Notion page is recorded for this seat, and no other seat's 
 
 **Hands: none.** No tool on this Mac is assigned to an unassigned seat. The five connected tools are Notion, Gmail, Google Calendar, Slack, and Google Drive. No sixth gets added. None of them is a publishing channel.
 
-The leftover job file `/Users/mdrew/Company/Jobs/junior-digital-designer-job.md` exists on the M1. It is not in this repo and is not restated here.
+The leftover job file on the M1 is not in this repo and is not restated.
 
 ## The pass
 
