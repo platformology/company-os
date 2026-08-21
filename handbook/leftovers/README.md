@@ -11,7 +11,7 @@ A leftover is a unit of work that is already named in writing, somewhere sourced
 | **A leftover is** | The one named hole this seat owns right now, sourced from the seat page, the plan, or [SOURCES.md](../../SOURCES.md), written so a new hire can pick it up cold |
 | **A leftover is not** | A start sentence. "I will not send email" and "I'll start by checking" are not leftovers. They are refusals wearing a first line. |
 | **A leftover is not** | A second tracker, a queue file, or a place to invent work. See [runtime-guts.md](../runtime-guts.md). |
-| **A leftover is not** | Evidence that a seat is staffed. A leftover existing for a seat does not fill it, unpark it, or assign it. |
+| **A leftover is not** | Evidence that a seat is staffed. A leftover existing for a seat does not fill it, unpark it, or invent a human holder. |
 
 When a leftover and the seat page disagree, **the seat page wins**, and this page is the thing that gets fixed.
 
@@ -28,7 +28,7 @@ Each leftover below is the live leftover already named on that seat's page. It i
 | [PA](../seats/pa.md) | [pa.md](pa.md) | Who fills this seat, who the next PA is, and when the current tenure ends |
 | [COO](../seats/coo.md) | [coo.md](coo.md) | Detailed COO accountabilities beyond the public title |
 | [CMO](../seats/cmo.md) | [cmo.md](cmo.md) | The membership price, and the lead magnet's missing Offers row |
-| [CSO](../seats/cso.md) | [cso.md](cso.md) | Head of Sales and SDR are both unassigned |
+| [CSO](../seats/cso.md) | [cso.md](cso.md) | Who fills Head of Sales and who fills SDR are both not recorded |
 | [CFO](../seats/cfo.md) | [cfo.md](cfo.md) | Who currently fills this seat |
 | [CCO](../seats/cco.md) | [cco.md](cco.md) | No campaign-QA SOP, no NPS survey, no referral log |
 | [CHRO](../seats/chro.md) | [chro.md](chro.md) | Jhana's and Bob's Roles, and no hiring / onboarding / classification SOP |
@@ -43,17 +43,19 @@ Each leftover below is the live leftover already named on that seat's page. It i
 | [VP Retreats](../seats/vp-retreats.md) | [vp-retreats.md](vp-retreats.md) | Platform in a Box cycle time is unrecorded; guest-intake blanks stay blank |
 | [Retreat Producer](../seats/retreat-producer.md) | [retreat-producer.md](retreat-producer.md) | No sourced retreat date, guest list, or venue; no next retreat |
 
-### The twenty-six unassigned seats
+### The three charter seats with no job to run
 
-These seats stay **UNASSIGNED**. Their leftover is the vacancy plus the named holes they would own — not a live leftover invented so they have something to do. A leftover existing here does not staff the seat.
-
-**Three charter unassigned** already had a seat page, a body, a desk, and a router. Their leftover is the state itself.
+These three already had a seat page, a body, a desk, and a router, and they are **no longer UNASSIGNED** — they are **leftover-file assigned**. That is a change of state on the file and nothing more: **who fills each one is not recorded**, this folder does not name a holder, and none of the three gets a job to run out of it. Their leftover today is the named holes below, not the vacancy.
 
 | Seat | Leftover | The leftover today |
 |---|---|---|
-| [Head of Demand](../seats/head-of-demand.md) | [head-of-demand.md](head-of-demand.md) | The seat is unassigned; accountabilities unwritten; the lead magnet has no Offers row |
-| [Head of Sales](../seats/head-of-sales.md) | [head-of-sales.md](head-of-sales.md) | The seat is unassigned; SDR underneath is unassigned; no live Uncovery script |
-| [SDR](../seats/sdr.md) | [sdr.md](sdr.md) | The seat is unassigned; Head of Sales above is unassigned; no scoring model |
+| [Head of Demand](../seats/head-of-demand.md) | [head-of-demand.md](head-of-demand.md) | Accountabilities unwritten; the lead magnet has no Offers row |
+| [Head of Sales](../seats/head-of-sales.md) | [head-of-sales.md](head-of-sales.md) | No live Uncovery script; how an Uncovery is sold is not recorded |
+| [SDR](../seats/sdr.md) | [sdr.md](sdr.md) | No scoring model; five unnamed lead-scoring fields; the Notion Clients URL is not recorded here |
+
+### The twenty-three unassigned seats
+
+These seats stay **UNASSIGNED**. Their leftover is the vacancy plus the named holes they would own — not a live leftover invented so they have something to do. A leftover existing here does not staff the seat.
 
 **Twenty-three leftover-file craft seats.** The leftover job files on the M1 are **not in this repo** and are not restated here. The leftover in this folder is what this repo already names as missing for that seat.
 

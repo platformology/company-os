@@ -4,6 +4,7 @@ One page per topic, not one giant wiki page — the same pattern [dswh/company-o
 
 | File | What it covers | Read this before |
 |---|---|---|
+| [research-basis.md](research-basis.md) | Decision basis: what the files already sourced, what is still unread or named missing; research is not closed | Any leftover or decision |
 | [company-facts.md](company-facts.md) | Legal entity, DBAs, what this company is not, track-record numbers | Introducing the company to anyone |
 | [people.md](people.md) | Who the humans are, roles (and where a role is genuinely blank), vendors vs. employees | Assigning work, answering "who do I ask" |
 | [clients.md](clients.md) | Client counts, the one alumni relationship, what's a question vs. a fact | Touching any client record or message |
@@ -12,6 +13,7 @@ One page per topic, not one giant wiki page — the same pattern [dswh/company-o
 | [leftover-packet.md](leftover-packet.md) | A–E remaining work as last-gated leftovers, F parked, 11 lock stands, the forty-three person packs | Picking up the leftover packet, or asking what is still open on A–E |
 | [company-run.md](company-run.md) | B remaining: PA, COO, CTO leftovers last-gated; M1 office; M5 parked | Sitting the company-run leftover, or asking who fills CTO |
 | [leftovers/](leftovers/README.md) | The leftover a new hire picks up today — one page per named hole, including the forty-three leftover-file employees | Day one in a seat: what do I actually do |
+| [leftover-write.md](leftover-write.md) | Who writes a leftover file, a recut, the research behind one, or a blank-fill — Claude, or Qwen if Claude credit is out; Grok seats scope, assign, and first-QC, and the PA last-gates and merges | Writing, recutting, researching, or filling any leftover |
 | [cheap-loop.md](cheap-loop.md) | The token-cheap rule every Grok Bot seat runs: open the matching skill, follow it, last-gate, stop — no re-deriving facts, no invented work on an empty queue | Picking up any job, bot or human, before you start it |
 | [weekday-loop.md](weekday-loop.md) | The shape of a normal work session and which Notion SOP runs each part of it | Planning your week |
 | [seats/](seats/README.md) | One short page per seat — assigned, unassigned, or parked — what it owns, who's in it (or "not recorded"), what's locked, what's named missing | Figuring out which seat a job belongs to |
