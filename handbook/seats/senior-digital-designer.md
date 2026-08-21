@@ -4,15 +4,15 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Digital design.
 
-**This seat is unassigned.** There is no extract naming a holder, no brief, and no recorded junior / senior split. If you opened this page looking for work, that's the honest answer — there isn't any assigned here yet.
+**This seat is leftover-file assigned.** The assignment is this seat's leftover job file — not in this repo, and not restated here. Assigned on file is not staffed: **who fills this seat is not recorded.** There is no brief, and no recorded junior / senior split.
 
-**Owns:** Nothing invented. When this seat is staffed, its accountabilities get written here from a source — not before. This seat does not review [Junior Digital Designer](junior-digital-designer.md). Both chairs are empty.
+**Owns:** Nothing invented. When this seat is staffed, its accountabilities get written here from a source — not before. This seat does not review [Junior Digital Designer](junior-digital-designer.md). Neither seat has a recorded holder.
 
 **Reports to:** Craft cluster — no owner recorded. Do not invent a design executive.
 
 **Seat holder:** Not recorded — see [people.md](../people.md).
 
-**Run this:** [run-senior-digital-designer](../../skills/run-senior-digital-designer/SKILL.md) — the router for this seat, and the page that answers honestly that there is no work here yet. Every skill in the repo: [skills/README.md](../../skills/README.md).
+**Run this:** [run-senior-digital-designer](../../skills/run-senior-digital-designer/SKILL.md) — the router for this seat. Every skill in the repo: [skills/README.md](../../skills/README.md).
 
 **Open this in Notion:** Named missing — no Notion page is recorded for this seat, and no other seat's page gets borrowed.
 

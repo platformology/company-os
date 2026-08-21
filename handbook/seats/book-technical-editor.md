@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Check claims in a manuscript against sources.
 
-**This seat is unassigned.** There is no manuscript and no source to hold a claim against. The danger here is tidying something true into something false.
+**This seat is leftover-file assigned.** The assignment is this seat's leftover job file — not in this repo, and not restated here. Assigned on file is not staffed: **who fills this seat is not recorded.** There is no manuscript and no source to hold a claim against. The danger here is tidying something true into something false.
 
 **Owns:** Nothing invented.
 

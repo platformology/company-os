@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Architect personas as a leftover-file craft seat. This is not the COO seat.
 
-**This seat is unassigned.** There is no extract naming a holder for this leftover. **Anthony C. Garcia holds COO / Chief Persona Architect** on [coo.md](coo.md) — a different seat. How the two relate is named missing. If you opened this page looking for work, that's the honest answer — there isn't any assigned here yet.
+**This seat is leftover-file assigned.** The assignment is this seat's leftover job file — not in this repo, and not restated here. Assigned on file is not staffed: **who fills this seat is not recorded.** **Anthony C. Garcia holds COO / Chief Persona Architect** on [coo.md](coo.md) — a different seat, and he is not moved into this one. How the two relate is named missing.
 
 **Owns:** Nothing invented. When this seat is staffed, its accountabilities get written here from a source — not before. Do not write them from Anthony's title.
 
@@ -12,7 +12,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Seat holder:** Not recorded — see [people.md](../people.md). Anthony is not this seat's holder.
 
-**Run this:** [run-persona-architect](../../skills/run-persona-architect/SKILL.md) — the router for this seat, and the page that answers honestly that there is no work here yet. Every skill in the repo: [skills/README.md](../../skills/README.md).
+**Run this:** [run-persona-architect](../../skills/run-persona-architect/SKILL.md) — the router for this seat. Every skill in the repo: [skills/README.md](../../skills/README.md).
 
 **Open this in Notion:** Named missing — no Notion page is recorded for this seat, and no other seat's page gets borrowed.
 
