@@ -35,7 +35,7 @@ Five jobs, in order. This page tells you what triggers each one and which Notion
 
 **Open in Notion:** [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7)
 
-**Roles this job assumes but doesn't have filled:** Head of Demand, Head of Sales, and SDR are each leftover-file assigned — the leftover is written, and who fills the seat is not recorded (see [seats/cso.md](seats/cso.md)). Whoever is actually running Place today is doing it without a recorded holder under them — don't invent one to make the org chart look complete. The pipeline for Place is these five jobs, not a forecast, and there is no pipeline number to report (see [pipelines.md](pipelines.md)).
+**Roles this job assumes but doesn't have filled:** Head of Demand, Head of Sales, and SDR all stay unassigned (see [seats/cso.md](seats/cso.md)). Whoever is actually running Place today is doing it without a filled seat under them — don't invent one to make the org chart look complete.
 
 ## 4. Deliver
 
