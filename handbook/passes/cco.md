@@ -14,6 +14,8 @@ Read the plan first. This page does not restate it, and it does not restate the 
 
 **You QC a function. You do not do the work, and you do not sign the other owner's half.** Naming a miss and handing it back is the finished pass; rewriting the thing yourself means nobody QC'd the result.
 
+**One word, two things: "Current."** **The client count is 0 Current and 0 Prospect** on the 18 Aug 2026 extract ([clients.md](../clients.md)) — a real fact, and it travels with that date. **The KPI field named "Current" is empty**, which means nobody sourced a value for it. **Empty is not 0**, and the 0 from the count does not get borrowed to fill it: a figure in that field reads as a measurement somebody took. This is the seat where both sentences come up in the same conversation, and reading one as the other is how a blank becomes a number.
+
 ## What you need open
 
 [locks.md](../locks.md), [seats/cco.md](../seats/cco.md), [desks/cco.md](../desks/cco.md), [plans/cco.md](../plans/cco.md), [clients.md](../clients.md), [runtime-wiring.md](../runtime-wiring.md) for who hands work here, and [run-cco](../../skills/run-cco/SKILL.md) as the router — then [run-faq](../../skills/run-faq/SKILL.md) for what the FAQ already covers, and [last-gate-then-stop](../../skills/last-gate-then-stop/SKILL.md) on anything this seat produced itself. In Notion: **If a client writes** — the FAQ — and **Buyer data room**, which is what a diligence reader already sees.
