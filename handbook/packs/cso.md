@@ -12,11 +12,11 @@ The expert knowledge, skill, and support for this seat, pointed at pages that al
 
 - **Reports to:** not recorded on the seat page.
 - **Who fills it:** not recorded.
-- **Leftover today:** Head of Sales and SDR are both unassigned; the live Uncovery script is not recorded; how an Uncovery is sold is not written on offers.md.
+- **Leftover today:** who fills Head of Sales is not recorded, and who fills SDR is not recorded. A leftover here does not fill either seat.
 - **KPI:** Qualified consults · Close rate by offer · % revenue not sold by Michael. **Current: empty.**
 
 **Expert material for this seat: none is recorded in this repo.** There is no curriculum, reading list, training, or certification here to point a new hire at, and this page does not write one. The expert work available today is the leftover above, run through the router above. That is a finished page.
 
-**Named missing:** who fills this seat; Head of Sales; SDR.
+**Named missing:** who fills this seat; who fills Head of Sales; who fills SDR.
 
 Source: seats/cso.md, bodies/cso.md, desks/cso.md, leftovers/cso.md, plans/cso.md, plans/README.md, locks.md
