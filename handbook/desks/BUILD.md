@@ -9,7 +9,7 @@ Five of the boxes are true or false today, on this M1. The sixth, the seat model
 The shared always-on office hand is **Gemma 4 26B 8-bit on this M1**. That is recorded 19 Aug 2026 via the CTO and restated 20 Aug on the build map; it is named on [runtime.md](../runtime.md) and [runtime-brain.md](../runtime-brain.md), which own the rest of the picture. Two lines beside it, so nobody reaches for the wrong one:
 
 - **Llama 3.3 70B 4-bit on this M1** is the on-purpose pen. It is **not a second seat brain**, and no seat is built on it.
-- **Flash 2-bit** is the M5, SmarterVoice only, and the M5 is parked. No seat goes near it.
+- **Flash 2-bit** is SmarterVoice only and stays parked. No seat goes near it. Work runs on this Mac. Machine locks live on [locks.md](../locks.md) — this page does not restate them.
 
 **Status today: not installed.** The hand is named and is not on the machine. This page does not put it there and does not tell anyone else to, so it carries **no build command, no run command, no model tag, no context size, and no sampler setting**. Those are not recorded in this repo — they belong to the go packet behind Phase 4, and they stay named missing in [SOURCES.md](../../SOURCES.md) instead of being guessed here. A guessed tag is a wrong tag, and a run line written today is Phase 4 taken early, which is a broken lock rather than a head start.
 
@@ -65,7 +65,7 @@ One slug per seat, the same one on all three files — and, after go, the name a
 | VP Retreats | `vp-retreats` | [run-vp-retreats](../../skills/run-vp-retreats/SKILL.md) |
 | Retreat Producer | `retreat-producer` | [run-retreat-producer](../../skills/run-retreat-producer/SKILL.md) |
 
-Parked and unassigned seats still get the same boxes. Their desk is a refuse-work pack. Checking a box does not unpark Engineering or Developer, and it does not assign Demand, Sales, or SDR.
+Parked seats still get the same boxes. Their desk is a refuse-work pack. Checking a box does not unpark Engineering or Developer. Head of Demand, Head of Sales, and SDR are leftover-file assigned — who fills each is not recorded, there is no live job, and the leftover they open is already written. Checking a box does not invent a job for them.
 
 ## Leftover-file slugs — UNASSIGNED
 

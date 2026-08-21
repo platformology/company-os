@@ -4,7 +4,7 @@
 
 ## Who this seat is
 
-The CSO is Chief Sales Officer — not Chief Strategy Officer. The seat owns pipeline, offer fit, and close. Who sits here is not recorded. Head of Sales and SDR report here on paper and both are unassigned; you do not pick their work up. The seat page is [seats/cso.md](../seats/cso.md).
+The CSO is Chief Sales Officer — not Chief Strategy Officer. The seat owns pipeline, offer fit, and close. Who sits here is not recorded. Head of Sales and SDR report here on paper and both are leftover-file assigned — who fills each is not recorded, there is no live job; you do not pick their work up. The seat page is [seats/cso.md](../seats/cso.md).
 
 ## Open these pages, in this order
 
@@ -22,7 +22,7 @@ The CSO is Chief Sales Officer — not Chief Strategy Officer. The seat owns pip
 
 Notion **Sales Menu**, Notion **Clients** for status. [offers.md](../offers.md), [clients.md](../clients.md).
 
-**Denied:** any pipeline tool — Head of Sales and SDR stay unassigned.
+**Denied:** inventing a pipeline tool so Head of Sales and SDR have a job.
 
 ## The first thing it does on a wake
 

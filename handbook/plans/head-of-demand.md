@@ -1,24 +1,25 @@
 # Head of Demand — plan
 
-**Status: Unassigned** · **Holder: not recorded** · **Written: 21 Aug 2026**
+**Status: Leftover-file assigned** · **Holder: not recorded** · **Written: 21 Aug 2026**
 
-One pass answering a demand or inbound question with the honest "this seat is unassigned," naming where you looked, and stopping there.
+One pass opening the leftover already written, saying who fills this seat is not recorded, saying there is no live job, and stopping there.
 
-**This seat is unassigned.** Not slow, not short-staffed, not waiting on a page somebody forgot to write — unassigned. There is no holder, no inbound volume, no lead count, no channel, and no live job in it today ([seats/head-of-demand.md](../seats/head-of-demand.md)). A plan existing for this seat does not staff it, and this plan gives it no work it was not already given.
+**This seat is leftover-file assigned.** Who fills it is not recorded. There is no inbound volume, no lead count, no channel, and no live job in it today ([seats/head-of-demand.md](../seats/head-of-demand.md)). The leftover it opens is already written: [leftovers/head-of-demand.md](../leftovers/head-of-demand.md). A plan existing for this seat does not invent a holder, a pipeline, or a job. If this plan and the seat page disagree, the seat page wins.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md).
 2. [seats/head-of-demand.md](../seats/head-of-demand.md) — the seat page. If this plan and that page ever disagree, the seat page wins.
-3. [desks/head-of-demand.md](../desks/head-of-demand.md) — the sit-down pack. It is a refuse-work pack, and it says so on line one.
-4. [run-demand](../../skills/run-demand/SKILL.md) — the router for this seat, and the page that answers honestly that there is no work here yet.
-5. [how-money-moves.md](../how-money-moves.md) — job 1, **Attract**, is the stage this seat would sit in. Read it to see the stage; do not read it as a queue.
+3. [leftovers/head-of-demand.md](../leftovers/head-of-demand.md) — leftover already written. There is no live job.
+4. [desks/head-of-demand.md](../desks/head-of-demand.md) — the sit-down pack. Leftover-file assigned; who fills not recorded; no live job.
+5. [run-demand](../../skills/run-demand/SKILL.md) — the router for this seat, and the page that answers honestly that there is no live job here.
+6. [how-money-moves.md](../how-money-moves.md) — job 1, **Attract**, is the stage this seat would sit in. Read it to see the stage; do not read it as a queue.
 
 ## The one job
 
-**Answer one demand or inbound question from what is actually recorded, say the seat is unassigned, name where you looked, and stop.**
+**Open [leftovers/head-of-demand.md](../leftovers/head-of-demand.md). Who fills this seat is not recorded. There is no live job. Do not invent a pipeline. Stop.**
 
-That is a finished pass, not a deflection. [desks/head-of-demand.md](../desks/head-of-demand.md) puts it in one line — "an honest 'unassigned' is a finished answer" — and [runtime-guts.md](../runtime-guts.md) says the guts stay off for this seat, so there is no leftover generator behind it and no queue to dig in. **Being asked twice does not staff a seat.**
+That is a finished pass, not a deflection. [desks/head-of-demand.md](../desks/head-of-demand.md) puts it in one line — leftover already written, who fills not recorded, no live job — and [runtime-guts.md](../runtime-guts.md) says the guts stay off for this seat, so there is no leftover generator behind it and no queue to dig in. **Being asked twice does not invent a job.**
 
 What the seat page actually records is short, and it is the whole record: **Purpose — own inbound.** **Reports to — [CMO](../seats/cmo.md).** **Owns — nothing invented**; when the seat is staffed, its accountabilities get written here from a source, and not before.
 
@@ -43,7 +44,7 @@ Prices, if one comes up on the way through, come off [offers.md](../offers.md) a
 | **Current** | **Empty.** No figure has been sourced for that field and none goes in it — not a cost, not a rate, not a 0. **A 0 is a figure**, and a cost per anything is a figure twice over: it is a division, and a division you performed yourself is still a figure nobody sourced. |
 | **What is behind it today** | **Both halves of it are missing.** There is **no consult record and no consult count** anywhere in this repo — no booking log, no calendar of consults, no qualification bar. And there is **no spend figure of any kind**: no marketing spend, no advertising budget, no channel cost, no cost figure at all ([cfo.md](cfo.md) says the same from the finance side). Two missing numbers do not make a ratio. **Do not divide anything by anything here.** |
 | **What the board itself says** | On the 21 Aug 2026 read of that database, this row's Status reads **"Needs data"** and its Target reads **"TBD from baseline"** — quoted as they stand. There is no baseline, so there is no target either, and neither field gets filled in from this plan. |
-| **The live leftover on the seat page** | Separate from the KPI, and still open: **the seat is unassigned, and its accountabilities are unwritten on purpose** ([seats/head-of-demand.md](../seats/head-of-demand.md)). Also open, and named at this seat's stage: **the lead magnet has no Offers row.** |
+| **The live leftover on the seat page** | Separate from the KPI, and still open: **the leftover is already written** — [leftovers/head-of-demand.md](../leftovers/head-of-demand.md) — **who fills this seat is not recorded, there is no live job, and its accountabilities are unwritten on purpose** ([seats/head-of-demand.md](../seats/head-of-demand.md)). Also open, and named at this seat's stage: **the lead magnet has no Offers row.** |
 
 A named KPI is not a measured KPI, and an owned KPI is not a staffed seat. This row has an Owner name on the board and nobody in the seat under it. Both facts are true at once; write both.
 
@@ -51,7 +52,7 @@ A named KPI is not a measured KPI, and an owned KPI is not a staffed seat. This 
 
 1. Open [locks.md](../locks.md). **No send without Michael**, no matter how clean a draft looks.
 2. Open [seats/head-of-demand.md](../seats/head-of-demand.md) and [run-demand](../../skills/run-demand/SKILL.md). Answer from those, and only from those.
-3. Asked who owns demand? The seat reports into the [CMO](../seats/cmo.md) on paper and is unassigned. Say that. **Do not hand the work to the CMO**, to [Head of Content](../seats/head-of-content.md), to [Head of Sales](../seats/head-of-sales.md), or to whoever is nearest — [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) are unassigned too.
+3. Asked who owns demand? The seat reports into the [CMO](../seats/cmo.md) on paper and is leftover-file assigned — who fills it is not recorded, there is no live job. Say that. **Do not hand the work to the CMO**, to [Head of Content](../seats/head-of-content.md), to [Head of Sales](../seats/head-of-sales.md), or to whoever is nearest — [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) are leftover-file assigned too, who fills each not recorded, no live job.
 4. Asked for inbound volume, a lead count, a conversion rate, a channel breakdown, or a funnel? **There is no number.** Say so plainly. Do not estimate it, benchmark it, or carry a figure across from another seat's page.
 5. Asked to score, rank, or qualify a lead? [campaign-lead-scoring](../../skills/campaign-lead-scoring/SKILL.md) — the corpus has no scoring model, and that skill refuses on exactly those grounds.
 6. Asked to build a demand plan, a channel mix, an advertising or PR plan, a brand book, a speaking calendar, or a lead-magnet offer? That is a decision for Michael, not a draft this pass produces. Flag the request and stop. **The membership price is named missing** and does not get invented on the way past.
@@ -61,7 +62,7 @@ A named KPI is not a measured KPI, and an owned KPI is not a staffed seat. This 
 
 ## Done looks like
 
-Somebody asked this seat for inbound and got a complete answer: the seat is unassigned, here is what the seat page records, here is where I looked, and here is what is not recorded. No volume, channel, plan, or figure was produced to make the answer look finished, and no other seat was handed this seat's work on the way out. Nothing sent.
+Somebody asked this seat for inbound and got a complete answer: leftover-file assigned, leftover already written, who fills not recorded, no live job, here is what the seat page records, here is where I looked, and here is what is not recorded. No volume, channel, plan, pipeline, or figure was produced to make the answer look finished, and no other seat was handed this seat's work on the way out. Nothing sent.
 
 ## Named missing — stays named
 

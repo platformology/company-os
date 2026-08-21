@@ -2,7 +2,7 @@
 
 This is the page you open first. Pick your seat in the table, open its desk file, and do what that file says. You do not need anyone to tell you what to click after that.
 
-**No send without Michael.** Every draft, quote, and reply stops with him. That is true for every row below, including the parked and unassigned ones.
+**No send without Michael.** Every draft, quote, and reply stops with him. That is true for every row below, including the parked and leftover-file assigned ones.
 
 Platformology LLC is one company with two names the public sees: Promote a Book and Book Retreat. You are sitting in a seat, not becoming a person, and you are not installing a model to do this job. The lock list is [locks.md](../locks.md). Read it before you touch a client message, a price, or a repo.
 
@@ -23,10 +23,10 @@ That is the whole of it. A desk needs no model: the desk file plus the pages it 
 | COO | Assigned | [coo.md](coo.md) | [bodies/coo.md](../bodies/coo.md) |
 | CMO | Assigned | [cmo.md](cmo.md) | [bodies/cmo.md](../bodies/cmo.md) |
 | Head of Content | Assigned | [head-of-content.md](head-of-content.md) | [bodies/head-of-content.md](../bodies/head-of-content.md) |
-| Head of Demand | Unassigned | [head-of-demand.md](head-of-demand.md) | [bodies/head-of-demand.md](../bodies/head-of-demand.md) |
+| Head of Demand | Leftover-file assigned | [head-of-demand.md](head-of-demand.md) | [bodies/head-of-demand.md](../bodies/head-of-demand.md) |
 | CSO | Assigned | [cso.md](cso.md) | [bodies/cso.md](../bodies/cso.md) |
-| Head of Sales | Unassigned | [head-of-sales.md](head-of-sales.md) | [bodies/head-of-sales.md](../bodies/head-of-sales.md) |
-| SDR | Unassigned | [sdr.md](sdr.md) | [bodies/sdr.md](../bodies/sdr.md) |
+| Head of Sales | Leftover-file assigned | [head-of-sales.md](head-of-sales.md) | [bodies/head-of-sales.md](../bodies/head-of-sales.md) |
+| SDR | Leftover-file assigned | [sdr.md](sdr.md) | [bodies/sdr.md](../bodies/sdr.md) |
 | CFO | Assigned | [cfo.md](cfo.md) | [bodies/cfo.md](../bodies/cfo.md) |
 | Controller | Assigned | [controller.md](controller.md) | [bodies/controller.md](../bodies/controller.md) |
 | Bookkeeper | Assigned | [bookkeeper.md](bookkeeper.md) | [bodies/bookkeeper.md](../bodies/bookkeeper.md) |
@@ -43,7 +43,7 @@ That is the whole of it. A desk needs no model: the desk file plus the pages it 
 | VP Retreats | Assigned | [vp-retreats.md](vp-retreats.md) | [bodies/vp-retreats.md](../bodies/vp-retreats.md) |
 | Retreat Producer | Assigned | [retreat-producer.md](retreat-producer.md) | [bodies/retreat-producer.md](../bodies/retreat-producer.md) |
 
-Assigned seats do the job on their desk. Parked seats (Head of Engineering, Developer) refuse work. Unassigned seats (Head of Demand, Head of Sales, SDR) refuse work and say the seat is unassigned. Do not start Engineering or Developer work from this folder. Do not pick up Demand, Sales, or SDR work to make the chart look busy.
+Assigned seats do the job on their desk. Parked seats (Head of Engineering, Developer) refuse work. Leftover-file assigned seats (Head of Demand, Head of Sales, SDR) open the leftover already written — who fills is not recorded, there is no live job, and no pipeline, holder, or job gets invented. Do not start Engineering or Developer work from this folder. Do not pick up Demand, Sales, or SDR work to make the chart look busy.
 
 ## Leftover-file desks — UNASSIGNED
 
@@ -77,20 +77,20 @@ The twenty-three leftover-file seats now have a refuse-work desk each. A desk ex
 
 ## After the desk: the plan
 
-The desk is the pack. The **plan** is the pass. Every seat above has one complete plan in [plans/](../plans/README.md) — the one job to take, the SOP that runs it, the KPI it is pointed at with Current empty, and what done looks like. On an unassigned or parked seat the plan is how to hold that state, and it does not staff the seat or unpark it.
+The desk is the pack. The **plan** is the pass. Every seat above has one complete plan in [plans/](../plans/README.md) — the one job to take, the SOP that runs it, the KPI it is pointed at with Current empty, and what done looks like. On a leftover-file assigned or parked seat the plan is how to hold that state, and it does not invent a job or unpark a seat.
 
 ## Before you pick a row
 
 - The seat page in [seats/](../seats/README.md) is the source of truth for what the seat owns. If a body file in [bodies/](../bodies/README.md) says something else, the seat page wins. Conflicts we found are named on the desk and listed in [CONFLICTS.md](CONFLICTS.md).
 - The only hands an assigned seat may use are already written in [runtime-body.md](../runtime-body.md). Nothing else gets added. No HubSpot. No Bench pull. No new CRM.
 - Prices come from [offers.md](../offers.md), both numbers where that page shows two. Clients come from [clients.md](../clients.md). People come from [people.md](../people.md).
-- The M1 is the office. The M5 is the shop only, and it stays parked. Seats are never rebuilt as local models.
+- Work runs on this Mac. Seats are never rebuilt as local models. Machine locks live on [locks.md](../locks.md) — this page does not restate them.
 
 ## The shared hand is named, and it is not on this machine
 
 You do not need this section to sit down in a seat. It is here so nobody arrives at a desk expecting a model and reads a silence as a missing step.
 
-The shared always-on office hand is **Gemma 4 26B 8-bit on this M1** — named on [runtime.md](../runtime.md) and [runtime-brain.md](../runtime-brain.md), recorded 19 Aug 2026 via the CTO and restated 20 Aug on the build map. **Llama 3.3 70B 4-bit** is the on-purpose pen and not a second seat brain. **Flash 2-bit** is the M5 and SmarterVoice only, and the M5 is parked.
+The shared always-on office hand is **Gemma 4 26B 8-bit on this Mac** — named on [runtime.md](../runtime.md) and [runtime-brain.md](../runtime-brain.md), recorded 19 Aug 2026 via the CTO and restated 20 Aug on the build map. **Llama 3.3 70B 4-bit** is the on-purpose pen and not a second seat brain. **Flash 2-bit** is SmarterVoice only and stays parked. Work runs on this Mac. Machine locks live on [locks.md](../locks.md) — this page does not restate them.
 
 **Status today: not installed**, and **"No local LLM until Michael says go"** on [locks.md](../locks.md) is the wording that holds. Phase 4 of the go packet is the only thing that lifts it. So this folder carries **no build or run command, no model tag, no context size, and no sampler setting** — a run line written today is Phase 4 taken early, which is a broken lock rather than a head start, and a guessed tag is a wrong tag. Those settings are not recorded in this repo; they stay named missing in [SOURCES.md](../../SOURCES.md).
 

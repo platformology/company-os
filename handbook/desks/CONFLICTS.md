@@ -56,10 +56,10 @@ Bodies that only repeat the seat page and then add a hand from [runtime-body.md]
 - **Now:** it opens **Retreat SOP** and **Sales Menu** as the seat page's two, then the intake as the seat's other hand and the place those blank fields stay named missing.
 - **Files:** [bodies/retreat-producer.md](../bodies/retreat-producer.md), [desks/retreat-producer.md](retreat-producer.md).
 
-### Head of Sales (unassigned)
+### Head of Sales (leftover-file assigned)
 
 - **Was:** the body's named missing carried the live Uncovery script as if it were this seat's gap.
-- **Now:** the named missing is who fills this seat, plus any pipeline, forecast, or close rate. The script is still a named gap, listed in [SOURCES.md](../../SOURCES.md), and an unassigned seat does not pick it up.
+- **Now:** the named missing is who fills this seat, plus any pipeline, forecast, or close rate. The script is still a named gap, listed in [SOURCES.md](../../SOURCES.md), and a leftover-file assigned seat with no live job does not pick it up.
 - **Files:** [bodies/head-of-sales.md](../bodies/head-of-sales.md), [desks/head-of-sales.md](head-of-sales.md).
 
 ### VP Retreats
@@ -84,7 +84,7 @@ Reading every seat page against its body line by line turned up three more that 
 - **Now:** the same fix. Still parked, still refusing work.
 - **Files:** [bodies/developer.md](../bodies/developer.md), [desks/developer.md](developer.md).
 
-### SDR (unassigned)
+### SDR (leftover-file assigned)
 
 - **Was:** the body's named missing carried "the five unnamed fields on the campaign lead scoring draft," which the seat page does not list.
 - **Now:** the named missing is who fills this seat and any lead count or score. The draft's unnamed fields stay a named gap in [SOURCES.md](../../SOURCES.md), and the corpus still has no scoring model — which is why [campaign-lead-scoring](../../skills/campaign-lead-scoring/SKILL.md) refuses to build one.
@@ -94,14 +94,14 @@ Reading every seat page against its body line by line turned up three more that 
 
 Not a body fight, but the same failure it would cause: a person following the desk taking a different route than the seat page gives them.
 
-- **Head of Sales.** The seat page routes to [run-sales](../../skills/run-sales/SKILL.md) and then [run-uncovery](../../skills/run-uncovery/SKILL.md) for the paid-discovery step named in its purpose. The body named both; the desk named only the first. `run-uncovery` is on the desk's open list now, marked as something you open only when the ask is about that step — the seat is still unassigned, and opening a skill does not assign it.
+- **Head of Sales.** The seat page routes to [run-sales](../../skills/run-sales/SKILL.md) and then [run-uncovery](../../skills/run-uncovery/SKILL.md) for the paid-discovery step named in its purpose. The body named both; the desk named only the first. `run-uncovery` is on the desk's open list now, marked as something you open only when the ask is about that step — the seat is leftover-file assigned with no live job, and opening a skill does not invent one.
 - Every other desk names every skill its seat page routes to. Checked all 23.
 
 ## Not a fight — reason on each line
 
 These are here so nobody "fixes" a seat page over them.
 
-- **SDR's Notion page — a map row, not a body.** Separate from the SDR fix above. The seat page opens **Buyer data room**; [seat-job-map.md](../seat-job-map.md) points the SDR row at **Campaign lead scoring draft**. The body and the desk both follow the seat page. The map is an index of where a job would live, not a reason to invent a lead list for an unassigned seat.
+- **SDR's Notion page — a map row, not a body.** Separate from the SDR fix above. The seat page opens **Buyer data room**; [seat-job-map.md](../seat-job-map.md) points the SDR row at **Campaign lead scoring draft**. The body and the desk both follow the seat page. The map is an index of where a job would live, not a reason to invent a lead list for a leftover-file assigned seat.
 - **CSO — Notion Clients is a hand.** The seat page opens **Sales Menu** and **Buyer data room**; the body opens the same two. Notion **Clients** appears in the body's hands because [runtime-body.md](../runtime-body.md) grants it, which is what that page is for.
 - **Head of Content — Grok Bot staff is opened, not held.** The seat page and the body open the same three Notion pages. **Grok Bot staff** is on both open lists and is not one of this seat's hands; the hands are Google Drive, **Buyer data room**, and the **Competitive Writing Guide draft**.
 - **Every other seat's extra hands.** A body naming a tool from [runtime-body.md](../runtime-body.md) that the seat page never listed is correct. The rule we held to is narrower: a body may not present that hand, or a company lock, as an accountability or a named missing the seat page recorded.

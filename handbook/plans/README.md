@@ -1,12 +1,12 @@
 # handbook/plans/ — one complete plan per seat
 
-**Written: 20 Aug 2026. The six unassigned and parked seats added 21 Aug 2026.**
+**Written: 20 Aug 2026. The six leftover-file assigned and parked seats added 21 Aug 2026.**
 
 A new hire sits down in a seat, opens the plan for that seat, and runs one pass without asking anyone what to do first. That is the whole point of this folder. If you finish a plan below and still have to ask "so what do I actually do," the plan failed — say so rather than inventing a task to fill the silence.
 
 Twenty-three plans, one per seat. This folder adds no seat, no holder, no client, no price, and no figure. Every job named in a plan is already written down somewhere in this repo, and every plan says where.
 
-**Every existing seat has a plan, and six of them are plans for holding a state rather than running a job.** Head of Demand, Head of Sales, and SDR are **unassigned**; CTO, Head of Engineering, and Developer sit under the **machine locks**. For those six, the pass is the honest answer and the named lock — and that is a finished pass, not a deflection. A plan existing for a seat does not staff it, unpark it, or lift anything.
+**Every existing seat has a plan, and six of them are plans for holding a state rather than running a job.** Head of Demand, Head of Sales, and SDR are **leftover-file assigned** — who fills each is not recorded, there is no live job, leftover already written; CTO, Head of Engineering, and Developer sit under the **machine locks**. For those six, the pass is the honest answer and the named lock — and that is a finished pass, not a deflection. A plan existing for a seat does not staff it, unpark it, or lift anything. Head of Engineering and Developer stay parked.
 
 ## What a plan is, and what it is not
 
@@ -41,15 +41,15 @@ The three older folders hold the standing facts about a seat and they do not cha
 | [VP Retreats](../seats/vp-retreats.md) | [vp-retreats.md](vp-retreats.md) | PIAB cycle time |
 | [Retreat Producer](../seats/retreat-producer.md) | [retreat-producer.md](retreat-producer.md) | Next retreat roster complete |
 
-## The six: three unassigned, two parked, one assigned under the machine locks
+## The six: three leftover-file assigned, two parked, one assigned under the machine locks
 
-These six have plans too, and each one says on its first line what state the seat is in. **They stay in it.** Nothing in this table assigns a holder, hands a seat a queue, or lifts a lock — read the plan and you will find the honest answer *is* the pass. The [CTO](cto.md) is assigned and does have a job; that job is **holding** the machine locks and naming the one that blocks an ask, not lifting any of them.
+These six have plans too, and each one says on its first line what state the seat is in. **They stay in it.** Nothing in this table assigns a holder, hands a seat a queue, or lifts a lock — read the plan and you will find the honest answer *is* the pass. The [CTO](cto.md) is assigned and does have a job; that job is **holding** the machine locks and naming the one that blocks an ask, not lifting any of them. Head of Engineering and Developer stay parked.
 
 | Seat | Plan | Status | The KPI this plan is pointed at |
 |---|---|---|---|
-| [Head of Demand](../seats/head-of-demand.md) | [head-of-demand.md](head-of-demand.md) | **Unassigned** | Cost per consult |
-| [Head of Sales](../seats/head-of-sales.md) | [head-of-sales.md](head-of-sales.md) | **Unassigned** | Pipeline coverage |
-| [SDR](../seats/sdr.md) | [sdr.md](sdr.md) | **Unassigned** | Consults booked |
+| [Head of Demand](../seats/head-of-demand.md) | [head-of-demand.md](head-of-demand.md) | **Leftover-file assigned** | Cost per consult |
+| [Head of Sales](../seats/head-of-sales.md) | [head-of-sales.md](head-of-sales.md) | **Leftover-file assigned** | Pipeline coverage |
+| [SDR](../seats/sdr.md) | [sdr.md](sdr.md) | **Leftover-file assigned** | Consults booked |
 | [CTO](../seats/cto.md) | [cto.md](cto.md) | **Assigned, under the machine locks** | CRM hygiene |
 | [Head of Engineering](../seats/head-of-engineering.md) | [head-of-engineering.md](head-of-engineering.md) | **Parked** | Automation coverage of handoffs |
 | [Developer](../seats/developer.md) | [developer.md](developer.md) | **Parked** | **No KPI is named for this seat on the KPI board** |
@@ -63,10 +63,10 @@ Each of the six plans carries the locks that actually bite on it, in its own **N
 - **Never stand up a VM. Never stand up a GKE cluster.** Neither is lifted by Michael's go.
 - **Never install a local model until Michael says go**, and **Qwen is not on the Phase 4 list.**
 - **Never rebuild a seat as a local model.** That one does not change at go.
-- **The M1 is the office. The M5 is the shop only, and it stays parked until Michael says go.**
+- **Work runs on this Mac.** Machine locks live on [locks.md](../locks.md) — this page does not restate them.
 - **Never move Blue Sky onto the LLC books**, or write anything that implies it is on them.
 - **Never give Jhana or Bob a Role** — ask-Michael-first, every time.
-- **Never invent a pipeline, forecast, lead count, score, inbound channel, advertising plan, PR plan, brand book, speaking calendar, or membership price** for Head of Demand, Head of Sales, or SDR. All three are unassigned and their plans say so.
+- **Never invent a pipeline, forecast, lead count, score, inbound channel, advertising plan, PR plan, brand book, speaking calendar, or membership price** for Head of Demand, Head of Sales, or SDR. All three are leftover-file assigned — who fills each is not recorded, there is no live job, leftover already written — and their plans say so.
 - **Never put a figure in a KPI Current field, including a 0.**
 - **Never treat a lock a plan does not happen to list as lifted.** [locks.md](../locks.md) is the list; a plan is not.
 
@@ -130,7 +130,7 @@ You do not need this to run a plan, but it is the frame every plan sits inside, 
 - **Diagnose before you place.** Jobs 2 and 3 of the five on [how-money-moves.md](../how-money-moves.md): Diagnose is what the Uncovery offers are for, and Place matches a buyer to a rung after it. **How an Uncovery is sold is not written on [offers.md](../offers.md)** — that page carries the three Uncovery rungs and their prices and nothing else. So no plan here calls it paid discovery, paid diagnosis, or anything else that page does not say. **Named missing.**
 - **Then a timed campaign.** A live campaign runs off the [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (Notion) under [VP Campaigns](../seats/vp-campaigns.md), day-to-day under the [Campaign Coordinator](../seats/campaign-coordinator.md). Its milestones are what two of the KPIs above are named after.
 - **No list guarantee.** No page in this repo records a promised list placement, so no plan here writes one, and no draft off a plan implies one. A rung on [offers.md](../offers.md) is a price, not a promise about an outcome.
-- **Roles a person can run.** Twenty-three plans, each short enough to read before you start and specific enough to finish. That is the test this folder is graded on — and on the six unassigned or parked seats, finishing means the honest answer and the named lock, not a job invented to fill the page.
+- **Roles a person can run.** Twenty-three plans, each short enough to read before you start and specific enough to finish. That is the test this folder is graded on — and on the six leftover-file assigned or parked seats, finishing means the honest answer and the named lock, not a job invented to fill the page.
 
 ## Run one
 

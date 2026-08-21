@@ -21,7 +21,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 **This seat is UNASSIGNED and it plans nothing.** A social strategy is a set of decisions about channels, audiences, cadence, and themes. Every input is absent:
 
 - **No social handle, account, or platform is recorded anywhere in this repo**, and **no social platform is connected** — the five connected tools are Notion, Gmail, Google Calendar, Slack, and Google Drive, and **no sixth gets added** ([engine.md](../engine.md)).
-- **No audience, inbound volume, lead count, or channel is recorded**, and [Head of Demand](../seats/head-of-demand.md) is unassigned with no work assigned to it.
+- **No audience, inbound volume, lead count, or channel is recorded**, and [Head of Demand](../seats/head-of-demand.md) is leftover-file assigned, who fills not recorded, no live job.
 - **No brand book, voice guide, or messaging framework exists** — [CMO](cmo.md) names the brand book as absent along with the advertising plan and the PR programme.
 - **No content plan or publishing cadence exists**, and [Head of Content](head-of-content.md)'s **Content output** KPI is explicitly **not** a posting schedule.
 
@@ -79,7 +79,7 @@ Two lists exist — what the leftover records, and what it is missing — and **
 - **No audience, ICP, or persona definition.**
 - No brand book, voice guide, or messaging framework.
 - No content plan, publishing cadence, editorial calendar, or approval flow.
-- No inbound volume or lead count — [Head of Demand](../seats/head-of-demand.md) is unassigned.
+- No inbound volume or lead count — [Head of Demand](../seats/head-of-demand.md) is leftover-file assigned, who fills not recorded, no live job.
 - **Where the line falls between this seat and [Social Account Expert](social-account-expert.md).**
 
 ## Never

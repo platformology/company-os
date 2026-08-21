@@ -56,7 +56,7 @@ So there is no Current field on this plan to leave empty, because there is no ro
 1. Open [locks.md](../locks.md) and read the ask against it.
 2. Decide which kind of ask this is, and there are only two: **a question about the seat** — answer from the seat page, and only from it — or **a request to write, fix, ship, or review code** — the seat is parked.
 3. It is code? Name the one lock from [locks.md](../locks.md) that blocks it, in one plain sentence. Say the ask goes to [Head of Engineering](../seats/head-of-engineering.md) / [CTO](../seats/cto.md), then Michael. **Stop.**
-4. Does the ask assume a stack, a machine, or a repo? Say what is actually missing: **the machine (the M5, parked) and the production stack (named missing).** Do not fill either in.
+4. Does the ask assume a stack, a machine, or a repo? Say what is actually missing: **the machine and the production stack (named missing).** **Work runs on this Mac.** Machine locks live on [locks.md](../locks.md) — this page does not restate them. Do not fill either in.
 5. Asked who the developer is? **Not recorded.** Asked whether the tech vendor is it? **No** — vendor, not holder, and a vendor question goes to Michael.
 6. Asked for a KPI, a velocity, a throughput, a cycle time, or a coverage figure for this seat? **No KPI is named for this seat on the KPI board.** Say that and stop. Do not produce a number and do not adopt one from elsewhere.
 7. Spotted something that looks necessary while answering? **Flag it and hand it up.** Noticing is not permission, and "while I'm here" is a second unit — see [runtime-guts.md](../runtime-guts.md).
@@ -83,7 +83,7 @@ You answered about the seat, or you named the lock and said where the ask goes. 
 - **Never stand up a VM. Never stand up a GKE cluster.** Neither is lifted by Michael's go.
 - **Never install a local model, and never install anything** — not Ollama, not weights, not a partial install to get ahead — and never write an instruction telling somebody else to. **No local LLM until Michael says go**, and **Qwen is not on the Phase 4 list.**
 - **Never rebuild this seat as a local model.** That lock does not change at go.
-- **Never treat the M5 as available. M5 stays parked until Michael says go**; the M1 is the office and the M5 is the shop only.
+- **Work runs on this Mac.** Machine locks live on [locks.md](../locks.md) — this page does not restate them.
 - Never name or guess the production stack, a language, a framework, a host, or a repo layout.
 - **Never work past what an ask actually declared** — anything outside it gets flagged, not built.
 - Never record Dave / Lehi Drew — or anyone else — as this seat's holder.

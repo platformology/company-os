@@ -2,7 +2,7 @@
 
 **Status: Assigned** · **Holder: not recorded** · **Written: 20 Aug 2026** · **Deepened: 21 Aug 2026**
 
-One pass placing a real buyer on a rung that already exists, with both reports underneath this seat still unassigned.
+One pass placing a real buyer on a rung that already exists, with both reports underneath this seat leftover-file assigned — who fills each is not recorded, there is no live job.
 
 CSO is **Chief Sales Officer**, not Chief Strategy Officer.
 
@@ -14,7 +14,7 @@ CSO is **Chief Sales Officer**, not Chief Strategy Officer.
 4. [run-cso](../../skills/run-cso/SKILL.md) — the router for this seat.
 5. [offers.md](../offers.md) — every price this seat quotes comes off this page and nowhere else.
 
-**In hand before you start.** The hands on this seat's row in [runtime-body.md](../runtime-body.md) are the whole set: Notion **Sales Menu**, Notion **Clients** for status, plus [offers.md](../offers.md) and [clients.md](../clients.md) in this repo. **Denied: any pipeline tool — [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) stay unassigned.** Notion **Clients** is the CRM; **HubSpot is closed and is not a system of record.**
+**In hand before you start.** The hands on this seat's row in [runtime-body.md](../runtime-body.md) are the whole set: Notion **Sales Menu**, Notion **Clients** for status, plus [offers.md](../offers.md) and [clients.md](../clients.md) in this repo. **Denied: any pipeline tool — [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) are leftover-file assigned; who fills each is not recorded; there is no live job.** Notion **Clients** is the CRM; **HubSpot is closed and is not a system of record.**
 
 **The locks that bite on this pass, in their own words** ([locks.md](../locks.md)):
 
@@ -32,7 +32,7 @@ The rungs that show two numbers, so you do not have to go and look: **Multi-auth
 
 **No list guarantee.** No page in this repo records a promised list placement. A rung is a price, not a promise about an outcome, and nothing drafted off this plan implies one.
 
-This seat's live leftover is that **both reports under it are unassigned**: [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md). Whoever is doing sales work today is doing it without a filled seat below them. That is the honest state, and it does not get papered over with an invented pipeline — [runtime-guts.md](../runtime-guts.md) is explicit that the guts stay off for those seats and that no inbound volume, pipeline, forecast, lead count, or score gets invented so they have something to digest.
+This seat's live leftover is that **both reports under it are leftover-file assigned**: [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) — who fills each is not recorded, there is no live job, leftover already written. That is the honest state, and it does not get papered over with an invented pipeline — [runtime-guts.md](../runtime-guts.md) is explicit that the guts stay off for those seats and that no inbound volume, pipeline, forecast, lead count, or score gets invented so they have something to digest.
 
 ## The SOP that runs it
 
@@ -49,7 +49,7 @@ This seat's live leftover is that **both reports under it are unassigned**: [Hea
 | **What is behind Qualified consults** | **No pipeline, forecast, lead count, or consult record exists in this repo**, and no qualification bar is written down either. The 18 Aug 2026 extract in [clients.md](../clients.md) counts 0 Current and 0 Prospect — that is a client count with a date on it, not a consult count, and it does not get carried into the field. |
 | **What is behind Close rate by offer** | **No offer on [offers.md](../offers.md) has a close, a win, or a count attached to it.** A rate needs both a numerator and a denominator, and neither is recorded. |
 | **What is behind % revenue not sold by Michael** | **No revenue figure is recorded anywhere in this repo** — not company-wide, not per offer. So there is no total to take a share of, and no attribution of a sale to any person is recorded either. Both halves are missing, and neither gets estimated. |
-| **The live leftover on the seat page** | Separate from the KPIs, and still open: **[Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) are both unassigned** ([seats/cso.md](../seats/cso.md)). |
+| **The live leftover on the seat page** | Separate from the KPIs, and still open: **[Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) are leftover-file assigned — who fills each is not recorded, there is no live job, leftover already written** ([seats/cso.md](../seats/cso.md)). |
 
 ## Run it
 
@@ -58,7 +58,7 @@ This seat's live leftover is that **both reports under it are unassigned**: [Hea
 3. Place the buyer on a rung that already exists: [place-on-offer-ladder](../../skills/place-on-offer-ladder/SKILL.md), then [run-sales-menu](../../skills/run-sales-menu/SKILL.md). Open the [Sales Menu](https://app.notion.com/p/3c025e30d68b817dae2eeb55c5902ad7) — do not place from memory of it.
 4. Quote the rung the way the ladder states it. **Two numbers stay two numbers. Platinum Major List has no public price** — say so.
 5. Asked for a rung that is not on the ladder? The answer is **"check with Michael."** Not a guess, not an average, not the nearer of two. The **membership price** has none recorded and the **lead magnet has no Offers row** at all — both are named missing on [offers.md](../offers.md) itself.
-6. Asked for pipeline, a forecast, a consult count, or a close rate? **None is recorded.** Say so plainly. Do not build one out of the client count, and **do not hand work down to Head of Sales or SDR to make the chart look busy** — both seats are unassigned and neither has hands on [runtime-body.md](../runtime-body.md).
+6. Asked for pipeline, a forecast, a consult count, or a close rate? **None is recorded.** Say so plainly. Do not build one out of the client count, and **do not hand work down to Head of Sales or SDR to make the chart look busy** — both seats are leftover-file assigned, who fills each not recorded, no live job, and neither has hands on [runtime-body.md](../runtime-body.md).
 7. Anything about a client's status goes through [run-clients](../../skills/run-clients/SKILL.md), against the 18 Aug 2026 extract: **1 Alumni (Cornelia Choe, The Leaders Alliance), 67 Past, 0 Current, 0 Prospect.** **Hoffman is a question, not a Current client**, and recording anyone as Current is ask-Michael-first. **A folder name is not a client. HubSpot is closed.**
 8. Run [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md) and stop. The draft sits with Michael.
 
@@ -87,7 +87,7 @@ Something a second person could check: **one buyer question is answered against 
 ## Named missing — stays named
 
 - Who fills this seat.
-- Head of Sales and SDR — unassigned, and no pipeline, forecast, close rate, lead count, or score invented for them.
+- Head of Sales and SDR — leftover-file assigned, who fills each not recorded, no live job, and no pipeline, forecast, close rate, lead count, or score invented for them.
 - The live Uncovery script, and how an Uncovery is sold — neither is on [offers.md](../offers.md).
 - Any consult count or qualification bar; any close or win attached to an offer; any revenue figure to take a share of.
 - Platinum Major List has no public price. The membership price is not recorded, and the lead magnet has no Offers row.

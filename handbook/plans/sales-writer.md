@@ -12,7 +12,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.**
 3. [offers.md](../offers.md) — every price this seat would ever quote comes off this page and nowhere else.
 4. [clients.md](../clients.md) — who may be named, and who may not.
-5. [cso.md](cso.md) — the sales seat that is assigned, and the two under it that are not.
+5. [cso.md](cso.md) — the sales seat that is assigned, and the two under it that are leftover-file assigned.
 
 ## The one job
 
@@ -20,7 +20,7 @@ One pass that reads the leftover for this seat and writes down what it records a
 
 **This seat is UNASSIGNED and it writes nothing** — no pitch, no proposal, no outreach email, no sequence, no follow-up, no case study, no deck, no script. Sales copy needs a buyer, an offer, and a claim. The first is missing, the second is fixed and not this seat's to describe, and the third does not exist.
 
-**There is no buyer.** [clients.md](../clients.md) counts **0 Current and 0 Prospect** on the 18 Aug 2026 extract. **No pipeline, forecast, lead count, or consult record exists in this repo**, and the two seats that would generate one — [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) — are both **unassigned with no work assigned to them.** Writing a sequence means inventing the people it goes to.
+**There is no buyer.** [clients.md](../clients.md) counts **0 Current and 0 Prospect** on the 18 Aug 2026 extract. **No pipeline, forecast, lead count, or consult record exists in this repo**, and the two seats that would generate one — [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) — are both **leftover-file assigned, who fills each not recorded, no live job.** Writing a sequence means inventing the people it goes to.
 
 **The offer ladder is fixed, and it is not a starting point for a paragraph.** [offers.md](../offers.md) is the whole set of public rungs, and three things about it bind this seat hardest:
 
@@ -75,7 +75,7 @@ Two lists exist — what the leftover records, and what it is missing — and **
 - Platinum Major List has no public price; the membership price is not recorded; the lead magnet has no Offers row.
 - No pipeline, forecast, consult count, qualification bar, close, or revenue figure.
 - No promised list placement is recorded anywhere.
-- [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) are unassigned.
+- [Head of Sales](../seats/head-of-sales.md) and [SDR](../seats/sdr.md) are leftover-file assigned — who fills each not recorded, no live job.
 - The track record is uncollapsed: 124 (Dec 2022), 128 (Book Retreat), later 130–131.
 
 ## Never
@@ -89,7 +89,7 @@ Two lists exist — what the leftover records, and what it is missing — and **
 - Never move Hoffman off "question," never treat HubSpot as a source, and never turn the 0 Current count into momentum.
 - Never turn Cornelia Choe's Alumni support meeting into a pitch, and never pick between her two unresolved Zoom URLs.
 - Never collapse the track record into one number.
-- Never hand work down to [Head of Sales](../seats/head-of-sales.md) or [SDR](../seats/sdr.md) — both are unassigned.
+- Never hand work down to [Head of Sales](../seats/head-of-sales.md) or [SDR](../seats/sdr.md) — both are leftover-file assigned, who fills each not recorded, no live job.
 - Never name a holder for this seat, and never give Jhana or Bob a Role.
 - Never put a figure in a KPI Current field, including a 0.
 - Never send without Michael. No program GitHub. No VMs, no GKE, no local LLM until Michael says go. See [locks.md](../locks.md).

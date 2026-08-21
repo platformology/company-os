@@ -1,24 +1,25 @@
 # SDR — plan
 
-**Status: Unassigned** · **Holder: not recorded** · **Written: 21 Aug 2026**
+**Status: Leftover-file assigned** · **Holder: not recorded** · **Written: 21 Aug 2026**
 
-One pass answering a qualify-or-score question with the honest "this seat is unassigned, and there is no scoring model" — and, where the ask is really about clients, answering from the recorded counts with their date attached.
+One pass opening the leftover already written, saying who fills this seat is not recorded, saying there is no live job, and stopping there — and, where the ask is really about clients, answering from the recorded counts with their date attached.
 
-**This seat is unassigned.** No extract names a holder, and there is no lead list, no lead count, and no score behind it ([seats/sdr.md](../seats/sdr.md)). The seat above it, [Head of Sales](../seats/head-of-sales.md), is unassigned too, so there is nobody to escalate a lead to even if one existed.
+**This seat is leftover-file assigned.** Who fills it is not recorded. There is no lead list, no lead count, no score, and no live job ([seats/sdr.md](../seats/sdr.md)). The leftover it opens is already written: [leftovers/sdr.md](../leftovers/sdr.md). The seat above it, [Head of Sales](../seats/head-of-sales.md), is leftover-file assigned too — who fills that seat is not recorded, no live job. Do not invent a pipeline, a holder, or a job. If this plan and the seat page disagree, the seat page wins.
 
 ## Open these first, in this order
 
 1. [locks.md](../locks.md).
 2. [seats/sdr.md](../seats/sdr.md) — the seat page. If this plan and that page ever disagree, the seat page wins.
-3. [desks/sdr.md](../desks/sdr.md) — the sit-down pack. It is a refuse-work pack, and it says so on line one.
-4. [run-sdr-seat](../../skills/run-sdr-seat/SKILL.md) — the router for this seat.
-5. [clients.md](../clients.md) — the CRM facts this seat would be keeping honest, and the 18 Aug 2026 extract they came off.
+3. [leftovers/sdr.md](../leftovers/sdr.md) — leftover already written. There is no live job.
+4. [desks/sdr.md](../desks/sdr.md) — the sit-down pack. Leftover-file assigned; who fills not recorded; no live job.
+5. [run-sdr-seat](../../skills/run-sdr-seat/SKILL.md) — the router for this seat.
+6. [clients.md](../clients.md) — the CRM facts this seat would be keeping honest, and the 18 Aug 2026 extract they came off.
 
 ## The one job
 
-**Answer one qualify, score, or who-are-the-clients question from what is actually recorded — the seat is unassigned, there is no scoring model — and produce no lead, list, count, or score on the way through.**
+**Open [leftovers/sdr.md](../leftovers/sdr.md). Who fills this seat is not recorded. There is no live job. Do not invent a pipeline. Stop.** Produce no lead, list, count, or score on the way through.
 
-What the seat page records: **Purpose — qualify inbound and keep the CRM honest.** **Reports to — [Head of Sales](../seats/head-of-sales.md)**, unassigned. **Owns — nothing invented.** And one fact that matters more than the rest: **the CRM this seat would keep honest is Notion Clients, not HubSpot. HubSpot is closed.**
+What the seat page records: **Purpose — qualify inbound and keep the CRM honest.** **Reports to — [Head of Sales](../seats/head-of-sales.md)**, leftover-file assigned, who fills not recorded, no live job. **Owns — nothing invented.** And one fact that matters more than the rest: **the CRM this seat would keep honest is Notion Clients, not HubSpot. HubSpot is closed.**
 
 | | |
 |---|---|
@@ -47,7 +48,7 @@ The client facts this seat works against are settled on [clients.md](../clients.
 | **Current** | **Empty.** No figure has been sourced for that field and none goes in it — not a count, not a 0. **A 0 is a figure**, and a figure reads as a measurement somebody took. Nobody took one. |
 | **What is behind it today** | **No consult record exists in this repo** — no booking log, no consult count, no calendar of consults, and no qualification bar that would say what counts as one. The 18 Aug 2026 extract counts **0 Current and 0 Prospect clients**; that is a **client count with a date on it, not a consult count**, and it does not get carried into this field under a different name. Neither does the 67 Past. |
 | **What the board itself says** | On the 21 Aug 2026 read of that database, this row's Status reads **"Needs data"** and its Target reads **"TBD from baseline"** — quoted as they stand. There is no baseline, so there is no target either, and neither field gets filled in from this plan. |
-| **The live leftover on the seat page** | Separate from the KPI, and still open: **this seat is unassigned, and so is [Head of Sales](../seats/head-of-sales.md) above it** ([seats/sdr.md](../seats/sdr.md)). Also open: **the five unnamed fields on the campaign lead scoring draft**, and **the missing link to the Notion Clients database.** |
+| **The live leftover on the seat page** | Separate from the KPI, and still open: **the leftover is already written** — [leftovers/sdr.md](../leftovers/sdr.md) — **who fills this seat is not recorded, there is no live job, and [Head of Sales](../seats/head-of-sales.md) above it is leftover-file assigned too** ([seats/sdr.md](../seats/sdr.md)). Also open: **the five unnamed fields on the campaign lead scoring draft**, and **the missing link to the Notion Clients database.** |
 
 A named KPI is not a measured KPI, and an owned KPI is not a staffed seat. This row has an Owner name on the board and nobody in the seat under it. Both facts are true at once; write both.
 
@@ -55,7 +56,7 @@ A named KPI is not a measured KPI, and an owned KPI is not a staffed seat. This 
 
 1. Open [locks.md](../locks.md). **No send without Michael** — and outreach from this seat would be a send.
 2. Open [seats/sdr.md](../seats/sdr.md) and [run-sdr-seat](../../skills/run-sdr-seat/SKILL.md). Answer from those, and only from those.
-3. Asked who qualifies inbound? This seat is unassigned, and [Head of Sales](../seats/head-of-sales.md) above it is unassigned too. Route the ask to Michael rather than to a name.
+3. Asked who qualifies inbound? This seat is leftover-file assigned — who fills it is not recorded, there is no live job — and [Head of Sales](../seats/head-of-sales.md) above it is leftover-file assigned too. Route the ask to Michael rather than to a name.
 4. Asked for leads, a lead count, an inbound volume, or a conversion rate? **None exists.** Say so. **Do not assemble a list from folder names, from the 67 Past clients, or from a Notion search.**
 5. Asked to score, rank, or tier a lead? Hand off to [campaign-lead-scoring](../../skills/campaign-lead-scoring/SKILL.md), which refuses on the same grounds. Produce no number, no tier, no cutoff.
 6. Asked who the clients are? [run-clients](../../skills/run-clients/SKILL.md), and answer from the counts above **with the 18 Aug 2026 date attached.** Asked what the Current KPI is at? **Empty.** Asked to "just put 0 in it"? **No — 0 is a figure.**
@@ -66,7 +67,7 @@ A named KPI is not a measured KPI, and an owned KPI is not a staffed seat. This 
 
 ## Done looks like
 
-Somebody asked this seat to qualify or score something and got a complete answer: the seat is unassigned, there is no scoring model, here is where I looked. Any client question was answered from the 18 Aug 2026 extract with its date attached, nothing moved off "question" status, and no lead, list, count, tier, or score was produced. Nothing sent.
+Somebody asked this seat to qualify or score something and got a complete answer: leftover-file assigned, leftover already written, who fills not recorded, no live job, there is no scoring model, here is where I looked. Any client question was answered from the 18 Aug 2026 extract with its date attached, nothing moved off "question" status, and no lead, list, count, tier, or score was produced. Nothing sent.
 
 ## Named missing — stays named
 
@@ -77,7 +78,7 @@ Somebody asked this seat to qualify or score something and got a complete answer
 - A link to the Notion Clients database — the CRM itself — is not recorded in this repo.
 - Hoffman's client status is a question, not a fact.
 - Two unresolved Zoom URLs for Cornelia Choe's meeting — neither is picked.
-- Head of Sales above this seat is unassigned.
+- Head of Sales above this seat is leftover-file assigned — who fills not recorded, no live job.
 
 ## Never
 

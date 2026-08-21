@@ -34,7 +34,7 @@ The report runs the job. The C-suite seat owns the function the job sits inside.
 
 Three groups are not on this table, and no wire is run to them:
 
-- **[Head of Demand](seats/head-of-demand.md), [Head of Sales](seats/head-of-sales.md), [SDR](seats/sdr.md) stay unassigned.** No live work is handed to them, and nothing here gives them a queue.
+- **[Head of Demand](seats/head-of-demand.md), [Head of Sales](seats/head-of-sales.md), [SDR](seats/sdr.md) are leftover-file assigned.** Who fills each is not recorded. There is no live job. The leftover they open is already written: [leftovers/head-of-demand.md](leftovers/head-of-demand.md), [leftovers/head-of-sales.md](leftovers/head-of-sales.md), [leftovers/sdr.md](leftovers/sdr.md). Nothing here invents a live job or a queue for them.
 - **[Head of Engineering](seats/head-of-engineering.md) and [Developer](seats/developer.md) are parked.** No wire on this page starts code.
 - **A seat whose page records no line above it** has a named-missing hole, not a line to guess. Read the seat page; if it doesn't say, that's the answer.
 
@@ -72,7 +72,7 @@ And it is not:
 
 Name it and stop. In the message to the owner seat — both owners, where its row names two — the blocked seat writes one of two things:
 
-- **The lock** that stops it, quoted from [locks.md](locks.md) — no send without Michael, no program GitHub, no VMs, no GKE, no local LLM, M5 parked, Blue Sky off the LLC books.
+- **The lock** that stops it, quoted from [locks.md](locks.md) — no send without Michael, no program GitHub, no VMs, no GKE, no local LLM until Michael says go, Blue Sky off the LLC books. Work runs on this Mac. Machine locks live on [locks.md](locks.md) — this page does not restate them.
 - **The named-missing hole**, quoted from the list in [SOURCES.md](../SOURCES.md), in the words that list already uses.
 
 Then it stops. It does not ping Michael, and it does not route around the lock. If the block is an ask-Michael-first item, it travels this same wire up to the PA — the seat that hands things to Michael — and the blocked seat still does not message Michael itself.
@@ -107,7 +107,7 @@ The seats, the reporting lines, and the routers are already recorded in [seats/]
 - Never put the PA in the middle of a report-to-owner handoff, and never let the PA write the work it is going to gate.
 - Never sign off on a function your seat does not own, and never add a second stamp to something already QC'd.
 - Never drop one of a seat's two owners to make a row shorter — the Campaign Coordinator answers to both the CCO and VP Campaigns.
-- Never hand live work to Demand, Sales, or SDR, and never start code from the parked engineering seats.
+- Never hand live work to Demand, Sales, or SDR — do not invent a live job for them — and never start code from the parked engineering seats.
 - Never install a bus, a board, or a dashboard to make this wiring work — the seats' own chats are the wire.
 - Never ping Michael to report a routine QC pass, and never ping him instead of naming the lock or the hole.
 - Never wake a seat hourly.

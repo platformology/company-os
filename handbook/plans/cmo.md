@@ -12,7 +12,7 @@ One pass checking the public offer ladder in this repo against the live Sales Me
 4. [run-cmo](../../skills/run-cmo/SKILL.md) — the router for this seat.
 5. [offers.md](../offers.md) — the ladder this seat keeps accurate.
 
-**In hand before you start.** The hands on this seat's row in [runtime-body.md](../runtime-body.md) are the whole set: Notion **Sales Menu**, and [offers.md](../offers.md) in this repo. **Denied: any demand tool — [Head of Demand](../seats/head-of-demand.md) stays unassigned**, and this seat does not pick that seat's live work up to make the chart look busy.
+**In hand before you start.** The hands on this seat's row in [runtime-body.md](../runtime-body.md) are the whole set: Notion **Sales Menu**, and [offers.md](../offers.md) in this repo. **Denied: any demand tool — [Head of Demand](../seats/head-of-demand.md) is leftover-file assigned; who fills it is not recorded; there is no live job**, and this seat does not pick that seat's live work up to make the chart look busy.
 
 **The locks that bite on this pass, in their own words** ([locks.md](../locks.md)):
 
@@ -58,7 +58,7 @@ The two holes are this seat's live leftover, and they are already written on [se
 |---|---|
 | **KPI** | **Inbound leads.** Named on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion). Copied here as a name, nothing more — this repo does not restate the dashboard. |
 | **Current** | **Empty.** No figure has been sourced for that field, and none goes in it — not a lead count, not a channel breakdown, not a 0. **A 0 is a figure.** |
-| **What is behind it today** | **No inbound volume, lead count, or channel is recorded anywhere in this repo.** [Head of Demand](../seats/head-of-demand.md) — the seat that would own inbound — is unassigned, with no work assigned to it and no hands on [runtime-body.md](../runtime-body.md). The KPI is named on this seat; the job underneath it is not staffed, and no lead count is invented to make the field look answered. |
+| **What is behind it today** | **No inbound volume, lead count, or channel is recorded anywhere in this repo.** [Head of Demand](../seats/head-of-demand.md) — the seat that would own inbound — is leftover-file assigned, who fills it not recorded, no live job, and no hands on [runtime-body.md](../runtime-body.md). The KPI is named on this seat; no lead count is invented to make the field look answered. |
 | **The live leftover on the seat page** | Separate from the KPI, and still open: **the membership price, and the lead magnet's missing Offers row** ([seats/cmo.md](../seats/cmo.md), listed in [SOURCES.md](../../SOURCES.md)). |
 
 ## Run it
@@ -68,7 +68,7 @@ The two holes are this seat's live leftover, and they are already written on [se
 3. Where a rung shows two numbers, both stay. **Platinum Major List has no public price** — say exactly that, and do not reach for a comparable rung to imply one.
 4. A rung that has moved in Notion is a change to **flag, not one to make from memory.** Name the row and what differs, and take it to Michael. Changing [offers.md](../offers.md) is an ask-Michael-first item.
 5. The **membership price** and the **lead magnet's Offers row** stay named missing. If someone asks for either, **"not recorded — check with Michael"** is the whole answer. The same goes for anyone asking you to resolve a "both": the page's own rule is **"not a guess, not an average, not the higher or lower of the two."**
-6. Asked for an inbound number, a channel mix, or a lead count? None is recorded, and Head of Demand is unassigned. Say so and stop; do not build one out of the ladder or the client count.
+6. Asked for an inbound number, a channel mix, or a lead count? None is recorded, and Head of Demand is leftover-file assigned — who fills it is not recorded, there is no live job. Say so and stop; do not build one out of the ladder or the client count.
 7. Asked to run a campaign? That is not this seat. [VP Campaigns](../seats/vp-campaigns.md) owns the [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) and the [Campaign Coordinator](../seats/campaign-coordinator.md) runs the day-to-day underneath it. Hand it across and stop.
 8. [Head of Content](../seats/head-of-content.md) reports into this seat and hands its finished work here first — check the function you actually own, positioning and the ladder staying accurate, and nothing wider ([runtime-wiring.md](../runtime-wiring.md)).
 9. Run [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md) and stop. Hand the finished check to the [PA](../seats/pa.md) for the last gate.
@@ -99,7 +99,7 @@ Something a second person could check: **the ladder either matches the Sales Men
 - The membership price.
 - The lead magnet has no Offers row.
 - Platinum Major List has no public price.
-- Any inbound volume, lead count, or channel — Head of Demand is unassigned and none is recorded.
+- Any inbound volume, lead count, or channel — Head of Demand is leftover-file assigned, who fills not recorded, no live job, and none is recorded.
 
 ## Never
 

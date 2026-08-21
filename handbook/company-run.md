@@ -4,7 +4,7 @@
 
 This is the Company run page. PA, COO, and CTO leftovers are last-gated here. It does not invent a leftover, a holder, a go packet, or a production stack.
 
-The M1 is the office. The M5 is the shop only, and it stays parked. Nothing is installed. Phase 4 of the go packet is the only thing that lifts the local-model lock, and that packet is not written in this repo. **Do not draft it.**
+Work runs on this Mac. Nothing is installed. Phase 4 of the go packet is the only thing that lifts the local-model lock, and that packet is not written in this repo. **Do not draft it.** Machine locks live on [locks.md](locks.md).
 
 The frame every leftover on this page sits inside is already written: [plans/README.md](plans/README.md) “How the company runs, in one paragraph,” [locks.md](locks.md), [runtime-wiring.md](runtime-wiring.md), [runtime-body.md](runtime-body.md). This page does not restate those.
 
@@ -33,7 +33,7 @@ First QC on Company OS and docs changes. Does not last-gate. Does not merge. If 
 
 **The leftover:** who fills this seat is not recorded; the go packet is not written down in this repo; the production stack is not recorded. Naming those holes and holding the locks *is* the work. **Do not draft the go packet.** **Do not name a stack.** **Do not name Dave / Lehi Drew as the holder** — vendor, not CTO.
 
-Head of Engineering and Developer stay parked under the same locks. Routing an ask down the chain does not unlock it. M5 parked. No VMs. No GKE. No local LLM. No program GitHub. No install until go.
+Head of Engineering and Developer stay parked under the same locks. Routing an ask down the chain does not unlock it. No VMs. No GKE. No local LLM. No program GitHub. No install until go. Machine locks live on [locks.md](locks.md).
 
 Seat page: [seats/cto.md](seats/cto.md). Plan: [plans/cto.md](plans/cto.md). Router: [run-cto](../skills/run-cto/SKILL.md).
 
