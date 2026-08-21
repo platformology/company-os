@@ -8,12 +8,12 @@ This seat reports to the COO, and Campaign Coordinator reports into it. VP Campa
 
 ## Leftover — no campaign schedule, five unnamed scoring fields
 
-Two holes, both already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
 - No milestone list, schedule, or dated plan for any campaign is recorded.
 - Five unnamed fields on the campaign lead scoring draft stay unnamed and unfilled.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not write a schedule. Do not name or fill the five fields. Do not invent a live campaign, a client, or KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not write a schedule. Do not name or fill the five fields. Do not invent a live campaign, a client, or KPI Current.
 
 ## Outgoing — COO, then QC
 

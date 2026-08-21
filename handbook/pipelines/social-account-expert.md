@@ -1,20 +1,19 @@
 # Social Account Expert pipelines
 
-Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. The seat is unassigned. Who fills it is not recorded.
+Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. Who fills this seat is not recorded.
 
 ## Incoming — Social Media Strategist
 
-This seat reports to Social Media Strategist, which is unassigned too. The line between the two seats is not recorded — do not draw it.
+This seat reports to Social Media Strategist. The line between the two seats is not recorded — do not draw it.
 
-## Leftover — unassigned, no handle, account, or connected platform
+## Leftover — no handle, account, or connected platform
 
-Three holes, all already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
-- The seat is unassigned.
 - There is no social handle, account, or connected platform.
 - Who fills this seat is not recorded.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not post. Do not invent a handle, an account, a follower count, or KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not post. Do not invent a handle, an account, or KPI Current.
 
 ## Outgoing — Social Media Strategist, then QC
 

@@ -1,21 +1,20 @@
 # Junior Print Designer pipelines
 
-Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. The seat is unassigned. Who fills it is not recorded.
+Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. Who fills this seat is not recorded.
 
 ## Incoming — not recorded
 
 The seat page records the craft cluster and no owner for it. Nobody is recorded handing this seat work. Do not invent a design executive.
 
-## Leftover — unassigned, no brief, no production stack, no print vendor
+## Leftover — no brief, no production stack, no print vendor
 
-Four holes, all already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
-- The seat is unassigned.
 - There is no brief.
 - There is no production stack, studio address, or print vendor.
 - Who fills this seat is not recorded.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not design. Do not invent a brief, a vendor, a studio, or KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not design. Do not invent a brief, a vendor, a studio, or KPI Current.
 
 ## Outgoing — craft cluster, no owner recorded, then QC
 

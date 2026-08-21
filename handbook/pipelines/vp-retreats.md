@@ -8,13 +8,13 @@ This seat reports to the COO, and Retreat Producer reports into it. VP Retreats 
 
 ## Leftover — PIAB cycle time unrecorded, intake blanks stay blank
 
-Three holes, all already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
 - Platform in a Box cycle time is not recorded.
 - Dietary, rooming, arrival, AV, and incident stay named missing.
 - The starter form keeps five fields, no sixth.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not derive cycle time from a price. Do not fill or add an intake field. Do not sketch a date, a guest list, or a venue. Do not invent KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not derive cycle time from a price. Do not fill or add an intake field. Do not sketch a date, a guest list, or a venue. Do not invent KPI Current.
 
 ## Outgoing — COO, then QC
 

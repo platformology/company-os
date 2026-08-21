@@ -8,13 +8,11 @@ Head of Author Success and Campaign Coordinator report into this seat, and Campa
 
 ## Leftover — no campaign-QA SOP, no NPS survey, no referral log
 
-Three holes, all already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
-- There is no campaign-QA SOP recorded.
-- There is no NPS survey recorded.
-- There is no referral log recorded.
+- There is no campaign-QA SOP recorded, no NPS survey recorded, and no referral log recorded.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not draft those three. Do not invent a list hit, a health score, or KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not draft those three. Do not invent a list hit, a health score, or KPI Current. CCO is Chief Customer Officer, not COO.
 
 ## Outgoing — no reports-to recorded, then QC
 

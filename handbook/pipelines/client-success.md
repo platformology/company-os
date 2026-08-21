@@ -8,12 +8,12 @@ This seat reports to Head of Author Success, which is the recorded line work com
 
 ## Leftover — no client-risk model, two unresolved Zoom URLs
 
-Two holes, both already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
 - There is no client-risk model, risk tier, or at-risk record recorded.
 - Cornelia Choe's two Zoom URLs stay unresolved — both flagged, neither picked.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not invent a risk model. Do not pick a Zoom URL. Do not invent a health score or KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not invent a risk model. Do not pick a Zoom URL. Do not invent a health score or KPI Current.
 
 ## Outgoing — Head of Author Success, then QC
 

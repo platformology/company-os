@@ -4,17 +4,17 @@ Three pipelines run through this seat: incoming, leftover, outgoing. None of the
 
 ## Incoming — Head of Sales and SDR
 
-Head of Sales and SDR report into this seat. Both are unassigned, so neither line carries anybody today. Pipeline on this seat means the five company jobs on how-money-moves.md and the three on this page. It is not a forecast and not a number.
+Head of Sales and SDR report into this seat, and who fills each of them is not recorded. Pipeline on this seat means the five money-move jobs on how-money-moves.md. It is not a forecast and not a number.
 
-## Leftover — Head of Sales and SDR unassigned
+## Leftover — who fills Head of Sales and who fills SDR
 
-The leftover here is the two vacancies underneath, already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
-- Head of Sales is unassigned.
-- SDR is unassigned.
+- Who fills Head of Sales is not recorded.
+- Who fills SDR is not recorded.
 - A leftover here does not fill either seat.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not hand either seat work. Do not invent a pipeline figure, forecast, consult count, qualification bar, close rate, or lead count. Do not invent KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not hand either seat work. Do not name a holder for either. Do not invent a pipeline, forecast, consult count, qualification bar, close rate, or lead count. CSO is Chief Sales Officer, not Chief Strategy Officer. Do not invent KPI Current.
 
 ## Outgoing — no reports-to recorded, then QC
 

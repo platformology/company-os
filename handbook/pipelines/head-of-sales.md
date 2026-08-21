@@ -1,22 +1,19 @@
 # Head of Sales pipelines
 
-Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. The seat is unassigned. Who fills it is not recorded.
+Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. This seat is leftover-file assigned. Who fills it is not recorded.
 
 ## Incoming — CSO, and SDR from below
 
-This seat reports to the CSO, and SDR reports into it. SDR is unassigned too, so neither line carries anybody today. Pipeline here means the five company jobs on how-money-moves.md and the three on this page. There is no forecast and no close rate to report.
+This seat reports to the CSO, and SDR reports into it. Who fills SDR is not recorded either. Pipeline here means the five money-move jobs on how-money-moves.md. There is no forecast and no close rate to report.
 
-## Leftover — unassigned, no live Uncovery script
+## Leftover — no live Uncovery script, how one is sold not recorded
 
-Five holes, all already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
-- The seat is unassigned.
-- SDR underneath it is unassigned too.
-- There is no live Uncovery script.
-- How an Uncovery is sold is not recorded.
-- Who fills this seat is not recorded.
+- There is no live Uncovery script, and how an Uncovery is sold is not recorded.
+- Who fills this seat is not recorded, and who fills SDR underneath it is not recorded either.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not script an Uncovery. Do not name how one is sold. Do not staff SDR. Do not invent a pipeline figure, a forecast, a close rate, a price, or KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not script an Uncovery. Do not name how one is sold. Do not name a holder here or staff SDR. Do not invent a pipeline, a forecast, a close rate, a price, or KPI Current.
 
 ## Outgoing — CSO, then QC
 

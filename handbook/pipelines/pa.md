@@ -8,13 +8,13 @@ Michael instructs the PA, and the PA points each seat at its own router. No seat
 
 ## Leftover — holder, next PA, tenure end
 
-Three holes, all already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
 - Who fills this seat is not recorded.
 - The next PA is not recorded.
 - The current tenure end date is not recorded.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not name a holder, a next PA, or a tenure end date. Do not give Jhana or Bob a Role. Do not invent KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not name a holder, a next PA, or a tenure end date. Do not give Jhana or Bob a Role. Do not invent KPI Current.
 
 ## Outgoing — no reports-to recorded, and this seat is the last gate
 

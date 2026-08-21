@@ -1,23 +1,19 @@
 # SDR pipelines
 
-Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. The seat is unassigned. Who fills it is not recorded.
+Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. This seat is leftover-file assigned. Who fills it is not recorded.
 
 ## Incoming — Head of Sales
 
-This seat reports to Head of Sales, which is unassigned too, so the recorded line carries nobody today. Nothing is recorded as reporting into this seat. Pipeline here means the five company jobs on how-money-moves.md and the three on this page.
+This seat reports to Head of Sales, and who fills that seat is not recorded either. Nothing is recorded as reporting into this seat. Pipeline here means the five money-move jobs on how-money-moves.md.
 
-## Leftover — unassigned, no scoring model, five unnamed fields
+## Leftover — no scoring model, five unnamed fields, no Clients link
 
-Six holes, all already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
-- The seat is unassigned.
-- Head of Sales above it is unassigned too.
-- There is no scoring model in the corpus.
-- Five fields on the campaign lead scoring draft stay unnamed.
-- A link to the Notion Clients database is not recorded in this repo.
-- Who fills this seat is not recorded.
+- There is no scoring model in the corpus, five fields on the campaign lead scoring draft stay unnamed, and a link to the Notion Clients database is not recorded in this repo.
+- Who fills this seat is not recorded, and neither is who fills Head of Sales above it.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not build a scoring model. Do not name or fill the five fields. Do not invent a lead, a lead list, a lead count, a score, or KPI Current. HubSpot is closed.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not build a scoring model. Do not name or fill the five fields. Do not name a holder. Do not invent a lead, a lead list, a lead count, a score, or KPI Current. HubSpot is closed.
 
 ## Outgoing — Head of Sales, then QC
 

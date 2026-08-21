@@ -8,12 +8,11 @@ This seat reports to the CCO, and Client Success reports into it. Both lines are
 
 ## Leftover — no author-success SOP, no milestone schedule
 
-Two holes, both already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
-- There is no author-success SOP recorded.
-- No milestone schedule for any author is recorded.
+- There is no author-success SOP recorded, and no milestone schedule for any author is recorded.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not draft them. Do not invent a health score or a promised list.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not draft them. Do not invent a health score or a promised list.
 
 ## Outgoing — CCO, then QC
 

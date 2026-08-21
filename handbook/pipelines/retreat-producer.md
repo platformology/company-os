@@ -8,14 +8,14 @@ This seat reports to VP Retreats, which owns the Retreat SOP and the PIAB SOP. T
 
 ## Leftover — no retreat date, guest list, or venue
 
-Four holes, all already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
 - A retreat date, a guest list, and a venue are not sourced.
 - No next retreat is recorded.
 - Dietary, rooming, arrival, AV, and incident stay named missing.
 - The starter form is five fields, no sixth.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not invent a date, a guest list, a venue, or a next retreat. Do not fill those blanks. Do not add a sixth field. Do not invent KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not invent a date, a guest list, a venue, or a next retreat. Do not fill those blanks. Do not add a sixth field. Do not invent KPI Current.
 
 ## Outgoing — VP Retreats, then QC
 

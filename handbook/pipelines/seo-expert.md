@@ -1,20 +1,19 @@
 # SEO Expert pipelines
 
-Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. The seat is unassigned. Who fills it is not recorded.
+Three pipelines run through this seat: incoming, leftover, outgoing. None of them is a forecast. Who fills this seat is not recorded.
 
 ## Incoming — CMO
 
 This seat reports to the CMO, which is the recorded line work would come down. Nothing is recorded as reporting into this seat.
 
-## Leftover — unassigned, no web property, analytics, or keyword
+## Leftover — no web property, analytics, or keyword
 
-Three holes, all already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
-- The seat is unassigned.
 - There is no web property, analytics, or keyword.
 - Who fills this seat is not recorded.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not write keywords or an SEO plan. Do not invent a site, a keyword, a traffic figure, or KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not write keywords or an SEO plan. Do not invent a site, a keyword, or KPI Current.
 
 ## Outgoing — CMO, then QC
 

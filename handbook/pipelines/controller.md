@@ -8,12 +8,11 @@ This seat reports to the CFO, and the CFO is the recorded line work comes down. 
 
 ## Leftover — June and July 2026 not closed
 
-Two holes, both already named on the leftover page. That they are open is the fact to report, and the close is blocked on a human.
+Leftover-today is what the leftover page names, and these are its child stages:
 
-- June 2026 is not closed.
-- July 2026 is not closed.
+- June and July 2026 are not closed.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not estimate a close. Do not invent AR, a close SOP, or KPI Current. Blue Sky stays off the LLC books.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not estimate a close. Do not invent AR, a close SOP, or KPI Current. Blue Sky stays off the LLC books.
 
 ## Outgoing — CFO, then QC
 

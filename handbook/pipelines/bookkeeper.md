@@ -8,11 +8,11 @@ This seat reports to the CFO for bills and the general ledger. Nothing is record
 
 ## Leftover — savings total not sourced
 
-One hole, already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
 - Any savings total is not sourced.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not invent a savings total, AR, a close, or KPI Current. Blue Sky stays off the LLC books.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not invent a savings total, AR, a close, or KPI Current. Blue Sky stays off the LLC books.
 
 ## Outgoing — CFO, then QC
 

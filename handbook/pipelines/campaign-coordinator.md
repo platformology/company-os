@@ -8,12 +8,12 @@ Two lines are recorded, and both are real: this seat reports to the CCO and to V
 
 ## Leftover — no due dates or step timings, no campaign-QA SOP
 
-Two holes, both already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
 - No due dates, step timings, or completion history are recorded.
 - There is no campaign-QA SOP recorded.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not start that record. Do not draft the campaign-QA SOP. Do not invent KPI Current.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not start that record. Do not draft the campaign-QA SOP. Do not invent KPI Current.
 
 ## Outgoing — CCO and VP Campaigns, then QC
 

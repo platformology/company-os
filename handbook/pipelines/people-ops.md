@@ -8,12 +8,12 @@ This seat reports to the CHRO, which is the recorded line work comes down. Nothi
 
 ## Leftover — no onboarding SOP, no vendor rate or dates
 
-Two holes, both already named on the leftover page.
+Leftover-today is what the leftover page names, and these are its child stages:
 
 - There is no onboarding SOP recorded.
 - No rate, term, start or end date, or scope is recorded for either vendor.
 
-Every child stage above is named missing on the leftover page, and it stays named missing here. Nothing gets added to that list and nothing gets filled in to make the seat look busy. Do not draft an SOP. Do not add a rate. Do not edit the roster. Do not give Jhana or Bob a Role. Dave / Lehi Drew and David McInnis stay vendors. KPI Current stays empty, and time-to-onboard stays empty.
+Every child stage above is named missing on that page and it stays named missing here. Nothing gets added to the list and nothing gets filled in to make the seat look busy. Do not draft an SOP. Do not add a rate. Do not edit the roster. Do not give Jhana or Bob a Role. Dave / Lehi Drew and David McInnis stay vendors. KPI Current stays empty. Time-to-onboard stays empty.
 
 ## Outgoing — CHRO, then QC
 
