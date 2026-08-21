@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Own pipeline, with Uncovery run as paid discovery.
 
-**This seat is unassigned.** There is no extract naming a holder, no pipeline, no forecast, and no close rate. If you opened this page looking for work, that's the honest answer — there isn't any assigned here yet.
+**This seat is assigned.** It is no longer one of the unassigned seats — and that is a state on the file, not a person. **Who fills it is not recorded:** there is no extract naming a holder, and none gets written in from the org chart in your head. There is no pipeline, no forecast, and no close rate. If you opened this page looking for work, that's the honest answer — the seat is no longer vacant and there is still nothing assigned here to run.
 
 **Owns:** Nothing invented. Uncovery-as-paid-discovery is the stated purpose, not a live pipeline number — see [offers.md](../offers.md) for the actual Uncovery prices (Book Writing Uncovery: Consult; Book Marketing Uncovery: Consult, or Drive wire $20,000; Bestseller Uncovery $20,000).
 

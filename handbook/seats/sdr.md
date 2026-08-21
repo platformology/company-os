@@ -4,7 +4,7 @@ Shape: Holacracy Role — [holacracyone/Holacracy-Constitution](https://github.c
 
 **Purpose:** Qualify inbound and keep the CRM honest.
 
-**This seat is unassigned.** There is no extract naming a holder, no lead count, and no score. If you opened this page looking for work, that's the honest answer — there isn't any assigned here yet.
+**This seat is assigned.** It is no longer one of the unassigned seats — and that is a state on the file, not a person. **Who fills it is not recorded:** there is no extract naming a holder, and none gets written in from the org chart in your head. There is no lead count and no score. If you opened this page looking for work, that's the honest answer — the seat is no longer vacant and there is still nothing assigned here to run.
 
 **Owns:** Nothing invented. The CRM this seat would keep honest is Notion Clients — see [clients.md](../clients.md) — not HubSpot. HubSpot is closed.
 
