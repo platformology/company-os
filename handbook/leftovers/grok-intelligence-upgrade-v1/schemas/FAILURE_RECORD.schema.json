@@ -1,0 +1,306 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "FAILURE_RECORD.schema.json",
+  "title": "FAILURE_RECORD",
+  "description": "One record per refusal, failure, or blocked run — one run, one record. A refusal on a lock and a run that broke are different events and are kept structurally apart: a refusal has to cite the lock it refused on, and a run failure may not cite one. Every record names a next owner, so a stopped run always sits with someone. This file is self-contained: no external $ref, so it can be checked without a resolver or a network fetch. Writer is the docs leftover; COO is first QC and the PA last-gates. Candidate-visible.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "task_packet_ref",
+    "role_slug",
+    "recorded_at",
+    "kind",
+    "failure_class",
+    "observable_symptom",
+    "failed_step",
+    "evidence",
+    "preserved_partial_work",
+    "attempted_repair",
+    "repair_result",
+    "required_escalation",
+    "next_owner",
+    "classification"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+    },
+    "task_packet_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The packet_id the run was working from."
+    },
+    "task_state_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The TASK_STATE this record was raised from, when one is recorded."
+    },
+    "role_slug": { "$ref": "#/$defs/role_slug" },
+    "recorded_at": { "$ref": "#/$defs/timestamp" },
+    "kind": {
+      "type": "string",
+      "enum": ["refusal_on_lock", "run_failure", "blocked_run"],
+      "description": "Which of the three this is. refusal_on_lock is the run declining to proceed because a lock says not to — it is correct behaviour, not a defect. run_failure is the run breaking. blocked_run is the run stopping because something it needed was not there."
+    },
+    "failure_class": {
+      "type": "string",
+      "enum": [
+        "MISSING_INPUT",
+        "STALE_SOURCE",
+        "CONFLICTING_SOURCE",
+        "WRONG_ROLE",
+        "AMBIGUOUS_REQUEST",
+        "TOOL_FAILURE",
+        "FORMAT_FAILURE",
+        "AUTHORIZATION_FAILURE",
+        "CONTEXT_FAILURE",
+        "MODEL_CAPABILITY_FAILURE",
+        "VALIDATION_FAILURE",
+        "SECURITY_BOUNDARY_FAILURE"
+      ],
+      "description": "Exactly one class per record. The list is closed; a run that does not fit one of the twelve is itself something to escalate rather than to relabel."
+    },
+    "lock_cited": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The lock the run refused on. Required when kind is refusal_on_lock, and not permitted when kind is run_failure — that is what keeps a refusal and a breakage from reading the same."
+    },
+    "observable_symptom": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What was actually seen, written so someone else could recognise it. Not a diagnosis."
+    },
+    "failed_step": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The step the run was on when it stopped."
+    },
+    "evidence": { "$ref": "#/$defs/evidence" },
+    "preserved_partial_work": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["preserved"],
+      "properties": {
+        "preserved": {
+          "type": "boolean",
+          "description": "Whether valid partial work was kept. A failure does not entitle anyone to throw away the part that held."
+        },
+        "what": {
+          "type": "string",
+          "minLength": 1,
+          "description": "What was kept. Required when preserved is true."
+        },
+        "location": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Where it was kept."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "type": "object", "required": ["preserved"], "properties": { "preserved": { "const": true } } },
+          "then": { "required": ["what"] }
+        }
+      ]
+    },
+    "attempted_repair": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["attempted"],
+      "properties": {
+        "attempted": { "type": "boolean" },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "What was tried. Required when attempted is true."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "type": "object", "required": ["attempted"], "properties": { "attempted": { "const": true } } },
+          "then": { "required": ["description"] }
+        }
+      ]
+    },
+    "repair_result": {
+      "type": "string",
+      "enum": ["repaired", "not repaired", "not attempted"],
+      "description": "How the repair came out. It has to agree with attempted_repair — an unattempted repair cannot report a result."
+    },
+    "required_escalation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["escalate"],
+      "properties": {
+        "escalate": { "type": "boolean" },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Why it has to go up. Required when escalate is true."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "type": "object", "required": ["escalate"], "properties": { "escalate": { "const": true } } },
+          "then": { "required": ["reason"] }
+        }
+      ]
+    },
+    "next_owner": {
+      "$ref": "#/$defs/gate_holder",
+      "description": "Who the stopped run sits with now: COO, PA, or Michael. Those are the only owners recorded, and no other is named here. Required on every record, so nothing stops with nobody."
+    },
+    "classification": {
+      "$ref": "#/$defs/classification",
+      "description": "The evidence standard of this record itself, so a record is not read as harder than what backs it."
+    },
+    "note": { "type": "string", "minLength": 1 }
+  },
+  "allOf": [
+    {
+      "$comment": "A refusal cites the lock it refused on.",
+      "if": {
+        "type": "object",
+        "required": ["kind"],
+        "properties": { "kind": { "const": "refusal_on_lock" } }
+      },
+      "then": { "required": ["lock_cited"] }
+    },
+    {
+      "$comment": "A run failure is not dressed up as a refusal.",
+      "if": {
+        "type": "object",
+        "required": ["kind"],
+        "properties": { "kind": { "const": "run_failure" } }
+      },
+      "then": { "not": { "required": ["lock_cited"] } }
+    },
+    {
+      "$comment": "The repair result agrees with whether a repair was attempted.",
+      "if": {
+        "type": "object",
+        "required": ["attempted_repair"],
+        "properties": { "attempted_repair": { "required": ["attempted"], "properties": { "attempted": { "const": false } } } }
+      },
+      "then": { "properties": { "repair_result": { "const": "not attempted" } } }
+    },
+    {
+      "if": {
+        "type": "object",
+        "required": ["attempted_repair"],
+        "properties": { "attempted_repair": { "required": ["attempted"], "properties": { "attempted": { "const": true } } } }
+      },
+      "then": { "properties": { "repair_result": { "enum": ["repaired", "not repaired"] } } }
+    },
+    {
+      "$comment": "Absence is never a pass: a record with no evidence cannot be PROVEN or SELF-REPORTED.",
+      "if": {
+        "type": "object",
+        "required": ["evidence"],
+        "properties": { "evidence": { "required": ["kind"], "properties": { "kind": { "const": "not sourced" } } } }
+      },
+      "then": { "properties": { "classification": { "enum": ["UNVERIFIED", "FAILED"] } } }
+    },
+    {
+      "if": {
+        "type": "object",
+        "required": ["classification"],
+        "properties": { "classification": { "const": "PROVEN" } }
+      },
+      "then": { "properties": { "evidence": { "properties": { "kind": { "enum": ["repo_path", "command_record"] } } } } }
+    }
+  ],
+  "$defs": {
+    "classification": {
+      "type": "string",
+      "enum": ["PROVEN", "SELF-REPORTED", "UNVERIFIED", "FAILED"],
+      "description": "Exactly one label. There is no PASS."
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "detail"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["repo_path", "command_record", "self_report", "not sourced"]
+        },
+        "detail": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The path, the command record, or the report. When kind is \"not sourced\", the detail is the literal string \"not sourced\"."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "type": "object", "required": ["kind"], "properties": { "kind": { "const": "not sourced" } } },
+          "then": { "properties": { "detail": { "const": "not sourced" } } }
+        }
+      ]
+    },
+    "gate_holder": {
+      "type": "string",
+      "enum": ["COO", "PA", "Michael"]
+    },
+    "timestamp": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}(T[0-9]{2}:[0-9]{2}(:[0-9]{2})?(Z|[+-][0-9]{2}:[0-9]{2})?)?$",
+      "description": "ISO 8601 date, or date and time. Structural only — it carries no company fact."
+    },
+    "role_slug": {
+      "type": "string",
+      "enum": [
+        "book-conceptual-editor",
+        "book-copy-writer",
+        "book-reader",
+        "book-strategist",
+        "book-technical-editor",
+        "book-writer",
+        "bookkeeper",
+        "campaign-coordinator",
+        "cco",
+        "cfo",
+        "chro",
+        "client-success",
+        "cmo",
+        "controller",
+        "coo",
+        "copy-editor",
+        "copy-writer",
+        "cso",
+        "cto",
+        "developer",
+        "head-of-author-success",
+        "head-of-content",
+        "head-of-demand",
+        "head-of-engineering",
+        "head-of-sales",
+        "junior-digital-designer",
+        "junior-print-designer",
+        "pa",
+        "pendulum-wiki",
+        "people-ops",
+        "persona-architect",
+        "pr-media",
+        "retreat-producer",
+        "sales-editor",
+        "sales-writer",
+        "sdr",
+        "senior-digital-designer",
+        "senior-print-designer",
+        "seo-expert",
+        "social-account-expert",
+        "social-media-strategist",
+        "speaking-associations",
+        "speaking-universities",
+        "strategist",
+        "vp-campaigns",
+        "vp-retreats"
+      ],
+      "description": "The 46 seat slugs, one per seat page."
+    }
+  }
+}

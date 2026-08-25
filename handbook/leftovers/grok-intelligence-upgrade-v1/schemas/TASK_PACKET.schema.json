@@ -1,0 +1,454 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "TASK_PACKET.schema.json",
+  "title": "TASK_PACKET",
+  "description": "Fixed input contract for one unit of seat work. A packet is the whole of what a seat is given: who the seat is, which named workflow is being run, what is already sourced, what is not, and where the run must stop. This file is self-contained on purpose: it uses no external $ref, so it can be read and checked without a resolver or a network fetch. Writer is the docs leftover; COO is first QC and the PA last-gates. Candidate-visible.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "packet_id",
+    "role_slug",
+    "seat_status",
+    "workflow_id",
+    "audience",
+    "requested_outcome",
+    "source_ids",
+    "facts",
+    "assumptions",
+    "unknowns",
+    "constraints",
+    "allowed_tools",
+    "prohibited_actions",
+    "deliverables",
+    "acceptance_criteria",
+    "approval_points",
+    "stop_conditions",
+    "activation",
+    "locks"
+  ],
+  "properties": {
+    "packet_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+      "description": "Identifier for this packet. Structural only — it carries no company fact."
+    },
+    "role_slug": {
+      "$ref": "#/$defs/role_slug",
+      "description": "One of the 46 seat slugs. A slug outside the list is invalid: there is no forty-seventh seat to address a packet to."
+    },
+    "seat_status": {
+      "$ref": "#/$defs/seat_status",
+      "description": "The seat's recorded status. It must match the roster for the named slug — a packet cannot relabel a parked seat as assigned."
+    },
+    "workflow_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "description": "The named workflow this packet runs. A workflow has to be named to be run; there is no unnamed default."
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Who the deliverable is written for. Naming an external audience does not authorise a send — see locks.external_send."
+    },
+    "requested_outcome": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The one outcome this packet asks for, in a sentence."
+    },
+    "source_ids": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Sources the seat may read. An empty array is valid and means no source was supplied — it does not mean the seat may supply its own."
+    },
+    "facts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sourced_fact" },
+      "description": "Statements that already have a source. Every entry names its source_id. A statement with no source belongs in assumptions or unknowns, never here."
+    },
+    "assumptions": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Statements being worked from that are not sourced. Kept separate from facts so the two never merge."
+    },
+    "unknowns": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "What is not recorded. Named missing stays named: an unknown listed here is not to be filled in by the run."
+    },
+    "constraints": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Limits on how the work is done."
+    },
+    "allowed_tools": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Tools the seat may use. An empty array means none, not any."
+    },
+    "prohibited_actions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "allOf": [
+        { "contains": { "const": "no-send-without-michael" } },
+        { "contains": { "const": "no-invented-holder" } },
+        { "contains": { "const": "no-filled-kpi-current" } },
+        { "contains": { "const": "no-activation-of-parked-or-no-live-seat" } }
+      ],
+      "description": "What the run may not do. The four baseline tokens are required in every packet, so the locks travel with the work instead of living only in a reviewer's head. Further prohibitions may be added."
+    },
+    "deliverables": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "form"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "form": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The exact shape asked for — a file, a table, a packet — stated tightly enough that a reviewer can tell whether it arrived."
+          }
+        }
+      },
+      "description": "Exactly what has to come back. A packet with no deliverable is not a unit of work."
+    },
+    "acceptance_criteria": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["criterion", "how_checked"],
+        "properties": {
+          "criterion": { "type": "string", "minLength": 1 },
+          "how_checked": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What a reviewer opens or runs to settle the criterion. Taste is not a check."
+          }
+        }
+      }
+    },
+    "approval_points": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["gate", "approver"],
+        "properties": {
+          "gate": { "type": "string", "minLength": 1 },
+          "approver": { "$ref": "#/$defs/gate_holder" }
+        }
+      },
+      "allOf": [
+        { "contains": { "type": "object", "properties": { "approver": { "const": "COO" } }, "required": ["approver"] } },
+        { "contains": { "type": "object", "properties": { "approver": { "const": "PA" } }, "required": ["approver"] } }
+      ],
+      "description": "The recorded gate chain: COO first QC, PA last gate. Both must appear. Michael is the third permitted approver and no other approver may be named."
+    },
+    "stop_conditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "The conditions under which the run stops rather than proceeding. A packet with no stop condition has no floor."
+    },
+    "activation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["activates_seat", "live_job_requested"],
+      "properties": {
+        "activates_seat": {
+          "const": false,
+          "description": "No packet activates a seat. Activation is outside this contract, so the only valid value is false."
+        },
+        "live_job_requested": {
+          "type": "boolean",
+          "description": "Whether the packet asks for live job work. It must be false for the parked seats, for the three leftover-only seats with no live job, and for the unassigned seats."
+        }
+      }
+    },
+    "locks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["send_requires_michael", "external_send", "holder", "kpi_current", "definition_gate"],
+      "properties": {
+        "send_requires_michael": {
+          "const": true,
+          "description": "Nothing goes to a client, a prospect, or the public without Michael. The only valid value is true."
+        },
+        "external_send": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["in_scope", "michael_signoff"],
+          "properties": {
+            "in_scope": { "type": "boolean" },
+            "michael_signoff": { "enum": ["required", "not_applicable"] }
+          },
+          "allOf": [
+            {
+              "if": {
+                "type": "object",
+                "required": ["in_scope"],
+                "properties": { "in_scope": { "const": true } }
+              },
+              "then": {
+                "properties": { "michael_signoff": { "const": "required" } }
+              }
+            }
+          ],
+          "description": "If anything in the packet could leave the company, Michael's sign-off is required and cannot be marked not applicable."
+        },
+        "holder": {
+          "enum": [null, "Anthony C. Garcia"],
+          "description": "The recorded holder of the seat. COO — Anthony C. Garcia — is the only holder recorded anywhere. Every other seat is null, which reads as not recorded, not as vacant-and-fillable-here."
+        },
+        "kpi_current": {
+          "type": "array",
+          "maxItems": 0,
+          "description": "KPI Current stays empty. Empty is not 0, so a packet may not carry a current value of any kind, including 0."
+        },
+        "definition_gate": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["applies", "definition_recorded"],
+          "properties": {
+            "applies": {
+              "type": "boolean",
+              "description": "True for the definition-gated slugs. Set by the roster rule below, not by preference."
+            },
+            "definition_recorded": {
+              "const": false,
+              "description": "What CSO, CCO, and Pendulum mean is not recorded. No packet may declare it recorded, so the only valid value is false."
+            }
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "$comment": "Roster rule — assigned seats.",
+      "if": {
+        "type": "object",
+        "required": ["role_slug"],
+        "properties": { "role_slug": { "$ref": "#/$defs/assigned_role" } }
+      },
+      "then": { "properties": { "seat_status": { "const": "assigned" } } }
+    },
+    {
+      "$comment": "Roster rule — the three leftover-only seats with no live job. A packet asking them for live job work is invalid.",
+      "if": {
+        "type": "object",
+        "required": ["role_slug"],
+        "properties": { "role_slug": { "$ref": "#/$defs/no_live_role" } }
+      },
+      "then": {
+        "properties": {
+          "seat_status": { "const": "leftover_only_no_live" },
+          "activation": { "properties": { "live_job_requested": { "const": false } } }
+        }
+      }
+    },
+    {
+      "$comment": "Roster rule — the two parked seats. A packet asking them for live job work is invalid.",
+      "if": {
+        "type": "object",
+        "required": ["role_slug"],
+        "properties": { "role_slug": { "$ref": "#/$defs/parked_role" } }
+      },
+      "then": {
+        "properties": {
+          "seat_status": { "const": "parked" },
+          "activation": { "properties": { "live_job_requested": { "const": false } } }
+        }
+      }
+    },
+    {
+      "$comment": "Roster rule — the unassigned seats. A leftover existing for a seat does not fill it, unpark it, or hand it a live job.",
+      "if": {
+        "type": "object",
+        "required": ["role_slug"],
+        "properties": { "role_slug": { "$ref": "#/$defs/unassigned_role" } }
+      },
+      "then": {
+        "properties": {
+          "seat_status": { "const": "unassigned" },
+          "activation": { "properties": { "live_job_requested": { "const": false } } }
+        }
+      }
+    },
+    {
+      "$comment": "Definition gate — the packet has to carry the gate as an unknown rather than resolve it.",
+      "if": {
+        "type": "object",
+        "required": ["role_slug"],
+        "properties": { "role_slug": { "$ref": "#/$defs/definition_gated_role" } }
+      },
+      "then": {
+        "properties": {
+          "locks": { "properties": { "definition_gate": { "properties": { "applies": { "const": true } } } } },
+          "unknowns": { "contains": { "const": "seat-definition-not-recorded" } }
+        }
+      }
+    },
+    {
+      "$comment": "Holder rule — only the COO seat may carry the one recorded holder. Every other slug carries null.",
+      "if": {
+        "type": "object",
+        "required": ["role_slug"],
+        "properties": { "role_slug": { "not": { "const": "coo" } } }
+      },
+      "then": {
+        "properties": { "locks": { "properties": { "holder": { "const": null } } } }
+      }
+    }
+  ],
+  "$defs": {
+    "role_slug": {
+      "type": "string",
+      "enum": [
+        "book-conceptual-editor",
+        "book-copy-writer",
+        "book-reader",
+        "book-strategist",
+        "book-technical-editor",
+        "book-writer",
+        "bookkeeper",
+        "campaign-coordinator",
+        "cco",
+        "cfo",
+        "chro",
+        "client-success",
+        "cmo",
+        "controller",
+        "coo",
+        "copy-editor",
+        "copy-writer",
+        "cso",
+        "cto",
+        "developer",
+        "head-of-author-success",
+        "head-of-content",
+        "head-of-demand",
+        "head-of-engineering",
+        "head-of-sales",
+        "junior-digital-designer",
+        "junior-print-designer",
+        "pa",
+        "pendulum-wiki",
+        "people-ops",
+        "persona-architect",
+        "pr-media",
+        "retreat-producer",
+        "sales-editor",
+        "sales-writer",
+        "sdr",
+        "senior-digital-designer",
+        "senior-print-designer",
+        "seo-expert",
+        "social-account-expert",
+        "social-media-strategist",
+        "speaking-associations",
+        "speaking-universities",
+        "strategist",
+        "vp-campaigns",
+        "vp-retreats"
+      ],
+      "description": "The 46 seat slugs, one per seat page."
+    },
+    "seat_status": {
+      "type": "string",
+      "enum": ["assigned", "leftover_only_no_live", "parked", "unassigned"]
+    },
+    "assigned_role": {
+      "type": "string",
+      "enum": [
+        "pa",
+        "coo",
+        "cto",
+        "cfo",
+        "cmo",
+        "cso",
+        "cco",
+        "chro",
+        "controller",
+        "bookkeeper",
+        "people-ops",
+        "head-of-content",
+        "head-of-author-success",
+        "client-success",
+        "vp-campaigns",
+        "campaign-coordinator",
+        "vp-retreats",
+        "retreat-producer"
+      ]
+    },
+    "no_live_role": {
+      "type": "string",
+      "enum": ["head-of-demand", "head-of-sales", "sdr"],
+      "description": "Leftover-file assigned with no live job to run."
+    },
+    "parked_role": {
+      "type": "string",
+      "enum": ["head-of-engineering", "developer"],
+      "description": "Parked. Nothing here unparks them."
+    },
+    "unassigned_role": {
+      "type": "string",
+      "enum": [
+        "book-conceptual-editor",
+        "book-copy-writer",
+        "book-reader",
+        "book-strategist",
+        "book-technical-editor",
+        "book-writer",
+        "copy-editor",
+        "copy-writer",
+        "junior-digital-designer",
+        "junior-print-designer",
+        "pendulum-wiki",
+        "persona-architect",
+        "pr-media",
+        "sales-editor",
+        "sales-writer",
+        "senior-digital-designer",
+        "senior-print-designer",
+        "seo-expert",
+        "social-account-expert",
+        "social-media-strategist",
+        "speaking-associations",
+        "speaking-universities",
+        "strategist"
+      ]
+    },
+    "definition_gated_role": {
+      "type": "string",
+      "enum": ["cso", "cco", "pendulum-wiki"],
+      "description": "What these three mean is not recorded, and this contract does not settle it."
+    },
+    "gate_holder": {
+      "type": "string",
+      "enum": ["COO", "PA", "Michael"],
+      "description": "The only approvers this contract knows. No other holder is recorded, so no other may be named."
+    },
+    "sourced_fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["statement", "source_id"],
+      "properties": {
+        "statement": { "type": "string", "minLength": 1 },
+        "source_id": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

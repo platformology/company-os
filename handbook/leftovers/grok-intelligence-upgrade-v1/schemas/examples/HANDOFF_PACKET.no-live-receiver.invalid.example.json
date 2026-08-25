@@ -1,0 +1,17 @@
+{
+  "handoff_id": "EXAMPLE-HANDOFF-002",
+  "sender": "coo",
+  "receiver": "sdr",
+  "task_packet_ref": "EXAMPLE-PACKET-002",
+  "recorded_at": "2026-01-01",
+  "unresolved_items": [
+    {
+      "item": "An example open item carried on the handoff.",
+      "why_unresolved": "not sourced",
+      "next_owner": "COO"
+    }
+  ],
+  "gate": { "first_qc": "COO", "last_gate": "PA" },
+  "next_action": "Example next action.",
+  "note": "Synthetic example that is meant to FAIL validation against HANDOFF_PACKET.schema.json. Every other field is well-formed, so the receiver is the only reason it fails: sdr is leftover-file assigned with no live job, so no work is handed to it. Substituting developer or head-of-engineering fails the same way, on the parked rule. No real client, author, employee, or credential appears here; the identifiers and the date are placeholders."
+}

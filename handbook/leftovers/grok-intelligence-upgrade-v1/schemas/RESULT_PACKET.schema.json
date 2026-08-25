@@ -1,0 +1,278 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "RESULT_PACKET.schema.json",
+  "title": "RESULT_PACKET",
+  "description": "Fixed output contract for one unit of seat work. Two things this shape is built around. First, \"not sourced\" is a first-class valid result: a packet whose every sourced field reads \"not sourced\" is well-formed, and returning it is not a failure. Second, absence is never a pass — there is no PASS label in this contract, and a claim can only be PROVEN when it names evidence that a reviewer can open or re-run. No required field forces a company fact to exist. This file is self-contained: no external $ref, so it can be checked without a resolver or a network fetch. Writer is the docs leftover; COO is first QC and the PA last-gates. Candidate-visible.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "result_packet_id",
+    "task_packet_ref",
+    "role_slug",
+    "workflow_id",
+    "recorded_at",
+    "outcome",
+    "deliverables",
+    "claims",
+    "sourced_fields",
+    "named_missing",
+    "unresolved",
+    "send_performed"
+  ],
+  "properties": {
+    "result_packet_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+    },
+    "task_packet_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The packet_id this result answers."
+    },
+    "role_slug": { "$ref": "#/$defs/role_slug" },
+    "workflow_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "recorded_at": { "$ref": "#/$defs/timestamp" },
+    "outcome": {
+      "type": "string",
+      "enum": ["delivered", "partially_delivered", "not_sourced", "refused", "blocked"],
+      "description": "How the run came out. not_sourced is a valid outcome and is not scored as a failure — it says the run looked and the source was not there. There is deliberately no PASS value here, because nothing about an absence is a pass."
+    },
+    "deliverables": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/deliverable" },
+      "description": "One entry per deliverable the packet asked for, whether or not it was produced. A deliverable that was not produced is reported as not produced with a reason, never omitted."
+    },
+    "claims": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/claim" },
+      "description": "Every statement this result makes, each carrying exactly one classification label and its evidence. An empty array is valid: a run that makes no claim asserts nothing."
+    },
+    "sourced_fields": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sourced_field" },
+      "description": "One entry per field the workflow was meant to fill. Each is either sourced, with a source_id, or \"not sourced\". A field is never dropped to avoid saying it was not sourced."
+    },
+    "named_missing": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Gaps this run touched that stay named missing. Nothing here is filled in by the run; an empty array means the run touched none."
+    },
+    "unresolved": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "What is still open at the end of the run. Carried into a HANDOFF_PACKET if the run is handed off."
+    },
+    "send_performed": {
+      "const": false,
+      "description": "Nothing goes to a client, a prospect, or the public without Michael. A result packet cannot report a send, so the only valid value is false."
+    },
+    "kpi_current": {
+      "type": "array",
+      "maxItems": 0,
+      "description": "KPI Current stays empty. Empty is not 0, so this array carries no current value of any kind, including 0."
+    },
+    "holder_named": {
+      "enum": [null, "Anthony C. Garcia"],
+      "description": "A holder named by this result. COO — Anthony C. Garcia — is the only holder recorded anywhere; every other seat reads null, which means not recorded."
+    },
+    "note": { "type": "string", "minLength": 1 }
+  },
+  "$defs": {
+    "classification": {
+      "type": "string",
+      "enum": ["PROVEN", "SELF-REPORTED", "UNVERIFIED", "FAILED"],
+      "description": "Exactly one label per claim. PROVEN means a reviewer can open the path or re-run the record. SELF-REPORTED means somebody said so. UNVERIFIED means nobody checked. FAILED means it was checked and did not hold. There is no PASS."
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "detail"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["repo_path", "command_record", "self_report", "not sourced"],
+          "description": "What the evidence is. \"not sourced\" is an honest kind, and it is the one kind that can never support a PROVEN claim."
+        },
+        "detail": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The path, the command record, or the report. When kind is \"not sourced\", the detail is the literal string \"not sourced\"."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "type": "object", "required": ["kind"], "properties": { "kind": { "const": "not sourced" } } },
+          "then": { "properties": { "detail": { "const": "not sourced" } } }
+        }
+      ]
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["statement", "classification", "evidence"],
+      "properties": {
+        "statement": { "type": "string", "minLength": 1 },
+        "classification": { "$ref": "#/$defs/classification" },
+        "evidence": { "$ref": "#/$defs/evidence" }
+      },
+      "allOf": [
+        {
+          "$comment": "Absence is never a pass: a claim with no evidence cannot be PROVEN or SELF-REPORTED.",
+          "if": {
+            "type": "object",
+            "required": ["evidence"],
+            "properties": { "evidence": { "required": ["kind"], "properties": { "kind": { "const": "not sourced" } } } }
+          },
+          "then": { "properties": { "classification": { "enum": ["UNVERIFIED", "FAILED"] } } }
+        },
+        {
+          "$comment": "PROVEN needs something a reviewer can open or re-run. A report that somebody said so is not it.",
+          "if": {
+            "type": "object",
+            "required": ["classification"],
+            "properties": { "classification": { "const": "PROVEN" } }
+          },
+          "then": {
+            "properties": { "evidence": { "properties": { "kind": { "enum": ["repo_path", "command_record"] } } } }
+          }
+        }
+      ]
+    },
+    "sourced_field": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "sourcing", "value"],
+      "properties": {
+        "field": { "type": "string", "minLength": 1 },
+        "sourcing": {
+          "type": "string",
+          "enum": ["sourced", "not sourced"]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The sourced value, or the literal string \"not sourced\"."
+        },
+        "source_id": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        {
+          "$comment": "An unsourced field says so in its own value, and cannot carry a source it does not have.",
+          "if": {
+            "type": "object",
+            "required": ["sourcing"],
+            "properties": { "sourcing": { "const": "not sourced" } }
+          },
+          "then": {
+            "properties": { "value": { "const": "not sourced" } },
+            "not": { "required": ["source_id"] }
+          }
+        },
+        {
+          "$comment": "A sourced field names its source and does not read \"not sourced\".",
+          "if": {
+            "type": "object",
+            "required": ["sourcing"],
+            "properties": { "sourcing": { "const": "sourced" } }
+          },
+          "then": {
+            "required": ["source_id"],
+            "properties": { "value": { "not": { "const": "not sourced" } } }
+          }
+        }
+      ]
+    },
+    "deliverable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "produced"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "produced": { "type": "boolean" },
+        "location": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Where the produced deliverable is. Required when produced is true."
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Why it was not produced. Required when produced is false, so nothing goes missing without a stated reason."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "type": "object", "required": ["produced"], "properties": { "produced": { "const": true } } },
+          "then": { "required": ["location"] }
+        },
+        {
+          "if": { "type": "object", "required": ["produced"], "properties": { "produced": { "const": false } } },
+          "then": { "required": ["reason"] }
+        }
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}(T[0-9]{2}:[0-9]{2}(:[0-9]{2})?(Z|[+-][0-9]{2}:[0-9]{2})?)?$",
+      "description": "ISO 8601 date, or date and time. Structural only — it carries no company fact."
+    },
+    "role_slug": {
+      "type": "string",
+      "enum": [
+        "book-conceptual-editor",
+        "book-copy-writer",
+        "book-reader",
+        "book-strategist",
+        "book-technical-editor",
+        "book-writer",
+        "bookkeeper",
+        "campaign-coordinator",
+        "cco",
+        "cfo",
+        "chro",
+        "client-success",
+        "cmo",
+        "controller",
+        "coo",
+        "copy-editor",
+        "copy-writer",
+        "cso",
+        "cto",
+        "developer",
+        "head-of-author-success",
+        "head-of-content",
+        "head-of-demand",
+        "head-of-engineering",
+        "head-of-sales",
+        "junior-digital-designer",
+        "junior-print-designer",
+        "pa",
+        "pendulum-wiki",
+        "people-ops",
+        "persona-architect",
+        "pr-media",
+        "retreat-producer",
+        "sales-editor",
+        "sales-writer",
+        "sdr",
+        "senior-digital-designer",
+        "senior-print-designer",
+        "seo-expert",
+        "social-account-expert",
+        "social-media-strategist",
+        "speaking-associations",
+        "speaking-universities",
+        "strategist",
+        "vp-campaigns",
+        "vp-retreats"
+      ],
+      "description": "The 46 seat slugs, one per seat page."
+    }
+  }
+}
