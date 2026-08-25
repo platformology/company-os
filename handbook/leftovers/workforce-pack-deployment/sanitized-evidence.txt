@@ -1,0 +1,224 @@
+SANITIZED EVIDENCE INVENTORY
+Grok Bot to OpenClaw workforce pack deployment evidence packet
+Written 2026-08-25. Evidence session 2026-08-25, America/Denver.
+
+This is an inventory of evidence files and hashes. It contains no tokens, no cookies,
+no keys, no credentials, no customer data, no employee data, no browser profiles, and
+no evaluator oracle. Nothing below was reconstructed or guessed: where a value was not
+supplied it says NOT SUPPLIED.
+
+--------------------------------------------------------------------------------
+MACHINE
+--------------------------------------------------------------------------------
+Machine            office Mac, America/Denver
+Hostname           MacBookPro (as it appears in the evidence)
+OS                 macos 26.6.2 arm64 (from OpenClaw status)
+Node               24.15.0 (from OpenClaw status)
+Evidence directory /Users/mdrew/Company/Jobs/workforce-pack-evidence-2026-08-25
+Pack root          /Users/mdrew/Documents/Codex/2026-06-29/you-are-in-coding-execution-mode/grokbot-openclaw-workforce-pack
+OpenClaw CLI       /Users/mdrew/Company/Engine/bin/openclaw  (not on the default PATH)
+
+--------------------------------------------------------------------------------
+SUBJECT HASHES (the artifacts under test, not the evidence files)
+--------------------------------------------------------------------------------
+grokbot-openclaw-workforce-pack-2026-08-25.zip
+  expected and observed SHA-256
+  d39a2cafacd6b44b7bd976871c7eac6271aa0ef696fc5382f57c3769b2f71975
+  match PROVEN, command shasum -a 256, 2026-08-25 14:07:44 MDT, exit 0
+
+SHA256SUMS.txt
+  expected and observed SHA-256
+  7d02915d72134d2fa7175b6ab920f25d251b0d336af5d0664afce4d49f475cfc
+  match PROVEN, command shasum -a 256, 2026-08-25 14:07:44 MDT (same session), exit 0
+
+--------------------------------------------------------------------------------
+EVIDENCE FILES - PACKAGE INTEGRITY AND OFFLINE PACK TESTS
+All five script runs ran from the pack root inside the window
+2026-08-25 14:07:53-14:08:56 MDT, all exit 0. Per-script start times inside that
+window were NOT SUPPLIED and are UNVERIFIED.
+--------------------------------------------------------------------------------
+01-zip-sha256.txt
+  sha256 4266f5b41066e337053b74144f3675a80a44c1d14841d1d3b4f3ddd94338c2f9
+  command shasum -a 256 on the ZIP
+  2026-08-25 14:07:44 MDT, exit 0, PROVEN
+
+02-sha256sums-txt-sha256.txt
+  sha256 7ab60de4bad21573a4412486cbb9199699e1cfeab9c35b70f7c8ff51b8fcc4d1
+  command shasum -a 256 on SHA256SUMS.txt
+  2026-08-25 14:07:44 MDT, exit 0, PROVEN
+
+03-verify-checksums.txt
+  sha256 6c0ccb76c4cd0a29821a9f2cca07f881167a30e43b765b1c2e280cfee413154f
+  command node scripts/verify_checksums.mjs
+  exit 0, PROVEN. Result: OK, 91 file checksums verified.
+
+04-validate-pack.txt
+  sha256 2c5e909650b8970d80b419fd09882026de5fa1b0174a6438573a5dc76292c1df
+  command python3 -S scripts/validate_pack.py
+  exit 0, PROVEN. Result: OK, 46 unique seats, status and holder invariants
+  preserved, 47 text-only skills validated, 23 craft acceptance fixtures and
+  92 role-qualified traps validated.
+
+05-test-materialize-candidate-bundle.txt
+  sha256 3a1dbcde2a7d4453b2aa33fa785ea39a4a009b96c2cf89e4dae130c1e19ad81d
+  command python3 -S scripts/test_materialize_candidate_bundle.py
+  exit 0, PROVEN. Result: OK, candidate bundle contains only selected skills,
+  tool policy, allowed fixture inputs, task metadata and checksums.
+
+06-test-plan.txt
+  sha256 b3cb7c55e0670a7a3fe6c81880e5b584a3e8a3226ef704648d95ebe7822cfa24
+  command python3 scripts/test_plan.py
+  exit 0, PROVEN. Result: OK, planner accepts a confirmed one-to-one map and
+  blocks duplicate, unknown, and empty targets.
+
+07-test-install-policy.txt
+  sha256 60d929c73414299cf33ad492d70b6d76523f5f39c5bcb5a00ba513d52f929aad
+  command node scripts/test_install_policy.mjs
+  exit 0, PROVEN. Result: OK, 47 exact local skill hashes allowed; plugin,
+  future, network and unknown targets blocked. This is an allow-check, not an
+  install.
+
+--------------------------------------------------------------------------------
+EVIDENCE FILES - OPENCLAW READ-ONLY PREFLIGHT
+--------------------------------------------------------------------------------
+openclaw-security-audit.json
+  sha256 93a9617be803cdcdbfff3eeb09e08ace11a766aa54823cd0b76d8bc0f9f19fc7
+  command openclaw security audit --json
+  2026-08-25 14:09:36 MDT, exit 0, PROVEN
+  Summary: critical 0, warn 1, info 1.
+  Warning: gateway.trusted_proxies_missing (loopback bind, trustedProxies empty).
+  Info: tools.elevated enabled; hooks.webhooks disabled; hooks.internal disabled;
+  browser control enabled; trust model personal assistant one operator;
+  groups open 0, allowlist 0.
+
+preflight.txt
+  sha256 8e68ea39888e3d8316c6100cd67378b432b18599cfcc7cccfe9f2b28bb05f5b4
+  command official preflight.sh with PATH including Engine/bin
+  2026-08-25 14:10:04 MDT, exit 0, PROVEN
+
+openclaw-mcp.json
+  sha256 bb5f31e329c66c21d51fe0bce9b33ef704cf487c9decafaeda07ef1831382a37
+  content MCP servers: []
+  command NOT SUPPLIED, timestamp NOT SUPPLIED, exit code NOT SUPPLIED
+
+openclaw-plugins.json
+  sha256 76dab26c7dd7816ece9e2428f047a52ac193c2741389f774cbd218ada53c7a00
+  content 32 bundled plugins, all enabled and loaded: anthropic byteplus
+  clawrouter cohere comfy copilot-proxy fal github-copilot google huggingface
+  litellm lmstudio memory-core meta microsoft-foundry minimax mistral novita
+  nvidia ollama openai opencode opencode-go openrouter sglang synthetic together
+  vllm volcengine vydra xai xiaomi
+  command NOT SUPPLIED, timestamp NOT SUPPLIED, exit code NOT SUPPLIED
+  Inherited state. Not disabled by this leftover.
+
+openclaw-skills.json
+  sha256 bc38f94972621dce83c8be450577870cdea8ad8235ab806da42cef017b0764cb
+  content 63 skills; sources openclaw-bundled / extra / workspace /
+  agents-skills-personal. Eligible list includes clawhub, which was NOT
+  installed. The pack's 47 workforce skills were NOT installed this session.
+  Per-agent pack skill hash verification: UNVERIFIED, not run.
+  command NOT SUPPLIED, timestamp NOT SUPPLIED, exit code NOT SUPPLIED
+
+openclaw-status-usage.txt
+  sha256 f531633fb4f9426272e2060028cabfd87a35cb6892685feb2a0950d74e4f404c
+  command openclaw status --usage
+  content gateway local loopback ws://127.0.0.1:18789 reachable; LaunchAgent
+  loaded running; Tailscale off; Agents 46; 46 bootstrap files present;
+  sessions 37; default cto
+  timestamp NOT SUPPLIED, exit code NOT SUPPLIED
+
+--------------------------------------------------------------------------------
+CONSOLE RECORDS WITH NO EVIDENCE FILE SUPPLIED
+Command, timestamp where supplied, and exit code were recorded, but no evidence
+filename and no SHA-256 exists for these. They are not hash-anchored.
+--------------------------------------------------------------------------------
+openclaw --version
+  result OpenClaw 2026.7.1-2 (0790d9f)
+  2026-08-25 14:09:23 MDT, exit 0
+  evidence filename NOT SUPPLIED, sha256 UNVERIFIED
+
+openclaw config validate
+  result Config valid: ~/.openclaw/openclaw.json
+  timestamp NOT SUPPLIED, exit 0
+  evidence filename NOT SUPPLIED, sha256 UNVERIFIED
+
+openclaw agents list --json
+  result 46 existing agent IDs matching the 46 seat slugs; default cto;
+  model on all listed ollama/office-hand; bindings 0. These agents already
+  existed and were not created by this pack.
+  timestamp NOT SUPPLIED, exit 0
+  evidence filename NOT SUPPLIED, sha256 UNVERIFIED
+
+--------------------------------------------------------------------------------
+EVIDENCE FILES - OLLAMA AND HARDWARE
+Recorded 2026-08-25 14:07:55 MDT. No exit code was supplied for any command in
+this group, so every exit code here is UNVERIFIED. Five evidence hashes were
+supplied under the labels 09a-09e; the mapping from each label to its full
+filename and its command was NOT SUPPLIED and is not guessed.
+--------------------------------------------------------------------------------
+09a  sha256 3f4c567c941c46b6b3af35d7e9b56ef75561416fe7a60406d6966cd63b8e65f1
+09b  sha256 372dbd9f3cd0c582cf0a7f411cda83f879ec76084e2b9c575e871fca8c0e2b6c
+09c  sha256 2100b92c2c0cdfe8aee6398f951f64cfb9f3db705aaa46e9474d4f9bde99b0d1
+09d  sha256 da2c9c940fe9ddf4c10de5f48c976d019afb0ffa0bcaea842b44821918e27ee0
+09e  sha256 fb47de6111cb3c65a448e88a49dc60fb0c626582f24d87e311b25eb11c2410f7
+
+Recorded content across that group:
+  ollama version 0.32.14
+  qwen3.8:27b-q8_0 exists, id 8f5fb6b71ea0, size 29 GB
+  show: architecture qwen35, parameters 27.3B, context length 262144,
+    quantization Q8_0
+  ollama ps at the time of the check: coo:latest, id 9dc7ca0ed707, size 29 GB,
+    processor 100% GPU, context 8192, until 24 hours from now.
+    This was NOT a pack acceptance workload.
+  listener 127.0.0.1:11434 via lsof
+  OLLAMA_HOST and OLLAMA_NO_CLOUD via launchctl getenv: empty
+  configured observed context this sit: 8192
+  safe pack start 32K: NOT applied
+  64K: NOT tested
+  peak memory, swap, latency, tokens/sec under a representative pack workload:
+    UNVERIFIED, no pack workload was run
+
+No token, key, base URL credential, or secret from this group is reproduced here.
+
+--------------------------------------------------------------------------------
+EVIDENCE FILES - ROSTER EXTRACT
+--------------------------------------------------------------------------------
+seats-summary.txt
+  sha256 73bc38eb86de888dce52765b90e52484eddaadc9897c20c79c654b3490e28a8e
+  extract of seats.json, timestamp 2026-08-25T14:09:36-06:00, PROVEN extract
+  content only coo holder recorded (Anthony C. Garcia); leftover_only
+  head-of-demand, head-of-sales, sdr; parked head-of-engineering, developer;
+  23 craft seats unassigned. No other holder is recorded and none is named.
+
+--------------------------------------------------------------------------------
+STALE EVIDENCE - DO NOT READ AS CURRENT
+--------------------------------------------------------------------------------
+10-openclaw-absent.txt
+  sha256 NOT SUPPLIED, UNVERIFIED
+  This file is stale and wrong. The first OpenClaw lookup used PATH only and
+  wrongly concluded OpenClaw was missing. That check FAILED and was recut using
+  /Users/mdrew/Company/Engine/bin/openclaw. This file contradicts the OpenClaw
+  section of DEPLOYMENT_REPORT.md and must not be cited as a current finding.
+
+--------------------------------------------------------------------------------
+GAPS IN THIS INVENTORY, NAMED RATHER THAN FILLED
+--------------------------------------------------------------------------------
+- No evidence file label 08 was supplied. Whether one exists is UNVERIFIED.
+- The 09a-09e labels are not full filenames. The filenames were NOT SUPPLIED.
+- No evidence filename or SHA-256 was supplied for openclaw --version,
+  openclaw config validate, or openclaw agents list --json.
+- No acceptance-run evidence exists at all. Zero runs were executed.
+  See acceptance-results.json.
+- No per-agent pack skill hash verification artifact exists. It was not run.
+- No forensic scan artifact exists for the Grok Bot claims in
+  DEPLOYMENT_REPORT.md section B. Those stay SELF-REPORTED.
+
+--------------------------------------------------------------------------------
+WHAT IS DELIBERATELY ABSENT FROM THIS FILE
+--------------------------------------------------------------------------------
+Tokens, cookies, API keys, credentials, customer data, employee data, browser
+profiles, session contents, and the hidden evaluator oracle. None of those is
+recorded here, and none of them belongs in this packet.
+
+Companion files: DEPLOYMENT_REPORT.md, seat-results.csv, acceptance-results.json.
+COO is first QC. PA last-gates. Do not merge until the PA last-gates.
