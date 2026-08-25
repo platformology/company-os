@@ -1,0 +1,33 @@
+{
+  "result_packet_id": "EXAMPLE-RESULT-001",
+  "task_packet_ref": "EXAMPLE-PACKET-001",
+  "role_slug": "book-reader",
+  "workflow_id": "example-workflow",
+  "recorded_at": "2026-01-01",
+  "outcome": "not_sourced",
+  "deliverables": [
+    {
+      "name": "Example one-page deliverable",
+      "produced": false,
+      "reason": "The input the packet named was not sourced, so there was nothing to produce it from."
+    }
+  ],
+  "claims": [
+    {
+      "statement": "The input named by the packet was not found where the packet said to look.",
+      "classification": "UNVERIFIED",
+      "evidence": { "kind": "not sourced", "detail": "not sourced" }
+    }
+  ],
+  "sourced_fields": [
+    { "field": "example_field_a", "sourcing": "not sourced", "value": "not sourced" },
+    { "field": "example_field_b", "sourcing": "not sourced", "value": "not sourced" },
+    { "field": "example_field_c", "sourcing": "not sourced", "value": "not sourced" }
+  ],
+  "named_missing": ["example_field_a", "example_field_b", "example_field_c"],
+  "unresolved": ["Whether the named input exists anywhere is still open."],
+  "send_performed": false,
+  "kpi_current": [],
+  "holder_named": null,
+  "note": "Synthetic example. Every sourced field reads \"not sourced\" and the packet is still well-formed, which is the point of it. No real client, author, employee, credential, price, or KPI figure appears here; the identifiers and the date are placeholders."
+}

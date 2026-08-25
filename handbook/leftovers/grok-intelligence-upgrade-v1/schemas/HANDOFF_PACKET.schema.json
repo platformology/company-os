@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "HANDOFF_PACKET.schema.json",
+  "title": "HANDOFF_PACKET",
+  "description": "One seat-to-seat handoff: who is handing over, who is receiving, and what is still unresolved. The receiver rule is the point of this file. A handoff naming a parked receiver — head-of-engineering or developer — or a leftover-only receiver with no live job — head-of-demand, head-of-sales, sdr — is rejected at validation, because handing work to a seat is asking it to run, and neither group runs. Naming a receiver here does not staff, unpark, or hold a seat. This file is self-contained: no external $ref, so it can be checked without a resolver or a network fetch. Writer is the docs leftover; COO is first QC and the PA last-gates. Candidate-visible.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["handoff_id", "sender", "receiver", "unresolved_items", "recorded_at", "gate", "next_action"],
+  "properties": {
+    "handoff_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+    },
+    "sender": {
+      "allOf": [{ "$ref": "#/$defs/role_slug" }, { "not": { "$ref": "#/$defs/parked_role" } }],
+      "description": "The seat handing over. A parked seat cannot be the sender either, because a parked seat ran nothing to hand over."
+    },
+    "receiver": {
+      "allOf": [
+        { "$ref": "#/$defs/role_slug" },
+        { "not": { "$ref": "#/$defs/parked_role" } },
+        { "not": { "$ref": "#/$defs/no_live_role" } }
+      ],
+      "description": "The seat receiving. Must be one of the 46 slugs, and must be neither parked nor leftover-only with no live job. A handoff to sdr, head-of-sales, head-of-demand, head-of-engineering, or developer fails validation here."
+    },
+    "task_packet_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The packet_id the handed-over work came from."
+    },
+    "result_packet_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The result_packet_id being handed over, when there is one."
+    },
+    "recorded_at": { "$ref": "#/$defs/timestamp" },
+    "unresolved_items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/unresolved_item" },
+      "description": "What the receiver is inheriting open. An empty array is valid and means nothing is open — it is not a place to quietly drop an open item."
+    },
+    "gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["first_qc", "last_gate"],
+      "properties": {
+        "first_qc": {
+          "const": "COO",
+          "description": "COO is first QC. The only valid value."
+        },
+        "last_gate": {
+          "const": "PA",
+          "description": "The PA last-gates. The only valid value."
+        }
+      },
+      "description": "The recorded gate chain, carried on the handoff so it cannot be skipped by moving work sideways."
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The one thing the receiver does next. A handoff with no next action is a drop."
+    },
+    "note": { "type": "string", "minLength": 1 }
+  },
+  "$defs": {
+    "unresolved_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["item", "why_unresolved", "next_owner"],
+      "properties": {
+        "item": { "type": "string", "minLength": 1 },
+        "why_unresolved": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Why it is still open. \"Not sourced\" is a valid reason and is not a failure."
+        },
+        "next_owner": { "$ref": "#/$defs/gate_holder" }
+      }
+    },
+    "gate_holder": {
+      "type": "string",
+      "enum": ["COO", "PA", "Michael"],
+      "description": "The only owners this contract knows. No other holder is recorded, so no other may be named."
+    },
+    "timestamp": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}(T[0-9]{2}:[0-9]{2}(:[0-9]{2})?(Z|[+-][0-9]{2}:[0-9]{2})?)?$",
+      "description": "ISO 8601 date, or date and time. Structural only — it carries no company fact."
+    },
+    "parked_role": {
+      "type": "string",
+      "enum": ["head-of-engineering", "developer"],
+      "description": "Parked. Nothing here unparks them."
+    },
+    "no_live_role": {
+      "type": "string",
+      "enum": ["head-of-demand", "head-of-sales", "sdr"],
+      "description": "Leftover-file assigned with no live job to run, so there is no live job to hand them."
+    },
+    "role_slug": {
+      "type": "string",
+      "enum": [
+        "book-conceptual-editor",
+        "book-copy-writer",
+        "book-reader",
+        "book-strategist",
+        "book-technical-editor",
+        "book-writer",
+        "bookkeeper",
+        "campaign-coordinator",
+        "cco",
+        "cfo",
+        "chro",
+        "client-success",
+        "cmo",
+        "controller",
+        "coo",
+        "copy-editor",
+        "copy-writer",
+        "cso",
+        "cto",
+        "developer",
+        "head-of-author-success",
+        "head-of-content",
+        "head-of-demand",
+        "head-of-engineering",
+        "head-of-sales",
+        "junior-digital-designer",
+        "junior-print-designer",
+        "pa",
+        "pendulum-wiki",
+        "people-ops",
+        "persona-architect",
+        "pr-media",
+        "retreat-producer",
+        "sales-editor",
+        "sales-writer",
+        "sdr",
+        "senior-digital-designer",
+        "senior-print-designer",
+        "seo-expert",
+        "social-account-expert",
+        "social-media-strategist",
+        "speaking-associations",
+        "speaking-universities",
+        "strategist",
+        "vp-campaigns",
+        "vp-retreats"
+      ],
+      "description": "The 46 seat slugs, one per seat page."
+    }
+  }
+}

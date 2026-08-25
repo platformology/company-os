@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "TASK_STATE.schema.json",
+  "title": "TASK_STATE",
+  "description": "The in-flight state of one TASK_PACKET. Eight named states and nothing else: received, sourced, blocked, refused, drafted, repaired, verified, handed_off. Every state names the prior state it was reached from, so a run can always be walked backwards to where it started. There is no state that means silently dropped, and additionalProperties is closed so one cannot be added at the instance. This file is self-contained: no external $ref, so it can be checked without a resolver or a network fetch. Writer is the docs leftover; COO is first QC and the PA last-gates. Candidate-visible.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["task_packet_ref", "role_slug", "state", "entered_from", "recorded_at", "history"],
+  "properties": {
+    "task_packet_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The packet_id of the TASK_PACKET this state belongs to. A state with no packet is not a state of anything."
+    },
+    "role_slug": { "$ref": "#/$defs/role_slug" },
+    "state": {
+      "$ref": "#/$defs/state_name",
+      "description": "Where the run is now."
+    },
+    "entered_from": {
+      "$ref": "#/$defs/prior_state",
+      "description": "The named prior state this one was reached from. null is permitted only for received, which is the single entry point."
+    },
+    "recorded_at": { "$ref": "#/$defs/timestamp" },
+    "note": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional plain-language line on why the run is where it is."
+    },
+    "history": {
+      "type": "array",
+      "minItems": 1,
+      "prefixItems": [
+        {
+          "type": "object",
+          "required": ["state", "entered_from"],
+          "properties": {
+            "state": { "const": "received" },
+            "entered_from": { "const": null }
+          },
+          "description": "The first entry is always the entry point: received, from null. A history that starts anywhere else describes a run whose beginning was not recorded."
+        }
+      ],
+      "items": {
+        "allOf": [
+          { "$ref": "#/$defs/history_entry" },
+          { "$ref": "#/$defs/reachability" }
+        ]
+      },
+      "description": "Every state this run has been in, oldest first. Each entry names the state it came from under the same rules as the current state, so no entry is reachable out of nowhere."
+    },
+    "failure_record_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The record_id of the FAILURE_RECORD for this run. Required while the run is blocked or refused — a blocked run with no record is the silent drop this schema exists to prevent."
+    },
+    "handoff_packet_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The handoff_id of the HANDOFF_PACKET this run was handed off with. Required at handed_off."
+    },
+    "next_owner": {
+      "$ref": "#/$defs/gate_holder",
+      "description": "Who the run sits with. Required while blocked or refused, so a stopped run always has a named owner."
+    }
+  },
+  "allOf": [
+    { "$ref": "#/$defs/reachability" },
+    {
+      "$comment": "A stopped run is a recorded run.",
+      "if": {
+        "type": "object",
+        "required": ["state"],
+        "properties": { "state": { "enum": ["blocked", "refused"] } }
+      },
+      "then": { "required": ["failure_record_ref", "next_owner"] }
+    },
+    {
+      "$comment": "A handed-off run names the handoff it left in.",
+      "if": {
+        "type": "object",
+        "required": ["state"],
+        "properties": { "state": { "const": "handed_off" } }
+      },
+      "then": { "required": ["handoff_packet_ref"] }
+    }
+  ],
+  "$defs": {
+    "state_name": {
+      "type": "string",
+      "enum": ["received", "sourced", "blocked", "refused", "drafted", "repaired", "verified", "handed_off"],
+      "description": "The eight named states. There is no ninth."
+    },
+    "prior_state": {
+      "anyOf": [{ "$ref": "#/$defs/state_name" }, { "type": "null" }]
+    },
+    "timestamp": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}(T[0-9]{2}:[0-9]{2}(:[0-9]{2})?(Z|[+-][0-9]{2}:[0-9]{2})?)?$",
+      "description": "ISO 8601 date, or date and time. Structural only — it carries no company fact."
+    },
+    "gate_holder": {
+      "type": "string",
+      "enum": ["COO", "PA", "Michael"],
+      "description": "The only owners this contract knows. No other holder is recorded, so no other may be named."
+    },
+    "history_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "entered_from", "recorded_at"],
+      "properties": {
+        "state": { "$ref": "#/$defs/state_name" },
+        "entered_from": { "$ref": "#/$defs/prior_state" },
+        "recorded_at": { "$ref": "#/$defs/timestamp" },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "reachability": {
+      "$comment": "One rule per state, naming the prior states it may be reached from. handed_off appears in no rule's predecessor list, which is what makes it terminal. Referenced twice: once for the current state, once for every history entry.",
+      "allOf": [
+        {
+          "if": { "type": "object", "required": ["state"], "properties": { "state": { "const": "received" } } },
+          "then": { "properties": { "entered_from": { "const": null } } }
+        },
+        {
+          "if": { "type": "object", "required": ["state"], "properties": { "state": { "const": "sourced" } } },
+          "then": { "properties": { "entered_from": { "enum": ["received", "blocked", "repaired"] } } }
+        },
+        {
+          "if": { "type": "object", "required": ["state"], "properties": { "state": { "const": "drafted" } } },
+          "then": { "properties": { "entered_from": { "enum": ["sourced", "repaired"] } } }
+        },
+        {
+          "if": { "type": "object", "required": ["state"], "properties": { "state": { "const": "verified" } } },
+          "then": { "properties": { "entered_from": { "enum": ["drafted", "repaired"] } } }
+        },
+        {
+          "if": { "type": "object", "required": ["state"], "properties": { "state": { "const": "repaired" } } },
+          "then": { "properties": { "entered_from": { "enum": ["drafted", "verified", "blocked"] } } }
+        },
+        {
+          "if": { "type": "object", "required": ["state"], "properties": { "state": { "const": "blocked" } } },
+          "then": { "properties": { "entered_from": { "enum": ["received", "sourced", "drafted", "repaired"] } } }
+        },
+        {
+          "if": { "type": "object", "required": ["state"], "properties": { "state": { "const": "refused" } } },
+          "then": { "properties": { "entered_from": { "enum": ["received", "sourced", "blocked", "drafted", "repaired", "verified"] } } }
+        },
+        {
+          "if": { "type": "object", "required": ["state"], "properties": { "state": { "const": "handed_off" } } },
+          "then": { "properties": { "entered_from": { "enum": ["verified", "refused", "blocked"] } } }
+        }
+      ]
+    },
+    "role_slug": {
+      "type": "string",
+      "enum": [
+        "book-conceptual-editor",
+        "book-copy-writer",
+        "book-reader",
+        "book-strategist",
+        "book-technical-editor",
+        "book-writer",
+        "bookkeeper",
+        "campaign-coordinator",
+        "cco",
+        "cfo",
+        "chro",
+        "client-success",
+        "cmo",
+        "controller",
+        "coo",
+        "copy-editor",
+        "copy-writer",
+        "cso",
+        "cto",
+        "developer",
+        "head-of-author-success",
+        "head-of-content",
+        "head-of-demand",
+        "head-of-engineering",
+        "head-of-sales",
+        "junior-digital-designer",
+        "junior-print-designer",
+        "pa",
+        "pendulum-wiki",
+        "people-ops",
+        "persona-architect",
+        "pr-media",
+        "retreat-producer",
+        "sales-editor",
+        "sales-writer",
+        "sdr",
+        "senior-digital-designer",
+        "senior-print-designer",
+        "seo-expert",
+        "social-account-expert",
+        "social-media-strategist",
+        "speaking-associations",
+        "speaking-universities",
+        "strategist",
+        "vp-campaigns",
+        "vp-retreats"
+      ],
+      "description": "The 46 seat slugs, one per seat page."
+    }
+  }
+}
