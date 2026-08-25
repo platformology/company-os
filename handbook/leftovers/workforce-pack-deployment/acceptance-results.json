@@ -1,0 +1,66 @@
+{
+  "packet": "Grok Bot to OpenClaw workforce pack deployment evidence",
+  "file": "acceptance-results.json",
+  "written": "2026-08-25",
+  "statement": "0 acceptance runs were executed in this session, and Grok did not grade anything. No fixture was run, no score was produced, and no output hash exists. This file records that zero, not a result.",
+  "runs_executed": 0,
+  "runs": [],
+  "empty_runs_array_meaning": "Absence of evidence is not PASS. An empty runs array is the honest record of a test suite that was never executed.",
+  "graded_by_grok": false,
+  "grading_statement": "Grok graded nothing. No pass, no fail, no partial score was assigned to any seat by any grader.",
+  "evidence_session": {
+    "date": "2026-08-25",
+    "timezone": "America/Denver",
+    "machine": "office Mac",
+    "hostname_in_evidence": "MacBookPro",
+    "os_from_openclaw_status": "macos 26.6.2 arm64",
+    "node_from_openclaw_status": "24.15.0",
+    "evidence_directory": "/Users/mdrew/Company/Jobs/workforce-pack-evidence-2026-08-25"
+  },
+  "acceptance_evidence_files": [],
+  "acceptance_evidence_note": "No acceptance evidence file exists, so none is cited. The hash-anchored evidence in this packet covers package integrity and read-only preflight only; see sanitized-evidence.txt.",
+  "activation_gate": {
+    "clean_final_configuration_runs_required_per_role": 3,
+    "roles_with_three_clean_final_configuration_runs": 0,
+    "activation_ready_roles": [],
+    "seats_in_scope": 46,
+    "seats_activation_ready": 0,
+    "per_seat_status": "Every one of the 46 seats reads NOT_ACTIVATION_READY in seat-results.csv.",
+    "label": "FAILED",
+    "label_reason": "The stated activation requirement of three clean final-configuration runs per role is not met for any role, because zero runs were executed."
+  },
+  "acceptance_status_label": "UNVERIFIED",
+  "acceptance_status_reason": "The acceptance suite was not run. Nothing failed a test and nothing passed one. This is unmeasured, not clean.",
+  "pack_skill_install": {
+    "pack_skills_validated_offline": 47,
+    "pack_skills_installed_on_any_agent": 0,
+    "per_agent_pack_skill_hash_verification": "UNVERIFIED",
+    "note": "A validated skill is not an installed skill, and an installed skill is not an activated employee. No pack skill was installed this session."
+  },
+  "labels": {
+    "PROVEN": "Evidence artifact plus command, timestamp, exit code, and SHA-256 as supplied.",
+    "SELF_REPORTED": "An operator said it. No independent artifact, scan, or hash exists.",
+    "UNVERIFIED": "Not measured, not run, or the value was not supplied.",
+    "FAILED": "A check ran and did not pass, or a stated requirement is not met."
+  },
+  "not_included_on_purpose": [
+    "The hidden evaluator oracle. It is not in this packet and is not to be added to it.",
+    "Fixture IDs, because none was run.",
+    "Test scores, because none was produced.",
+    "Output hashes, because no acceptance output exists.",
+    "Agent IDs beyond the 46 existing OpenClaw seat slugs and the 23 pre-existing Grok Bot chat IDs recorded in DEPLOYMENT_REPORT.md.",
+    "Tokens, keys, credentials, customer data, employee data, and browser profiles.",
+    "Any KPI Current figure, including 0."
+  ],
+  "gate": {
+    "first_qc": "COO",
+    "last_gate": "PA",
+    "merge_rule": "Do not merge the pull request carrying this packet until the PA last-gates it.",
+    "restamp_rule": "Do not restamp last-gated leftover-seat plans to match this packet."
+  },
+  "see_also": [
+    "DEPLOYMENT_REPORT.md",
+    "seat-results.csv",
+    "sanitized-evidence.txt"
+  ]
+}
