@@ -1,6 +1,6 @@
 # Phase 0 Report
 
-**Program: Grok Workforce Intelligence Upgrade v1 — Phase 0 only.** **Written: 25 Aug 2026, by a Cursor cloud agent on a VM.** **Not last-gated.**
+**Program: Grok Workforce Intelligence Upgrade v1 — Phase 0 only.** **Written: 25 Aug 2026, by a Cursor cloud agent on a VM.** **Sections 2–7 and 10–12 recut the same day** after the operator's local Qwen sit produced a filename-only public inventory of the pack. **Not last-gated.**
 
 This page is docs only. It is one leftover file. **No Phase 1 work was done, nothing was installed, nothing was activated, no connector was changed, no machine was touched, and the original workforce pack was not modified** — it is not reachable from the machine this was written on. No last-gated leftover-seat plan is restamped, and no `grok-intelligence-upgrade-v1` scaffolding was created: everything in section 8 is a proposal.
 
@@ -11,6 +11,8 @@ Platformology LLC is the legal entity. **Promote a Book** and **Book Retreat** a
 **READY_FOR_REVIEW.**
 
 Phase 0 could be written from the inputs supplied. The gaps that would have justified BLOCKED are all recorded as blockers in section 10 rather than used as a reason to refuse the report. **READY_FOR_REVIEW is not a completion claim.** It means the report is finished and honest enough for an independent reviewer to check — it does not mean Phase 0 passed, and it does not authorize Phase 1.
+
+**The status did not change when the Qwen inventory arrived.** That sit made several findings firmer and added two blockers; it resolved none of the decisions in section 12, and it authorizes nothing.
 
 ### Label key — read this before any row below
 
@@ -25,7 +27,9 @@ Every factual conclusion on this page carries exactly one of four labels.
 
 **Absence of evidence is never PASS.** No SHA-256, exit code, timestamp, count, agent ID, fixture ID, or score appears here unless it was supplied. Where a value was not supplied, this page writes UNVERIFIED instead of guessing it.
 
-**This writer re-ran none of the office-Mac commands.** Every integrity, OpenClaw, and Ollama row below is **reused prior evidence**, cited to the packet it came from. No new hash is minted anywhere on this page.
+**This writer re-ran none of the office-Mac commands.** Every integrity, OpenClaw, Ollama, and Qwen row below is **reused operator evidence**, cited to the session it came from. No new hash is minted anywhere on this page.
+
+**What a filename-only inventory can and cannot settle.** The operator's Qwen sit listed pack filenames; it did not open pack files. So it can show that **a name is present** and that **a name is absent**, and that is all. A present name does not prove the file's content, and an absent name does not prove the *concept* is absent — content answering to a name could sit inside a differently named file. Every Qwen-sourced row below says which of the two it is, and none of them is written as if the file had been read.
 
 ## 2. Environment Boundary
 
@@ -55,7 +59,7 @@ Three environments are in scope and they are **not** interchangeable. A claim pr
 
 ### E3 — The office Mac (prior operator / Qwen evidence, not this agent's run)
 
-Everything in this block was recorded on 2026-08-25 in America/Denver by a prior operator session and is reused here. **This writer did not observe any of it.** Labels follow the rule in section 1: PROVEN only where the prior packet supplied command, timestamp, exit code, **and** an artifact hash.
+Everything in this block was recorded on 2026-08-25 in America/Denver by operator sessions and is reused here. **This writer did not observe any of it.** Labels follow the rule in section 1: PROVEN only where the session supplied command, timestamp, exit code, **and** an artifact hash.
 
 | Item as recorded | Classification | Limitation |
 |---|---|---|
@@ -70,13 +74,26 @@ Everything in this block was recorded on 2026-08-25 in America/Denver by a prior
 | Safe pack start of 32K context applied | **FAILED** | Not applied during that session. 64K was never tested — **UNVERIFIED** |
 | Independent OS-user / gateway separation for finance, people, legal, production | **FAILED** | One gateway, one OS user, 46 agents sharing both. No separate OS users exist and none is invented here — BLOCK-005 |
 
-**Local execution for Phase 1 is approval-only.** The owner has not enabled local execution and this report does not ask for it. Any approved local step later belongs to a human-approved operator run, not to this writer.
+#### E3a — the operator's local Qwen sit, 14:27:41–14:30:17
+
+A second, later operator session on the same machine. **This writer did not run it, did not watch it, and cannot read its output files.**
+
+| Item as recorded | Classification | Limitation |
+|---|---|---|
+| A local sit ran `ollama run --think=false qwen3.8:27b-q8_0` from 2026-08-25T14:27:41 to 14:30:17 America/Denver, exit 0 | **SELF-REPORTED** | Command, both timestamps, exit code, and two output paths were supplied. **No SHA-256 was supplied for either output file**, so this is not hash-anchored and does not meet the PROVEN bar — BLOCK-019 |
+| Output files `phase0-qwen-draft.txt` and `phase0-public-inventory.txt`, under `/Users/mdrew/Company/Jobs/workforce-pack-evidence-2026-08-25` | **UNVERIFIED** as artifacts | Named by path only. Unreadable from this writer; no hash to anchor them |
+| The sit produced a **filename-only public inventory** of the pack and did not open pack files | **SELF-REPORTED** | This is the ceiling on every Qwen-sourced row in sections 4–7 |
+| The Qwen draft called the intelligence-layer schemas MISSING | **SELF-REPORTED** | A model's own draft agreeing with this report is **not corroboration**. What carries weight is the filename inventory underneath it, not the draft's conclusion |
+| The Qwen draft claimed no activation occurred | **SELF-REPORTED** | **A writer stating that it did not activate anything is not proof that nothing was activated.** No independent scan exists, and this claim is not upgraded |
+| Whether the sit was an approved local step | **SELF-REPORTED** | Reported by the operator as finished. This writer did not authorize it, request it, or take part in it |
+
+**Local execution for Phase 1 is approval-only.** The owner has not enabled local execution for this writer, and this report does not ask for it. The 14:27–14:30 sit was an operator-run local step on the operator's own machine; it changes nothing about E1, where local execution stays disabled.
 
 **One disagreement is named and not settled here.** [runtime-openclaw.md](../../runtime-openclaw.md) reads OpenClaw as a shape rather than an installed thing, and [locks.md](../../locks.md) reads "No local LLM until Michael says go," while the prior evidence records an installed OpenClaw gateway and a resident local model on the office Mac. **How those reconcile is the owner's call** — BLOCK-010. Nothing here lifts a lock or edits those pages.
 
 ## 3. Package Integrity Evidence
 
-**Reused evidence only. This writer re-ran nothing and minted no hash.** Source: the sanitized 2026-08-25 office-Mac evidence session carried in the PR 141 leftover packet ([PR 141](https://github.com/platformology/company-os/pull/141), branch `cursor/workforce-pack-deployment-evidence-faa8`, **not merged into `main` at the time this page was written**).
+**Reused evidence only. This writer re-ran nothing and minted no hash.** Sources: the sanitized 2026-08-25 office-Mac evidence session carried in the PR 141 leftover packet ([PR 141](https://github.com/platformology/company-os/pull/141), branch `cursor/workforce-pack-deployment-evidence-faa8`, **not merged into `main` at the time this page was written**), and the operator's later Qwen sit at 14:27:41–14:30:17.
 
 | # | Claim | Command | Timestamp (MDT) | Exit | Evidence artifact | Classification |
 |---|---|---|---|---|---|---|
@@ -88,12 +105,14 @@ Everything in this block was recorded on 2026-08-25 in America/Denver by a prior
 | P0-I6 | Planner test passes | `test_plan.py` | window 14:07:53–14:08:56 | 0 | hash-anchored in the PR 141 packet | **PROVEN** |
 | P0-I7 | Install-policy test passes | `test_install_policy.mjs` | window 14:07:53–14:08:56 | 0 | hash-anchored in the PR 141 packet | **PROVEN** |
 | P0-I8 | The pack's **current** on-disk state, at any moment after that window | — | — | — | — | **UNVERIFIED** |
+| P0-I9 | The pack was still present on that machine at 14:27:41–14:30:17 and a filename-only inventory of it was taken | `ollama run --think=false qwen3.8:27b-q8_0` | 2026-08-25 14:27:41–14:30:17 | 0 | `phase0-public-inventory.txt`, `phase0-qwen-draft.txt` — **no SHA-256 supplied** | **SELF-REPORTED** |
 
 **Limitations that travel with every row above.**
 
 - P0-I3 through P0-I7 carry a **window**, not per-script start times. Each per-script timestamp is **UNVERIFIED**.
 - These prove a **validated package**, not an installed one. Nothing here shows a skill placed on an agent, and the install-policy test is an allow-check, not an install.
 - Integrity was proven on the office Mac at one moment on 2026-08-25. **This writer cannot re-verify it**, so the pack's state today is P0-I8: UNVERIFIED.
+- **P0-I9 is not an integrity re-check.** No checksum was recomputed at 14:27–14:30, and a filename listing cannot detect a changed file. It narrows P0-I8 only to this: the pack still existed on that machine twenty minutes after the integrity window. Nothing about its bytes at that later moment is evidenced.
 - No new hash is introduced on this page. Where the PR 141 packet holds a digest that the owner did not restate in the Phase 0 brief, this page cites the artifact filename and points at that packet rather than re-transcribing the digest.
 
 ## 4. Roster Reconciliation
@@ -127,15 +146,33 @@ Extract timestamp `2026-08-25T14:09:36-06:00`; evidence `seats-summary.txt`, sha
 | 23 craft seats stay UNASSIGNED | **PROVEN** | [leftovers/README.md](../README.md), "the twenty-three unassigned seats" |
 | Who fills each seat except COO is **not recorded** | **PROVEN** | [SOURCES.md](../../../SOURCES.md) named missing; [people.md](../../people.md) |
 
+### Side C — the Qwen public inventory, 14:27:41–14:30:17
+
+A second reading of `seats.json`, taken at the status-count level during the operator's local sit. **Classification: SELF-REPORTED** — command, both timestamps, exit code, and output paths were supplied, but **no SHA-256 was**, so it is not hash-anchored.
+
+| Bucket | Count |
+|---|---|
+| assigned | 18 |
+| leftover_only | 3 |
+| parked | 2 |
+| unassigned | 23 |
+| **Total** | **46** |
+
+The same sit listed **47 skill files: `workforce-core-guardrails` plus 46 seat skill names.** That resolves what the 47 in P0-I4 is made of — **46 per-seat skills and one shared guardrails file, not 47 seat skills** — at filename level only. **SELF-REPORTED.** No skill file was opened, so nothing about any skill's content is evidenced.
+
 ### Reconciliation result
+
+Three records now describe the same roster: this repo (openable), the `seats.json` extract (hashed, no command or exit), and the Qwen inventory (command, timestamps, exit 0, no hash). **They agree on every bucket.**
 
 | Question | Answer | Classification |
 |---|---|---|
-| Do the two records agree on 46? | Yes. Side A's 18 assigned = this repo's 17 assigned seats with a job to run **plus the CTO**, whose leftover is last-gated on `company-run.md` and is not one of the 43 | **PROVEN** on the repo side |
-| Do they agree on holders? | Yes. COO only | **PROVEN** on the repo side |
-| Do they agree on parked and no-live? | Yes. 2 parked, 3 leftover-file assigned | **PROVEN** on the repo side |
+| Do the three records agree on 46? | Yes. Side A's and Side C's 18 assigned = this repo's 17 assigned seats with a job to run **plus the CTO**, whose leftover is last-gated on `company-run.md` and is not one of the 43 | **PROVEN** on the repo side |
+| Do they agree on holders? | Yes. COO only. **Side C reported statuses, not holders**, so it neither confirms nor contradicts this | **PROVEN** on the repo side |
+| Do they agree on parked and no-live? | Yes. 2 parked, 3 leftover-only, in all three | **PROVEN** on the repo side |
 | Any contradiction found? | None found | **PROVEN** on the repo side |
-| Is the extract itself independently authenticated? | No — command and exit code not supplied | **UNVERIFIED** |
+| Is either operator record independently authenticated? | No. The extract has a hash but no command or exit code; the Qwen inventory has a command, timestamps, and exit code but **no hash** | **UNVERIFIED** for both |
+
+**Agreement between three unauthenticated readings is not authentication.** Two of the three came off the same machine in the same afternoon, and the repo is the only side a reviewer can open. The agreement is worth recording; it does not raise either operator record to PROVEN.
 
 **CSO, CCO, and Pendulum remain definition-gated.** What those three mean is not recorded and is not invented here — BLOCK-002. A seat page, a body, a desk, a router, a pack, a plan, a pass, and a leftover existing for a seat **does not staff it, unpark it, or create a live job**.
 
@@ -159,16 +196,18 @@ Extract timestamp `2026-08-25T14:09:36-06:00`; evidence `seats-summary.txt`, sha
 | Review gates | 2 | `reviews/` — `last-gate-checklist.md`, `README.md` |
 | Source register | 1 | [SOURCES.md](../../../SOURCES.md), including its **Named missing** list |
 
-### In the workforce pack — counts reused from prior evidence, contents not readable here
+### In the workforce pack — counts reused from operator evidence, contents not readable here
 
 | Artifact set | Count | Classification |
 |---|---|---|
-| Seats in `seats.json` | 46 | **PROVEN** via P0-I4 |
-| Text-only skills | 47 | **PROVEN** via P0-I4 |
+| Seats in `seats.json` | 46 | **PROVEN** via P0-I4; statuses re-listed at 14:27–14:30 — **SELF-REPORTED** |
+| Text-only skills | 47 | **PROVEN** via P0-I4. Composition, at filename level: `workforce-core-guardrails` plus 46 seat skill names — **SELF-REPORTED** via P0-I9 |
 | Checksummed files | 91 | **PROVEN** via P0-I3 |
 | Public validator scripts | 4 (`validate_pack.py`, `test_plan.py`, `test_install_policy.mjs`, `test_materialize_candidate_bundle.py`) plus `verify_checksums.mjs` | **PROVEN** via P0-I3 – P0-I7 |
+| `schemas/` directory | **absent**, and no filename in the pack contains "schema" | **SELF-REPORTED** via P0-I9 — filename level only |
+| KB-* content files, for the 18 catalog IDs KB-AUTHORITY through KB-WIKI | **0 filename hits, 18 misses** | **SELF-REPORTED** via P0-I9 — see section 6 |
 | `SOURCE_CATALOG.md`, `ORG_DESIGN_AUDIT.md`, `RESEARCH_REPORT` | named, **contents not readable from this writer** | **UNVERIFIED** |
-| A hidden craft acceptance fixture file | exists, **not opened** | **UNVERIFIED** — see section 7 |
+| A hidden craft acceptance fixture file | present at filename level, **not opened**. Its path is not restated here | **SELF-REPORTED** that the name exists; **UNVERIFIED** as to anything inside it — see section 7 |
 | Pack skills installed on any agent | 0 | **PROVEN** by the absence of any install action, per the PR 141 packet |
 | Permanent Grok Bots activated by the pack | 0 | **SELF-REPORTED** |
 | Acceptance runs executed | 0 | **PROVEN** by PR 141 section E — zero runs, and zero is not a pass |
@@ -184,56 +223,70 @@ Extract timestamp `2026-08-25T14:09:36-06:00`; evidence `seats-summary.txt`, sha
 
 **The catalog is a requirement, not proof of content.** `SOURCE_CATALOG.md` lives in the pack and is **not readable from this writer**, so each KB entry's catalog-stated subject, catalog-stated owner, version, effective date, freshness, and location are **UNVERIFIED** for every row below without exception. The "subject as named" column is derived from the KB identifier itself and is not a quotation from the catalog.
 
-Readiness values used: **PARTIAL** = this repo holds real, sourced company content on that subject, but not a complete knowledge base; **MISSING** = this repo records the subject as an unfilled hole; **UNVERIFIED** = nothing in this repo speaks to it and the catalog cannot be read from here.
+**Every one of the 18 catalog IDs is MISSING as pack content.** The Qwen public inventory matched filenames for KB-AUTHORITY through KB-WIKI and returned **0 hits and 18 misses**. That is a filename-level result — **SELF-REPORTED**, via P0-I9 — and it is the strongest thing said here about the pack: **no catalog ID is upgraded to AVAILABLE anywhere on this page.** A catalog entry is a requirement someone wrote down, not content someone wrote.
 
-| KB ID | Subject as named (not from the catalog) | Nearest real company content in this repo | Readiness | Classification of the readiness call |
-|---|---|---|---|---|
-| KB-AUTHORITY | Legal entity and what may be said about it | [company-facts.md](../../company-facts.md) — Platformology LLC, DBAs Promote a Book and Book Retreat, not SmarterVoice; [locks.md](../../locks.md) | PARTIAL | **PROVEN** (pages exist) |
-| KB-STRATEGY | How the company makes and moves money | [how-money-moves.md](../../how-money-moves.md) — the five jobs; [company-run.md](../../company-run.md) | PARTIAL | **PROVEN** |
-| KB-PORTFOLIO | The offer ladder | [offers.md](../../offers.md) — public price ladder, quote-both rule. **Membership price and the lead magnet's Offers row stay named missing; Platinum Major List has no public price** | PARTIAL | **PROVEN** |
-| KB-POLICY | Never / ask-first permissions | [locks.md](../../locks.md) | PARTIAL | **PROVEN** |
-| KB-CLIENT | Client records | [clients.md](../../clients.md). **0 Current clients on the 18 Aug 2026 extract; Hoffman is a question, not a fact; folder names are not clients** | PARTIAL | **PROVEN** |
-| KB-AUTHOR | Author engagement and milestones | No author-success SOP and no author milestone schedule are recorded ([SOURCES.md](../../../SOURCES.md)) | MISSING | **PROVEN** (recorded as a hole) |
-| KB-EDITORIAL | House editorial standard | **No house style guide, dictionary, or date format is recorded**, and no hand-off order among the editing seats | MISSING | **PROVEN** |
-| KB-BRAND | Brand book and visual identity | **No brand book, palette, type, or logo is recorded** | MISSING | **PROVEN** |
-| KB-CAMPAIGN | Campaign process and QA | The Campaign SOP lives in Notion and this repo does not restate it. **No campaign-QA SOP, no milestone list, schedule, or dated plan is recorded** | MISSING | **PROVEN** |
-| KB-CRM | Customer record system | **The CRM is Notion Clients. HubSpot is closed and there is no connector.** A link to the Notion Clients database is **not recorded in this repo** | MISSING | **PROVEN** |
-| KB-SERVICE | Client service and retention | **No client-risk model, no NPS survey, and no referral log are recorded** | MISSING | **PROVEN** |
-| KB-FINANCE | Money boundary and close | [how-money-moves.md](../../how-money-moves.md), [company-facts.md](../../company-facts.md) money boundary, Blue Sky stays off the LLC books. **June and July 2026 are not closed; no Bench savings total and no Bench connector** | PARTIAL | **PROVEN** |
-| KB-PEOPLE | Roster, vendors, HR process | [people.md](../../people.md) — staff and vendors, holders not recorded except COO. **No hiring, onboarding, or classification SOP; Jhana's Role and Bob's Role are named missing** | PARTIAL | **PROVEN** |
-| KB-EVENT | Retreats | The Retreat SOP and the blank guest intake live in Notion. **No sourced retreat date, guest list, or venue; no next retreat; PIAB cycle time unrecorded** | MISSING | **PROVEN** |
-| KB-TECH | Runtime and production stack | [runtime.md](../../runtime.md), [runtime-openclaw.md](../../runtime-openclaw.md), [runtime-wiring.md](../../runtime-wiring.md), [engine.md](../../engine.md). **The production stack is named missing** | PARTIAL | **PROVEN** |
-| KB-DESIGN | Design briefs and production | **No design brief, production stack, studio address, or print vendor is recorded** | MISSING | **PROVEN** |
-| KB-RESEARCH | Decision basis and sourcing discipline | [research-basis.md](../../research-basis.md), [SOURCES.md](../../../SOURCES.md) | PARTIAL | **PROVEN** |
-| KB-WIKI | Pendulum wiki | **No Pendulum wiki exists and no decision that one gets built is recorded** | MISSING | **PROVEN** |
+The "in this repo" column is a **different question with a different answer**, and the two do not merge. Where this repo holds real sourced company content on a subject, that is recorded as PARTIAL against **this repo** — never against the catalog ID, and never as evidence that the pack's requirement is met.
 
-**For all 18 rows:** catalog-stated owner — **UNVERIFIED**; version, effective date, freshness, and canonical location — **UNVERIFIED**; whether the repo content above actually satisfies the pack's KB requirement — **UNVERIFIED**, because the requirement itself cannot be read from this writer.
+Readiness values used in the repo column: **PARTIAL** = this repo holds real, sourced company content on that subject, though not a knowledge base; **MISSING** = this repo records the subject as an unfilled hole.
+
+| KB ID | Subject as named (not from the catalog) | As pack content | Nearest real company content in this repo | Repo readiness | Classification of the repo readiness call |
+|---|---|---|---|---|---|
+| KB-AUTHORITY | Legal entity and what may be said about it | **MISSING** | [company-facts.md](../../company-facts.md) — Platformology LLC, DBAs Promote a Book and Book Retreat, not SmarterVoice; [locks.md](../../locks.md) | PARTIAL | **PROVEN** (pages exist) |
+| KB-STRATEGY | How the company makes and moves money | **MISSING** | [how-money-moves.md](../../how-money-moves.md) — the five jobs; [company-run.md](../../company-run.md) | PARTIAL | **PROVEN** |
+| KB-PORTFOLIO | The offer ladder | **MISSING** | [offers.md](../../offers.md) — public price ladder, quote-both rule. **Membership price and the lead magnet's Offers row stay named missing; Platinum Major List has no public price** | PARTIAL | **PROVEN** |
+| KB-POLICY | Never / ask-first permissions | **MISSING** | [locks.md](../../locks.md) | PARTIAL | **PROVEN** |
+| KB-CLIENT | Client records | **MISSING** | [clients.md](../../clients.md). **0 Current clients on the 18 Aug 2026 extract; Hoffman is a question, not a fact; folder names are not clients** | PARTIAL | **PROVEN** |
+| KB-AUTHOR | Author engagement and milestones | **MISSING** | No author-success SOP and no author milestone schedule are recorded ([SOURCES.md](../../../SOURCES.md)) | MISSING | **PROVEN** (recorded as a hole) |
+| KB-EDITORIAL | House editorial standard | **MISSING** | **No house style guide, dictionary, or date format is recorded**, and no hand-off order among the editing seats | MISSING | **PROVEN** |
+| KB-BRAND | Brand book and visual identity | **MISSING** | **No brand book, palette, type, or logo is recorded** | MISSING | **PROVEN** |
+| KB-CAMPAIGN | Campaign process and QA | **MISSING** | The Campaign SOP lives in Notion and this repo does not restate it. **No campaign-QA SOP, no milestone list, schedule, or dated plan is recorded** | MISSING | **PROVEN** |
+| KB-CRM | Customer record system | **MISSING** | **The CRM is Notion Clients. HubSpot is closed and there is no connector.** A link to the Notion Clients database is **not recorded in this repo** | MISSING | **PROVEN** |
+| KB-SERVICE | Client service and retention | **MISSING** | **No client-risk model, no NPS survey, and no referral log are recorded** | MISSING | **PROVEN** |
+| KB-FINANCE | Money boundary and close | **MISSING** | [how-money-moves.md](../../how-money-moves.md), [company-facts.md](../../company-facts.md) money boundary, Blue Sky stays off the LLC books. **June and July 2026 are not closed; no Bench savings total and no Bench connector** | PARTIAL | **PROVEN** |
+| KB-PEOPLE | Roster, vendors, HR process | **MISSING** | [people.md](../../people.md) — staff and vendors, holders not recorded except COO. **No hiring, onboarding, or classification SOP; Jhana's Role and Bob's Role are named missing** | PARTIAL | **PROVEN** |
+| KB-EVENT | Retreats | **MISSING** | The Retreat SOP and the blank guest intake live in Notion. **No sourced retreat date, guest list, or venue; no next retreat; PIAB cycle time unrecorded** | MISSING | **PROVEN** |
+| KB-TECH | Runtime and production stack | **MISSING** | [runtime.md](../../runtime.md), [runtime-openclaw.md](../../runtime-openclaw.md), [runtime-wiring.md](../../runtime-wiring.md), [engine.md](../../engine.md). **The production stack is named missing** | PARTIAL | **PROVEN** |
+| KB-DESIGN | Design briefs and production | **MISSING** | **No design brief, production stack, studio address, or print vendor is recorded** | MISSING | **PROVEN** |
+| KB-RESEARCH | Decision basis and sourcing discipline | **MISSING** | [research-basis.md](../../research-basis.md), [SOURCES.md](../../../SOURCES.md) | PARTIAL | **PROVEN** |
+| KB-WIKI | Pendulum wiki | **MISSING** | **No Pendulum wiki exists and no decision that one gets built is recorded** | MISSING | **PROVEN** |
+
+**For all 18 rows:** the pack-content call is **SELF-REPORTED** at filename level — a KB file living under a name that does not carry its catalog ID would not have been matched, so "0 hits" is a naming result, not a proof that no such content exists anywhere in the pack; catalog-stated owner — **UNVERIFIED**; version, effective date, freshness, and canonical location — **UNVERIFIED**; whether the repo content in the fourth column would satisfy the pack's KB requirement — **UNVERIFIED**, because the requirement itself has not been read.
+
+**The count that matters for Phase 1: 18 of 18 catalog IDs have no pack content file, and 10 of the 18 subjects are also holes in this repo.** The 8 PARTIAL subjects are handbook pages, not knowledge bases, and calling them one would be the upgrade this page refuses to make.
 
 **KPI "Current" is empty across the board** and nothing in this report fills it — not a count, not a percentage, not a 0. **Named missing stays named**: live Uncovery script; membership price; PIAB cycle time; the lead magnet's Offers row; Jhana's Role; Bob's Role; vendor rate, term, and dates; production stack; studio address; the two unresolved Cornelia Choe Zoom URLs; Platinum Major List price; the uncollapsed track record (124 / 128 / 130–131); Hoffman's status; who fills each seat except COO; the campaign-QA SOP; the NPS survey; the referral log; the client-risk model; the onboarding SOP; June and July 2026 close; Bench savings total and connector; the next PA and the current PA's tenure end; the Notion Clients link. That list is [SOURCES.md](../../../SOURCES.md)'s, not this page's, and this page fills none of it.
 
 ## 7. Intelligence-Layer Gap Analysis
 
-Fifteen named intelligence-layer components, assessed against (a) this repo, which a reviewer can open, and (b) the pack, which this writer cannot read.
+Fifteen named intelligence-layer components, assessed against (a) this repo, which a reviewer can open, and (b) the pack, which this writer cannot read but which was **listed at filename level** during the operator's Qwen sit.
+
+**What changed with the Qwen inventory.** The five packet schemas were previously UNVERIFIED in the pack because nobody had looked. Somebody has now looked at the **names**: there is **no `schemas/` directory and no pack filename containing "schema"**. That moves those rows from "nobody looked" to **SELF-REPORTED absent at filename level** — a real strengthening, and still not the same as having read the pack.
 
 | Component | In this repo | In the pack | Classification |
 |---|---|---|---|
-| `TASK_PACKET` schema | **Absent.** Repo-wide search finds no such schema | Not readable from here | **UNVERIFIED** overall; **PROVEN** absent from this repo |
-| `TASK_STATE` schema | **Absent** | Not readable from here | **UNVERIFIED** overall; **PROVEN** absent from this repo |
-| `RESULT_PACKET` schema | **Absent** | Not readable from here | **UNVERIFIED** overall; **PROVEN** absent from this repo |
-| `HANDOFF_PACKET` schema | **Absent** | Not readable from here | **UNVERIFIED** overall; **PROVEN** absent from this repo |
-| `FAILURE_RECORD` schema | **Absent** | Not readable from here | **UNVERIFIED** overall; **PROVEN** absent from this repo |
-| Role-to-workflow map | **PARTIAL.** [seat-job-map.md](../../seat-job-map.md) plus 61 `run-*` routers map seats to jobs, but there is no packet-level workflow map | Not readable from here | **PROVEN** for what exists; **UNVERIFIED** for the pack's own map |
-| Source authority hierarchy | **PARTIAL.** [SOURCES.md](../../../SOURCES.md), [locks.md](../../locks.md), `desks/CONFLICTS.md`, and the "seat page wins" rule on [leftovers/README.md](../README.md) give a working precedence, but it is not written as one hierarchy. **Pendulum's place in it is unresolved** | Not readable from here | **PROVEN** for what exists; **UNVERIFIED** for a single stated hierarchy |
-| Candidate-visible training examples | **Absent** as a named, versioned set | Not readable from here | **UNVERIFIED** overall; **PROVEN** absent from this repo |
-| Near-miss examples | **Absent** | Not readable from here | **UNVERIFIED** overall; **PROVEN** absent from this repo |
-| Deterministic public validators | **PARTIAL.** None in this repo; the pack's four validators plus the checksum verifier all exited 0 in the prior session | Present and exercised | **PROVEN** that four public validators plus a checksum verifier pass; **PARTIAL** as an intelligence layer, because they validate the package, not a role's output |
-| External evaluator separation | A hidden craft acceptance fixture file **exists and was not opened**; it is not named, quoted, requested, or reproduced anywhere on this page | Separation designed but not demonstrated | **UNVERIFIED** — PARTIAL at best. **Not opening a file is not the same as proving separation held** |
-| Correction ledger | **Absent** | Not readable from here | **UNVERIFIED** overall; **PROVEN** absent from this repo |
-| Model-routing thresholds | **Absent.** No threshold, tier, or cutoff is recorded and none is invented here | Not readable from here | **UNVERIFIED** overall; **PROVEN** absent from this repo |
-| Failure-recovery rules | **PARTIAL.** `skills/last-gate-then-stop`, `skills/check-locks`, and [reviews/last-gate-checklist.md](../../../reviews/last-gate-checklist.md) give a refuse-and-stop discipline, but there is no recovery rule for a failed run | Not readable from here | **PROVEN** for what exists; **UNVERIFIED** for recovery rules |
-| Tests for all 46 roles | **Absent** | The prior validation counted **23 craft acceptance fixtures and 92 role-qualified traps** — craft coverage only | **UNVERIFIED** for the other 23 roles. **23 fixtures is not 46 roles, and no role has three clean runs because zero runs were executed** |
+| `TASK_PACKET` schema | **Absent.** Repo-wide search finds no such schema | **No `schemas/` directory; no filename containing "schema"** | **SELF-REPORTED** absent at filename level; **PROVEN** absent from this repo |
+| `TASK_STATE` schema | **Absent** | Same | **SELF-REPORTED** absent at filename level; **PROVEN** absent from this repo |
+| `RESULT_PACKET` schema | **Absent** | Same | **SELF-REPORTED** absent at filename level; **PROVEN** absent from this repo |
+| `HANDOFF_PACKET` schema | **Absent** | Same | **SELF-REPORTED** absent at filename level; **PROVEN** absent from this repo |
+| `FAILURE_RECORD` schema | **Absent** | Same | **SELF-REPORTED** absent at filename level; **PROVEN** absent from this repo |
+| Role-to-workflow map | **PARTIAL.** [seat-job-map.md](../../seat-job-map.md) plus 61 `run-*` routers map seats to jobs, but there is no packet-level workflow map | No such filename reported. The pack's 47 skill files are `workforce-core-guardrails` plus 46 seat names — a **naming** correspondence to seats, not a workflow map | **PROVEN** for what exists in this repo; **UNVERIFIED** for any map inside the pack |
+| Source authority hierarchy | **PARTIAL.** [SOURCES.md](../../../SOURCES.md), [locks.md](../../locks.md), `desks/CONFLICTS.md`, and the "seat page wins" rule on [leftovers/README.md](../README.md) give a working precedence, but it is not written as one hierarchy. **Pendulum's place in it is unresolved** | `SOURCE_CATALOG.md` is named; **it was not opened**, so whether it states a hierarchy is unknown | **PROVEN** for what exists in this repo; **UNVERIFIED** for a single stated hierarchy |
+| Candidate-visible training examples | **Absent** as a named, versioned set | Not reported as present by the filename inventory | **UNVERIFIED** in the pack — a name that was not reported is weaker evidence than a targeted match, and none was run for this; **PROVEN** absent from this repo |
+| Near-miss examples | **Absent** | Same | **UNVERIFIED** in the pack; **PROVEN** absent from this repo |
+| Deterministic public validators | **PARTIAL.** None in this repo; the pack's four validators plus the checksum verifier all exited 0 | Present and exercised | **PROVEN** that four public validators plus a checksum verifier pass; **PARTIAL** as an intelligence layer, because they validate the package, not a role's output |
+| External evaluator separation | A hidden craft acceptance fixture file is **present at filename level and was not opened**; its path is not restated, quoted, requested, or reproduced anywhere on this page | The fixture name exists; the separation itself is designed, not demonstrated | **SELF-REPORTED** that the name is present; **UNVERIFIED** that separation held. **Not opening a file is not the same as proving nobody else opened it** |
+| Correction ledger | **Absent** | Not reported as present | **UNVERIFIED** in the pack; **PROVEN** absent from this repo |
+| Model-routing thresholds | **Absent.** No threshold, tier, or cutoff is recorded and none is invented here | Not reported as present | **UNVERIFIED** in the pack; **PROVEN** absent from this repo |
+| Failure-recovery rules | **PARTIAL.** `skills/last-gate-then-stop`, `skills/check-locks`, and [reviews/last-gate-checklist.md](../../../reviews/last-gate-checklist.md) give a refuse-and-stop discipline, but there is no recovery rule for a failed run | `workforce-core-guardrails` is named and **was not opened**, so whether it carries recovery rules is unknown | **PROVEN** for what exists in this repo; **UNVERIFIED** for the pack |
+| Tests for all 46 roles | **Absent** | Validation counted **23 craft acceptance fixtures and 92 role-qualified traps** — craft coverage only | **UNVERIFIED** for the other 23 roles. **23 fixtures is not 46 roles, and no role has three clean runs because zero runs were executed** |
 
-**The honest summary.** The pack brings package-level integrity and a candidate/evaluator split by design. **What is not evidenced anywhere reachable is the working intelligence layer**: the five packet schemas, the example sets, the correction ledger, and the routing thresholds. None of them is invented as present on this page, and their absence is written as UNVERIFIED or absent — never as a pass.
+**Three rows deserve care, because a filename inventory invites over-reading.**
+
+- **The five schema rows are the strongest negative on this page**, because a targeted match was run for the concept and returned nothing under any name containing "schema". They are still SELF-REPORTED, not PROVEN: no hash anchors the inventory, and schema content could sit inside a file named something else.
+- **The example, correction-ledger, and routing rows are weaker negatives.** The inventory did not report those names; no targeted match for them was reported either. Not-reported is not the same as searched-and-absent, so they stay UNVERIFIED for the pack.
+- **`workforce-core-guardrails` and `SOURCE_CATALOG.md` are named but unopened.** Either could contain material bearing on failure recovery or source authority. Nothing on this page assumes they do, and nothing assumes they do not.
+
+**The honest summary, unchanged in direction and firmer in evidence.** The pack brings package-level integrity, 46 seat skill names plus a shared guardrails file, and a candidate/evaluator split by design. **The working intelligence layer is not there**: no schema files under any schema-bearing name, no KB content files for any of the 18 catalog IDs, and nothing reported for the example sets, the correction ledger, or the routing thresholds. None of it is invented as present, and none of the absences is written as a pass.
 
 ## 8. Phase 1 Proposed File Plan
 
@@ -338,10 +391,11 @@ Proposed directories: `schemas/ knowledge/ recipes/ routing/ examples/ correctio
 
 | Required input | State | Classification |
 |---|---|---|
-| KB-AUTHOR content | No author-success SOP and no author milestone schedule are recorded | **MISSING** — **PROVEN** as a recorded hole |
-| KB-EDITORIAL content | No house style guide, dictionary, or date format is recorded | **MISSING** — **PROVEN** as a recorded hole |
+| KB-AUTHOR content | Missing on both sides: no author-success SOP and no author milestone schedule in this repo, and **no KB-AUTHOR content file in the pack** (0 of 18 filename hits) | **MISSING** — **PROVEN** as a recorded hole in the repo; **SELF-REPORTED** for the pack |
+| KB-EDITORIAL content | Missing on both sides: no house style guide, dictionary, or date format in this repo, and **no KB-EDITORIAL content file in the pack** | **MISSING** — **PROVEN** as a recorded hole in the repo; **SELF-REPORTED** for the pack |
 | An excerpt to read | **No manuscript, author, or engagement exists**, and none is invented here. The pilot needs owner-supplied evaluation material | **MISSING** |
-| A fixture for this seat in the pack | Not opened, not requested | **UNVERIFIED** |
+| A fixture for this seat in the pack | Not opened, not requested. The fixture file's name is present; whether it covers this seat is unknown | **UNVERIFIED** |
+| A `RESULT_PACKET` shape for the pilot to return | **No schema exists** under any schema-bearing filename in the pack, and none exists in this repo. Phase 1 would have to write it first | **SELF-REPORTED** absent from the pack; **PROVEN** absent from this repo |
 
 **Missing company decisions, carried as blockers rather than answered.**
 
@@ -370,11 +424,13 @@ Stable IDs. These do not get renumbered in later phases; a resolved blocker keep
 | **BLOCK-011** | The pilot seat's leftover forbids producing an edit letter, structural diagnosis, reverse outline, or revision notes; whether a capability exercise on supplied material is exempt is not recorded | **PROVEN** as a recorded instruction; the exemption question is **UNVERIFIED** | The pilot cannot start until the owner decides (DEC-004) |
 | **BLOCK-012** | The hand-off order among the three editing seats is not recorded | **PROVEN** as a recorded hole | A `HANDOFF_PACKET` for the pilot has no recorded destination |
 | **BLOCK-013** | Who fills any seat except COO is not recorded | **PROVEN** | No Phase 1 artifact names a holder, and no pilot staffs a seat |
-| **BLOCK-014** | **The five packet schemas, example sets, correction ledger, and routing thresholds do not exist** anywhere reachable | **PROVEN** absent from this repo; **UNVERIFIED** in the pack | This is the substance of the upgrade. It is unbuilt, not merely unverified, as far as anything reachable shows |
+| **BLOCK-014** | **The five packet schemas do not exist under any schema-bearing filename in the pack**, and the example sets, correction ledger, and routing thresholds are not reported present anywhere | **PROVEN** absent from this repo; **SELF-REPORTED** absent from the pack at filename level for the schemas; **UNVERIFIED** in the pack for the rest | This is the substance of the upgrade, and the Qwen inventory makes it firmer: it is unbuilt, not merely unlooked-at |
 | **BLOCK-015** | **Test coverage is craft-only.** 23 craft fixtures and 92 traps were validated; coverage for the other 23 roles is not evidenced | **UNVERIFIED** | "Tests for all 46 roles" is not supported by anything supplied |
-| **BLOCK-016** | **Most KB-* subjects have no approved company content** — 10 of 18 read MISSING and the remaining 8 are PARTIAL | **PROVEN** from the repo | A knowledge layer built on empty knowledge bases would have to invent the content, which is forbidden |
-| **BLOCK-017** | **This writer cannot verify the pack's current state.** Integrity is proven only for one moment on 2026-08-25 | **UNVERIFIED** | Phase 1 should re-verify integrity at the machine that holds the pack before anything is built beside it |
+| **BLOCK-016** | **No KB-* catalog ID has a pack content file — 0 hits, 18 misses** — and 10 of the 18 subjects are also holes in this repo | **SELF-REPORTED** for the pack side at filename level; **PROVEN** for the repo side | A knowledge layer built on empty knowledge bases would have to invent the content, which is forbidden. The 8 PARTIAL subjects are handbook pages, not knowledge bases |
+| **BLOCK-017** | **This writer cannot verify the pack's current state.** Integrity is proven only for the 14:07–14:08 window; the 14:27–14:30 sit listed filenames and **recomputed no checksum** | **UNVERIFIED** | Phase 1 should re-verify integrity at the machine that holds the pack before anything is built beside it. A filename listing cannot detect a changed file |
 | **BLOCK-018** | **Grok connectors and plugins are unknown**, and credentials were deliberately not inspected | **UNVERIFIED** | Recorded so no later step treats unknown as "none". This report does not ask for either |
+| **BLOCK-019** | **The Qwen sit's two evidence files carry no SHA-256.** Command, both timestamps, exit 0, and paths were supplied; a hash was not | **SELF-REPORTED** | Everything sections 4–7 take from that inventory is capped at SELF-REPORTED because of this one gap. A hash for the two files would raise the whole inventory — DEC-008 |
+| **BLOCK-020** | **A filename inventory cannot answer content questions.** `workforce-core-guardrails` and `SOURCE_CATALOG.md` are named and unopened, so whether they carry recovery rules or a source-authority hierarchy is unknown | **UNVERIFIED** | Phase 1 would be building `ESCALATION_AND_RECOVERY.md` and `SOURCE_AUTHORITY.md` beside two pack files that might already answer part of the question |
 
 ## 11. Claims Ledger
 
@@ -390,14 +446,14 @@ Stable IDs. These do not get renumbered in later phases; a resolved blocker keep
 | C-008 | UPGRADE_ROOT | UNVERIFIED | none | not supplied | not supplied | Not supplied; sibling name proposed only; nothing created |
 | C-009 | 46 seats; only recorded holder is COO, Anthony C. Garcia | PROVEN | `handbook/seats/` (46 pages) and [SOURCES.md](../../../SOURCES.md) named missing, openable in this repo | This VM (repo) | 25 Aug 2026 | Repo-side proof; the `seats.json` extract is C-010 |
 | C-010 | The `seats.json` extract records the same roster | UNVERIFIED | `seats-summary.txt`, sha256 `73bc38e…e28a8e` | Office Mac | 2026-08-25T14:09:36-06:00 | Hash and timestamp supplied; **command and exit code were not** |
-| C-011 | 18 assigned / 3 leftover-only / 2 parked / 23 unassigned craft, summing to 46, and the two records agree | PROVEN | [leftovers/README.md](../README.md); `handbook/leftovers/` file set | This VM (repo) | 25 Aug 2026 | Agreement is on content; the extract artifact itself stays C-010 |
+| C-011 | 18 assigned / 3 leftover-only / 2 parked / 23 unassigned craft, summing to 46, and all three records agree | PROVEN | [leftovers/README.md](../README.md); `handbook/leftovers/` file set; corroborated by C-010 and C-044 | This VM (repo) | 25 Aug 2026 | Agreement is on content. Neither operator record is authenticated, and three unauthenticated readings agreeing is not authentication |
 | C-012 | Head of Engineering and Developer are parked and have no leftover file | PROVEN | [locks.md](../../locks.md); absence from `handbook/leftovers/` | This VM (repo) | 25 Aug 2026 | — |
 | C-013 | CSO, CCO, and Pendulum meanings are unresolved | UNVERIFIED | PR 141 unresolved-blocker list; no repo page defines them | Office Mac / this VM | 25 Aug 2026 | Not invented here |
 | C-014 | This repo holds 46 seats, 46 bodies, 46 desks, 46 plans, 43 passes, 43 packs, 43 pipelines, 9 maps, 44 leftovers, 72 skills, 23 workspace scaffolds | PROVEN | Directory listings, all openable | This VM (repo) | 25 Aug 2026 | Counts as of this commit |
 | C-015 | No `TASK_PACKET`, `TASK_STATE`, `RESULT_PACKET`, `HANDOFF_PACKET`, or `FAILURE_RECORD` schema exists in this repo | PROVEN | Repo-wide search returns no match | This VM (repo) | 25 Aug 2026 | Says nothing about the pack — that is C-016 |
-| C-016 | Whether those five schemas exist in the pack | UNVERIFIED | none | not supplied | not supplied | Pack unreadable from this writer |
+| C-016 | The pack has no `schemas/` directory and no filename containing "schema", so none of the five exists under a schema-bearing name | SELF-REPORTED | `phase0-public-inventory.txt` — filename match, **no hash supplied** | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | Filename level only. Schema content inside a differently named, unopened file would not have been caught |
 | C-017 | Four public validators plus a checksum verifier exist and passed | PROVEN | C-003 – C-005 | Office Mac | 2026-08-25 | Package-level, not role-output-level. PARTIAL as an intelligence layer |
-| C-018 | A hidden craft acceptance fixture file exists and was not opened | UNVERIFIED | Prior operator statement; the file is not named, quoted, or requested here | Office Mac | 2026-08-25 | **Not opening it is not proof that evaluator separation held** |
+| C-018 | A hidden craft acceptance fixture file is present at filename level and was not opened | SELF-REPORTED | Operator statement plus the filename inventory; the path is not restated, quoted, or requested here | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | Presence of the name only. **Not opening it is not proof that nobody else did, and not proof that separation held** |
 | C-019 | Evaluator separation is demonstrated | UNVERIFIED | none | not supplied | not supplied | PARTIAL by design at best; no forensic scan exists |
 | C-020 | 23 craft acceptance fixtures and 92 role-qualified traps were validated | PROVEN | `validate_pack.py`, C-004 | Office Mac | window 14:07:53–14:08:56 MDT | Craft coverage only; the other 23 roles are C-021 |
 | C-021 | Tests exist for all 46 roles | UNVERIFIED | none | not supplied | not supplied | 23 fixtures is not 46 roles |
@@ -416,12 +472,21 @@ Stable IDs. These do not get renumbered in later phases; a resolved blocker keep
 | C-034 | Credentials | UNVERIFIED | Deliberately not inspected | Cursor cloud agent VM | 25 Aug 2026 | None is listed anywhere on this page |
 | C-035 | Local execution from this writer is disabled | PROVEN | Cloud VM; `/Users` does not exist here | Cursor cloud agent VM | 25 Aug 2026 | Local execution for Phase 1 stays approval-only |
 | C-036 | The original workforce pack was not modified | PROVEN | Unreachable from this writer; no write path exists to it | Cursor cloud agent VM | 25 Aug 2026 | — |
-| C-037 | 10 of the 18 KB-* subjects have no approved company content in this repo; 8 are partial | PROVEN | Section 6, every row citing an openable path or a recorded hole | This VM (repo) | 25 Aug 2026 | Catalog subjects, owners, versions, and dates stay UNVERIFIED |
+| C-037 | 10 of the 18 KB-* subjects have no approved company content in this repo; 8 are partial | PROVEN | Section 6, every row citing an openable path or a recorded hole | This VM (repo) | 25 Aug 2026 | A PARTIAL handbook page is not a knowledge base, and no catalog ID is upgraded to AVAILABLE on the strength of one |
 | C-038 | KB-* catalog owner, version, effective date, freshness, and location | UNVERIFIED | `SOURCE_CATALOG.md` not readable from this writer | not supplied | not supplied | The catalog is a requirement, not proof of content |
 | C-039 | KPI "Current" is empty and no figure, including 0, is written here | PROVEN | [SOURCES.md](../../../SOURCES.md) named missing; this page writes none | This VM (repo) | 25 Aug 2026 | — |
 | C-040 | No `grok-intelligence-upgrade-v1` file, directory, or scaffold was created | PROVEN | This pull request adds exactly one file, this page | Cursor cloud agent VM | 25 Aug 2026 | Section 8 is a proposal only |
 | C-041 | No employee was activated, nothing was installed, no connector changed, nothing merged, no last-gated plan restamped | PROVEN | The diff of this pull request | Cursor cloud agent VM | 25 Aug 2026 | Verifiable by reading the diff |
-| C-042 | The handbook and the live evidence disagree about OpenClaw and a local model on the office Mac | UNVERIFIED | [runtime-openclaw.md](../../runtime-openclaw.md), [locks.md](../../locks.md) versus the prior evidence session | This VM (repo) / Office Mac | 25 Aug 2026 | The conflict is recorded; the resolution is the owner's — BLOCK-010 |
+| C-042 | The handbook and the live evidence disagree about OpenClaw and a local model on the office Mac | UNVERIFIED | [runtime-openclaw.md](../../runtime-openclaw.md), [locks.md](../../locks.md) versus the prior evidence session | This VM (repo) / Office Mac | 25 Aug 2026 | The conflict is recorded; the resolution is the owner's — BLOCK-010. The 14:27–14:30 local model sit is one more fact on the evidence side of it and settles nothing |
+| C-043 | A local sit ran `ollama run --think=false qwen3.8:27b-q8_0`, exit 0, writing `phase0-qwen-draft.txt` and `phase0-public-inventory.txt` | SELF-REPORTED | Both filenames supplied under `/Users/mdrew/Company/Jobs/workforce-pack-evidence-2026-08-25`; **no SHA-256 for either** | Office Mac | 2026-08-25T14:27:41 to 14:30:17 America/Denver | Command, timestamps, exit code, and paths supplied; the missing hash caps everything drawn from it — BLOCK-019 |
+| C-044 | `seats.json` statuses re-listed: assigned 18, leftover_only 3, parked 2, unassigned 23, total 46 | SELF-REPORTED | `phase0-public-inventory.txt` | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | Statuses only. **No holder was read**, so this neither confirms nor contradicts the COO-only holder record |
+| C-045 | The pack holds 47 skill files: `workforce-core-guardrails` plus 46 seat skill names | SELF-REPORTED | `phase0-public-inventory.txt` | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | Filename level. Resolves what P0-I4's 47 is made of; says nothing about any skill's content, quality, or fitness |
+| C-046 | No KB content file matches any of the 18 catalog IDs KB-AUTHORITY through KB-WIKI — 0 hits, 18 misses | SELF-REPORTED | `phase0-public-inventory.txt` | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | Filename match only. A KB file named without its catalog ID would not have matched |
+| C-047 | Every one of the 18 catalog IDs is MISSING as pack content | SELF-REPORTED | C-046 | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | **No catalog ID is upgraded to AVAILABLE anywhere on this page**, and the repo's 8 PARTIAL subjects are a separate finding that does not transfer |
+| C-048 | The Qwen draft called the intelligence-layer schemas MISSING | SELF-REPORTED | `phase0-qwen-draft.txt` | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | **A model's draft agreeing with this report is not corroboration.** The weight sits in C-016's filename match, not in the draft |
+| C-049 | The Qwen draft claimed no activation occurred | SELF-REPORTED | `phase0-qwen-draft.txt` | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | **A writer's statement that it did not activate anything is not proof that nothing was activated.** No independent scan exists, and this is not upgraded |
+| C-050 | The pack was still present on that machine at 14:27–14:30 | SELF-REPORTED | An inventory of it was taken | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | **Not an integrity re-check.** No checksum was recomputed; a filename listing cannot detect a changed file |
+| C-051 | `workforce-core-guardrails` and `SOURCE_CATALOG.md` are named in the pack and were not opened | SELF-REPORTED | `phase0-public-inventory.txt` | Office Mac | 2026-08-25 14:27:41–14:30:17 MDT | Either could bear on failure recovery or source authority. Nothing here assumes they do or do not — BLOCK-020 |
 
 ## 12. Requested Decisions
 
@@ -435,7 +500,8 @@ Only decisions required before Phase 1 can start. **No credential, no local-exec
 | **DEC-004** | **The pilot.** Confirm `book-conceptual-editor` and the one narrow workflow in section 9, and confirm whether a capability exercise on owner-supplied material is exempt from that seat's do-not-write instruction (BLOCK-011) | The pilot cannot start without it, and the exemption question is not this report's to answer | No pilot runs; the recipe is not written |
 | **DEC-005** | **May Phase 1 scaffolding be created as a sibling directory after approval?** | Creating files is a separate permission from approving the plan | Phase 1 stays a plan on paper |
 | **DEC-006** | **CSO, CCO, and Pendulum: define them, or keep them gated for Phase 1?** | BLOCK-002. Undefined, they cannot appear in any map, KB row, or routing rule without inventing a meaning | They stay gated and are excluded from Phase 1 scope |
-| **DEC-007** | **Pilot inputs.** Will KB-AUTHOR and KB-EDITORIAL content and an evaluation excerpt be supplied, or does the pilot wait? | Both knowledge bases are MISSING and no manuscript exists. Nothing is invented to fill them | The pilot waits, and the gap stays named |
+| **DEC-007** | **Pilot inputs.** Will KB-AUTHOR and KB-EDITORIAL content and an evaluation excerpt be supplied, or does the pilot wait? | Both knowledge bases are MISSING as pack content and as repo content, and no manuscript exists. Nothing is invented to fill them | The pilot waits, and the gap stays named |
+| **DEC-008** | **Will a SHA-256 be recorded for `phase0-public-inventory.txt` and `phase0-qwen-draft.txt`?** Two digests for two files that already exist — no new run, no new access, nothing opened | BLOCK-019. Every Qwen-sourced finding in sections 4–7 is capped at SELF-REPORTED for want of them, including the strongest negative on the page | The inventory stays SELF-REPORTED and Phase 1 proceeds knowing its own evidence floor |
 
 ## 13. Next Authorized Action
 
@@ -443,4 +509,4 @@ Phase 0 is ready for independent review. No Phase 1 work, employee activation, r
 
 **COO is first QC. PA last-gates.** Run [reviews/last-gate-checklist.md](../../../reviews/last-gate-checklist.md) before anything leaves anyone's hands, and hand anything external to Michael. **Do not merge the pull request carrying this page until the PA last-gates it**, and do not restamp any last-gated leftover-seat plan to match it.
 
-Source: the owner's Phase 0 brief; the sanitized 2026-08-25 office-Mac evidence session carried in [PR 141](https://github.com/platformology/company-os/pull/141); the `seats.json` extract `seats-summary.txt`; [SOURCES.md](../../../SOURCES.md), [locks.md](../../locks.md), [company-facts.md](../../company-facts.md), [people.md](../../people.md), [offers.md](../../offers.md), [clients.md](../../clients.md), [how-money-moves.md](../../how-money-moves.md), [research-basis.md](../../research-basis.md), [runtime-openclaw.md](../../runtime-openclaw.md), [runtime-wiring.md](../../runtime-wiring.md), [seat-job-map.md](../../seat-job-map.md), [leftovers/README.md](../README.md), [leftover-write.md](../../leftover-write.md), [reviews/last-gate-checklist.md](../../../reviews/last-gate-checklist.md)
+Source: the owner's Phase 0 brief and the operator's Qwen-sit follow-up; the sanitized 2026-08-25 office-Mac evidence session carried in [PR 141](https://github.com/platformology/company-os/pull/141); the `seats.json` extract `seats-summary.txt`; the 14:27:41–14:30:17 filename-only public inventory `phase0-public-inventory.txt` and `phase0-qwen-draft.txt`; [SOURCES.md](../../../SOURCES.md), [locks.md](../../locks.md), [company-facts.md](../../company-facts.md), [people.md](../../people.md), [offers.md](../../offers.md), [clients.md](../../clients.md), [how-money-moves.md](../../how-money-moves.md), [research-basis.md](../../research-basis.md), [runtime-openclaw.md](../../runtime-openclaw.md), [runtime-wiring.md](../../runtime-wiring.md), [seat-job-map.md](../../seat-job-map.md), [leftovers/README.md](../README.md), [leftover-write.md](../../leftover-write.md), [reviews/last-gate-checklist.md](../../../reviews/last-gate-checklist.md)
