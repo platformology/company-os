@@ -61,10 +61,13 @@ The live SOP this seat's row in [seat-job-map.md](../seat-job-map.md) names is [
 
 ## Named missing — stays named
 
+**The leftover on this seat is three holes, and they stay three** ([leftovers/cco.md](../leftovers/cco.md)): no campaign-QA SOP, no NPS survey, no referral log. Asked for any of the three, the whole answer is **"not recorded — check with Michael."** Do not draft one off a generic template, and do not invent a score, a rate, or a referral to stand in for one.
+
 - **Who fills this seat.** Not recorded.
-- **Any campaign-QA SOP of its own.**
+- **Any campaign-QA SOP of its own** — the first of the three. The [Campaign SOP](https://app.notion.com/p/3c025e30d68b81ea99c0dcf96db7cd2e) (Notion) is the campaign process and belongs to [VP Campaigns](../seats/vp-campaigns.md), not this seat.
+- **Any NPS survey, and any NPS instrument to run one with** — the second of the three. **No survey and no score is recorded**, so there is nothing to send out and nothing to read back. [If a client writes](https://app.notion.com/p/3c025e30d68b81ada7b7cbf1d50b0d9f) (Notion) is a gate on client-facing words, **not an NPS instrument** ([leftovers/cco.md](../leftovers/cco.md)).
+- **Any referral log** — the third of the three. **No referral is recorded anywhere in this repo**, and there is no log to record one in. A referral nobody wrote down is not a referral this seat gets to count, and an empty log is not the same fact as no log at all.
 - **Any list placement, attempt, or outcome** — and no guaranteed list placement is recorded anywhere.
-- **Any NPS survey, score, or referral log.**
 - **Hoffman's client status** is a question, not a fact.
 - **The two unresolved Zoom URLs** for Cornelia Choe's Thu 20 Aug 2026, 11:00–11:30am America/Denver meeting — **neither is picked.**
 
