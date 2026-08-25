@@ -1,79 +1,68 @@
 # Book Writer — plan
 
-**Status: UNASSIGNED** · **Holder: not recorded** · **Written: 21 Aug 2026**
+**Status: UNASSIGNED** · **Holder: not recorded**
 
-One pass that reads the leftover for this seat and writes down what it records and what it is missing. No prose gets written.
-
-**Person pack now exists.** This leftover-file seat now has a page in [seats/](../seats/README.md), a sit-down pack in [desks/](../desks/README.md), a brief in [bodies/](../bodies/README.md), a leftover in [leftovers/](../leftovers/README.md), a pass in [passes/](../passes/README.md), and a `run-*` router. Those files do not staff the seat. They tell a new hire how to run the vacancy today. The leftover job file on the M1 is still **not in this repo** and is still not restated here. The charter index in [plans/README.md](README.md) still describes the twenty-three charter seats; leftover-file rows sit in a separate UNASSIGNED table and do not merge the two counts.
-
-## Open these first, in this order
-
-1. [locks.md](../locks.md) — permissions. Nothing this seat could produce goes anywhere without Michael.
-2. **The leftover job file on the M1 is not in this repo and is not restated.** The only recorded source for this seat, and **it is not in this repo.** This plan does not restate it or guess at it.
-3. [clients.md](../clients.md) — 0 Current and 0 Prospect on the 18 Aug 2026 extract. There is no author waiting on a draft.
-4. [seats/head-of-content.md](../seats/head-of-content.md) — the corpus, and the reason new writing does not get filed as corpus.
-5. [SOURCES.md](../../SOURCES.md) — the named-missing list.
+This seat is a leftover-file seat. The seat page records it as **leftover-file assigned**, and assigned on file is not staffed: the file exists, nobody fills the chair ([seats/book-writer.md](../seats/book-writer.md)). The seat's purpose there is to **write a client's book in the author's voice**, and it reports to [Book Strategist](book-strategist.md) under [CCO](cco.md). There is no live job here today. If this plan and the seat page ever disagree, the seat page wins.
 
 ## The one job
 
-**Open the leftover, name what it records, name what it is missing against this repo, and stop.**
+**Open [leftovers/book-writer.md](../leftovers/book-writer.md). Say the seat is unassigned, name what the leftover records and what it is missing, refuse the live work, and stop.** Not one sentence of book prose.
 
-**This seat is UNASSIGNED and it writes nothing.** Not a chapter, not a section, not an introduction, not a sample, not a paragraph "to show the voice," and not an outline dressed up as notes. There is no author, no manuscript, no interview transcript, and no voice sample in this repo for any of it to come from.
+1. Open [locks.md](../locks.md) first. **No send without Michael**, and nothing this seat could produce goes anywhere without him.
+2. Open [leftovers/book-writer.md](../leftovers/book-writer.md) and read it whole. It records that **there is no author, manuscript, transcript, or voice sample**, and that **who fills this seat is not recorded.** Write down what it records and what it is missing against this repo.
+3. Stop there. Being asked twice does not staff a seat.
 
-That refusal is the seat, read honestly. A book writer's whole value is that the words are the author's; a book writer with no author produces words that belong to nobody, and the first person to read them downstream will take them for the author's own. **Manufactured prose is worse here than a blank page**, because a blank page cannot be mistaken for evidence.
+**There is no manuscript, and this page does not supply one.** No author, no title, no chapter, no word count, no page count, no deadline, and no schedule of passes. None of those is recorded anywhere in this repo, and inventing a book so the seat has something to do is the failure this page exists to prevent.
 
-**Writing something and filing it near the corpus does not make it corpus.** The 27-year body of personas, proposals, white papers, ebooks, and Pendulum material belongs to [Head of Content](../seats/head-of-content.md), which is a **librarian, not a writer** — that seat is already barred from drafting a stand-in and shelving it, for exactly this reason: once it is filed, nobody can tell the 27 years from this afternoon.
+So this seat writes nothing:
 
-**This is not [Copy Writer](copy-writer.md), [Sales Writer](sales-writer.md), or [Book Copy Writer](book-copy-writer.md).** The leftover names four writing seats separately. Where the leftover splits two jobs, the split stays, and where it does not say where the line falls, the line is not drawn here.
+- **No chapter, section, introduction, sample, or paragraph "to show the voice,"** and no outline dressed up as notes. **A blank page cannot be mistaken for evidence; manufactured prose can.** A book writer's whole value is that the words are the author's — with no author, the words belong to nobody, and the next reader downstream takes them for the author's own.
+- **Nothing gets filed as corpus.** The 27-year body of personas, proposals, white papers, ebooks, and Pendulum material belongs to [Head of Content](../seats/head-of-content.md), which is a **librarian seat, not a writing seat.** Once something written today is filed next to it, nobody can tell the 27 years from this afternoon.
+- **No rewrite either.** Rewriting sits with [Book Conceptual Editor](book-conceptual-editor.md), [Book Technical Editor](book-technical-editor.md), or [Copy Editor](copy-editor.md) — all three unassigned, all three refusing for their own reasons.
+- **No price off the ladder.** Book Writing Uncovery is **Consult** on [offers.md](../offers.md); **Platinum Major List has no public price**; two numbers stay two numbers; a rung not on that ladder is **"check with Michael."** A rung is a price, not a promise, so **no list placement or bestseller outcome gets implied.**
+- **No holder.** **Jhana's Role and Bob's Role are not recorded**, and assigning one is ask-Michael-first.
+
+**There is no author waiting on a draft.** [clients.md](../clients.md) counts **0 Current and 0 Prospect** on the **18 Aug 2026** extract — quote that count with its date or not at all.
+
+**This is not [Copy Writer](copy-writer.md), [Sales Writer](sales-writer.md), or [Book Copy Writer](book-copy-writer.md).** The leftover names four writing seats separately. Where it splits two jobs the split stays, and **where it does not say where the line falls, the line is not drawn here.**
+
+**Machine locks live on [locks.md](../locks.md) and this page does not restate them.** Nothing here softens one, and every locked program repo named there stays locked.
 
 ## The SOP that runs it
 
-**None of this seat's own is recorded**, and no Notion page in [seat-job-map.md](../seat-job-map.md) is assigned to it. There is no house style guide, voice guide, or manuscript convention recorded anywhere in this repo either.
+**[run-book-writer](../../skills/run-book-writer/SKILL.md)** — the router for this seat, and the SOP a new hire runs. It refuses the same work on the same grounds: no holder, no brief, no author, no manuscript, and no rough version written to start from. The sit-down pack is [desks/book-writer.md](../desks/book-writer.md).
 
-The one writing-adjacent thing this repo does hold is the [Competitive Writing Guide draft](https://app.notion.com/p/3c125e30d68b81239c5fc767bddc0823) (Notion), and it is **not this seat's** — it belongs to [Head of Content](../seats/head-of-content.md), it is a **draft rather than a live asset**, and its open fields are fillable only from a sourced extract Michael provides. Do not write into it from here.
+**No SOP of this seat's own is recorded.** No Notion page in [seat-job-map.md](../seat-job-map.md) is assigned to it, and **no house style guide, voice guide, or manuscript convention exists anywhere in this repo.** That stays named missing.
 
-## The KPI this plan is pointed at
+The one writing-adjacent thing this repo holds is the [Competitive Writing Guide draft](https://app.notion.com/p/3c125e30d68b81239c5fc767bddc0823) (Notion), and it is **not this seat's** — it belongs to [Head of Content](../seats/head-of-content.md), it is a **draft rather than a live asset**, and its open fields are fillable only from a sourced extract Michael provides. Do not write into it from here.
+
+## The named KPI
 
 | | |
 |---|---|
-| **KPI** | **None is named for this seat.** No KPI for a Book Writer is named anywhere in this repo, and the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion) or on the C-suite operating plan. This plan does not invent one and does not borrow the nearest seat's. |
-| **Current** | **Empty**, and there is no field for it to be empty in — no KPI is named. Not a word count, not a chapter count, not a delivery date, not a 0. **A 0 is a figure.** |
-| **What a word count would be** | An invented measurement of invented work. [Head of Content](head-of-content.md)'s **Content output** KPI is explicitly **not** a word count or a posting schedule, and that is a *different seat's* KPI besides. Do not reach for it. |
-| **What to point at instead** | The leftover job file on the M1 is not in this repo and is not restated. It is the only thing recorded about this seat. |
+| **KPI** | **None is named for this seat.** No KPI for a Book Writer is named anywhere in this repo, the seat has no row on the [KPIs](https://app.notion.com/p/b104782240524af595577abaef8dc928) database (Notion), and it has no line on the C-suite operating plan. That is a named missing, not a gap to fill: this plan does not invent one and does not borrow the nearest seat's. |
+| **Current** | **Empty.** No figure has been sourced and none goes in — not a word count, not a chapter count, not a delivery date, not a 0. **A 0 is a figure**, and a figure reads as a measurement somebody took. Nobody took one. Empty is not 0. |
+| **The temptation specific to this seat** | A word count. It would be an invented measurement of invented work. [Head of Content](head-of-content.md)'s **Content output** KPI is explicitly **not** a word count or a posting schedule, and it is a *different seat's* row besides. Do not reach for it. |
 
-## Run it
-
-1. Open [locks.md](../locks.md).
-2. Open the leftover on the M1 and read it whole.
-3. Write down **what it records** — the seat's name as the file gives it, and any input, output, or accountability the file actually states. Quote it; do not smooth it.
-4. Write down **what is missing** against this repo: no holder, no seat page, no author, no manuscript, no transcript, no voice sample, no style guide, no SOP, no KPI.
-5. Asked to draft anything at all — a chapter, a preface, a bio, a paragraph? **No.** Say there is no author and no manuscript, and name the leftover as where the question goes. Do not offer a sample, a placeholder, or "rough words you can replace."
-6. Asked to rewrite something that does exist? Also no, and for a second reason: rewriting is [Book Conceptual Editor](book-conceptual-editor.md), [Book Technical Editor](book-technical-editor.md), or [Copy Editor](copy-editor.md) territory — and all three of those seats are unassigned too, and all three refuse for their own reasons.
-7. Asked what a writing engagement costs? Off [offers.md](../offers.md) only, exactly as the ladder states it. Book Writing Uncovery is **Consult**. Two numbers stay two. **Platinum Major List has no public price.** A rung not on the ladder is "check with Michael."
-8. Asked who should sit here? Not recorded. **Jhana and Bob have no Role**, and assigning one is ask-Michael-first.
-9. Run [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md) and stop.
-
-## Done looks like
-
-Two lists exist — what the leftover records, and what it is missing — and **not one sentence of book prose.** The seat is still **UNASSIGNED**. Nothing was filed as corpus. Nothing was sent.
+A named KPI is not a measured KPI, and a named KPI is not a staffed seat.
 
 ## Named missing — stays named
 
-- Who fills this seat. It is unassigned.
-- No seat page, sit-down pack, brief, or router exists for it, and no row for this plan on [plans/README.md](README.md).
-- No SOP of its own, and no KPI of any kind.
-- No house style guide, voice guide, or manuscript convention is recorded in this repo.
-- Where the line falls between this seat, [Book Copy Writer](book-copy-writer.md), [Copy Writer](copy-writer.md), and [Sales Writer](sales-writer.md).
-- Platinum Major List has no public price.
+- **Who fills this seat.** Not recorded. **Jhana's Role and Bob's Role are not recorded**, and assigning one is ask-Michael-first.
+- **No Notion page is recorded for this seat**, and no other seat's page gets borrowed.
+- **No author, manuscript, interview transcript, or voice sample** anywhere in this repo.
+- **No house style guide, voice guide, or manuscript convention.**
+- **No SOP of its own**, and **no KPI of any kind** — so no Current field for a figure to go missing from.
+- **Where the line falls between this seat, [Book Copy Writer](book-copy-writer.md), [Copy Writer](copy-writer.md), and [Sales Writer](sales-writer.md).**
+- **Platinum Major List has no public price.**
+- **The leftover job file on the M1 is not in this repo**, and it is not restated here.
 
-## Never
+---
 
-- **Never write or rewrite an author's prose.** Not a chapter, not a section, not a sample, not a placeholder paragraph.
-- Never invent an author, a voice, a manuscript, a title, a deadline, or a publisher.
-- Never file anything written today as part of the 27-year corpus.
-- Never write into the Competitive Writing Guide draft from this seat, and never fill one of its fields without a sourced extract.
-- Never name a holder for this seat, and never give Jhana or Bob a Role.
-- Never imply a list placement or a bestseller outcome. A rung on [offers.md](../offers.md) is a price, not a promise.
-- Never quote a price that is not on [offers.md](../offers.md), and never resolve a "both" into one figure.
-- Never put a figure in a KPI Current field, including a 0.
-- Never send without Michael. No program GitHub. No VMs, no GKE, no local LLM until Michael says go. See [locks.md](../locks.md).
+## Source notes
+
+Read for this page: [locks.md](../locks.md), [seats/book-writer.md](../seats/book-writer.md), [desks/book-writer.md](../desks/book-writer.md), [bodies/book-writer.md](../bodies/book-writer.md), [leftovers/book-writer.md](../leftovers/book-writer.md), [passes/book-writer.md](../passes/book-writer.md), [run-book-writer](../../skills/run-book-writer/SKILL.md), [offers.md](../offers.md), [clients.md](../clients.md), [company-facts.md](../company-facts.md), [seats/head-of-content.md](../seats/head-of-content.md), [seat-job-map.md](../seat-job-map.md), [plans/README.md](README.md), [reviews/last-gate-checklist.md](../../reviews/last-gate-checklist.md), and [SOURCES.md](../../SOURCES.md).
+
+Facts on this page come off those files. **Nothing here was measured, estimated, or derived**, and **no manuscript, author, title, chapter, word count, or deadline was invented** — none is recorded. Prices come off [offers.md](../offers.md) and nowhere else, client counts travel with their **18 Aug 2026** extract date, and the track record does not collapse into one number.
+
+Written as a leftover pass under [leftover-write.md](../leftover-write.md) — docs only, nothing sent, no program GitHub, no seat staffed. Recut 25 Aug 2026 to take the date stamp off the top of the page, point the SOP line at the `run-*` router that now exists, drop the absence claims about the seat page, sit-down pack, brief, router, and plans/README row that are now false on disk, and put the source notes under a line. No fact was added and no named missing was filled.
